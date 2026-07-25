@@ -5,9 +5,10 @@ dependencies**, where each node carries `id · kind · status · address · ance
 **ancestor**, not a citation: agreement between two descendants of a common ancestor counts as
 **one** witness, not two.
 
-<p><a class="md-button md-button--primary" href="graph.html">Open the interactive map →</a></p>
+**[Open the node index →](theorems/index.md)**
 
-*(the map is a separate self-contained file `graph.html`; it is deliberately not embedded in the text)*
+*(the graph is published as node pages rather than as a single dump: one page per node, and every
+dependency is a link between pages, so the structure is walked rather than viewed)*
 
 ---
 
