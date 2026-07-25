@@ -1,0 +1,53 @@
+# Site configuration for the public Vacuum Geometry pages.
+#
+# The Markdown under docs/ is NOT authored here: it is exported from the
+# working repository by a manifest-driven builder (default-deny — a file that
+# is not listed in the manifest has no channel to reach this repository) and
+# frozen under the author's signature. Do not edit docs/ by hand.
+
+site_name: "Vacuum Geometry"
+site_description: "One deductive chain: four declared premises and one dimensional quantity → signature"
+site_url: "https://quasi-1981.github.io/vacuum-geometry/"
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: {icon: material/brightness-7, name: dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: {icon: material/brightness-4, name: light mode}
+
+nav:
+  - Start: index.md
+  - The chain (Tome I): tome1-prime.md
+  - The graph: graph.md
+  - All nodes: theorems/index.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.arithmatex: {generic: true}
+  - pymdownx.details
+  - pymdownx.superfences
+
+# KaTeX rather than MathJax: faster, and the formulas here are dense but simple.
+extra_javascript:
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - katex-init.js
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+
+copyright: "CC BY 4.0 + Ansatz Preservation · Volodymyr Sobol, 2026"
