@@ -1,0 +1,129 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared fence_scan helper)
+================================================================================================
+  [PASS] fence: forbidden words (list = GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] downstream-content 0 · handles 0 (pure linear algebra + Lie algebra)
+
+================================================================================================
+CONTAINER so(2,2) — 2n=4, η=diag(+1,+1,−1,−1,) · dim so = 6
+================================================================================================
+  [PASS] so(2,2): Xη + ηXᵀ = 0 for all 6 generators
+  [PASS] so(2,2): generator count = 2n(2n−1)/2 — J-moves: 2 · K-moves: 4 · total: 6
+  [PASS] so(2,2): linear independence of the generators — rank = 6
+
+  BLOCK A — diagonal B: bᵢ ∈ {−2,−1,0,1,2}, total 5^4 = 625
+  [PASS] so(2,2) block A: full pass, every B solved directly — FULL PASS: solved directly 625/625
+  [PASS] so(2,2) block A: class agreement within every pattern (assert on all 625) — patterns: 9
+  [PASS] so(2,2) block A: sum of class counts = 625 — = 625
+
+    BLOCK A CLASSES (class → pattern decompositions ⊕(pᵢ,qᵢ) with B count):
+     dim g_B    Killing   degen   B count   decompositions ⊕(pᵢ,qᵢ) [B count per pattern]
+           0    (0,0,0)       —       120   (1,0) ⊕ (1,0) ⊕ (0,1) ⊕ (0,1) [120]
+           1    (0,0,1)     yes       360   (2,0) ⊕ (0,1) ⊕ (0,1) [60] · (1,1) ⊕ (1,0) ⊕ (0,1) [240] · (1,0) ⊕ (1,0) ⊕ (0,2) [60]
+           2    (0,0,2)     yes        60   (2,0) ⊕ (0,2) [20] · (1,1) ⊕ (1,1) [40]
+           3    (2,1,0)      no        80   (2,1) ⊕ (0,1) [40] · (1,2) ⊕ (1,0) [40]
+           6    (4,2,0)      no         5   (2,2) [5]
+    A classes: 5 · patterns: 9
+    SET OF ALL (p,q)-COMPONENTS in block A decompositions: (2,2) · (2,1) · (2,0) · (1,2) · (1,1) · (1,0) · (0,2) · (0,1)
+
+  BLOCK B — random symmetric B: N = 300, coeffs {−3..3}, seed 902 (separate Random(902) per container)
+  [PASS] so(2,2) block B: all 300 B solved (no truncation) — = 300
+    HISTOGRAM OF CLASSES {dim · Killing} (N = 300):
+      {dim 0 · Killing (0,0,0)} : 300
+    FACTORIZATION of charpoly(η⁻¹B) over Q BY CLASS (deg^multiplicity : count):
+      {dim 0 · Killing (0,0,0)}:
+        deg1^1 · deg1^1 · deg1^2 : 1
+        deg1^1 · deg1^1 · deg2^1 : 3
+        deg1^1 · deg3^1 : 23
+        deg1^2 · deg1^2 : 1
+        deg1^2 · deg2^1 : 6
+        deg2^1 · deg2^1 : 2
+        deg4^1 : 264
+
+  BLOCK C — sets of keys {dim · Killing} against the S901 list (so(2,2)):
+    stabilizer classes A∪B of this probe (5): {dim 0 · Killing (0,0,0)} {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (2,1,0)} {dim 6 · Killing (4,2,0)}
+    (i)   stabilizer ∩ S901 (4): {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (2,1,0)} {dim 6 · Killing (4,2,0)}
+    (ii)  S901 ∖ stabilizer (2): {dim 4 · Killing (2,1,1)} {dim 5 · Killing (3,1,1)}
+    (iii) stabilizer ∖ S901 (1): {dim 0 · Killing (0,0,0)}
+
+================================================================================================
+CONTAINER so(3,3) — 2n=6, η=diag(+1,+1,+1,−1,−1,−1,) · dim so = 15
+================================================================================================
+  [PASS] so(3,3): Xη + ηXᵀ = 0 for all 15 generators
+  [PASS] so(3,3): generator count = 2n(2n−1)/2 — J-moves: 6 · K-moves: 9 · total: 15
+  [PASS] so(3,3): linear independence of the generators — rank = 15
+
+  BLOCK A — diagonal B: bᵢ ∈ {−2,−1,0,1,2}, total 5^6 = 15625
+    CACHED BY PATTERN: patterns 30 · representatives solved directly 30 · covered 15625/15625
+  [PASS] so(3,3) block A: cache coverage = all 15625 B — CACHED BY PATTERN: patterns 30 · representatives solved directly 30 · covered 15625/15625
+  [PASS] so(3,3) block A: cache verification sample (30 random B, seed 9023, direct solve = cache class) — mismatches: 0
+  [PASS] so(3,3) block A: sum of class counts = 15625 — = 15625
+
+    BLOCK A CLASSES (class → pattern decompositions ⊕(pᵢ,qᵢ) with B count):
+     dim g_B    Killing   degen   B count   decompositions ⊕(pᵢ,qᵢ) [B count per pattern]
+           1    (0,0,1)     yes      1800   (2,0) ⊕ (1,0) ⊕ (0,1) ⊕ (0,1) ⊕ (0,1) [360] · (1,1) ⊕ (1,0) ⊕ (1,0) ⊕ (0,1) ⊕ (0,1) [1080] · (1,0) ⊕ (1,0) ⊕ (1,0) ⊕ (0,2) ⊕ (0,1) [360]
+           2    (0,0,2)     yes      5400   (2,0) ⊕ (1,1) ⊕ (0,1) ⊕ (0,1) [1080] · (2,0) ⊕ (1,0) ⊕ (0,2) ⊕ (0,1) [1080] · (1,1) ⊕ (1,1) ⊕ (1,0) ⊕ (0,1) [2160] · (1,1) ⊕ (1,0) ⊕ (1,0) ⊕ (0,2) [1080]
+           3    (0,0,3)     yes       900   (2,0) ⊕ (1,1) ⊕ (0,2) [540] · (1,1) ⊕ (1,1) ⊕ (1,1) [360]
+           3    (0,3,0)      no       240   (3,0) ⊕ (0,1) ⊕ (0,1) ⊕ (0,1) [120] · (1,0) ⊕ (1,0) ⊕ (1,0) ⊕ (0,3) [120]
+           3    (2,1,0)      no      2160   (2,1) ⊕ (1,0) ⊕ (0,1) ⊕ (0,1) [1080] · (1,2) ⊕ (1,0) ⊕ (1,0) ⊕ (0,1) [1080]
+           4    (0,3,1)     yes       360   (3,0) ⊕ (0,2) ⊕ (0,1) [180] · (2,0) ⊕ (1,0) ⊕ (0,3) [180]
+           4    (2,1,1)     yes      3240   (2,1) ⊕ (1,1) ⊕ (0,1) [1080] · (2,1) ⊕ (1,0) ⊕ (0,2) [540] · (2,0) ⊕ (1,2) ⊕ (0,1) [540] · (1,2) ⊕ (1,1) ⊕ (1,0) [1080]
+           6    (0,6,0)      no        20   (3,0) ⊕ (0,3) [20]
+           6    (3,3,0)      no       360   (3,1) ⊕ (0,1) ⊕ (0,1) [180] · (1,3) ⊕ (1,0) ⊕ (1,0) [180]
+           6    (4,2,0)      no       720   (2,2) ⊕ (1,0) ⊕ (0,1) [540] · (2,1) ⊕ (1,2) [180]
+           7    (3,3,1)     yes       120   (3,1) ⊕ (0,2) [60] · (2,0) ⊕ (1,3) [60]
+           7    (4,2,1)     yes       180   (2,2) ⊕ (1,1) [180]
+          10    (6,4,0)      no       120   (3,2) ⊕ (0,1) [60] · (2,3) ⊕ (1,0) [60]
+          15    (9,6,0)      no         5   (3,3) [5]
+    A classes: 14 · patterns: 30
+    SET OF ALL (p,q)-COMPONENTS in block A decompositions: (3,3) · (3,2) · (3,1) · (3,0) · (2,3) · (2,2) · (2,1) · (2,0) · (1,3) · (1,2) · (1,1) · (1,0) · (0,3) · (0,2) · (0,1)
+
+  BLOCK B — random symmetric B: N = 300, coeffs {−3..3}, seed 902 (separate Random(902) per container)
+  [PASS] so(3,3) block B: all 300 B solved (no truncation) — = 300
+    HISTOGRAM OF CLASSES {dim · Killing} (N = 300):
+      {dim 0 · Killing (0,0,0)} : 300
+    FACTORIZATION of charpoly(η⁻¹B) over Q BY CLASS (deg^multiplicity : count):
+      {dim 0 · Killing (0,0,0)}:
+        deg1^1 · deg5^1 : 2
+        deg1^2 · deg4^1 : 1
+        deg6^1 : 297
+
+  BLOCK C — sets of keys {dim · Killing} against the S901 list (so(3,3)):
+    stabilizer classes A∪B of this probe (15): {dim 0 · Killing (0,0,0)} {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (0,0,3)} {dim 3 · Killing (0,3,0)} {dim 3 · Killing (2,1,0)} {dim 4 · Killing (0,3,1)} {dim 4 · Killing (2,1,1)} {dim 6 · Killing (0,6,0)} {dim 6 · Killing (3,3,0)} {dim 6 · Killing (4,2,0)} {dim 7 · Killing (3,3,1)} {dim 7 · Killing (4,2,1)} {dim 10 · Killing (6,4,0)} {dim 15 · Killing (9,6,0)}
+    (i)   stabilizer ∩ S901 (14): {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (0,0,3)} {dim 3 · Killing (0,3,0)} {dim 3 · Killing (2,1,0)} {dim 4 · Killing (0,3,1)} {dim 4 · Killing (2,1,1)} {dim 6 · Killing (0,6,0)} {dim 6 · Killing (3,3,0)} {dim 6 · Killing (4,2,0)} {dim 7 · Killing (3,3,1)} {dim 7 · Killing (4,2,1)} {dim 10 · Killing (6,4,0)} {dim 15 · Killing (9,6,0)}
+    (ii)  S901 ∖ stabilizer (0): ∅
+    (iii) stabilizer ∖ S901 (1): {dim 0 · Killing (0,0,0)}
+
+================================================================================================
+BLOCK D — off-diagonal B, n=2: A = η⁻¹B with a 2×2 Jordan block (sympy-exact)
+================================================================================================
+  [PASS] D1: J₂(0) ⊕ (2) ⊕ (−2): B symmetric integer
+  [PASS] D1: J₂(0) ⊕ (2) ⊕ (−2): Jordan structure of A = η⁻¹B contains a 2×2 block (exact jordan_form) — blocks: J_1(-2) · J_2(0) · J_1(2)
+    D1: J₂(0) ⊕ (2) ⊕ (−2): B(rows) = [[1, 0, 1, 0], [0, 2, 0, 0], [1, 0, 1, 0], [0, 0, 0, 2]]
+      Jordan blocks of A: J_1(-2) · J_2(0) · J_1(2) · charpoly(A) = x**2*(x - 2)*(x + 2)
+      dim g_B = 0 · Killing (0,0,0) · degen: — · key {dim 0 · Killing (0,0,0)} in the set of diagonal classes A(n=2): yes
+  [PASS] D2: J₂(1) ⊕ (3) ⊕ (−3): B symmetric integer
+  [PASS] D2: J₂(1) ⊕ (3) ⊕ (−3): Jordan structure of A = η⁻¹B contains a 2×2 block (exact jordan_form) — blocks: J_1(-3) · J_2(1) · J_1(3)
+    D2: J₂(1) ⊕ (3) ⊕ (−3): B(rows) = [[2, 0, 1, 0], [0, 3, 0, 0], [1, 0, 0, 0], [0, 0, 0, 3]]
+      Jordan blocks of A: J_1(-3) · J_2(1) · J_1(3) · charpoly(A) = (x - 3)*(x - 1)**2*(x + 3)
+      dim g_B = 0 · Killing (0,0,0) · degen: — · key {dim 0 · Killing (0,0,0)} in the set of diagonal classes A(n=2): yes
+
+================================================================================================
+SUMMARY S902 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 20/20 PASS
+  Explicit subalgebra bracket-asserts (all g_B, pairwise brackets): 893
+
+  RAW LINES (no readings):
+   (1) containers so(2,2)·so(3,3): generators form a basis — sympy-exact;
+   (2) block A: diagonal B — n=2 full pass 625/625 directly; n=3 cache over
+       the canonical pattern (coverage 15625/15625, representatives + verification);
+       class tables with decompositions ⊕(pᵢ,qᵢ) and the (p,q)-component set — above;
+   (3) block B: 300 random symmetric B per container (seed 902) — class
+       histograms and factorization of charpoly(η⁻¹B) by class — above;
+   (4) block C: three sets against the S901 list — above;
+   (5) block D: off-diagonal Jordan examples n=2 — above.
+  HONEST TALLY: handles 0 · downstream-content 0 · verdicts 0. Court = Omega.
+

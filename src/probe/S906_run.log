@@ -1,0 +1,513 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared fence_scan helper)
+================================================================================================
+  [PASS] fence: forbidden words (list = GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] handles 0 (pure algebra: Pfaffian · isometries SᵀηS=η · congruence · tie-in with det)
+
+================================================================================================
+O7a — TRANSFORMATION LAW: Pf(SᵀΩS) = det(S)·Pf(Ω)
+================================================================================================
+  [PASS] O7a reference: Pf(2×2) = ω₀₁ and det(2×2) = ω₀₁² (symbolic)
+  [PASS] O7a reference: Pf(4×4) = ω₀₁ω₂₃ − ω₀₂ω₁₃ + ω₀₃ω₁₂ (recursion = classical form)
+  [PASS] O7a n=4: (SᵀΩS)ᵀ = −(SᵀΩS) — symbolic (congruence preserves antisymmetry)
+  [PASS] O7a n=4: expand(Pf(SᵀΩS) − det(S)·Pf(Ω)) = 0 — symbolic FULL (Ω: 6 symbols · S: 16 symbols)
+    O7a n=6: BOUNDARY (stamp): 50 random integer pairs (Ω entries {−9..9}, S entries {−4..4}, det S unrestricted), seed 906 (Random(906))
+  [PASS] O7a n=6: Pf(SᵀΩS) = det(S)·Pf(Ω) on 50/50 random integer pairs (bit-exact) — 50/50
+
+  ISOMETRIES SᵀηS = η (rationally exact: rotations (c,s) with c²+s²=1 · boosts (ch,sh) with ch²−sh²=1 · reflections · composites):
+
+  so(2,2) — n = 4: O7a-isometries so(2,2): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90642
+    [det=+1] example 1: S = rotation(0,1; 3/5,4/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -38 · Pf(SᵀΩS) = -38 · ratio = 1
+    [det=+1] example 2: S = rotation(2,3; 5/13,12/13) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -36 · Pf(SᵀΩS) = -36 · ratio = 1
+    [det=+1] example 3: S = boost(0,2; 5/3,4/3) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 2 · Pf(SᵀΩS) = 2 · ratio = 1
+    [det=+1] example 4: S = boost(1,3; 13/5,12/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 23 · Pf(SᵀΩS) = 23 · ratio = 1
+    [det=+1] example 5: S = rotation(0,1;8/17,15/17)·boost(1,2;17/8,15/8) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 3 · Pf(SᵀΩS) = 3 · ratio = 1
+  [PASS] O7a-isometries so(2,2) det=+1: Pf(SᵀΩS) = (1)·Pf(Ω) on 5/5 explicit examples — 5/5
+    [det=−1] example 1: S = reflection of axis 0 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -4 · Pf(SᵀΩS) = 4 · ratio = -1
+    [det=−1] example 2: S = reflection of axis 1 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 15 · Pf(SᵀΩS) = -15 · ratio = -1
+    [det=−1] example 3: S = reflection of axis 2 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -18 · Pf(SᵀΩS) = 18 · ratio = -1
+    [det=−1] example 4: S = reflection of axis 3 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 3 · Pf(SᵀΩS) = -3 · ratio = -1
+    [det=−1] example 5: S = reflection of axis 0 · boost(0,2;5/3,4/3) · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 24 · Pf(SᵀΩS) = -24 · ratio = -1
+  [PASS] O7a-isometries so(2,2) det=−1: Pf(SᵀΩS) = (-1)·Pf(Ω) on 5/5 explicit examples — 5/5
+
+  so(3,1) — n = 4: O7a-isometries so(3,1): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90643
+    [det=+1] example 1: S = rotation(0,1; 3/5,4/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -3 · Pf(SᵀΩS) = -3 · ratio = 1
+    [det=+1] example 2: S = rotation(1,2; 5/13,12/13) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 2 · Pf(Ω) = -27 · Pf(SᵀΩS) = -27 · ratio = 1
+    [det=+1] example 3: S = boost(0,3; 5/3,4/3) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -16 · Pf(SᵀΩS) = -16 · ratio = 1
+    [det=+1] example 4: S = boost(2,3; 13/5,12/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -4 · Pf(SᵀΩS) = -4 · ratio = 1
+    [det=+1] example 5: S = rotation(0,2;8/17,15/17)·boost(1,3;17/8,15/8) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 21 · Pf(SᵀΩS) = 21 · ratio = 1
+  [PASS] O7a-isometries so(3,1) det=+1: Pf(SᵀΩS) = (1)·Pf(Ω) on 5/5 explicit examples — 5/5
+    [det=−1] example 1: S = reflection of axis 0 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -20 · Pf(SᵀΩS) = 20 · ratio = -1
+    [det=−1] example 2: S = reflection of axis 1 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 2 · Pf(Ω) = -5 · Pf(SᵀΩS) = 5 · ratio = -1
+    [det=−1] example 3: S = reflection of axis 2 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -6 · Pf(SᵀΩS) = 6 · ratio = -1
+    [det=−1] example 4: S = reflection of axis 3 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -12 · Pf(SᵀΩS) = 12 · ratio = -1
+    [det=−1] example 5: S = reflection of axis 2 · rotation(0,1;3/5,4/5) · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 18 · Pf(SᵀΩS) = -18 · ratio = -1
+  [PASS] O7a-isometries so(3,1) det=−1: Pf(SᵀΩS) = (-1)·Pf(Ω) on 5/5 explicit examples — 5/5
+
+  so(3,3) — n = 6: O7a-isometries so(3,3): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90663
+    [det=+1] example 1: S = rotation(0,1; 3/5,4/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -27 · Pf(SᵀΩS) = -27 · ratio = 1
+    [det=+1] example 2: S = rotation(3,4; 5/13,12/13) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 2 · Pf(Ω) = 200 · Pf(SᵀΩS) = 200 · ratio = 1
+    [det=+1] example 3: S = boost(0,3; 5/3,4/3) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 202 · Pf(SᵀΩS) = 202 · ratio = 1
+    [det=+1] example 4: S = boost(2,5; 13/5,12/5) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -15 · Pf(SᵀΩS) = -15 · ratio = 1
+    [det=+1] example 5: S = rotation(1,2;7/25,24/25)·boost(0,4;25/7,24/7) · det S = 1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 89 · Pf(SᵀΩS) = 89 · ratio = 1
+  [PASS] O7a-isometries so(3,3) det=+1: Pf(SᵀΩS) = (1)·Pf(Ω) on 5/5 explicit examples — 5/5
+    [det=−1] example 1: S = reflection of axis 0 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 44 · Pf(SᵀΩS) = -44 · ratio = -1
+    [det=−1] example 2: S = reflection of axis 3 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -94 · Pf(SᵀΩS) = 94 · ratio = -1
+    [det=−1] example 3: S = reflection of axis 5 · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = -50 · Pf(SᵀΩS) = 50 · ratio = -1
+    [det=−1] example 4: S = reflection of axis 1 · rotation(0,2;3/5,4/5) · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 114 · Pf(SᵀΩS) = -114 · ratio = -1
+    [det=−1] example 5: S = reflection of axis 4 · boost(1,4;5/3,4/3) · det S = -1 · SᵀηS = η: yes · Ω-draws until Pf≠0: 1 · Pf(Ω) = 4 · Pf(SᵀΩS) = -4 · ratio = -1
+  [PASS] O7a-isometries so(3,3) det=−1: Pf(SᵀΩS) = (-1)·Pf(Ω) on 5/5 explicit examples — 5/5
+
+================================================================================================
+O7b — Pf TABLE: Pf(ηA) for sums J/K · S903 square structures · 100 random
+================================================================================================
+
+  so(2,2) — n = 4 · det g = 1 · J-moves: 2 · K-moves: 4
+    sum {all J} (2 terms): Pf(ηA) = -1 (negative)
+    sum {all K} (4 terms): Pf(ηA) = 0 (zero)
+    A² = −𝟙 (2,2): coeffs [−1,−1,0,0,0,0] in the S903 generator basis [A = -1·J(0,1) -1·J(2,3)]: Pf(ηA) = -1 (negative)
+    A² = +𝟙 (2,2): coeffs [−2,−2,−2,−1,−1,2] in the S903 generator basis [A = -2·J(0,1) -2·J(2,3) -2·K(0,2) -1·K(0,3) -1·K(1,2) +2·K(1,3)]: Pf(ηA) = 1 (positive)
+    O7b so(2,2): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+  [PASS] O7b so(2,2): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of Pf(ηA) (100 random): positive 47 · zero 8 · negative 45
+      Pf = 0 at rand#014: rank A = 2
+      Pf = 0 at rand#052: rank A = 2
+      Pf = 0 at rand#057: rank A = 2
+      Pf = 0 at rand#066: rank A = 2
+      Pf = 0 at rand#067: rank A = 2
+      Pf = 0 at rand#073: rank A = 2
+      Pf = 0 at rand#088: rank A = 2
+      Pf = 0 at rand#091: rank A = 2
+
+  so(3,1) — n = 4 · det g = -1 · J-moves: 3 · K-moves: 3
+    sum {all J} (3 terms): Pf(ηA) = 0 (zero)
+    sum {all K} (3 terms): Pf(ηA) = 0 (zero)
+    O7b so(3,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+  [PASS] O7b so(3,1): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of Pf(ηA) (100 random): positive 42 · zero 8 · negative 50
+      Pf = 0 at rand#005: rank A = 2
+      Pf = 0 at rand#026: rank A = 2
+      Pf = 0 at rand#033: rank A = 2
+      Pf = 0 at rand#041: rank A = 2
+      Pf = 0 at rand#057: rank A = 2
+      Pf = 0 at rand#068: rank A = 2
+      Pf = 0 at rand#076: rank A = 2
+      Pf = 0 at rand#091: rank A = 2
+
+  so(3,3) — n = 6 · det g = -1 · J-moves: 6 · K-moves: 9
+    sum {all J} (6 terms): Pf(ηA) = 0 (zero)
+    sum {all K} (9 terms): Pf(ηA) = 0 (zero)
+    A² = +𝟙 (3,3): K(0,3)+K(1,4)+K(2,5) (S903) [A = +1·K(0,3) +1·K(1,4) +1·K(2,5)]: Pf(ηA) = -1 (negative)
+    O7b so(3,3): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+  [PASS] O7b so(3,3): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of Pf(ηA) (100 random): positive 44 · zero 2 · negative 54
+      Pf = 0 at rand#066: rank A = 4
+      Pf = 0 at rand#086: rank A = 4
+
+================================================================================================
+O7c — ORIENTATION DOUBLING OF CLASSES: single generators · pairs of one class
+================================================================================================
+
+  so(2,2) — n = 4:
+    Pf(ηX) for EACH single generator (S903 class reference: all 6 singles: one class {2·(0,0,2)}):
+        J(0,1): Pf(ηX) = 0
+        J(2,3): Pf(ηX) = 0
+        K(0,2): Pf(ηX) = 0
+        K(0,3): Pf(ηX) = 0
+        K(1,2): Pf(ηX) = 0
+        K(1,3): Pf(ηX) = 0
+    attempt 1: Pf(X=η·K(0,2)) = 0, Pf(Y=η·K(1,2)) = 0, isometry R = permutation of axes (0,1): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 2: Pf(X=η·K(0,2)) = 0, Pf(Y=η·K(0,3)) = 0, isometry R = permutation of axes (2,3): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 3: Pf(X=η·J(0,1)) = 0, Pf(Y=η·(−J(0,1))) = 0, isometry R = reflection of axis 0: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 4: Pf(X=η·J(0,1)) = 0, Pf(Y=η·J(2,3)) = 0, isometry R = reflection of axis 0: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? no
+  [PASS] O7c so(2,2): 4 explicit attempts (minimum 3) printed as raw lines — attempts: 4
+
+  so(3,1) — n = 4:
+    Pf(ηX) for EACH single generator (S903 class reference: all 6 singles: one class {2·(0,0,2)}):
+        J(0,1): Pf(ηX) = 0
+        J(0,2): Pf(ηX) = 0
+        J(1,2): Pf(ηX) = 0
+        K(0,3): Pf(ηX) = 0
+        K(1,3): Pf(ηX) = 0
+        K(2,3): Pf(ηX) = 0
+    attempt 1: Pf(X=η·J(0,1)) = 0, Pf(Y=η·J(0,2)) = 0, isometry R = permutation of axes (1,2): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 2: Pf(X=η·K(0,3)) = 0, Pf(Y=η·K(1,3)) = 0, isometry R = permutation of axes (0,1): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 3: Pf(X=η·J(0,1)) = 0, Pf(Y=η·(−J(0,1))) = 0, isometry R = reflection of axis 1: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 4: Pf(X=η·K(2,3)) = 0, Pf(Y=η·(−K(2,3))) = 0, isometry R = reflection of axis 3: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+  [PASS] O7c so(3,1): 4 explicit attempts (minimum 3) printed as raw lines — attempts: 4
+
+  so(3,3) — n = 6:
+    Pf(ηX) for EACH single generator (S903 class reference: J-class {7·(3,3,1)} (all 6 J) · K-class {7·(4,2,1)} (all 9 K)):
+        J(0,1): Pf(ηX) = 0
+        J(0,2): Pf(ηX) = 0
+        J(1,2): Pf(ηX) = 0
+        J(3,4): Pf(ηX) = 0
+        J(3,5): Pf(ηX) = 0
+        J(4,5): Pf(ηX) = 0
+        K(0,3): Pf(ηX) = 0
+        K(0,4): Pf(ηX) = 0
+        K(0,5): Pf(ηX) = 0
+        K(1,3): Pf(ηX) = 0
+        K(1,4): Pf(ηX) = 0
+        K(1,5): Pf(ηX) = 0
+        K(2,3): Pf(ηX) = 0
+        K(2,4): Pf(ηX) = 0
+        K(2,5): Pf(ηX) = 0
+    attempt 1: Pf(X=η·J(0,1)) = 0, Pf(Y=η·J(0,2)) = 0, isometry R = permutation of axes (1,2): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 2: Pf(X=η·J(3,4)) = 0, Pf(Y=η·J(3,5)) = 0, isometry R = permutation of axes (4,5): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 3: Pf(X=η·K(0,3)) = 0, Pf(Y=η·K(1,3)) = 0, isometry R = permutation of axes (0,1): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 4: Pf(X=η·K(0,3)) = 0, Pf(Y=η·K(0,4)) = 0, isometry R = permutation of axes (3,4): RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 5: Pf(X=η·J(0,1)) = 0, Pf(Y=η·(−J(0,1))) = 0, isometry R = reflection of axis 0: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? yes
+    attempt 6: Pf(X=η·J(0,1)) = 0, Pf(Y=η·J(3,4)) = 0, isometry R = reflection of axis 2: RᵀηR = η? yes, det R = -1, X→RᵀXR = Y? no
+  [PASS] O7c so(3,3): 6 explicit attempts (minimum 3) printed as raw lines — attempts: 6
+
+================================================================================================
+O7d — TIE-IN WITH O6: det A = Pf(ηA)²/det g — bit-check on ALL O7b objects
+================================================================================================
+
+  so(2,2) — det g = 1 · O7b objects: 104
+    [PASS] sum {all J} (2 terms): det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] sum {all K} (4 terms): det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] A² = −𝟙 (2,2): coeffs [−1,−1,0,0,0,0] in the S903 generator basis [A = -1·J(0,1) -1·J(2,3)]: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] A² = +𝟙 (2,2): coeffs [−2,−2,−2,−1,−1,2] in the S903 generator basis [A = -2·J(0,1) -2·J(2,3) -2·K(0,2) -1·K(0,3) -1·K(1,2) +2·K(1,3)]: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#001: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#002: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#003: det A = 36 · Pf(ηA) = 6 · Pf²/det g = 36
+    [PASS] rand#004: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#005: det A = 16 · Pf(ηA) = 4 · Pf²/det g = 16
+    [PASS] rand#006: det A = 64 · Pf(ηA) = 8 · Pf²/det g = 64
+    [PASS] rand#007: det A = 49 · Pf(ηA) = 7 · Pf²/det g = 49
+    [PASS] rand#008: det A = 144 · Pf(ηA) = -12 · Pf²/det g = 144
+    [PASS] rand#009: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#010: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#011: det A = 144 · Pf(ηA) = 12 · Pf²/det g = 144
+    [PASS] rand#012: det A = 4 · Pf(ηA) = 2 · Pf²/det g = 4
+    [PASS] rand#013: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#014: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#015: det A = 25 · Pf(ηA) = -5 · Pf²/det g = 25
+    [PASS] rand#016: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#017: det A = 16 · Pf(ηA) = -4 · Pf²/det g = 16
+    [PASS] rand#018: det A = 16 · Pf(ηA) = -4 · Pf²/det g = 16
+    [PASS] rand#019: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#020: det A = 169 · Pf(ηA) = 13 · Pf²/det g = 169
+    [PASS] rand#021: det A = 4 · Pf(ηA) = -2 · Pf²/det g = 4
+    [PASS] rand#022: det A = 64 · Pf(ηA) = 8 · Pf²/det g = 64
+    [PASS] rand#023: det A = 81 · Pf(ηA) = 9 · Pf²/det g = 81
+    [PASS] rand#024: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#025: det A = 16 · Pf(ηA) = -4 · Pf²/det g = 16
+    [PASS] rand#026: det A = 25 · Pf(ηA) = -5 · Pf²/det g = 25
+    [PASS] rand#027: det A = 16 · Pf(ηA) = 4 · Pf²/det g = 16
+    [PASS] rand#028: det A = 36 · Pf(ηA) = 6 · Pf²/det g = 36
+    [PASS] rand#029: det A = 36 · Pf(ηA) = 6 · Pf²/det g = 36
+    [PASS] rand#030: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#031: det A = 36 · Pf(ηA) = 6 · Pf²/det g = 36
+    [PASS] rand#032: det A = 100 · Pf(ηA) = -10 · Pf²/det g = 100
+    [PASS] rand#033: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#034: det A = 144 · Pf(ηA) = 12 · Pf²/det g = 144
+    [PASS] rand#035: det A = 36 · Pf(ηA) = -6 · Pf²/det g = 36
+    [PASS] rand#036: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#037: det A = 144 · Pf(ηA) = -12 · Pf²/det g = 144
+    [PASS] rand#038: det A = 81 · Pf(ηA) = 9 · Pf²/det g = 81
+    [PASS] rand#039: det A = 49 · Pf(ηA) = 7 · Pf²/det g = 49
+    [PASS] rand#040: det A = 36 · Pf(ηA) = -6 · Pf²/det g = 36
+    [PASS] rand#041: det A = 4 · Pf(ηA) = 2 · Pf²/det g = 4
+    [PASS] rand#042: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] rand#043: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#044: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#045: det A = 16 · Pf(ηA) = -4 · Pf²/det g = 16
+    [PASS] rand#046: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#047: det A = 196 · Pf(ηA) = 14 · Pf²/det g = 196
+    [PASS] rand#048: det A = 25 · Pf(ηA) = 5 · Pf²/det g = 25
+    [PASS] rand#049: det A = 4 · Pf(ηA) = 2 · Pf²/det g = 4
+    [PASS] rand#050: det A = 169 · Pf(ηA) = -13 · Pf²/det g = 169
+    [PASS] rand#051: det A = 144 · Pf(ηA) = -12 · Pf²/det g = 144
+    [PASS] rand#052: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#053: det A = 9 · Pf(ηA) = -3 · Pf²/det g = 9
+    [PASS] rand#054: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#055: det A = 64 · Pf(ηA) = 8 · Pf²/det g = 64
+    [PASS] rand#056: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#057: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#058: det A = 36 · Pf(ηA) = 6 · Pf²/det g = 36
+    [PASS] rand#059: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#060: det A = 64 · Pf(ηA) = 8 · Pf²/det g = 64
+    [PASS] rand#061: det A = 81 · Pf(ηA) = -9 · Pf²/det g = 81
+    [PASS] rand#062: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#063: det A = 81 · Pf(ηA) = -9 · Pf²/det g = 81
+    [PASS] rand#064: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] rand#065: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#066: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#067: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#068: det A = 81 · Pf(ηA) = -9 · Pf²/det g = 81
+    [PASS] rand#069: det A = 225 · Pf(ηA) = -15 · Pf²/det g = 225
+    [PASS] rand#070: det A = 4 · Pf(ηA) = -2 · Pf²/det g = 4
+    [PASS] rand#071: det A = 25 · Pf(ηA) = -5 · Pf²/det g = 25
+    [PASS] rand#072: det A = 4 · Pf(ηA) = -2 · Pf²/det g = 4
+    [PASS] rand#073: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#074: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] rand#075: det A = 121 · Pf(ηA) = 11 · Pf²/det g = 121
+    [PASS] rand#076: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#077: det A = 4 · Pf(ηA) = 2 · Pf²/det g = 4
+    [PASS] rand#078: det A = 49 · Pf(ηA) = 7 · Pf²/det g = 49
+    [PASS] rand#079: det A = 9 · Pf(ηA) = 3 · Pf²/det g = 9
+    [PASS] rand#080: det A = 49 · Pf(ηA) = 7 · Pf²/det g = 49
+    [PASS] rand#081: det A = 25 · Pf(ηA) = 5 · Pf²/det g = 25
+    [PASS] rand#082: det A = 324 · Pf(ηA) = -18 · Pf²/det g = 324
+    [PASS] rand#083: det A = 225 · Pf(ηA) = -15 · Pf²/det g = 225
+    [PASS] rand#084: det A = 225 · Pf(ηA) = -15 · Pf²/det g = 225
+    [PASS] rand#085: det A = 81 · Pf(ηA) = 9 · Pf²/det g = 81
+    [PASS] rand#086: det A = 1 · Pf(ηA) = 1 · Pf²/det g = 1
+    [PASS] rand#087: det A = 49 · Pf(ηA) = -7 · Pf²/det g = 49
+    [PASS] rand#088: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#089: det A = 64 · Pf(ηA) = -8 · Pf²/det g = 64
+    [PASS] rand#090: det A = 121 · Pf(ηA) = 11 · Pf²/det g = 121
+    [PASS] rand#091: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#092: det A = 196 · Pf(ηA) = -14 · Pf²/det g = 196
+    [PASS] rand#093: det A = 121 · Pf(ηA) = -11 · Pf²/det g = 121
+    [PASS] rand#094: det A = 4 · Pf(ηA) = -2 · Pf²/det g = 4
+    [PASS] rand#095: det A = 100 · Pf(ηA) = 10 · Pf²/det g = 100
+    [PASS] rand#096: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+    [PASS] rand#097: det A = 144 · Pf(ηA) = 12 · Pf²/det g = 144
+    [PASS] rand#098: det A = 4 · Pf(ηA) = 2 · Pf²/det g = 4
+    [PASS] rand#099: det A = 64 · Pf(ηA) = 8 · Pf²/det g = 64
+    [PASS] rand#100: det A = 1 · Pf(ηA) = -1 · Pf²/det g = 1
+  [PASS] O7d so(2,2): det A = Pf(ηA)²/det g on 104/104 O7b objects (sympy-equality)
+
+  so(3,1) — det g = -1 · O7b objects: 102
+    [PASS] sum {all J} (3 terms): det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] sum {all K} (3 terms): det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#001: det A = -121 · Pf(ηA) = 11 · Pf²/det g = -121
+    [PASS] rand#002: det A = -4 · Pf(ηA) = -2 · Pf²/det g = -4
+    [PASS] rand#003: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#004: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#005: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#006: det A = -196 · Pf(ηA) = -14 · Pf²/det g = -196
+    [PASS] rand#007: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#008: det A = -324 · Pf(ηA) = -18 · Pf²/det g = -324
+    [PASS] rand#009: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#010: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#011: det A = -49 · Pf(ηA) = -7 · Pf²/det g = -49
+    [PASS] rand#012: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#013: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#014: det A = -64 · Pf(ηA) = -8 · Pf²/det g = -64
+    [PASS] rand#015: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#016: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#017: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#018: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#019: det A = -49 · Pf(ηA) = -7 · Pf²/det g = -49
+    [PASS] rand#020: det A = -49 · Pf(ηA) = 7 · Pf²/det g = -49
+    [PASS] rand#021: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#022: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#023: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#024: det A = -196 · Pf(ηA) = -14 · Pf²/det g = -196
+    [PASS] rand#025: det A = -100 · Pf(ηA) = -10 · Pf²/det g = -100
+    [PASS] rand#026: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#027: det A = -36 · Pf(ηA) = -6 · Pf²/det g = -36
+    [PASS] rand#028: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#029: det A = -196 · Pf(ηA) = 14 · Pf²/det g = -196
+    [PASS] rand#030: det A = -121 · Pf(ηA) = 11 · Pf²/det g = -121
+    [PASS] rand#031: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#032: det A = -100 · Pf(ηA) = -10 · Pf²/det g = -100
+    [PASS] rand#033: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#034: det A = -4 · Pf(ηA) = -2 · Pf²/det g = -4
+    [PASS] rand#035: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#036: det A = -25 · Pf(ηA) = -5 · Pf²/det g = -25
+    [PASS] rand#037: det A = -144 · Pf(ηA) = 12 · Pf²/det g = -144
+    [PASS] rand#038: det A = -225 · Pf(ηA) = 15 · Pf²/det g = -225
+    [PASS] rand#039: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#040: det A = -49 · Pf(ηA) = 7 · Pf²/det g = -49
+    [PASS] rand#041: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#042: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#043: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#044: det A = -100 · Pf(ηA) = -10 · Pf²/det g = -100
+    [PASS] rand#045: det A = -49 · Pf(ηA) = -7 · Pf²/det g = -49
+    [PASS] rand#046: det A = -49 · Pf(ηA) = 7 · Pf²/det g = -49
+    [PASS] rand#047: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#048: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#049: det A = -289 · Pf(ηA) = -17 · Pf²/det g = -289
+    [PASS] rand#050: det A = -4 · Pf(ηA) = -2 · Pf²/det g = -4
+    [PASS] rand#051: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#052: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#053: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#054: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#055: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#056: det A = -25 · Pf(ηA) = -5 · Pf²/det g = -25
+    [PASS] rand#057: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#058: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#059: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#060: det A = -100 · Pf(ηA) = -10 · Pf²/det g = -100
+    [PASS] rand#061: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#062: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#063: det A = -441 · Pf(ηA) = -21 · Pf²/det g = -441
+    [PASS] rand#064: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#065: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#066: det A = -144 · Pf(ηA) = 12 · Pf²/det g = -144
+    [PASS] rand#067: det A = -144 · Pf(ηA) = 12 · Pf²/det g = -144
+    [PASS] rand#068: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#069: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#070: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#071: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#072: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#073: det A = -36 · Pf(ηA) = -6 · Pf²/det g = -36
+    [PASS] rand#074: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#075: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#076: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#077: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#078: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#079: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#080: det A = -324 · Pf(ηA) = 18 · Pf²/det g = -324
+    [PASS] rand#081: det A = -49 · Pf(ηA) = -7 · Pf²/det g = -49
+    [PASS] rand#082: det A = -256 · Pf(ηA) = -16 · Pf²/det g = -256
+    [PASS] rand#083: det A = -25 · Pf(ηA) = -5 · Pf²/det g = -25
+    [PASS] rand#084: det A = -121 · Pf(ηA) = -11 · Pf²/det g = -121
+    [PASS] rand#085: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#086: det A = -49 · Pf(ηA) = 7 · Pf²/det g = -49
+    [PASS] rand#087: det A = -196 · Pf(ηA) = -14 · Pf²/det g = -196
+    [PASS] rand#088: det A = -9 · Pf(ηA) = 3 · Pf²/det g = -9
+    [PASS] rand#089: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#090: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#091: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#092: det A = -225 · Pf(ηA) = 15 · Pf²/det g = -225
+    [PASS] rand#093: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#094: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#095: det A = -1 · Pf(ηA) = 1 · Pf²/det g = -1
+    [PASS] rand#096: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#097: det A = -4 · Pf(ηA) = -2 · Pf²/det g = -4
+    [PASS] rand#098: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#099: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#100: det A = -64 · Pf(ηA) = -8 · Pf²/det g = -64
+  [PASS] O7d so(3,1): det A = Pf(ηA)²/det g on 102/102 O7b objects (sympy-equality)
+
+  so(3,3) — det g = -1 · O7b objects: 103
+    [PASS] sum {all J} (6 terms): det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] sum {all K} (9 terms): det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] A² = +𝟙 (3,3): K(0,3)+K(1,4)+K(2,5) (S903) [A = +1·K(0,3) +1·K(1,4) +1·K(2,5)]: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#001: det A = -1024 · Pf(ηA) = 32 · Pf²/det g = -1024
+    [PASS] rand#002: det A = -4 · Pf(ηA) = -2 · Pf²/det g = -4
+    [PASS] rand#003: det A = -2401 · Pf(ηA) = -49 · Pf²/det g = -2401
+    [PASS] rand#004: det A = -1089 · Pf(ηA) = 33 · Pf²/det g = -1089
+    [PASS] rand#005: det A = -1369 · Pf(ηA) = -37 · Pf²/det g = -1369
+    [PASS] rand#006: det A = -441 · Pf(ηA) = 21 · Pf²/det g = -441
+    [PASS] rand#007: det A = -529 · Pf(ηA) = 23 · Pf²/det g = -529
+    [PASS] rand#008: det A = -441 · Pf(ηA) = -21 · Pf²/det g = -441
+    [PASS] rand#009: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#010: det A = -676 · Pf(ηA) = -26 · Pf²/det g = -676
+    [PASS] rand#011: det A = -441 · Pf(ηA) = -21 · Pf²/det g = -441
+    [PASS] rand#012: det A = -1024 · Pf(ηA) = -32 · Pf²/det g = -1024
+    [PASS] rand#013: det A = -289 · Pf(ηA) = -17 · Pf²/det g = -289
+    [PASS] rand#014: det A = -256 · Pf(ηA) = 16 · Pf²/det g = -256
+    [PASS] rand#015: det A = -1444 · Pf(ηA) = 38 · Pf²/det g = -1444
+    [PASS] rand#016: det A = -3600 · Pf(ηA) = -60 · Pf²/det g = -3600
+    [PASS] rand#017: det A = -49 · Pf(ηA) = -7 · Pf²/det g = -49
+    [PASS] rand#018: det A = -324 · Pf(ηA) = 18 · Pf²/det g = -324
+    [PASS] rand#019: det A = -4096 · Pf(ηA) = -64 · Pf²/det g = -4096
+    [PASS] rand#020: det A = -289 · Pf(ηA) = -17 · Pf²/det g = -289
+    [PASS] rand#021: det A = -484 · Pf(ηA) = -22 · Pf²/det g = -484
+    [PASS] rand#022: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#023: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#024: det A = -3364 · Pf(ηA) = 58 · Pf²/det g = -3364
+    [PASS] rand#025: det A = -9 · Pf(ηA) = -3 · Pf²/det g = -9
+    [PASS] rand#026: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#027: det A = -1024 · Pf(ηA) = 32 · Pf²/det g = -1024
+    [PASS] rand#028: det A = -1296 · Pf(ηA) = 36 · Pf²/det g = -1296
+    [PASS] rand#029: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#030: det A = -121 · Pf(ηA) = 11 · Pf²/det g = -121
+    [PASS] rand#031: det A = -16 · Pf(ηA) = -4 · Pf²/det g = -16
+    [PASS] rand#032: det A = -484 · Pf(ηA) = 22 · Pf²/det g = -484
+    [PASS] rand#033: det A = -225 · Pf(ηA) = 15 · Pf²/det g = -225
+    [PASS] rand#034: det A = -10404 · Pf(ηA) = -102 · Pf²/det g = -10404
+    [PASS] rand#035: det A = -81 · Pf(ηA) = 9 · Pf²/det g = -81
+    [PASS] rand#036: det A = -441 · Pf(ηA) = 21 · Pf²/det g = -441
+    [PASS] rand#037: det A = -2209 · Pf(ηA) = -47 · Pf²/det g = -2209
+    [PASS] rand#038: det A = -625 · Pf(ηA) = 25 · Pf²/det g = -625
+    [PASS] rand#039: det A = -25 · Pf(ηA) = 5 · Pf²/det g = -25
+    [PASS] rand#040: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#041: det A = -36 · Pf(ηA) = -6 · Pf²/det g = -36
+    [PASS] rand#042: det A = -144 · Pf(ηA) = -12 · Pf²/det g = -144
+    [PASS] rand#043: det A = -16384 · Pf(ηA) = 128 · Pf²/det g = -16384
+    [PASS] rand#044: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#045: det A = -225 · Pf(ηA) = -15 · Pf²/det g = -225
+    [PASS] rand#046: det A = -676 · Pf(ηA) = -26 · Pf²/det g = -676
+    [PASS] rand#047: det A = -2916 · Pf(ηA) = 54 · Pf²/det g = -2916
+    [PASS] rand#048: det A = -961 · Pf(ηA) = 31 · Pf²/det g = -961
+    [PASS] rand#049: det A = -676 · Pf(ηA) = 26 · Pf²/det g = -676
+    [PASS] rand#050: det A = -4356 · Pf(ηA) = -66 · Pf²/det g = -4356
+    [PASS] rand#051: det A = -1024 · Pf(ηA) = 32 · Pf²/det g = -1024
+    [PASS] rand#052: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#053: det A = -144 · Pf(ηA) = -12 · Pf²/det g = -144
+    [PASS] rand#054: det A = -676 · Pf(ηA) = 26 · Pf²/det g = -676
+    [PASS] rand#055: det A = -225 · Pf(ηA) = -15 · Pf²/det g = -225
+    [PASS] rand#056: det A = -841 · Pf(ηA) = 29 · Pf²/det g = -841
+    [PASS] rand#057: det A = -36 · Pf(ηA) = -6 · Pf²/det g = -36
+    [PASS] rand#058: det A = -400 · Pf(ηA) = -20 · Pf²/det g = -400
+    [PASS] rand#059: det A = -1600 · Pf(ηA) = 40 · Pf²/det g = -1600
+    [PASS] rand#060: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#061: det A = -100 · Pf(ηA) = -10 · Pf²/det g = -100
+    [PASS] rand#062: det A = -81 · Pf(ηA) = -9 · Pf²/det g = -81
+    [PASS] rand#063: det A = -1225 · Pf(ηA) = 35 · Pf²/det g = -1225
+    [PASS] rand#064: det A = -1369 · Pf(ηA) = -37 · Pf²/det g = -1369
+    [PASS] rand#065: det A = -400 · Pf(ηA) = 20 · Pf²/det g = -400
+    [PASS] rand#066: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#067: det A = -256 · Pf(ηA) = 16 · Pf²/det g = -256
+    [PASS] rand#068: det A = -16 · Pf(ηA) = 4 · Pf²/det g = -16
+    [PASS] rand#069: det A = -5776 · Pf(ηA) = -76 · Pf²/det g = -5776
+    [PASS] rand#070: det A = -81 · Pf(ηA) = 9 · Pf²/det g = -81
+    [PASS] rand#071: det A = -400 · Pf(ηA) = 20 · Pf²/det g = -400
+    [PASS] rand#072: det A = -64 · Pf(ηA) = 8 · Pf²/det g = -64
+    [PASS] rand#073: det A = -2401 · Pf(ηA) = -49 · Pf²/det g = -2401
+    [PASS] rand#074: det A = -121 · Pf(ηA) = -11 · Pf²/det g = -121
+    [PASS] rand#075: det A = -1521 · Pf(ηA) = -39 · Pf²/det g = -1521
+    [PASS] rand#076: det A = -1024 · Pf(ηA) = 32 · Pf²/det g = -1024
+    [PASS] rand#077: det A = -25 · Pf(ηA) = 5 · Pf²/det g = -25
+    [PASS] rand#078: det A = -1156 · Pf(ηA) = 34 · Pf²/det g = -1156
+    [PASS] rand#079: det A = -256 · Pf(ηA) = -16 · Pf²/det g = -256
+    [PASS] rand#080: det A = -4 · Pf(ηA) = 2 · Pf²/det g = -4
+    [PASS] rand#081: det A = -1936 · Pf(ηA) = -44 · Pf²/det g = -1936
+    [PASS] rand#082: det A = -3600 · Pf(ηA) = -60 · Pf²/det g = -3600
+    [PASS] rand#083: det A = -1024 · Pf(ηA) = -32 · Pf²/det g = -1024
+    [PASS] rand#084: det A = -841 · Pf(ηA) = -29 · Pf²/det g = -841
+    [PASS] rand#085: det A = -625 · Pf(ηA) = -25 · Pf²/det g = -625
+    [PASS] rand#086: det A = 0 · Pf(ηA) = 0 · Pf²/det g = 0
+    [PASS] rand#087: det A = -36 · Pf(ηA) = -6 · Pf²/det g = -36
+    [PASS] rand#088: det A = -841 · Pf(ηA) = -29 · Pf²/det g = -841
+    [PASS] rand#089: det A = -361 · Pf(ηA) = -19 · Pf²/det g = -361
+    [PASS] rand#090: det A = -1 · Pf(ηA) = -1 · Pf²/det g = -1
+    [PASS] rand#091: det A = -784 · Pf(ηA) = -28 · Pf²/det g = -784
+    [PASS] rand#092: det A = -529 · Pf(ηA) = -23 · Pf²/det g = -529
+    [PASS] rand#093: det A = -169 · Pf(ηA) = 13 · Pf²/det g = -169
+    [PASS] rand#094: det A = -1369 · Pf(ηA) = -37 · Pf²/det g = -1369
+    [PASS] rand#095: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#096: det A = -2025 · Pf(ηA) = -45 · Pf²/det g = -2025
+    [PASS] rand#097: det A = -36 · Pf(ηA) = 6 · Pf²/det g = -36
+    [PASS] rand#098: det A = -225 · Pf(ηA) = 15 · Pf²/det g = -225
+    [PASS] rand#099: det A = -1024 · Pf(ηA) = -32 · Pf²/det g = -1024
+    [PASS] rand#100: det A = -1600 · Pf(ηA) = 40 · Pf²/det g = -1600
+  [PASS] O7d so(3,3): det A = Pf(ηA)²/det g on 103/103 O7b objects (sympy-equality)
+
+================================================================================================
+SUMMARY S906 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 22/22 PASS
+
+  BOUND STAMPS:
+   · O7a n=6: BOUNDARY (stamp): 50 random integer pairs (Ω entries {−9..9}, S entries {−4..4}, det S unrestricted), seed 906 (Random(906))
+   · O7a-isometries so(2,2): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90642
+   · O7a-isometries so(3,1): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90643
+   · O7a-isometries so(3,3): BOUNDARY (stamp): 5 explicit S per type det=±1; random Ω entries {−5..5}, Pf(Ω) ≠ 0 by retry, seed 90663
+   · O7b so(2,2): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+   · O7b so(3,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+   · O7b so(3,3): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 906 (separate Random(906) per signature)
+
+  RAW LINES (no readings):
+   (1) O7a: Pf(SᵀΩS) = det(S)·Pf(Ω) — symbolic FULL n=4 (Ω 6 symbols × S 16
+       symbols) + 50/50 random integer pairs n=6; isometries SᵀηS = η of both types
+       det = ±1, 5 explicit examples per type per signature — Pf by the numbers above;
+   (2) O7b: Pf(ηA) table {sums J/K · S903 square structures · 100 random}
+       on {(2,2)·(3,1)·(3,3)} — values, sign histograms, ranks of Pf=0 cases above;
+   (3) O7c: Pf(ηX) for every single coordinate generator + explicit attempts
+       to connect pairs of one centralizer class by det=−1 isometries — raw lines above;
+   (4) O7d: det A = Pf(ηA)²/det g — per-object bit-check PASS/FAIL on all
+       O7b objects — above.
+  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+

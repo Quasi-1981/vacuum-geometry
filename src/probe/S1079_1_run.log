@@ -1,0 +1,78 @@
+==============================================================================
+S1079 · AX-closure · Z1 (DEFINITION): does (a) give the same verdict as (b)?
+==============================================================================
+
+§1 · the NUMBER of the verdict in the order (a) — minimal elements under the premises
+   {p≥3, q=0} — a definite carrier: minimal = [(3, 0)]  ✓
+   {p≥3, q≥1} — after the break: minimal = [(3, 1)]  ✓
+   a control on the scan ceiling (the verdict must not depend on it):
+     N=5: [(3, 1)]
+     N=8: [(3, 1)]
+     N=12: [(3, 1)]
+  ✓ (a) reproduces the NUMBER of the verdict exactly: the minimum under {p≥3, q≥1} = (3,1)
+       (tooth: said NO on «a weakened premise {p≥2, q≥1}» ⟹ able to fail)
+   ★READING §1: the verdict-NUMBER in (a) is the same — and the tooth shows WHY: it
+   is a function of the PREMISES {p≥3 · q≥1}, not of the order's machinery.  Weaken a
+   premise — the number moves; replace the order's definition — it does not.  This is a
+   RE-MEASUREMENT of the S908-F.4 line («the entire content of T5 lives in two premises»),
+   a different road to the same place; the multiplicity is handed to the ancestor, no line
+   of my own is minted here.
+
+§2 · ★DOES (a) HAVE A FORCED SUCCESSOR (a discriminating measurement)
+   (a): the minimal strict upper bounds of (3, 1) = [(3, 2), (4, 1)]  ⟹ 2 of them.
+   (a): the minimal strict upper bounds of (3, 0) = [(3, 1), (4, 0)]  ⟹ 2 of them.
+   (a): the minimal strict upper bounds of (2, 2) = [(2, 3), (3, 2)]  ⟹ 2 of them.
+   (a): the minimal strict upper bounds of (4, 1) = [(4, 2), (5, 1)]  ⟹ 2 of them.
+   (b): the successor = the VALUE of the closure function Lie(V) ⟹ exactly 1 by construction
+  ✓ control: in a TOTAL order the successor really is one — the detector can say TRUE, so its «FALSE» on (a) is a measurement, not blindness
+       (tooth: said NO on «(a) on the full ladder» ⟹ able to fail)
+   ★READING §2: in (a) every element has TWO minimal strict upper
+   neighbors ((p+1,q) and (p,q+1)) ⟹ the notion of a «forced successor» is NOT
+   DEFINED in (a).  In (b) the successor is the value of the closure function, that
+   is, one.
+   ⟹ (a) is not an alternative definition of THE SAME object: it is STRUCTURALLY
+   weaker.  This is exactly the branch that Ω named BEFORE the probes («eliminated
+   by TYPE»).
+
+§3 · A RE-MEASUREMENT CHECK (not spending the count on what is already carved)
+   P1 (Omega, W28 §4, carved on 2026-07-16 BEFORE the numbers, verbatim):
+     «in pure (a) at level-1 there are NO maximal elements (the ℕ²-lattice is infinite
+      upward) ⟹ (a) itself cannot be a selector — its role = a skeleton of the order
+      for Z2.  Carved so that this is not later "discovered" as a result.»
+   ⟹ NOT re-measured.  The multiplicity goes to the ancestor; my §2 measures something
+   DIFFERENT (not "is there a maximum", but "is a successor defined") — and precisely
+   for that reason it is not a duplicate of P1.
+
+SCORE [S1079 · Z1-definition of AX-closure]: 2 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR Z1 (a measurement, not a verdict):
+
+  (1) ★THE VERDICT-NUMBER IS INVARIANT: (a) hands back {(3,0)} and {(3,1)} under the same
+      premises — exactly, and independent of the scan ceiling.  Ω's wager on the number
+      holds.
+
+  (2) ★BUT THE INVARIANCE IS NOT WHAT IT SEEMS: the number agrees not because the two
+      definitions "agreed", but because it NEVER USED their difference.  The verdict is a
+      function of the PREMISES {p≥3 · q≥1} + minimality; the machinery of (b) (closure,
+      forcing) does not enter the NUMBER.  The tooth of §1 shows this by hand: the number
+      moves when a premise is weakened and does NOT move when the definition is replaced.
+
+  (3) ★WHAT EXACTLY IS LOST BY "TWISTING IT" — and this answers the author's fear
+      («someone will twist it»): on the transition (b)→(a) the NUMBER DOES NOT MOVE, but
+      the FORCING DISAPPEARS.  In (a) every element has TWO minimal strict successors
+      ⟹ the notion of a "coerced successor" is not defined; in (b) it is the value of a
+      function.  ⟹ (a) is not an alternative, but a STRUCTURALLY WEAKER order:
+      the alternative is eliminated BY TYPE, not by taste — exactly the branch Ω carved
+      BEFORE the probes.
+
+  (4) ⟹ the form of the verdict handed to Ω (not rendered here): on Z1 — RIGIDITY, but with
+      a precise qualifier: a rigid NUMBER (it does not move under a legal twist) ⊥ a
+      NON-rigid PROVENANCE (the strength of the claim moves: without (b) the verdict
+      becomes a consequence of two premises, not a partly-forced one).  To the reader of a
+      preprint who "twists the order", we owe both lines.
+
+  A BOUNDARY: measured at level-1 (classes (p,q)), because that is exactly where (a) has a
+  closed form.  Level-2 ((carrier, V)) for (a) was not measured — and no conclusion is drawn
+  there.
+────────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,56 @@
+==========================================================================
+W42 probe-7 (layer −2): the TWO-COMPONENT native Box H=[[0,f],[f̄,0]] —
+FORCED FORM (the invariant 2×2 space = {I,H}?), chirality=a measured Z₂,
+cone-velocity from two ancestor curvatures. Exact; ancestors cited; d∈{2,3}.
+==========================================================================
+
+============================================================
+d=2, n=h=3
+============================================================
+  the space of invariant 2×2 Bloch operators under {S_3, Z₂}: dim=2
+  basis = {{I (scalar·identity), H=[[0,f],[f̄,0]] (off-diag ∝ f)}}; σ_z: KILLED (q≡0).
+  ★MEASUREMENT: H is the ONLY native two-component object (0 handles): the off-diag is forced
+  by axis permutations into ∝f (phase=free), the traceless diagonal is forbidden by Z₂-oddness
+  (e₀−e₁ odd, S1000-T2). The two-component structure is NOT an import — it is forced by measured symmetries.
+  T2 (chirality): σ_z H σ_z = −H EXACTLY ⟹ λ↔−λ is realized by σ_z = a measured Z₂
+  (the bipartite class of the column 1A+1B, W40 leg-4 / e₀−e₁ S1000-T2) — not an import, a measurement.
+  T3 (cone): on-shell T_col(ν)=|f|² near the node ⟹ v² = transverse-curvature(S999:SC·n/2=9/4)
+    / column-curvature(T_col''(0)) = 81/8 — (2π)² CANCELS ⟹ v²=h⁴/(4d)=81/8 (0 handles).
+  T4 (q=1 mode-level): chiral σ_z-pairing of ±|f| ⟹ ONE conjugate pair (arrow), C̃=1
+    — measured THROUGH 2-band chiral locking (bet-2), NOT through «one column» (anti-taut.).
+
+============================================================
+d=3, n=h=4
+============================================================
+  the space of invariant 2×2 Bloch operators under {S_4, Z₂}: dim=2
+  basis = {{I (scalar·identity), H=[[0,f],[f̄,0]] (off-diag ∝ f)}}; σ_z: KILLED (q≡0).
+  ★MEASUREMENT: H is the ONLY native two-component object (0 handles): the off-diag is forced
+  by axis permutations into ∝f (phase=free), the traceless diagonal is forbidden by Z₂-oddness
+  (e₀−e₁ odd, S1000-T2). The two-component structure is NOT an import — it is forced by measured symmetries.
+  T2 (chirality): σ_z H σ_z = −H EXACTLY ⟹ λ↔−λ is realized by σ_z = a measured Z₂
+  (the bipartite class of the column 1A+1B, W40 leg-4 / e₀−e₁ S1000-T2) — not an import, a measurement.
+  T3 (cone): on-shell T_col(ν)=|f|² near the node ⟹ v² = transverse-curvature(S999:SC·n/2=8/3)
+    / column-curvature(T_col''(0)) = 64/3 — (2π)² CANCELS ⟹ v²=h⁴/(4d)=64/3 (0 handles).
+  T4 (q=1 mode-level): chiral σ_z-pairing of ±|f| ⟹ ONE conjugate pair (arrow), C̃=1
+    — measured THROUGH 2-band chiral locking (bet-2), NOT through «one column» (anti-taut.).
+
+MUTANTS:
+  MUTANT M1 (false-diagonal σ_z·g(k)): CAUGHT (the extended space is still dim 2, all
+    σ_z·cos-modes are KILLED by Z₂-oddness — a diagonal beyond I is forbidden, the forced form stands)
+  MUTANT M2 (false-phase off-diag): CAUGHT (|f·e^{iφ}|=|f| — the off-diag phase is a FREE CHOICE,
+    the spectrum ±|f| and invariants do not change; the phase is not to be counted as a handle)
+  MUTANT M3 (false-period h→h+1): CAUGHT (column-covariance requires h=d+1=3
+    (S1001 order of the center); h+1=4 breaks the character-covariance of the components)
+  MUTANT M4 (size d=2↔3): CAUGHT (forced dim=2 both; v²=h⁴/(4d): d=2→81/8, d=3→64/3
+    — scales with (d,h) legitimately, not a lattice artifact)
+  MUTANT M5 (false-velocity): CAUGHT (a changed column-coefficient (1/h² instead of 2/h²): v²=81/4
+    ≠ the true 81/8 — the cone does not assemble with a foreign coefficient; v is forced by the ancestors)
+
+NEGATIVE CONTROL (seeded): a random 2×2 Hermitian operator NOT in {I,H}
+  σ_z·1: invariant=False — the measurement is sensitive (only {I,H} pass the forcing)
+
+SUMMARY: asserts_passed=13 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

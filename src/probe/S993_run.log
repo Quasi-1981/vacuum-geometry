@@ -1,0 +1,45 @@
+=== §1 Inv(W)^{sp(2k)}: ANTISYM=1 (omega), SYM=0, for k=1,2,3 ===
+  k=1: dim sp=3 | tot=1 sym=0 anti=1 | form == -1*omega
+  k=2: dim sp=10 | tot=1 sym=0 anti=1 | form == -1*omega
+  k=3: dim sp=21 | tot=1 sym=0 anti=1 | form == -1*omega
+
+=== §2 Inv(G)^{so(eta|G)}: SYM=1 (eta') always ; ANTISYM = 0 (g!=2) / 1 (g=2, area eps_G) ===
+  (1,0) g=1: dim so=0 | tot=1 sym=1 anti=0 | sym==eta'
+  (0,1) g=1: dim so=0 | tot=1 sym=1 anti=0 | sym==eta'
+  (2,0) g=2: dim so=1 | tot=2 sym=1 anti=1 | sym==eta'  <-- g=2 ABELIAN so, +area eps_G (antisym)
+  (1,1) g=2: dim so=1 | tot=2 sym=1 anti=1 | sym==eta'  <-- g=2 ABELIAN so, +area eps_G (antisym)
+  (3,0) g=3: dim so=3 | tot=1 sym=1 anti=0 | sym==eta'
+  (2,1) g=3: dim so=3 | tot=1 sym=1 anti=0 | sym==eta'
+  (4,0) g=4: dim so=6 | tot=1 sym=1 anti=0 | sym==eta'
+  (2,2) g=4: dim so=6 | tot=1 sym=1 anti=0 | sym==eta'
+
+=== §3 FACTORIZATION by symmetry sector (carved) ===
+  ANTISYM Inv(W(x)G) = Inv(W)^anti (x) Inv(G)^sym  (+)  Inv(W)^sym (x) Inv(G)^anti
+                     = 1 (x) 1  (+)  0 (x) {0 or 1}  =  1   forall g  (= omega (x) eta').
+  => Lambda^2 cocycle FORCED forall k,g (unique antisym invariant).
+  g=2 exception lives ONLY in the SYM sector: omega (x) eps_G (SYMMETRIC, NOT a Lie cocycle),
+  since Inv(W)^sym = 0 kills any antisym contribution from the extra area form.
+
+=== §4 INSTANCE-FENCES: ANTISYM Inv(W(x)G) = 1 (=omega(x)eta') forall ; total jumps at g=2 ===
+  k=1 (1,0) g=1 dv=2: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=1 (1,1) g=2 dv=4: antisym(cocycle)=1==omega(x)eta' | total=2 sym=1 | +SYM omega(x)eps_G (g=2 non-cocycle)
+  k=1 (2,1) g=3 dv=6: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=1 (2,2) g=4 dv=8: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=2 (1,0) g=1 dv=4: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=2 (1,1) g=2 dv=8: antisym(cocycle)=1==omega(x)eta' | total=2 sym=1 | +SYM omega(x)eps_G (g=2 non-cocycle)
+  k=2 (2,1) g=3 dv=12: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=3 (1,0) g=1 dv=6: antisym(cocycle)=1==omega(x)eta' | total=1 sym=0
+  k=3 (1,1) g=2 dv=12: antisym(cocycle)=1==omega(x)eta' | total=2 sym=1 | +SYM omega(x)eps_G (g=2 non-cocycle)
+
+=== mutants (one per branch) ===
+MUTANT br-sp: CAUGHT (Inv(W)^sp: sym=0, anti=1 -- symplectic fundamental)
+MUTANT br-so-g2: CAUGHT (g=2 antisym area=1 ; g=3 antisym=0)
+MUTANT br-cocycle-forall: CAUGHT (g=2: antisym cocycle still unique=1 ; +sym extra=1)
+MUTANT br-factorization: CAUGHT (g=2: dim WxG = dim W * dim G = 1*2 = 2)
+
+SUMMARY: stake-2 CLOSED forall -- ANTISYM (cocycle) invariant on W(x)G is 1-dim = omega(x)eta'
+SUMMARY: for ALL k,g (incl g=2). Boundary carved: g=2 (abelian so) adds a SYM non-cocycle
+SUMMARY: invariant omega(x)eps_G; harmless to T24 (Lie bracket = antisym only).
+SUMMARY: asserts_passed=53 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

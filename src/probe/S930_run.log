@@ -1,0 +1,114 @@
+--- P4: image vs canonical centralizer of N-image inside the factor ---
+J1 | block f=x^2-1 d=4 sig=(2, 2) | factor=gl dim=4 | N|block nonzero | dim c(A)|block=2 | dim c_factor(N)=2 | EQUAL=YES
+J2 | block f=x d=4 sig=(2, 2) | factor=so dim=6 | N|block nonzero | dim c(A)|block=4 | dim c_factor(N)=4 | EQUAL=YES
+J2 | block f=x^2+1 d=2 sig=(2, 0) | factor=u dim=1 | N|block ZERO | dim c(A)|block=1 | dim c_factor(N)=1 | EQUAL=YES
+J3 | block f=x d=4 sig=(3, 1) | factor=so dim=6 | N|block nonzero | dim c(A)|block=2 | dim c_factor(N)=2 | EQUAL=YES
+J3 | block f=x^2+1 d=2 sig=(2, 0) | factor=u dim=1 | N|block ZERO | dim c(A)|block=1 | dim c_factor(N)=1 | EQUAL=YES
+J4 | block f=x d=4 sig=(2, 2) | factor=so dim=6 | N|block nonzero | dim c(A)|block=4 | dim c_factor(N)=4 | EQUAL=YES
+J4 | block f=x^2-1 d=2 sig=(1, 1) | factor=gl dim=1 | N|block ZERO | dim c(A)|block=1 | dim c_factor(N)=1 | EQUAL=YES
+P4-SUMMARY: rows=7 | EQUAL=7 | NOT-EQUAL=0
+--- menu power per block (semisimple strata) ---
+(4,0) S1 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(4,0) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,0) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,0) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,0) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(3,1) S1 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,1) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,1) S2 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(3,1) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,1) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,1) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(2,2) S1 f=x d=2 sig=(0, 2) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(2,2) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(2,2) S2 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(2,2) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(2,2) S5 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(2,2) S5 f=x^2-4 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(2,2) S6 f=x^2-1 d=4 sig=(2, 2) | live=gl:4,so:6,sp:10 | distinct-as-subspaces=gl,so,sp | matched=gl | DISCRIMINATING
+(5,0) S1 f=x d=3 sig=(3, 0) | live=so:3 | distinct-as-subspaces=so | matched=so | menu-of-1
+(5,0) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,0) S3 f=x d=1 sig=(1, 0) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(5,0) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,0) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,0) S4 f=x d=1 sig=(1, 0) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(5,0) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(4,1) S1 f=x d=3 sig=(2, 1) | live=so:3 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,1) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,1) S2 f=x d=3 sig=(3, 0) | live=so:3 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,1) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,1) S3 f=x d=1 sig=(0, 1) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,1) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,1) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,1) S4 f=x d=1 sig=(0, 1) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,1) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(4,1) S7 f=x d=1 sig=(1, 0) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,1) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,1) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,2) S1 f=x d=3 sig=(1, 2) | live=so:3 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,2) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,2) S2 f=x d=3 sig=(2, 1) | live=so:3 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,2) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,2) S5 f=x d=1 sig=(1, 0) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,2) S5 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,2) S5 f=x^2-4 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,2) S6 f=x d=1 sig=(1, 0) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,2) S6 f=x^2-1 d=4 sig=(2, 2) | live=gl:4,so:6,sp:10 | distinct-as-subspaces=gl,so,sp | matched=gl | DISCRIMINATING
+(3,2) S7 f=x d=1 sig=(0, 1) | live=so:0 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,2) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,2) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(6,0) S1 f=x d=4 sig=(4, 0) | live=so:6 | distinct-as-subspaces=so | matched=so | menu-of-1
+(6,0) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(6,0) S3 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(6,0) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(6,0) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(6,0) S4 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(6,0) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(5,1) S1 f=x d=4 sig=(3, 1) | live=so:6 | distinct-as-subspaces=so | matched=so | menu-of-1
+(5,1) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,1) S2 f=x d=4 sig=(4, 0) | live=so:6 | distinct-as-subspaces=so | matched=so | menu-of-1
+(5,1) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(5,1) S3 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(5,1) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,1) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,1) S4 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(5,1) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(5,1) S7 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(5,1) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(5,1) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,2) S1 f=x d=4 sig=(2, 2) | live=gl:4,so:6 | distinct-as-subspaces=gl,so | matched=so | DISCRIMINATING
+(4,2) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,2) S2 f=x d=4 sig=(3, 1) | live=so:6 | distinct-as-subspaces=so | matched=so | menu-of-1
+(4,2) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,2) S3 f=x d=2 sig=(0, 2) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(4,2) S3 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,2) S3 f=x^2+4 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,2) S4 f=x d=2 sig=(0, 2) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(4,2) S4 f=x^2+1 d=4 sig=(4, 0) | live=u:4,so:6,sp:10 | distinct-as-subspaces=u,so,sp | matched=u | DISCRIMINATING
+(4,2) S5 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(4,2) S5 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,2) S5 f=x^2-4 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,2) S6 f=x d=2 sig=(2, 0) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(4,2) S6 f=x^2-1 d=4 sig=(2, 2) | live=gl:4,so:6,sp:10 | distinct-as-subspaces=gl,so,sp | matched=gl | DISCRIMINATING
+(4,2) S7 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(4,2) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(4,2) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S1 f=x d=4 sig=(1, 3) | live=so:6 | distinct-as-subspaces=so | matched=so | menu-of-1
+(3,3) S1 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,3) S2 f=x d=4 sig=(2, 2) | live=gl:4,so:6 | distinct-as-subspaces=gl,so | matched=so | DISCRIMINATING
+(3,3) S2 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S5 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S5 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S5 f=x^2-4 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S6 f=x d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+(3,3) S6 f=x^2-1 d=4 sig=(2, 2) | live=gl:4,so:6,sp:10 | distinct-as-subspaces=gl,so,sp | matched=gl | DISCRIMINATING
+(3,3) S7 f=x d=2 sig=(0, 2) | live=so:1,sp:3 | distinct-as-subspaces=so,sp | matched=so | DISCRIMINATING
+(3,3) S7 f=x^2+1 d=2 sig=(2, 0) | live=u:1,so:1,sp:3 | distinct-as-subspaces=u,sp | matched=u,so | DISCRIMINATING
+(3,3) S7 f=x^2-1 d=2 sig=(1, 1) | live=gl:1,so:1,sp:3 | distinct-as-subspaces=gl,sp | matched=gl,so | DISCRIMINATING
+POWER-SUMMARY: blocks=97 | >=2-distinct-live=79 | menu-of-1=18 | rows-with-ambiguous-match=56
+--- visa add-on: multiplicity m=3 (absent from the hand's strata; Sum m^2 must give 9) ---
+M3a (6,0) | dimc=9 (want 9) | f=x^2+1 d=6 sig=(6, 0) live=[u(3):9,so(6, 0):15,sp(6,R):21] dim(image)=9 matched=u(3)
+M3b (3,3) | dimc=9 (want 9) | f=x^2-1 d=6 sig=(3, 3) live=[gl(3,R):9,so(3, 3):15,sp(6,R):21] dim(image)=9 matched=gl(3,R)
+M3c (6,0) | dimc=5 (want 5) | f=x^2+1 d=4 sig=(4, 0) live=[u(2):4,so(4, 0):6,sp(4,R):10] dim(image)=4 matched=u(2) ; f=x^2+4 d=2 sig=(2, 0) live=[u(1):1,so(2, 0):1,sp(2,R):3] dim(image)=1 matched=u(1),so(2, 0)
+VISA-SUMMARY: asserts_passed=37 | FAIL=0
+EXIT=0

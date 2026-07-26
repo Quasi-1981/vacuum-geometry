@@ -18,7 +18,7 @@ Records that the T29 collapse event, marking the -2 to -1 break, results in the 
 
 ## OUTPUT
 
-Marks the opening event of the -2/-1 arc that the later seams (shov.2 through shov.7) build on.
+Marks the opening event of the -2/-1 arc that the later seams (seam.2 through seam.7) build on.
 
 **Consumed by:** nothing in this graph — a terminal node.
 

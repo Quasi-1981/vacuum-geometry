@@ -1,0 +1,141 @@
+==========================================================================
+W36-leg-1: pairing into the center of the radical ω on rad/Z
+==========================================================================
+
+--- WEDGES rank0/rank1, signatures n=4..7 ---
+SIG=(4,0) n=4 | wedge rank0 | NOT constructible
+SIG=(4,0) n=4 | wedge rank1 | NOT constructible
+SIG=(3,1) n=4 | wedge rank0 | NOT constructible
+SIG=(3,1) n=4 | wedge rank1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | wedge rank0 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | wedge rank1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,0) n=5 | wedge rank0 | NOT constructible
+SIG=(5,0) n=5 | wedge rank1 | NOT constructible
+SIG=(4,1) n=5 | wedge rank0 | NOT constructible
+SIG=(4,1) n=5 | wedge rank1 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | wedge rank0 | rad=3 Z=1 rad/Z=2 | rankω=2 | nondegenerate | k=1
+SIG=(3,2) n=5 | wedge rank1 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,0) n=6 | wedge rank0 | NOT constructible
+SIG=(6,0) n=6 | wedge rank1 | NOT constructible
+SIG=(5,1) n=6 | wedge rank0 | NOT constructible
+SIG=(5,1) n=6 | wedge rank1 | rad=4 Z=4 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | wedge rank0 | rad=5 Z=1 rad/Z=4 | rankω=4 | nondegenerate | k=2
+SIG=(4,2) n=6 | wedge rank1 | rad=4 Z=4 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | wedge rank0 | rad=5 Z=1 rad/Z=4 | rankω=4 | nondegenerate | k=2
+SIG=(3,3) n=6 | wedge rank1 | rad=4 Z=4 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(7,0) n=7 | wedge rank0 | NOT constructible
+SIG=(7,0) n=7 | wedge rank1 | NOT constructible
+SIG=(6,1) n=7 | wedge rank0 | NOT constructible
+SIG=(6,1) n=7 | wedge rank1 | rad=5 Z=5 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | wedge rank0 | rad=7 Z=1 rad/Z=6 | rankω=6 | nondegenerate | k=3
+SIG=(5,2) n=7 | wedge rank1 | rad=5 Z=5 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | wedge rank0 | rad=7 Z=1 rad/Z=6 | rankω=6 | nondegenerate | k=3
+SIG=(4,3) n=7 | wedge rank1 | rad=5 Z=5 rad/Z=0 | rankω=0 | empty | k=0
+
+--- SEMISIMPLE S1-S7, n=4..7 ---
+SIG=(4,0) n=4 | S1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,0) n=4 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,0) n=4 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,1) n=4 | S1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,1) n=4 | S2 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,1) n=4 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | S1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | S2 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | S5 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(2,2) n=4 | S6 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,0) n=5 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,0) n=5 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,0) n=5 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,1) n=5 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,1) n=5 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,1) n=5 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,1) n=5 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,1) n=5 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | S5 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | S6 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,2) n=5 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,0) n=6 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,0) n=6 | S3 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,0) n=6 | S4 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | S3 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | S4 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | S7 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S3 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S4 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S5 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S6 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | S7 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | S5 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | S6 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | S7 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(7,0) n=7 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(7,0) n=7 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(7,0) n=7 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,1) n=7 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,1) n=7 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,1) n=7 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,1) n=7 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(6,1) n=7 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S5 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S6 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,2) n=7 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S1 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S2 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S3 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S4 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S5 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S6 | rad=1 Z=1 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,3) n=7 | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+
+--- MIXED J1-J4 (A=S+N), n=4..6 ---
+SIG=(2,2) n=4 | J1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(4,2) n=6 | J2 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(5,1) n=6 | J3 | rad=3 Z=3 rad/Z=0 | rankω=0 | empty | k=0
+SIG=(3,3) n=6 | J4 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+
+--- CLAIM ∀d (rank0, Cc-row B·G⁻¹B'ᵀ-antisym) ---
+  structurally: ω=[[0,G⁻¹],[−G⁻¹,0]] ⟹ rank=2·rank(G⁻¹)=2d, nondeg, k=d ∀d
+  cross-check against the rank0 instances (n,d=n-4,rankω,nondeg,dimZ) vs 2d:
+    n=4 d=0: rankω=0 vs 2d=0 ≠(small-d contamination of rad) (dimZ=1)
+    n=5 d=1: rankω=2 vs 2d=2 ✓ (dimZ=1)
+    n=6 d=2: rankω=4 vs 2d=4 ✓ (dimZ=1)
+    n=6 d=2: rankω=4 vs 2d=4 ✓ (dimZ=1)
+    n=7 d=3: rankω=6 vs 2d=6 ✓ (dimZ=1)
+    n=7 d=3: rankω=6 vs 2d=6 ✓ (dimZ=1)
+
+--- SUBTABLE (3,1): all constructible strata ---
+(3,1) | wedge rank0 | NOT constructible
+(3,1) | wedge rank1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+(3,1) | S1 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+(3,1) | S2 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+(3,1) | S7 | rad=2 Z=2 rad/Z=0 | rankω=0 | empty | k=0
+
+--- MIXED-RECURSION J1-J4: ω(c(A)) vs ω(kernel-block) ---
+J1 | ω(c(A)): rankω=0 k=0 empty || ω(kernel N): rankω=0 k=0 empty || rank-match=yes
+J2 | ω(c(A)): rankω=0 k=0 empty || ω(kernel N): rankω=4 k=2 nondegenerate || rank-match=no
+J3 | ω(c(A)): rankω=0 k=0 empty || ω(kernel N): rankω=0 k=0 empty || rank-match=yes
+J4 | ω(c(A)): rankω=0 k=0 empty || ω(kernel N): rankω=4 k=2 nondegenerate || rank-match=no
+
+BIT-FENCE (radicals reconstructed):
+  (4,2)r0: rad=5(h5)·Z=1·rad/Z=4·rankω=4 — agrees with the leg-1d(h5) stamp
+
+MUTANTS (one per branch: nondegenerate / degenerate / empty):
+  MUTANT br-nondeg: CAUGHT (h5 core pairing nondegenerate rankω=rad/Z)
+  MUTANT br-empty: CAUGHT (S1(5,0) rad abelian → the form is empty, k=0)
+  MUTANT br-degenerate: CAUGHT (antisym with null direction rank=2<3)
+
+SUMMARY: asserts_passed=105 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

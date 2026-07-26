@@ -1,0 +1,48 @@
+==========================================================================
+W42 probe-6 (layer −2): the NATIVE cell Box Λ=T_A(ψ)−T_col(ν) — the minus comes
+from the column duality (T26), not by hand. Zeros=Dirac nodes (bridge №3)? Does q=1 fall out (№2)?
+h=d+1 column points (not a choice); exact integers/roots; d∈{2,3}.
+==========================================================================
+
+============================================================
+d=2, h=d+1=3: term_table(h)=[0, 3, 3]  (T_col(ν)=term(ν))
+============================================================
+Coset-nodes (characters of ℤ/3): {1: (1, 2), 2: (2, 1)}
+  the full nodal set f=0 (the variety dim d−2, S1002): 2 points [(1, 2), (2, 1)]
+  ★T1b (CHARACTER bridge): d=2 coset-nodes ↔ [1, 2] nontriv. characters of ℤ/3 — an exact bijection.
+  T_A(coset-node) = 2h = 6 (constant); T_col(ν≠0) ∈ [3] (max 3) ⟹ 2h ∉ range(T_col).
+  T1a (LITERAL Λ=0): total zeros=9, time-active (ν≠0,sin≠0)=8, of them ON nodes=0
+    T_A of time-active zeros ∈ [3] (nodes have T_A=6) ⟹ the zeros DO NOT sit on the nodes
+  T2 (sign-asymmetry): npos=16, nneg=2, nzero=9; λ↔−λ-symmetry: False
+    ⟹ the column minus makes the spectrum ONE-SIDEDLY-heavy (space T_A up to d·3=6 ≫ time T_col≤3) — asymmetry (d,1), NOT a hand-signed (p,q).
+  T3 (column participation): time-active null modes=8 ⟹ the column PARTICIPATES at equal weights
+
+============================================================
+d=3, h=d+1=4: term_table(h)=[0, 2, 4, 2]  (T_col(ν)=term(ν))
+============================================================
+Coset-nodes (characters of ℤ/4): {1: (1, 2, 3), 2: (2, 0, 2), 3: (3, 2, 1)}
+  the full nodal set f=0 (the variety dim d−2, S1002): 9 points [(0, 2, 2), (1, 2, 3), (1, 3, 2), (2, 0, 2), (2, 1, 3), (2, 2, 0), (2, 3, 1), (3, 1, 2), (3, 2, 1)]
+  ★T1b (CHARACTER bridge): d=3 coset-nodes ↔ [1, 2, 3] nontriv. characters of ℤ/4 — an exact bijection.
+  T_A(coset-node) = 2h = 8 (constant); T_col(ν≠0) ∈ [2, 4] (max 4) ⟹ 2h ∉ range(T_col).
+  T1a (LITERAL Λ=0): total zeros=28, time-active (ν≠0,sin≠0)=12, of them ON nodes=0
+    T_A of time-active zeros ∈ [2] (nodes have T_A=8) ⟹ the zeros DO NOT sit on the nodes
+  T2 (sign-asymmetry): npos=219, nneg=9, nzero=28; λ↔−λ-symmetry: False
+    ⟹ the column minus makes the spectrum ONE-SIDEDLY-heavy (space T_A up to d·4=12 ≫ time T_col≤4) — asymmetry (d,1), NOT a hand-signed (p,q).
+  T3 (column participation): time-active null modes=12 ⟹ the column PARTICIPATES at equal weights
+
+MUTANTS:
+  MUTANT M1 (false-period h→h+1): CAUGHT (a column h+1=4 has 3 characters ≠ 2 nodes of ℤ/3 — the bijection breaks)
+  MUTANT M2 (false-sign +T_col): CAUGHT (Euclidean T_A+T_col=0 with ν≠0: 0 zeros — both
+    terms ≥0 ⟹ there are NO time-active zeros; the sign-minus (dual) is necessary for time)
+  MUTANT M3 (size d=2↔3): CAUGHT (d=2→2 coset-nodes/ℤ3, d=3→3/ℤ4 — the bijection scales
+    with h=d+1 legitimately; T_A(coset-node)=2h both; the conclusion is not a lattice artifact)
+  MUTANT M4 (false-nodes shifted): CAUGHT (a shifted point ψ=(0, 1): f=3/2+sqrt(3)/2I≠0 — NOT a node; only coset-points of ℤ/h pass the f=0 identity)
+
+NEGATIVE CONTROL (seeded): a random torsion-point NOT a node (f≠0)
+  ψ=(1, 0, 2): f=1+1I≠0 — the measurement is sensitive (a node only on character-cosets of ℤ/h)
+
+SUMMARY: asserts_passed=17 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

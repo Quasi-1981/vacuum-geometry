@@ -1,0 +1,96 @@
+==============================================================================
+S1075 · AX-dimer · D1 (EXISTENCE): does even one native law force the mark?
+==============================================================================
+
+§1 · A RE-MEASUREMENT CHECK (the lesson of B1/B3: first look for a re-measurement, only then
+     spend the count)
+────────────────────────────────────────────────────────────────────────────────
+  · AX-closure — THE NEGATIVE IS ALREADY CARVED IN THE CANON, not re-measured.  CODEX §0
+      verbatim: «the existence of a time-axis = a postulated break (NOT from closure: the
+       minimal carrier of closure = definite (3,0))».   ⟹ multiplicity by ancestor = 1, the
+      witness = the ancestor.
+  · the prime directive — not a law about an OBJECT, but a meta-rule for counting handles;
+      moreover it presses IN THE OPPOSITE DIRECTION (q=0 is cheaper than q≥1).  It cannot
+      force existence, by its very type.  No probe is built here: building a "measurement"
+      of a meta-rule would be fabricating a witness.
+  · AX-lambda — the scale ruler.  A homothety acts identically on ALL d+1 directions
+      (it commutes with S_{d+1}) ⟹ by construction it cannot single out an axis.  The check
+      below enters §3 as part of the relative measurement (the Gram is invariant under
+      scaling).
+  · AX-alphabet — the ONLY source where the question is not vacuous.  Measured in §3.
+────────────────────────────────────────────────────────────────────────────────
+
+§2 · THE CORE: does the form itself force an AXIS (the absolute definition)?
+     [AX-indef gifted for free — a fortiori, see the header]
+
+   d=2:  invariant lines — (2,1): 0 · (3,0): 0 · degenerate: ['[0, 0, 1]']
+  ✓ d=2: in (2,1) there is NO line invariant under all isometries ⟹ even the break does NOT force an axis
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+  ✓ d=2: in (3,0) there is also NO invariant line ⟹ the definite ground-state neighbor has no axis either
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+
+   d=3:  invariant lines — (3,1): 0 · (4,0): 0 · degenerate: ['[0, 0, 0, 1]']
+  ✓ d=3: in (3,1) there is NO line invariant under all isometries ⟹ even the break does NOT force an axis
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+  ✓ d=3: in (4,0) there is also NO invariant line ⟹ the definite ground-state neighbor has no axis either
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+
+   d=4:  invariant lines — (4,1): 0 · (5,0): 0 · degenerate: ['[0, 0, 0, 0, 1]']
+  ✓ d=4: in (4,1) there is NO line invariant under all isometries ⟹ even the break does NOT force an axis
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+  ✓ d=4: in (5,0) there is also NO invariant line ⟹ the definite ground-state neighbor has no axis either
+       (tooth: said NO on «a degenerate form (the radical = an invariant line)» ⟹ able to fail)
+
+   ★WHAT THE BREAK ACTUALLY IS, IF NOT AN AXIS: an explicit witness of transitivity (a boost)
+     d=2: RᵀGR=G ✓ · the norm is preserved (-1) ✓ · R·u ∦ u for ω≠0 (the determinant test = sinh(omega)) ⟹ the isometry MOVES the timelike ray
+     d=3: RᵀGR=G ✓ · the norm is preserved (-1) ✓ · R·u ∦ u for ω≠0 (the determinant test = sinh(omega)) ⟹ the isometry MOVES the timelike ray
+     d=4: RᵀGR=G ✓ · the norm is preserved (-1) ✓ · R·u ∦ u for ω≠0 (the determinant test = sinh(omega)) ⟹ the isometry MOVES the timelike ray
+     d=5: RᵀGR=G ✓ · the norm is preserved (-1) ✓ · R·u ∦ u for ω≠0 (the determinant test = sinh(omega)) ⟹ the isometry MOVES the timelike ray
+
+   ★A CONE, NOT A LINE: the timelike set has FULL dimension
+     d=2: perturbing a timelike vector in EVERY one of the 2 transverse directions leaves the norm t**2 - 1 < 0 for |t|<1 ⟹ the set of timelike vectors has dimension 3, not 1
+     d=3: perturbing a timelike vector in EVERY one of the 3 transverse directions leaves the norm t**2 - 1 < 0 for |t|<1 ⟹ the set of timelike vectors has dimension 4, not 1
+     d=4: perturbing a timelike vector in EVERY one of the 4 transverse directions leaves the norm t**2 - 1 < 0 for |t|<1 ⟹ the set of timelike vectors has dimension 5, not 1
+     d=5: perturbing a timelike vector in EVERY one of the 5 transverse directions leaves the norm t**2 - 1 < 0 for |t|<1 ⟹ the set of timelike vectors has dimension 6, not 1
+
+§3 · THE CONTRAST OF THE TWO DEFINITIONS OF «forced» (resolving the homonym)
+     ★A DETECTOR FINDING (not suppressed — examined): in the alphabet's Gram an invariant
+     line EXISTS.  But it is NOT an axis: the Gram is degenerate (Σ u_j = 0), and its radical —
+     is the DIAGONAL (1,…,1), that is, democracy itself.  A mark must BREAK S_{d+1};
+     S_{d+1} leaves the diagonal fixed ⟹ an invariant carrier exists, but it carries no mark.
+   d=2: RELATIVE (a permutation of the axes preserves the Gram) = True ⟹ the mark = a LABEL   ·   invariant lines: 1, among them the diagonal: True, coordinate axes of the alphabet: 0
+   d=3: RELATIVE (a permutation of the axes preserves the Gram) = True ⟹ the mark = a LABEL   ·   invariant lines: 1, among them the diagonal: True, coordinate axes of the alphabet: 0
+   d=4: RELATIVE (a permutation of the axes preserves the Gram) = True ⟹ the mark = a LABEL   ·   invariant lines: 1, among them the diagonal: True, coordinate axes of the alphabet: 0
+  ✓ democracy S_{d+1}: a transposition of axes is an isometry of the Gram ⟹ the mark has no invariant carrier IN THE ALPHABET (this is a RE-MEASUREMENT of S1066-B2, row 1)
+       (tooth: said NO on «a Gram with an unequal axis norm (norm 2)» ⟹ able to fail)
+
+SCORE [S1075 · D1-existence of AX-dimer]: 7 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR D1 (a measurement, not a verdict):
+
+  (1) No LEGAL source forces the mark: closure — the negative is already in the canon (a
+      re-measurement, not my own line); the prime directive presses the other way; Λ
+      commutes with democracy; the alphabet S_{d+1} makes the mark a LABEL (a
+      re-measurement of S1066-B2).
+  (2) ★NEW: even the GIFTED AX-indef does not deliver an axis.  In (d,1) the group of
+      isometries acts irreducibly (commutant = 1) ⟹ no invariant line exists; the timelike
+      set has FULL dimension (a cone, not a line); a boost explicitly MOVES the timelike
+      ray.
+      ⟹ the break gives a CLASS (a cone); choosing a RAY within it is a separate bit.
+  (2b) ★A SIDE FINDING (brought by the detector, not sought): the only invariant line of
+      the alphabet is the DIAGONAL (1,…,1) = the radical of the degenerate Gram = the
+      relation Σ u_j = 0.  It is S_{d+1}-FIXED ⟹ by construction it carries no mark (a mark
+      must BREAK democracy).  That is, the alphabet has exactly one invariant carrier, and
+      it IS democracy itself.  This reinforces (1): the alphabet does not simply "stay
+      silent" — it has a single singled-out direction, and that direction is symmetric.
+
+  (3) ⟹ D1 does not reduce even to the forbidden root.  So AX-dimer and AX-indef are NOT
+      duplicates (important: if D1 ≡ AX-indef, the demotion of S1066 would be a cycle);
+      the letter `q` in each denotes DIFFERENT quantities (marked axes ⊥ minus signs of
+      the signature).
+  (4) The form of the verdict handed to Ω (not rendered here): the existence of the mark =
+      a SINGLE existential bit, not derivable from what is accepted — an irreducibility
+      theorem, a rhyme to T39 (there the undeliverable was the SIGN, here it is the
+      EXISTENCE).
+────────────────────────────────────────────────────────────────────────────────

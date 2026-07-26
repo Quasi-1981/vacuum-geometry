@@ -1,0 +1,243 @@
+
+==============================================================================
+SECTION T1 — SPLIT AT q=1
+==============================================================================
+  (2,1): ⟨v,v⟩|_(v_t=0) = v0**2 + v1**2
+  [OK ] (2,1): ⟨v,v⟩|_(v_t=0) − Σ_{i<p} v_i² == 0 (a sum of squares of real symbols ⟹ PSD exactly)
+  [OK ] (2,1): ⟨e_t,e_t⟩ = −1 < 0 (e_t is timelike)
+  [OK ] (2,1): ⟨−e_t,−e_t⟩ = −1 < 0 (−e_t is timelike)
+  (3,1): ⟨v,v⟩|_(v_t=0) = v0**2 + v1**2 + v2**2
+  [OK ] (3,1): ⟨v,v⟩|_(v_t=0) − Σ_{i<p} v_i² == 0 (a sum of squares of real symbols ⟹ PSD exactly)
+  [OK ] (3,1): ⟨e_t,e_t⟩ = −1 < 0 (e_t is timelike)
+  [OK ] (3,1): ⟨−e_t,−e_t⟩ = −1 < 0 (−e_t is timelike)
+  (4,1): ⟨v,v⟩|_(v_t=0) = v0**2 + v1**2 + v2**2 + v3**2
+  [OK ] (4,1): ⟨v,v⟩|_(v_t=0) − Σ_{i<p} v_i² == 0 (a sum of squares of real symbols ⟹ PSD exactly)
+  [OK ] (4,1): ⟨e_t,e_t⟩ = −1 < 0 (e_t is timelike)
+  [OK ] (4,1): ⟨−e_t,−e_t⟩ = −1 < 0 (−e_t is timelike)
+  CHAIN:
+   [MACH] v_t=0 ⟹ ⟨v,v⟩ = Σ v_i² ≥ 0 (identity above)
+   ⟹ timelike (⟨v,v⟩<0) ⟹ v_t ≠ 0 (contrapositive of the machine identity)
+   [LOG] v ↦ v_t is continuous and does not vanish on the timelike set ⟹ sign(v_t) is defined
+        and locally constant ⟹ {v_t>0} and {v_t<0} — open, disjoint, cover
+        all timelike vectors ⟹ ≥2 connected components
+   [MACH] both nonempty: e_t (v_t=+1) and −e_t (v_t=−1) are timelike
+  SECTION COUNTER: checks=9, failures=0
+  VERDICT: at q=1 the set of timelike vectors SPLITS into ≥2 components (v_t>0 ⊥ v_t<0) — OK
+
+==============================================================================
+SECTION T2 — PRESERVATION AT q=1
+==============================================================================
+  [OK ] (2,1) pair(0,1) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (2,1) pair(0,1) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (2,1) pair(0,1) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (2,1) rot(0,1): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (2,1) pair(0,2) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (2,1) pair(0,2) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (2,1) pair(0,2) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (2,1) boost(0,2): (E(s)·e_t)_t = cosh(s)
+  [OK ] (2,1) boost(0,2): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (2,1) pair(1,2) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (2,1) pair(1,2) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (2,1) pair(1,2) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (2,1) boost(1,2): (E(s)·e_t)_t = cosh(s)
+  [OK ] (2,1) boost(1,2): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  (2,1): total pairs=3, rotations=1, boosts=2
+  [OK ] (3,1) pair(0,1) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(0,1) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(0,1) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) rot(0,1): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (3,1) pair(0,2) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(0,2) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(0,2) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) rot(0,2): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (3,1) pair(0,3) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(0,3) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(0,3) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) boost(0,3): (E(s)·e_t)_t = cosh(s)
+  [OK ] (3,1) boost(0,3): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (3,1) pair(1,2) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(1,2) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(1,2) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) rot(1,2): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (3,1) pair(1,3) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(1,3) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(1,3) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) boost(1,3): (E(s)·e_t)_t = cosh(s)
+  [OK ] (3,1) boost(1,3): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (3,1) pair(2,3) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (3,1) pair(2,3) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (3,1) pair(2,3) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (3,1) boost(2,3): (E(s)·e_t)_t = cosh(s)
+  [OK ] (3,1) boost(2,3): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  (3,1): total pairs=6, rotations=3, boosts=3
+  [OK ] (4,1) pair(0,1) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(0,1) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(0,1) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(0,1): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(0,2) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(0,2) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(0,2) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(0,2): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(0,3) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(0,3) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(0,3) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(0,3): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(0,4) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(0,4) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(0,4) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) boost(0,4): (E(s)·e_t)_t = cosh(s)
+  [OK ] (4,1) boost(0,4): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (4,1) pair(1,2) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(1,2) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(1,2) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(1,2): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(1,3) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(1,3) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(1,3) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(1,3): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(1,4) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(1,4) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(1,4) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) boost(1,4): (E(s)·e_t)_t = cosh(s)
+  [OK ] (4,1) boost(1,4): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (4,1) pair(2,3) rot: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(2,3) rot: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(2,3) rot: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) rot(2,3): (E(s)·v)_t = v_t identically (time is untouched)
+  [OK ] (4,1) pair(2,4) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(2,4) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(2,4) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) boost(2,4): (E(s)·e_t)_t = cosh(s)
+  [OK ] (4,1) boost(2,4): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  [OK ] (4,1) pair(3,4) boost: Mη + ηMᵀ = 0 (M ∈ so(p,q))
+  [OK ] (4,1) pair(3,4) boost: E(0)=𝟙 ∧ dE/ds = M·E (⟹ E=exp(sM) by uniqueness of the ODE solution [LOG])
+  [OK ] (4,1) pair(3,4) boost: EᵀηE = η symbolically in s (isometry)
+  [OK ] (4,1) boost(3,4): (E(s)·e_t)_t = cosh(s)
+  [OK ] (4,1) boost(3,4): cosh(s) − 1 − 2·sinh²(s/2) = 0 ⟹ cosh(s) = 1 + 2·sinh²(s/2) ≥ 1 > 0 (sinh²≥0 for real s)
+  (4,1): total pairs=10, rotations=6, boosts=4
+  CHAIN:
+   [MACH] EᵀηE = η ⟹ the flow preserves ⟨v,v⟩ ⟹ timelike stays timelike
+   [MACH, T1] a timelike vector with v_t=0 is impossible (⟨v,v⟩≥0 there)
+   [LOG] s ↦ (E(s)v)_t is continuous; a sign change would require a zero (the
+        intermediate value theorem) — and a zero is forbidden on a timelike orbit [T1]
+   ⟹ every coordinate flow preserves the component (the sign of v_t)
+  SECTION COUNTER: checks=85, failures=0
+  VERDICT: at q=1 the two cones (v_t>0 / v_t<0) are INVARIANT under all coordinate flows — OK
+
+==============================================================================
+SECTION T3 — MERGING AT q≥2
+==============================================================================
+  [OK ] (2,2): pair(2,3) ∈ {−−} ⟹ the generator J is a ROTATION
+  [OK ] (2,2): Jη + ηJᵀ = 0
+  [OK ] (2,2): ⟨γ(θ),γ(θ)⟩ = −1 IDENTICALLY in θ (the whole path is timelike)
+  [OK ] (2,2): γ(0) = e_a exactly
+  [OK ] (2,2): γ(π) = −e_a exactly (cos π=−1, sin π=0)
+  [OK ] (3,2): pair(3,4) ∈ {−−} ⟹ the generator J is a ROTATION
+  [OK ] (3,2): Jη + ηJᵀ = 0
+  [OK ] (3,2): ⟨γ(θ),γ(θ)⟩ = −1 IDENTICALLY in θ (the whole path is timelike)
+  [OK ] (3,2): γ(0) = e_a exactly
+  [OK ] (3,2): γ(π) = −e_a exactly (cos π=−1, sin π=0)
+  [OK ] (2,3): pair(2,3) ∈ {−−} ⟹ the generator J is a ROTATION
+  [OK ] (2,3): Jη + ηJᵀ = 0
+  [OK ] (2,3): ⟨γ(θ),γ(θ)⟩ = −1 IDENTICALLY in θ (the whole path is timelike)
+  [OK ] (2,3): γ(0) = e_a exactly
+  [OK ] (2,3): γ(π) = −e_a exactly (cos π=−1, sin π=0)
+  [OK ] (3,3): pair(3,4) ∈ {−−} ⟹ the generator J is a ROTATION
+  [OK ] (3,3): Jη + ηJᵀ = 0
+  [OK ] (3,3): ⟨γ(θ),γ(θ)⟩ = −1 IDENTICALLY in θ (the whole path is timelike)
+  [OK ] (3,3): γ(0) = e_a exactly
+  [OK ] (3,3): γ(π) = −e_a exactly (cos π=−1, sin π=0)
+  CHAIN:
+   [MACH] γ(θ)=exp(θJ)e_a: the norm ≡ −1 along the whole path, γ(0)=e_a, γ(π)=−e_a
+   [LOG] θ ↦ γ(θ) is continuous ⟹ e_a and −e_a lie in ONE component of the timelike set
+   ⟹ no continuous "orientation of the time-sector" is invariant: the flow in the
+     {−−}-plane carries e_a to −e_a without leaving the timelike set
+  SECTION COUNTER: checks=20, failures=0
+  VERDICT: at q≥2 e_a and −e_a ARE CONNECTED by a path within the timelike set — there is no invariant orientation of the time-sector — OK
+
+==============================================================================
+SECTION T4 — DUALITY (plus-sector)
+==============================================================================
+  (1,2): ⟨v,v⟩|_(v_s=0) = -v1**2 - v2**2
+  [OK ] (1,2): ⟨v,v⟩|_(v_s=0) − (−Σ_{i≥1} v_i²) == 0 (a minus-sum of squares ⟹ ≤ 0 exactly)
+  [OK ] (1,2): ⟨e_0,e_0⟩ = +1 > 0 and ⟨−e_0,−e_0⟩ = +1 > 0 (both components nonempty)
+  (1,3): ⟨v,v⟩|_(v_s=0) = -v1**2 - v2**2 - v3**2
+  [OK ] (1,3): ⟨v,v⟩|_(v_s=0) − (−Σ_{i≥1} v_i²) == 0 (a minus-sum of squares ⟹ ≤ 0 exactly)
+  [OK ] (1,3): ⟨e_0,e_0⟩ = +1 > 0 and ⟨−e_0,−e_0⟩ = +1 > 0 (both components nonempty)
+  (1,4): ⟨v,v⟩|_(v_s=0) = -v1**2 - v2**2 - v3**2 - v4**2
+  [OK ] (1,4): ⟨v,v⟩|_(v_s=0) − (−Σ_{i≥1} v_i²) == 0 (a minus-sum of squares ⟹ ≤ 0 exactly)
+  [OK ] (1,4): ⟨e_0,e_0⟩ = +1 > 0 and ⟨−e_0,−e_0⟩ = +1 > 0 (both components nonempty)
+   ⟹ [MACH] ⟨v,v⟩>0 requires v_s≠0; [LOG] sign(v_s) continuous ⟹ two components
+  [OK ] (2,2): pair(0,1) ∈ {++} ⟹ J is a rotation; Jη+ηJᵀ=0
+  [OK ] (2,2): ⟨γ(θ),γ(θ)⟩ = +1 IDENTICALLY (the whole path is among plus-vectors)
+  [OK ] (2,2): γ(0)=e_0, γ(π)=−e_0 exactly
+  [OK ] (3,2): pair(0,1) ∈ {++} ⟹ J is a rotation; Jη+ηJᵀ=0
+  [OK ] (3,2): ⟨γ(θ),γ(θ)⟩ = +1 IDENTICALLY (the whole path is among plus-vectors)
+  [OK ] (3,2): γ(0)=e_0, γ(π)=−e_0 exactly
+  SECTION COUNTER: checks=12, failures=0
+  VERDICT: MIRROR: the plus-sector splits at p=1 (two components), at p≥2 it is connected by a flow in the {++}-plane. A sector whose sign has multiplicity-1 is orientable, with ≥2 it is not — OK
+
+==============================================================================
+SECTION M — MUTANTS (each MUST be caught)
+==============================================================================
+  m1: FALSE claim — "at q=1 e_t and −e_t are joined by a path within the timelike set".
+      Refutation: a path v(τ), v_t(0)=+1, v_t(1)=−1, continuous ⟹ [LOG: the intermediate
+      value theorem] ∃τ*: v_t(τ*)=0; at that point [MACH, the T1 identity]:
+  [OK ] m1 (2,1): the barrier v_t=0 ⟹ ⟨v,v⟩ = Σ v_i² ≥ 0 — timelike-ness (<0) is IMPOSSIBLE at the crossing point
+  [OK ] m1 (3,1): the barrier v_t=0 ⟹ ⟨v,v⟩ = Σ v_i² ≥ 0 — timelike-ness (<0) is IMPOSSIBLE at the crossing point
+  [OK ] m1 (4,1): the barrier v_t=0 ⟹ ⟨v,v⟩ = Σ v_i² ≥ 0 — timelike-ness (<0) is IMPOSSIBLE at the crossing point
+  m1 CAUGHT: any path e_t → −e_t would have to pass through v_t=0, where ⟨v,v⟩≥0 — a contradiction.
+  m2: FALSE claim — "there exists s with (exp(sK)·e_t)_t < 0".
+  [OK ] m2 (3,1) boost(0,3): (exp(sK)·e_t)_t = cosh(s) symbolically
+  [OK ] m2: cosh(s) = 1 + 2·sinh²(s/2) identically ⟹ cosh(s) ≥ 1 > 0 ∀ real s
+  [OK ] m2 (a control exact point, no float): s=log(2) ⟹ cosh(log 2) = 5/4 > 0
+  m2 CAUGHT: the t-component of the boost orbit = cosh(s) ≥ 1, the sign cannot be flipped.
+  m3: BROKEN isometry check (Eᵀ·E = 𝟙 instead of Eᵀ·η·E = η) on a boost.
+  [OK ] m3: the HONEST check EᵀηE=η PASSES on the boost (a boost is an isometry)
+  [OK ] m3: the broken residual (EᵀE−𝟙)[0,0] = cosh²+sinh²−1 = 2·sinh²(s) ≠ 0 (as a symbolic expression)
+  [OK ] m3: exact point s=log(2): (EᵀE−𝟙)[0,0] = 9/8 ≠ 0 — the broken check FALSELY fails a genuine isometry
+  m3 CAUGHT: the discrepancy of the broken check vs the honest one is shown exactly (honest OK, broken gives 9/8≠0 at s=log 2).
+  [OK ] MUTANTS: caught 3/3
+  SECTION COUNTER: checks=10, failures=0
+  VERDICT: all 3 mutants caught (m1 barrier-identity, m2 cosh≥1, m3 discrepancy of the broken check) — OK
+
+==============================================================================
+SECTION SUMMARY
+==============================================================================
+  [OK ] T1: at q=1 the set of timelike vectors SPLITS into ≥2 components (v_t>0 ⊥ v_t<0)
+  [OK ] T2: at q=1 the two cones (v_t>0 / v_t<0) are INVARIANT under all coordinate flows
+  [OK ] T3: at q≥2 e_a and −e_a ARE CONNECTED by a path within the timelike set — there is no invariant orientation of the time-sector
+  [OK ] T4: MIRROR: the plus-sector splits at p=1 (two components), at p≥2 it is connected by a flow in the {++}-plane. A sector whose sign has multiplicity-1 is orientable, with ≥2 it is not
+  [OK ] M: all 3 mutants caught (m1 barrier-identity, m2 cosh≥1, m3 discrepancy of the broken check)
+
+  ROLLUP TABLE (signature | sector | minority-1? | orientable?):
+  ------------------------------------------------------------------
+  sig.    | sector          | minority-1? | orientable?
+  ------------------------------------------------------------------
+  (2,1)   | time (−, q=1)   | YES         | YES
+  (3,1)   | time (−, q=1)   | YES         | YES
+  (4,1)   | time (−, q=1)   | YES         | YES
+  (1,2)   | plus (+, p=1)   | YES         | YES
+  (1,3)   | plus (+, p=1)   | YES         | YES
+  (1,4)   | plus (+, p=1)   | YES         | YES
+  (2,2)   | time (−, q=2)   | NO          | NO
+  (2,2)   | plus (+, p=2)   | NO          | NO
+  (3,2)   | time (−, q=2)   | NO          | NO
+  (3,2)   | plus (+, p=3)   | NO          | NO
+  (2,3)   | time (−, q=3)   | NO          | NO
+  (3,3)   | time (−, q=3)   | NO          | NO
+  ------------------------------------------------------------------
+  LAW: a sector whose sign has multiplicity 1 is orientable (two invariant cones);
+       multiplicity ≥2 — a rotation in the same-sign plane connects ±e within
+       the sector, the orientation is lost.
+
+==============================================================================
+COUNTERS:
+  T1                                       checks=  9  failures=0
+  T2                                       checks= 85  failures=0
+  T3                                       checks= 20  failures=0
+  T4                                       checks= 12  failures=0
+  M                                        checks= 10  failures=0
+  SUMMARY                                  checks=  0  failures=0
+  TOTAL checks: 136, failures: 0, mutants caught: 3/3
+SUMMARY: ALL OK — exit 0

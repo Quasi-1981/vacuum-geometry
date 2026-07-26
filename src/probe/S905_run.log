@@ -1,0 +1,258 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared fence_scan helper)
+================================================================================================
+  [PASS] fence: forbidden words (list = GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] handles 0 (pure algebra: Pfaffian · det · congruence · signature ladder)
+
+================================================================================================
+O6a — PFAFFIAN ROOT: det Ω = Pf(Ω)² (even n) · det Ω ≡ 0 (odd n)
+================================================================================================
+  [PASS] O6a: Pf(2×2) = ω₀₁ and det(2×2) = ω₀₁² (symbolic)
+  [PASS] O6a: Pf(4×4) = ω₀₁ω₂₃ − ω₀₂ω₁₃ + ω₀₃ω₁₂ (recursion = classical form, symbolic)
+  [PASS] O6a n=4: expand(det Ω − Pf(Ω)²) = 0 — symbolic, full antisymmetric Ω (6 symbols)
+    O6a n=4: BOUNDARY (stamp): 50 random integer Ω, entries {−9..9}, seed 905 (separate Random(905) per n)
+  [PASS] O6a n=4: det Ω = Pf(Ω)² on 50/50 random integer Ω (bit-exact) — 50/50
+  [PASS] O6a n=6: expand(det Ω − Pf(Ω)²) = 0 — symbolic, full antisymmetric Ω (15 symbols)
+    O6a n=6: BOUNDARY (stamp): 50 random integer Ω, entries {−9..9}, seed 905 (separate Random(905) per n)
+  [PASS] O6a n=6: det Ω = Pf(Ω)² on 50/50 random integer Ω (bit-exact) — 50/50
+  [PASS] O6a n=3 (odd): expand(det Ω) = 0 — symbolic, full antisymmetric Ω
+  [PASS] O6a n=5 (odd): expand(det Ω) = 0 — symbolic, full antisymmetric Ω
+
+================================================================================================
+O6b — INVARIANCE OF det A UNDER CONGRUENCE (g,Ω) → (SᵀgS, SᵀΩS)
+================================================================================================
+
+  O6b so(2,2): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90542 (separate Random per signature)
+    Ω-attempt 1: det Ω = 0 (degenerate; printed and discarded) · Ω(rows) = [[0, 3, 3, 0], [-3, 0, -3, 3], [-3, 3, 0, 3], [0, -3, -3, 0]]
+    Ω-attempts until det Ω ≠ 0 (stamp): 2
+    Ω(rows) = [[0, 3, 4, 1], [-3, 0, -1, 2], [-4, 1, 0, -1], [-1, -2, 1, 0]]
+    det g = 1 · det Ω = 144 · det A = 144 · det g·det Ω = 144
+    example 1: det S = 44 · (det S)⁴ = 3748096 · det g′·det Ω′ = 539725824 · (det S)⁴·(det g·det Ω) = 539725824 · match: yes · det A′ = 144 (det A = 144)
+    example 2: det S = -60 · (det S)⁴ = 12960000 · det g′·det Ω′ = 1866240000 · (det S)⁴·(det g·det Ω) = 1866240000 · match: yes · det A′ = 144 (det A = 144)
+    example 3: det S = -11 · (det S)⁴ = 14641 · det g′·det Ω′ = 2108304 · (det S)⁴·(det g·det Ω) = 2108304 · match: yes · det A′ = 144 (det A = 144)
+  [PASS] O6b so(2,2): det A′ bit-matches det A on 20/20 random S (sympy-equality + srepr-equality) — 20/20
+  [PASS] O6b so(2,2): det g′·det Ω′ = (det S)⁴·det g·det Ω on 20/20 independent S — attempts for non-degenerate S (first series): 21
+
+  O6b so(3,1): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90543 (separate Random per signature)
+    Ω-attempts until det Ω ≠ 0 (stamp): 1
+    Ω(rows) = [[0, -3, -3, 5], [3, 0, 4, -4], [3, -4, 0, -1], [-5, 4, 1, 0]]
+    det g = -1 · det Ω = 121 · det A = -121 · det g·det Ω = -121
+    example 1: det S = -30 · (det S)⁴ = 810000 · det g′·det Ω′ = -98010000 · (det S)⁴·(det g·det Ω) = -98010000 · match: yes · det A′ = -121 (det A = -121)
+    example 2: det S = 34 · (det S)⁴ = 1336336 · det g′·det Ω′ = -161696656 · (det S)⁴·(det g·det Ω) = -161696656 · match: yes · det A′ = -121 (det A = -121)
+    example 3: det S = 138 · (det S)⁴ = 362673936 · det g′·det Ω′ = -43883546256 · (det S)⁴·(det g·det Ω) = -43883546256 · match: yes · det A′ = -121 (det A = -121)
+  [PASS] O6b so(3,1): det A′ bit-matches det A on 20/20 random S (sympy-equality + srepr-equality) — 20/20
+  [PASS] O6b so(3,1): det g′·det Ω′ = (det S)⁴·det g·det Ω on 20/20 independent S — attempts for non-degenerate S (first series): 20
+
+  O6b so(4,0): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90544 (separate Random per signature)
+    Ω-attempts until det Ω ≠ 0 (stamp): 1
+    Ω(rows) = [[0, 4, 2, 5], [-4, 0, -1, 3], [-2, 1, 0, 4], [-5, -3, -4, 0]]
+    det g = 1 · det Ω = 25 · det A = 25 · det g·det Ω = 25
+    example 1: det S = -8 · (det S)⁴ = 4096 · det g′·det Ω′ = 102400 · (det S)⁴·(det g·det Ω) = 102400 · match: yes · det A′ = 25 (det A = 25)
+    example 2: det S = -51 · (det S)⁴ = 6765201 · det g′·det Ω′ = 169130025 · (det S)⁴·(det g·det Ω) = 169130025 · match: yes · det A′ = 25 (det A = 25)
+    example 3: det S = -143 · (det S)⁴ = 418161601 · det g′·det Ω′ = 10454040025 · (det S)⁴·(det g·det Ω) = 10454040025 · match: yes · det A′ = 25 (det A = 25)
+  [PASS] O6b so(4,0): det A′ bit-matches det A on 20/20 random S (sympy-equality + srepr-equality) — 20/20
+  [PASS] O6b so(4,0): det g′·det Ω′ = (det S)⁴·det g·det Ω on 20/20 independent S — attempts for non-degenerate S (first series): 20
+
+  O6b so(3,3): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90563 (separate Random per signature)
+    Ω-attempts until det Ω ≠ 0 (stamp): 1
+    Ω(rows) = [[0, -4, -5, -3, 5, 4], [4, 0, 3, 3, 0, 0], [5, -3, 0, 3, -1, 5], [3, -3, -3, 0, 4, 0], [-5, 0, 1, -4, 0, -5], [-4, 0, -5, 0, 5, 0]]
+    det g = -1 · det Ω = 7225 · det A = -7225 · det g·det Ω = -7225
+    example 1: det S = 1137 · (det S)⁴ = 1671251687361 · det g′·det Ω′ = -12074793441183225 · (det S)⁴·(det g·det Ω) = -12074793441183225 · match: yes · det A′ = -7225 (det A = -7225)
+    example 2: det S = -1253 · (det S)⁴ = 2464928260081 · det g′·det Ω′ = -17809106679085225 · (det S)⁴·(det g·det Ω) = -17809106679085225 · match: yes · det A′ = -7225 (det A = -7225)
+    example 3: det S = -401 · (det S)⁴ = 25856961601 · det g′·det Ω′ = -186816547567225 · (det S)⁴·(det g·det Ω) = -186816547567225 · match: yes · det A′ = -7225 (det A = -7225)
+  [PASS] O6b so(3,3): det A′ bit-matches det A on 20/20 random S (sympy-equality + srepr-equality) — 20/20
+  [PASS] O6b so(3,3): det g′·det Ω′ = (det S)⁴·det g·det Ω on 20/20 independent S — attempts for non-degenerate S (first series): 20
+
+================================================================================================
+O6c — SIGNATURE LADDER TABLE: det A (generators · sums · 100 random)
+================================================================================================
+
+  so(2,1) — n = 3 · det g = -1 · J-moves: 1 · K-moves: 2
+  [PASS] O6c so(2,1): ηX antisymmetric for all 3 generators (A = η⁻¹Ω correspondence)
+  [PASS] O6c so(2,1) n=3 ODD: det A ≡ 0 — symbolic (full antisymmetric Ω)
+    det A over the single generators (Ω = ηX, A = X):
+        J(0,1): det A = 0
+        K(0,2): det A = 0
+        K(1,2): det A = 0
+    sum {all J} (1 terms): det A = 0
+    sum {all K} (2 terms): det A = 0
+    O6c so(2,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+  [PASS] O6c so(2,1): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of det A (100 random): positive 0 · zero 100 · negative 0 · min 0 · max 0 · det g of the signature = -1
+
+  so(2,2) — n = 4 · det g = 1 · J-moves: 2 · K-moves: 4
+  [PASS] O6c so(2,2): ηX antisymmetric for all 6 generators (A = η⁻¹Ω correspondence)
+    det A over the single generators (Ω = ηX, A = X):
+        J(0,1): det A = 0
+        J(2,3): det A = 0
+        K(0,2): det A = 0
+        K(0,3): det A = 0
+        K(1,2): det A = 0
+        K(1,3): det A = 0
+    sum {all J} (2 terms): det A = 1
+    sum {all K} (4 terms): det A = 0
+    O6c so(2,2): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+  [PASS] O6c so(2,2): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of det A (100 random): positive 94 · zero 6 · negative 0 · min 0 · max 324 · det g of the signature = 1
+
+  so(3,1) — n = 4 · det g = -1 · J-moves: 3 · K-moves: 3
+  [PASS] O6c so(3,1): ηX antisymmetric for all 6 generators (A = η⁻¹Ω correspondence)
+    det A over the single generators (Ω = ηX, A = X):
+        J(0,1): det A = 0
+        J(0,2): det A = 0
+        J(1,2): det A = 0
+        K(0,3): det A = 0
+        K(1,3): det A = 0
+        K(2,3): det A = 0
+    sum {all J} (3 terms): det A = 0
+    sum {all K} (3 terms): det A = 0
+    O6c so(3,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+  [PASS] O6c so(3,1): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of det A (100 random): positive 0 · zero 8 · negative 92 · min -289 · max 0 · det g of the signature = -1
+
+  so(4,0) — n = 4 · det g = 1 · J-moves: 6 · K-moves: 0
+  [PASS] O6c so(4,0): ηX antisymmetric for all 6 generators (A = η⁻¹Ω correspondence)
+    det A over the single generators (Ω = ηX, A = X):
+        J(0,1): det A = 0
+        J(0,2): det A = 0
+        J(0,3): det A = 0
+        J(1,2): det A = 0
+        J(1,3): det A = 0
+        J(2,3): det A = 0
+    sum {all J} (6 terms): det A = 1
+    sum {all K}: K-moves 0 — the sum is empty (zero matrix), det A = 0
+    O6c so(4,0): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+  [PASS] O6c so(4,0): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of det A (100 random): positive 92 · zero 8 · negative 0 · min 0 · max 289 · det g of the signature = 1
+
+  so(3,3) — n = 6 · det g = -1 · J-moves: 6 · K-moves: 9
+  [PASS] O6c so(3,3): ηX antisymmetric for all 15 generators (A = η⁻¹Ω correspondence)
+    det A over the single generators (Ω = ηX, A = X):
+        J(0,1): det A = 0
+        J(0,2): det A = 0
+        J(1,2): det A = 0
+        J(3,4): det A = 0
+        J(3,5): det A = 0
+        J(4,5): det A = 0
+        K(0,3): det A = 0
+        K(0,4): det A = 0
+        K(0,5): det A = 0
+        K(1,3): det A = 0
+        K(1,4): det A = 0
+        K(1,5): det A = 0
+        K(2,3): det A = 0
+        K(2,4): det A = 0
+        K(2,5): det A = 0
+    sum {all J} (6 terms): det A = 0
+    sum {all K} (9 terms): det A = 0
+    O6c so(3,3): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+  [PASS] O6c so(3,3): 100 random A processed (no truncation)
+    HISTOGRAM of the sign of det A (100 random): positive 0 · zero 3 · negative 97 · min -11881 · max 0 · det g of the signature = -1
+
+================================================================================================
+O6d — ORIENTATION FLIP: swap of two axes P — Pf(PᵀΩP) and det A by the numbers
+================================================================================================
+
+  so(2,2) — P = permutation of axes (0,1), type: same-sign (η signs: +1,+1) · det P = -1 · PᵀηP = η: yes
+    O6d so(2,2) pair (0,1) [same-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052401
+    example 1: Pf(Ω) = 4 · Pf(PᵀΩP) = -4 · Pf-ratio = -1 · det A = 16 · det A′ = 16
+    example 2: Pf(Ω) = -36 · Pf(PᵀΩP) = 36 · Pf-ratio = -1 · det A = 1296 · det A′ = 1296
+    example 3: Pf(Ω) = 22 · Pf(PᵀΩP) = -22 · Pf-ratio = -1 · det A = 484 · det A′ = 484
+    example 4: Pf(Ω) = -12 · Pf(PᵀΩP) = 12 · Pf-ratio = -1 · det A = 144 · det A′ = 144
+    example 5: Pf(Ω) = -3 · Pf(PᵀΩP) = 3 · Pf-ratio = -1 · det A = 9 · det A′ = 9
+    raw tally: Pf(PᵀΩP) = −Pf(Ω) in 5/5 · det A′ = det A in 5/5
+  [PASS] O6d so(2,2) pair (0,1) [same-sign]: 5 examples printed by the numbers
+
+  so(2,2) — P = permutation of axes (0,2), type: mixed-sign (η signs: +1,-1) · det P = -1 · PᵀηP = η: no
+    O6d so(2,2) pair (0,2) [mixed-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052402
+    example 1: Pf(Ω) = 0 · Pf(PᵀΩP) = 0 · Pf-ratio = Pf(Ω)=0 · det A = 0 · det A′ = 0
+    example 2: Pf(Ω) = -21 · Pf(PᵀΩP) = 21 · Pf-ratio = -1 · det A = 441 · det A′ = 441
+    example 3: Pf(Ω) = -10 · Pf(PᵀΩP) = 10 · Pf-ratio = -1 · det A = 100 · det A′ = 100
+    example 4: Pf(Ω) = -26 · Pf(PᵀΩP) = 26 · Pf-ratio = -1 · det A = 676 · det A′ = 676
+    example 5: Pf(Ω) = 9 · Pf(PᵀΩP) = -9 · Pf-ratio = -1 · det A = 81 · det A′ = 81
+    raw tally: Pf(PᵀΩP) = −Pf(Ω) in 5/5 · det A′ = det A in 5/5
+  [PASS] O6d so(2,2) pair (0,2) [mixed-sign]: 5 examples printed by the numbers
+
+  so(3,3) — P = permutation of axes (0,1), type: same-sign (η signs: +1,+1) · det P = -1 · PᵀηP = η: yes
+    O6d so(3,3) pair (0,1) [same-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052601
+    example 1: Pf(Ω) = -50 · Pf(PᵀΩP) = 50 · Pf-ratio = -1 · det A = -2500 · det A′ = -2500
+    example 2: Pf(Ω) = 167 · Pf(PᵀΩP) = -167 · Pf-ratio = -1 · det A = -27889 · det A′ = -27889
+    example 3: Pf(Ω) = 27 · Pf(PᵀΩP) = -27 · Pf-ratio = -1 · det A = -729 · det A′ = -729
+    example 4: Pf(Ω) = -211 · Pf(PᵀΩP) = 211 · Pf-ratio = -1 · det A = -44521 · det A′ = -44521
+    example 5: Pf(Ω) = 189 · Pf(PᵀΩP) = -189 · Pf-ratio = -1 · det A = -35721 · det A′ = -35721
+    raw tally: Pf(PᵀΩP) = −Pf(Ω) in 5/5 · det A′ = det A in 5/5
+  [PASS] O6d so(3,3) pair (0,1) [same-sign]: 5 examples printed by the numbers
+
+  so(3,3) — P = permutation of axes (0,3), type: mixed-sign (η signs: +1,-1) · det P = -1 · PᵀηP = η: no
+    O6d so(3,3) pair (0,3) [mixed-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052603
+    example 1: Pf(Ω) = -84 · Pf(PᵀΩP) = 84 · Pf-ratio = -1 · det A = -7056 · det A′ = -7056
+    example 2: Pf(Ω) = 71 · Pf(PᵀΩP) = -71 · Pf-ratio = -1 · det A = -5041 · det A′ = -5041
+    example 3: Pf(Ω) = 207 · Pf(PᵀΩP) = -207 · Pf-ratio = -1 · det A = -42849 · det A′ = -42849
+    example 4: Pf(Ω) = -12 · Pf(PᵀΩP) = 12 · Pf-ratio = -1 · det A = -144 · det A′ = -144
+    example 5: Pf(Ω) = -77 · Pf(PᵀΩP) = 77 · Pf-ratio = -1 · det A = -5929 · det A′ = -5929
+    raw tally: Pf(PᵀΩP) = −Pf(Ω) in 5/5 · det A′ = det A in 5/5
+  [PASS] O6d so(3,3) pair (0,3) [mixed-sign]: 5 examples printed by the numbers
+
+================================================================================================
+O6e — INTERSECTION WITH A² = ±𝟙 (S903 examples, address: S903_run.log block C)
+================================================================================================
+
+  A² = −𝟙 on (2,2): coeffs [−1,−1,0,0,0,0] (S903, first found)
+    A = -1·J(0,1) -1·J(2,3)
+    A(rows) = [[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]]
+    det A = 1
+    formula line: det(A²) = det(−𝟙) = (−1)^4 = 1 · sympy det(A·A) = 1 · (det A)² = 1
+  [PASS] O6e A² = −𝟙 on (2,2): det(A²) = (−1)ⁿ = (det A)² (sympy-exact)
+
+  A² = +𝟙 on (2,2): coeffs [−2,−2,−2,−1,−1,2] (S903, first found)
+    A = -2·J(0,1) -2·J(2,3) -2·K(0,2) -1·K(0,3) -1·K(1,2) +2·K(1,3)
+    A(rows) = [[0, -2, -2, -1], [2, 0, -1, 2], [-2, -1, 0, -2], [-1, 2, 2, 0]]
+    det A = 1
+    formula line: det(A²) = det(+𝟙) = (+1)^4 = 1 · sympy det(A·A) = 1 · (det A)² = 1
+  [PASS] O6e A² = +𝟙 on (2,2): det(A²) = (+1)ⁿ = (det A)² (sympy-exact)
+
+  A² = +𝟙 on (3,3): K(0,3)+K(1,4)+K(2,5) (S903, first found)
+    A = +1·K(0,3) +1·K(1,4) +1·K(2,5)
+    A(rows) = [[0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0]]
+    det A = -1
+    formula line: det(A²) = det(+𝟙) = (+1)^6 = 1 · sympy det(A·A) = 1 · (det A)² = 1
+  [PASS] O6e A² = +𝟙 on (3,3): det(A²) = (+1)ⁿ = (det A)² (sympy-exact)
+
+================================================================================================
+SUMMARY S905 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 36/36 PASS
+
+  BOUND STAMPS:
+   · O6a n=4: BOUNDARY (stamp): 50 random integer Ω, entries {−9..9}, seed 905 (separate Random(905) per n)
+   · O6a n=6: BOUNDARY (stamp): 50 random integer Ω, entries {−9..9}, seed 905 (separate Random(905) per n)
+   · O6b so(2,2): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90542 (separate Random per signature)
+   · O6b so(3,1): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90543 (separate Random per signature)
+   · O6b so(4,0): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90544 (separate Random per signature)
+   · O6b so(3,3): BOUNDARY (stamp): 1 random integer Ω (entries {−5..5}) + 20 random integer S (entries {−3..3}, det S ≠ 0 by retry), seed 90563 (separate Random per signature)
+   · O6c so(2,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+   · O6c so(2,2): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+   · O6c so(3,1): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+   · O6c so(4,0): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+   · O6c so(3,3): BOUNDARY (stamp): 100 random integer A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 905 (separate Random(905) per signature)
+   · O6d so(2,2) pair (0,1) [same-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052401
+   · O6d so(2,2) pair (0,2) [mixed-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052402
+   · O6d so(3,3) pair (0,1) [same-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052601
+   · O6d so(3,3) pair (0,3) [mixed-sign]: BOUNDARY (stamp): 5 random integer Ω (entries {−5..5}), seed 9052603
+
+  RAW LINES (no readings):
+   (1) O6a: det Ω − Pf(Ω)² = 0 symbolic (n = 4, 6; full antisymmetric Ω) +
+       50/50 random integers per n; det Ω ≡ 0 symbolic (n = 3, 5);
+   (2) O6b: det A′ = det A bit-match 20/20 on every signature {(2,2)·(3,1)·(4,0)·(3,3)};
+       det g′·det Ω′ = (det S)⁴·det g·det Ω — factors by the numbers for 3 examples — above;
+   (3) O6c: det A ladder table {(2,1)·(2,2)·(3,1)·(4,0)·(3,3)} — single
+       generators · sums of J/K · sign histograms on 100 random · det g alongside;
+       (2,1): det A ≡ 0 symbolic — separate line above;
+   (4) O6d: axis permutations (same-sign · mixed-sign) — Pf and det A by the numbers,
+       5 examples per type — above;
+   (5) O6e: det A by the numbers for three S903 examples A² = ±𝟙 + formula line
+       det(A²) = (±1)ⁿ — above.
+  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+

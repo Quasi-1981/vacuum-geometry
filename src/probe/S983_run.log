@@ -1,0 +1,38 @@
+==============================================================================
+W38-leg-2: scale law of the center form (μ,ν) + λ-transport
+==============================================================================
+
+--- SCALE LAW (symbolic μ, ν) ---
+  coefficient (base Z): -mu**2  → exponent μ: +2
+  coefficient (center νZ): -mu**2/nu  → exponent ν: −1
+  at μ=ν=1: -1 (=S980 −1·η_aa for the core+ axis)
+  module-generator norm (Frobenius tr(mᵀm)) ∝ μ²: 4*mu**2  [tr(m·m)=0 nilpotent]
+  instances μ (ν=1): μ=1/2→-1/4 · μ=2→-4 · μ=3→-9
+
+--- NORMALIZATION CHOICE (coeff=1) ---
+  coeff(μ,ν) = (-1)·μ²/ν ; the condition coeff=1 ⟹ ν = (-1)·μ² (here ν=−μ²)
+  the residual freedom: 1-parameter CONTINUOUS (μ∈ℝ*, ν=−μ² determined)
+  check: coeff|_{ν=(-1)μ²} = 1 (a constant ⟹ a 1-param family of normalizations)
+
+--- λ-TRANSPORT into the extension family (S921/S922 homogeneous) ---
+  (5,2) n=7 | λ per pair = kernel coeff: a2(η1):λ=-1 a3(η1):λ=-1 a4(η1):λ=-1
+  (4,3) n=7 | λ per pair = kernel coeff: a2(η1):λ=-1 a3(η1):λ=-1 a6(η-1):λ=1
+  (3,4) n=7 | λ per pair = kernel coeff: a2(η1):λ=-1 a5(η-1):λ=1 a6(η-1):λ=1
+  homogeneous representation: [q_a,p_b]=λ·η_a·δ_ab·Z (symbolic λ) — forced
+
+--- λ=0 ENDPOINT (abelianization) ---
+  λ=0: [q,p]=0 for all → the translations are ABELIAN = the affine so⋉ℝ^d (S921);
+       on the kernel side: Heisenberg h_{2d+1} → abelian ℝ^{2d}⊕Z (the radical abelianizes = the soft branch)
+
+BIT-FENCE (coeff at μ=ν=1 = S980):
+  (4,2): coeff=[-1, -1] = −η_aa (S980 const=−1·ε⊗G)
+  (3,3): coeff=[-1, 1] = −η_aa (S980 const=−1·ε⊗G)
+
+MUTANTS (one per branch: exponent / normalization / transport):
+  MUTANT br-exponent: CAUGHT (μ→2 multiplies the coeff by 4=2², exponent exactly +2)
+  MUTANT br-normalization: CAUGHT (ν=+μ² gives coeff=−1≠1; ν=−μ² is required)
+  MUTANT br-transport: CAUGHT (λ=0 abelian; λ=1 non-abelian Heisenberg)
+
+SUMMARY: asserts_passed=13 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

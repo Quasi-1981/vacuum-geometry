@@ -1,0 +1,140 @@
+
+================================================================================================
+SECTION 0 — FENCE AUDIT (first)
+================================================================================================
+  [PASS] declaration-guard is mounted (fence block excluded from the scan — otherwise the fence catches itself) — cut 209 bytes
+  [PASS] blindness: the probe carries NO selection words and does NOT cite the ancestor lineage as an argument — 0 occurrences outside the declaration
+  [PASS] layer fence (prime = atemporal): forbidden layer-words = 0 — «time» is used ONLY as a COUNT of minus signs q — not as a physical premise
+  [PASS] downstream-content 0 (prime layer) · handles 0
+
+================================================================================================
+★FIRST QUESTION OF THE PROBE (order C1(a)): OPERATIONALIZATION OF THE STEP-COUNT — CHOICE RECORDED EXPLICITLY
+================================================================================================
+
+Author's word (VER-NOTE-1, verbatim): «the question is not trivalence, the question is
+whether the simplest flat figure is created, and whether traversing the allowed
+configurations of dimensions gives a natural number». There are EXACTLY TWO operationalizations,
+and they are NOT equivalent:
+
+  OP-A «PLANAR» (Omega's form in VER-NOTE-1): in every class of 2-planes {(+,+)·(−,−)·(+,−)}
+        a traversal = a rotation; it closes ⟺ 2π/θ = k ∈ ℕ. Compact SO(2) ⟹ yes;
+        non-compact SO(1,1)-boost ⟹ the traversal is aperiodic ⟹ no.
+  OP-B «AXIAL» (C1(a), E-charge-column): what closes is not the PLANE but the TRANSLATION CHARGE
+        along the bond/tick AXIS; time = the ladder (axiom-2), not a plane.
+
+★MY CHOICE FOR A0 AND THE REASON: I count OP-A — FULLY, analytically, TO THE END. Not because
+I believe it is correct, but because A0 = THE FLOOR: if OP-A is degenerate, this must be
+PROVEN, not declared, and the proof frees OP-B from a rival. OP-B is NOT counted in A0 — it
+requires a definition of «translation charge» that does NOT exist in the canon (I searched:
+the object is not defined at the prime layer) ⟹ inventing it to fit the result is FORBIDDEN;
+this is a named task-spec for A1, not a branch of A0.
+
+
+================================================================================================
+LEG-Z (OP-A) — ANALYTICALLY, IN CLOSED FORM ⟨AWAITS INDEPENDENT RE-DERIVATION AT REVIEW⟩
+================================================================================================
+  rotation eigenvalues (sign-definite plane): [cos(theta) + I*Abs(sin(theta)), cos(theta) - I*Abs(sin(theta))]
+  boost eigenvalues    (mixed plane)        : [cosh(eta) + Abs(sinh(eta)), cosh(eta) - Abs(sinh(eta))]
+  [PASS] sign-definite plane: ∃k∈ℕ with R^k = I (taking θ=2π/6 ⟹ k=6) — CLOSES — R(2π/6)^6 = I ✓
+  [PASS] mixed plane: B^k ≠ I for ALL trial k (the boost is aperiodic) — DOES NOT CLOSE — eigenvalues e^{±η} are REAL ⟹ roots of unity only at η=0
+
+  ★CLOSED FORM (core of A0): «a 2-plane closes» ⟺ its isometry's eigenvalues are roots of
+  unity ⟺ the group is compact ⟺ THE PLANE IS SIGN-DEFINITE (sign_i == sign_j).
+  ⟹ OP-A IS A FUNCTION OF THE SIGNATURE AND NOTHING ELSE. ⟨AWAITS RE-DERIVATION AT REVIEW⟩
+
+
+================================================================================================
+A0 TABLE (RAW): rung n=3 · classes of 2-planes · OP-A
+================================================================================================
+    (p,q) |  (+,+) |  (−,−) |  (+,−) |     all planes closed?
+  --------------------------------------------------------------------------
+   (3, 0) |      3 |      0 |      0 |                   True
+   (2, 1) |      1 |      0 |      2 |                  False
+
+  READING THE RAW LINE (no words of selection): «all planes closed» ⟺ there are no mixed planes ⟺ p·q=0.
+
+  [PASS] OP-A: the criterion «all planes close» ⟺ p·q = 0 (i.e. q=0 on the p≥q branch)
+  [PASS] ★DEGENERACY OF OP-A PROVEN: the criterion carries NO information beyond the signature itself (the tautology «no mixed planes») — it cannot select a signature with time BY CONSTRUCTION — Q1 was confirmed
+  [PASS] ★Q2: (2,2) [p=q, O1 expects the «Euclid class»] and (3,1) [p≠q] get the SAME OP-A verdict (both have mixed planes ⟹ neither closes) — ⟹ OP-A does NOT separate O1 and O2 — the author's expectations do not survive it together
+
+================================================================================================
+LEG-M and LEG-G (rung n=3, RAW numbers) ⟨closed forms — AWAIT RE-DERIVATION AT REVIEW⟩
+================================================================================================
+  Leg-M analytically: phase(det g) = (−1)^q  ⟹  det g > 0 for even q, < 0 for odd q
+  [PASS] Leg-M (3,0): (−1)^0 = +1
+  [PASS] Leg-M (2,1): (−1)^1 = −1
+
+  ★LEG-G, CLOSED FORM (core; AWAITS RE-DERIVATION AT REVIEW):
+    ln det = Σ ln λ;  ln(λ ± iε) = ln|λ| ± iπ  for λ<0, and = ln λ for λ>0
+    ⟹ Δ_iε ≡ Σ ln(λ+iε) − Σ ln(λ−iε) = 2πi · N₋   (N₋ = the count of NEGATIVE eigenvalues)
+    ⟹ Δ_iε = 0 ⟺ N₋ = 0.        arg I = π·N₋ (mod 2π) ⟹ arg I = 0 ⟺ N₋ is EVEN.
+    ⟹ TWO DIFFERENT READINGS of the seed hypothesis D(p,q)=arg I. I count BOTH RAW; the ruling belongs to Omega.
+
+  L=6 (3, 0): N₋=    0 · N₀=   1 · N₊=  215 · Δ_iε/2πi = 0 · arg I/π mod 2 = 0 · N₋ even? True
+  L=6 (2, 1): N₋=   33 · N₀=  27 · N₊=  156 · Δ_iε/2πi = 33 · arg I/π mod 2 = 1 · N₋ even? False
+  L=9 (3, 0): N₋=    0 · N₀=   1 · N₊=  728 · Δ_iε/2πi = 0 · arg I/π mod 2 = 0 · N₋ even? True
+  L=9 (2, 1): N₋=  136 · N₀=  33 · N₊=  560 · Δ_iε/2πi = 136 · arg I/π mod 2 = 0 · N₋ even? True
+  [PASS] Leg-S (3,0): the spectrum is ONE-SIDED (N₋=0 at both L) — accumulation near zero is one-sided
+  [PASS] Leg-S (2,1): the spectrum is TWO-SIDED (N₋>0 at both L) — there is no exclusion zone near zero
+  [PASS] Leg-G RAW: Δ_iε=0 ⟺ N₋=0 ⟹ at rung n=3 this holds EXACTLY at q=0 (raw, WITH NO reading)
+  [PASS] ★A4 TOOTH, Δ-reading: «Δ_iε≠0 at q=1» is STABLE across L (both sizes) — the rig holds — N₋: L=6 → 33 · L=9 → 136
+  [PASS] ★★A4 WALL, arg-reading: the PARITY of N₋ FLIPS between L ⟹ arg I does NOT agree across L ⟹ «the leg-branch does not close on this rig» for the arg-reading (output-4 §3 ex-ante) — parity(N₋): L=6 → 1 · L=9 → 0 ⟹ arg I = π·N₋ mod 2π = A DETAIL OF DISCRETIZATION, not an invariant ⟨this check catches the FAILURE of the arg-reading — which is exactly why it is here⟩
+
+================================================================================================
+★C1(b) — MACHINE CROSS-CHECK: LEG-Z ≟ FL-004 MECHANISM
+================================================================================================
+
+The FL-004 mechanism, VERBATIM from the source (blueprint/fourleaf/items.yaml:89, reopens_if —
+line read BY ME in the file):
+    «the Z axis = the 4th blade = time because the plane does not close under bond composition»
+LEG-Z (OP-A), proven above: «a 2-plane closes ⟺ it is SIGN-DEFINITE».
+
+★IDENTITY KILL-TEST (machine): feed BOTH criteria ONE object — the EUCLIDEAN 2-plane
+(+,+), in which the honeycomb shadow of FL-004 lives, and compare the answers.
+
+  [PASS] ★answers are OPPOSITE on ONE object (the Euclidean 2-plane): leg-Z=«closes» ⊥ FL-004=«does not close» — ⟹ this is NOT the same criterion
+
+  ★CANDIDATE VERDICT C1(b) (my finding; the ruling belongs to Omega): TWO DIFFERENT CRITERIA UNDER A SHARED WORD.
+    · leg-Z (OP-A) = a property of the plane's METRIC (sign-definiteness) — independent of
+      the bond set entirely;
+    · FL-004 = a property of a SPECIFIC BOND SET (tetrahedron 4-leaf): its composition does not
+      lie in the plane ⟹ a Z axis is needed. The plane's metric here is EUCLIDEAN — i.e. by
+      leg-Z it «closes», while by FL-004 it «does not close». Both used the word «closes»
+      about DIFFERENT objects.
+    ⟹ (1) NO kratn-CREDIT: there is no coincidence, so «multiplicity-1 of the construction» does
+       not arise — a HOMONYM arises instead. (2) And «two witnesses» also does NOT arise — they
+       are not about the same thing.
+    ⟹ FOURTH HOMONYM CATCH in one day {E₁-root≠card E1 · c_f≠v_F · a_f≠â · now
+       metric-closure ≠ bond-closure}. Pattern: the word migrates faster than the referent.
+
+
+================================================================================================
+SUMMARY A0
+================================================================================================
+
+  Checks: 17/17 PASS
+
+  CANDIDATE VERDICT A0 (my finding; the RULING is an act of Omega; raw lines above, 0 words of selection):
+   (1) ★OP-A (planar leg-Z) IS DEGENERATE — PROVEN, not declared: «the plane closes»
+       ⟺ «the plane is sign-definite» (closed form: the isometry's eigenvalues = roots of unity
+       ⟺ the group is compact). ⟹ the criterion = A FUNCTION OF THE SIGNATURE, a tautology;
+       it cannot select a signature with q≥1 BY CONSTRUCTION. Q1 was confirmed.
+   (2) ★THE AUTHOR'S O1 AND O2 DO NOT SURVIVE OP-A TOGETHER: (2,2) and (3,1) get THE SAME
+       verdict (both have mixed planes) ⟹ OP-A does not separate them. This is EXACTLY the fork
+       that Omega pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
+       ⟹ OP-A as an existential filter for the lattice (VER-NOTE-2) gives: the lattice exists
+       ONLY at q=0. This contradicts the hierarchy of VER-NOTE-2 (E → closure → lattice → fertility),
+       because it removes the lattice from ALL signatures with time. ⟹ either OP-A is wrong, or
+       the hierarchy is. The ruling is the court's.
+   (3) ⟹ ★LEG-Z MUST MOVE TO THE AXIS (OP-B/C1(a)) — but «translation charge» is NOT DEFINED
+       at the prime layer IN THE CANON (I searched). ⟹ STOP with a name: the definition of OP-B =
+       a named task-spec BEFORE A1. Inventing a definition to fit the result is forbidden.
+   (4) Leg-G: CLOSED FORM Δ_iε = 2πi·N₋ ⟹ Δ_iε=0 ⟺ N₋=0; at n=3 this holds raw EXACTLY at q=0.
+       The second reading (arg I = π·N₋ mod 2π ⟹ =0 ⟺ N₋ EVEN) gives a DIFFERENT table — raw N₋
+       printed for both L. Which reading = the seed's D is NOT mine to decide.
+   (5) ★C1(b): leg-Z ≠ the FL-004 mechanism — a HOMONYM (opposite answers on one object).
+       No kratn-credit; no «two witnesses» either.
+  HONEST TALLY: handles 0 · downstream-content 0 · words of selection 0 · closed forms flagged as
+  AWAITING independent re-derivation at review · no new witnesses claimed.
+  STOP (A0 = a separate STOP per §3 ex-ante). Review = B's watch. Court = Omega. A1 NOT started.
+

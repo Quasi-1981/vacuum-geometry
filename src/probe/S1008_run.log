@@ -1,0 +1,69 @@
+==========================================================================
+W42 probe-3 (layer −2): weighted Box — reduction q=2 → q_eff=1 by splitting the weights
+(leg of S1000-bistability, question №4); exact rational weights; L∈{3,4}.
+==========================================================================
+
+T1 ((2,2), L=4): asymmetry sweep w=(1, w₂); q_eff/split/C̃ over null modes
+w₂ | #null-modes | q_eff | split | C̃ | state
+------------------------------------------------------------------------
+1 | 70 | 2 | 24 | 2 | bistable (q_eff=2, C̃=2)
+5/4 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+3/2 | 21 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+7/4 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+2 | 46 | 2 | 16 | 2 | bistable (q_eff=2, C̃=2)
+9/4 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+5/2 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+3 | 27 | 2 | 4 | 2 | bistable (q_eff=2, C̃=2)
+7/2 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+4 | 17 | 1 | 0 | 2 | ★disjoint clocks (q_eff=1, C̃=2: axes active separately, not on the same mode)
+5 | 15 | 1 | 0 | 1 | ★collapse: ONE clock (q_eff=1, C̃=1)
+  ★MEASUREMENT (THREE phases — the data revealed the third): bistable (q_eff≥2, C̃=2) at integer
+  w₂∈{1,2,3} · COLLAPSE to one clock (q_eff=1, C̃=1) at ANY non-integer
+  asymmetry (3/2,5/2,…) · ★DISJOINT clocks (q_eff=1, C̃=2) at w₂=4: both
+  axes active, but NEVER on the same null mode (split=0) — two times that do not overlap.
+  ⟹ bet-1 REFINED: the collapse is NOT a monotone threshold, but a COMB; +a third phase (disjoint) —
+  q_eff=1 does NOT ⟹ one clock (C̃ must be measured separately). (author: «certain relations»)
+
+T2 (bistability law in the weight plane (w₁,w₂), (2,2) L=4): q_eff=2 ⟺ ?
+  q_eff=2 (bistable) points (w₁,w₂):
+   ['1/2,1/2', '1/2,3/2', '1/2,5/2', '1,1', '1,2', '1,3', '3/2,1/2', '3/2,3/2', '3/2,5/2', '2,1', '2,2', '5/2,1/2', '5/2,3/2', '3,1']
+  law: q_eff=2 ⟺ w₁+w₂ ∈ {{1,2,3,4}} (2(w₁+w₂)=T-sum∈{{0,2,4,6,8}}) — the weight SUM is integer.
+  ★K3 (anti-reclaim): the form = SUM w₁+w₂=integer ≠ DIFFERENCE t=s+(d−1) (S1000) —
+  DIFFERENT structures. NOT the same law ⟹ NOT an S1000 reclaim; a separate −2-fact
+  (bistability = commensurability of the weight sum). The S1000 ancestor is not invoked.
+
+T3 (order of doors: collapse q_eff→1 vs a void (empty nontrivial zero-set))
+  sweep of w₂ (w₁=1): do NONTRIVIAL null modes exist (besides the origin) as w₂ grows?
+  w₂=3/2: #null-modes=21 (nontriv=20), q_eff=1
+  w₂=5/2: #null-modes=15 (nontriv=14), q_eff=1
+  w₂=5: #null-modes=15 (nontriv=14), q_eff=1
+  w₂=10: #null-modes=15 (nontriv=14), q_eff=1
+  ★MEASUREMENT: collapse (q_eff→1) occurs FIRST at any non-integer asymmetry; a VOID
+  (of the nontrivial zero-set) DOES NOT OCCUR — the k₄=0 family (mute axis) holds null modes ∀w₂.
+  ⟹ order: COLLAPSE to one clock, NOT a break. «Coordinate stabilization» is real,
+  a void does not occur in this machinery (bet-3: collapse-first, the bet-1 branch stands).
+
+T1b ((3,3), L=4): w=(1,1,w₃) — splitting the THIRD weight
+w₃ | #null-modes | q_eff | split | C̃ | state
+------------------------------------------------------------------------
+1 | 924 | 3 | 520 | 4 | bistable (q_eff=3, C̃=4)
+3/2 | 330 | 2 | 84 | 2 | bistable (q_eff=2, C̃=2)
+2 | 675 | 3 | 392 | 4 | bistable (q_eff=3, C̃=4)
+5/2 | 220 | 2 | 60 | 2 | bistable (q_eff=2, C̃=2)
+3 | 451 | 3 | 236 | 4 | bistable (q_eff=3, C̃=4)
+  ★MEASUREMENT (3,3): the same — a non-commensurable w₃ reduces q_eff; C̃ drops with splitting.
+
+MUTANTS:
+  MUTANT M1 (false-q_eff): CAUGHT (at w₂=3/2 «count all axes»=2, but ACTIVE=1 — the mute axis is not counted; the false version would give bistability where there is collapse)
+  MUTANT M2 (limit w→0): CAUGHT (w₂=0: #null=60 q_eff=2 ≠ w₂=1/100: #null=15 q_eff=1 — the limit is discontinuous, axis-0 degenerate ≠ small weight)
+  MUTANT M3 (size): CAUGHT (L=3: w₂=1 bistable q_eff=2, w₂=4/3 generic collapse q_eff=1 — the same conclusion as L=4, not a lattice artifact)
+  MUTANT M4 (false-law): CAUGHT ((1/2,1) sum=3/2∉ℤ → collapse q_eff=1; (1,1) sum=2 → bistable q_eff=2. The law = SUM, not difference — the false «t−s»-form misses)
+
+NEGATIVE CONTROL (seeded): (3,1)-weighted — q=1, nothing to collapse
+  (3,1) w=7/3: C̃=1 — q=1 is always one class up to arrow, ∀w (no bistability)
+
+SUMMARY: asserts_passed=8 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

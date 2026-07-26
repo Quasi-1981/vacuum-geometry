@@ -1,0 +1,17 @@
+--- W33-нога-2: graded action + construct match ---
+CORE (3,2) rank0 | dimW=3 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=2 G2=1 G3=2 sigG2=(1, 0) | rad: class-1=True Levi-equiv=True | M(transl)dim=2 [rad,rad]=1 | bt-match=central-extended | audit=OK
+CORE (5,1) rank1 | dimW=4 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=1 G2=3 G3=2 sigG2=(3, 0) | rad: class-1=True Levi-equiv=True | M(transl)dim=3 [rad,rad]=0 | bt-match=affine | audit=OK
+CORE (4,2) rank1 | dimW=4 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=1 G2=3 G3=2 sigG2=(2, 1) | rad: class-1=True Levi-equiv=True | M(transl)dim=3 [rad,rad]=0 | bt-match=affine | audit=OK
+CORE (3,3) rank1 | dimW=4 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=1 G2=3 G3=2 sigG2=(1, 2) | rad: class-1=True Levi-equiv=True | M(transl)dim=3 [rad,rad]=0 | bt-match=affine | audit=OK
+CORE (4,2) rank0 | dimW=4 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=2 G2=2 G3=2 sigG2=(2, 0) | rad: class-1=True Levi-equiv=True | M(transl)dim=4 [rad,rad]=1 | bt-match=central-extended | audit=OK
+CORE (3,3) rank0 | dimW=4 W=W'?False W=kerN?True | invar W/Wperp=True/True | G1=2 G2=2 G3=2 sigG2=(1, 1) | rad: class-1=True Levi-equiv=True | M(transl)dim=4 [rad,rad]=1 | bt-match=central-extended | audit=OK
+--- mutants (one per branch) ---
+MUTANT br-affine: CAUGHT (abelian-rad (5,1)r1 fp == affine construct fp)
+MUTANT br-extended: CAUGHT (h5-rad (4,2)r0: core != affine, core/Z == affine)
+MUTANT br-none: CAUGHT (so(3)-core fp != so(2,1)⋉R^3 construct fp)
+MUTANT br-class1: CAUGHT (all radical drop top grade R^n->W; some Levi element does NOT)
+MUTANT br-equivar: CAUGHT ([Levi,rad]⊆rad; [Levi,Levi]⊄rad)
+SUMMARY: cores=6
+SUMMARY: asserts_passed=55 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

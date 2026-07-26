@@ -1,0 +1,99 @@
+==============================================================================
+S908b — FULL PROOF OF PARITY (named-debt of court O5 → Beta's visa)
+==============================================================================
+CONVENTION: η = diag(+1×p, −1×q); so(p,q) = {A : Aᵀη + ηA = 0}
+THESIS: A ∈ so(p,q) ∧ A² = −𝟙  ⟹  p even AND q even
+
+──────────────────────────────────────────────────────────────────────────────
+L1-L2: A — an isometry; ω(x,y)=η(x,Ay) antisymmetric ⟹ η(v,Av) ≡ 0
+──────────────────────────────────────────────────────────────────────────────
+[PASS] L1-L2  (2,2) η+: AᵀgA = −g·A²  ∧  ω=gA antisym  — ⟹ at A²=−𝟙: AᵀgA=g (isometry) ∧ η(v,Av)≡0
+[PASS] L1-L2  (2,2) η−  (sign robustness)
+[PASS] L1-L2  (3,1) η+: AᵀgA = −g·A²  ∧  ω=gA antisym  — ⟹ at A²=−𝟙: AᵀgA=g (isometry) ∧ η(v,Av)≡0
+[PASS] L1-L2  (3,1) η−  (sign robustness)
+[PASS] L1-L2  (3,3) η+: AᵀgA = −g·A²  ∧  ω=gA antisym  — ⟹ at A²=−𝟙: AᵀgA=g (isometry) ∧ η(v,Av)≡0
+[PASS] L1-L2  (3,3) η−  (sign robustness)
+[PASS] L1-L2  (4,2) η+: AᵀgA = −g·A²  ∧  ω=gA antisym  — ⟹ at A²=−𝟙: AᵀgA=g (isometry) ∧ η(v,Av)≡0
+[PASS] L1-L2  (4,2) η−  (sign robustness)
+
+──────────────────────────────────────────────────────────────────────────────
+L3 ★HEART: for η(v,v)≠0 the plane span{v,Av} carries (2,0) or (0,2), NOT (1,1)
+──────────────────────────────────────────────────────────────────────────────
+    derivation: η(v,Av) = 0 (L2) ⟹ v ⊥ Av;
+           η(Av,Av) = η(v,v) (L1, isometry) ⟹ the SAME sign;
+           ⟹ η|_P = η(v,v)·𝟙₂ ⟹ P = (2,0) if η(v,v)>0, (0,2) if <0.
+    ★COROLLARY: a mixed plane (1,1) from a ℂ-line is IMPOSSIBLE ⟹
+      the signs cannot 'diverge' within a pair ⟹ p,q grow BY TWOS.
+
+[PASS] L3  (2,2): 51 planes span{v,Av} — all η|_P = η(v,v)·𝟙₂  — violations 0 (v⊥Av ∧ |Av|²=|v|² — none (1,1))
+[PASS] L3  (4,2): 60 planes span{v,Av} — all η|_P = η(v,v)·𝟙₂  — violations 0 (v⊥Av ∧ |Av|²=|v|² — none (1,1))
+[PASS] L3  (4,0): 60 planes span{v,Av} — all η|_P = η(v,v)·𝟙₂  — violations 0 (v⊥Av ∧ |Av|²=|v|² — none (1,1))
+[PASS] L3  (2,4): 60 planes span{v,Av} — all η|_P = η(v,v)·𝟙₂  — violations 0 (v⊥Av ∧ |Av|²=|v|² — none (1,1))
+[PASS] L3  (6,6): 59 planes span{v,Av} — all η|_P = η(v,v)·𝟙₂  — violations 0 (v⊥Av ∧ |Av|²=|v|² — none (1,1))
+
+──────────────────────────────────────────────────────────────────────────────
+L4: P^⊥ is A-invariant ⟹ the recursion is legitimate
+──────────────────────────────────────────────────────────────────────────────
+    derivation: x ∈ P^⊥ ⟹ η(x,v)=0 ∧ η(x,Av)=0;
+           η(Ax,v)  = −η(x,Av) = 0   (L2: ω antisym)
+           η(Ax,Av) =  η(x,v)  = 0   (L1: isometry)
+           ⟹ Ax ∈ P^⊥  ∎
+
+[PASS] L4  (2,2): P^⊥ is A-invariant on 37 planes  — violations 0
+[PASS] L4  (4,2): P^⊥ is A-invariant on 40 planes  — violations 0
+[PASS] L4  (6,6): P^⊥ is A-invariant on 39 planes  — violations 0
+
+──────────────────────────────────────────────────────────────────────────────
+L5+ASSEMBLY: recursive decomposition of V into a ⊥-sum of A-invariant ℂ-lines
+──────────────────────────────────────────────────────────────────────────────
+[PASS] ASSEMBLY  (2,2): 1 ℂ-lines(+) · 1 ℂ-lines(−) → (2,2)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+[PASS] ASSEMBLY  (4,2): 2 ℂ-lines(+) · 1 ℂ-lines(−) → (4,2)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+[PASS] ASSEMBLY  (4,0): 2 ℂ-lines(+) · 0 ℂ-lines(−) → (4,0)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+[PASS] ASSEMBLY  (2,4): 1 ℂ-lines(+) · 2 ℂ-lines(−) → (2,4)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+[PASS] ASSEMBLY  (6,6): 3 ℂ-lines(+) · 3 ℂ-lines(−) → (6,6)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+[PASS] ASSEMBLY  (2,0): 1 ℂ-lines(+) · 0 ℂ-lines(−) → (2,0)  — every ℂ-line = 2 real axes of the SAME sign ⟹ p,q even ∎
+
+──────────────────────────────────────────────────────────────────────────────
+★VERDICT: non-existence of A²=−𝟙 — BY THEOREM, without any enumeration
+──────────────────────────────────────────────────────────────────────────────
+[PASS] VERDICT  (3,3): A²=−𝟙 DOES NOT EXIST — p=3,q=3 odd  — was: court O5: "empty on 75136 candidates" (enumeration within bounds) → now: A THEOREM (the enumeration no longer carries the verdict)
+[PASS] VERDICT  (3,1): A²=−𝟙 DOES NOT EXIST — p=3,q=1 odd  — was: court O5: "empty full enumeration 15625" (enumeration within bounds) → now: A THEOREM (the enumeration no longer carries the verdict)
+[PASS] CONTROL  (2,2): the theorem ALLOWS it and the construction really exists  — a theorem that forbids everything is not a theorem
+[PASS] CONTROL  (4,2): the theorem ALLOWS it and the construction really exists  — a theorem that forbids everything is not a theorem
+[PASS] CONTROL  (4,0): the theorem ALLOWS it and the construction really exists  — a theorem that forbids everything is not a theorem
+
+──────────────────────────────────────────────────────────────────────────────
+T7-half-2 (for completeness): A²=+𝟙 ⟺ p=q — derivation + control
+──────────────────────────────────────────────────────────────────────────────
+    ⟹: η(Ax,Ay) = −η(x,y) ⟹ A: (V,η)→(V,−η) is an isometry ⟹
+       sign(η) = sign(−η) ⟺ (p,q)=(q,p) ⟺ p=q   [Sylvester]  ∎
+    ⟸: A = [[0,𝟙],[𝟙,0]] on (m,m) — checked in S908 E.2  ∎
+[PASS] T7-2  (3,1): A²=+𝟙 DOES NOT EXIST (p≠q ⟹ sign(η)≠sign(−η))
+[PASS] T7-2  (5,1): A²=+𝟙 DOES NOT EXIST (p≠q ⟹ sign(η)≠sign(−η))
+[PASS] T7-2  (4,2): A²=+𝟙 DOES NOT EXIST (p≠q ⟹ sign(η)≠sign(−η))
+
+    ★PROFILE (3,1) — BOTH sides are now THEOREMS, the enumeration carries nothing:
+      A²=+𝟙: killed by Sylvester (p=3 ≠ 1=q)
+      A²=−𝟙: killed by PARITY (p=3, q=1 odd) ← the debt closed HERE
+
+──────────────────────────────────────────────────────────────────────────────
+[PASS] FENCE  forbidden outside GUARDLINE: 0  — hits=[]
+      (the list = the MAXIMUM of S903 + the word-ban of S906 — deliberately RESTORED
+       five words that S905/S906/S907 lost; a finding of leg (b))
+
+==============================================================================
+SUMMARY S908b: 31/31 PASS
+==============================================================================
+
+★WHAT WAS CLOSED: the named-debt of court O5 "a full proof of parity for the visa".
+  Before: {a sketch-argument} + {an empty enumeration 75136/(3,3) and 15625/(3,1) WITHIN A BOUNDARY}.
+  Now: a THEOREM with 5 links, each machine-checked; the enumeration no longer
+  carries the verdict (it never could — finite bounds do not prove non-existence).
+★HEART OF THE PROOF (L3): η(v,Av)=0 ∧ η(Av,Av)=η(v,v) ⟹ a ℂ-line = two real axes
+  of the SAME sign ⟹ a mixed (1,1) from a ℂ-line is IMPOSSIBLE ⟹ p,q grow by twos.
+★SELF-CATCH: my own chain in S908/E.3 ("the ±-eigenspaces of η are A-invariant") was
+  FLAWED (the decomposition is not canonical); the conclusion survived, the chain was
+  replaced. Stamped here, because the verdict is carried by the CHAIN, not the conclusion.
+★T7 IS NOW COMPLETE: (3,1) carries no square structure at all — BOTH sides of the
+  theorem, 0 dependence on the enumeration.
+

@@ -1,0 +1,90 @@
+=== §1 SYMBOLIC BLOCK EQUATIONS (MatrixSymbol, symbolic core dim) ===
+--- rank-0 : so(η) block equations (=0) ---
+  soη[A,]: G2 + G2.T = 0
+  soη[B,]: H + D.T*G = 0
+  soη[Cc,]: K + A.T = 0
+  soη[D,]: G*D + H.T = 0
+  soη[E,]: G*E + E.T*G = 0
+  soη[F,]: G*F + B.T = 0
+  soη[G2,]: A + K.T = 0
+  soη[H,]: B + F.T*G = 0
+  soη[K,]: Cc + Cc.T = 0
+--- rank-0 : [M,N] block equations (=0) ---
+  [M,N][0,0]: -nu*G2 = 0
+  [M,N][0,1]: -nu*H = 0
+  [M,N][0,2]: A*nu - nu*K = 0
+  [M,N][1,2]: D*nu = 0
+  [M,N][2,2]: G2*nu = 0
+--- rank-1 : so(η) block equations (=0) ---
+  soη[0,0]: Matrix([
+[0, 0, 1],
+[0, c, 0],
+[1, 0, 0]])*P + P.T*Matrix([
+[0, 0, 1],
+[0, c, 0],
+[1, 0, 0]]) = 0
+  soη[0,1]: Matrix([
+[0, 0, 1],
+[0, c, 0],
+[1, 0, 0]])*Q + R.T*G = 0
+  soη[1,0]: G*R + Q.T*Matrix([
+[0, 0, 1],
+[0, c, 0],
+[1, 0, 0]]) = 0
+  soη[1,1]: G*Sm + Sm.T*G = 0
+--- rank-1 : [M,N] block equations (=0) ---
+  [M,N][0,0]: Matrix([
+[0, -c, 0],
+[0,  0, 1],
+[0,  0, 0]])*P + P*Matrix([
+[0, c,  0],
+[0, 0, -1],
+[0, 0,  0]]) = 0
+  [M,N][0,1]: Matrix([
+[0, -c, 0],
+[0,  0, 1],
+[0,  0, 0]])*Q = 0
+  [M,N][1,0]: R*Matrix([
+[0, c,  0],
+[0, 0, -1],
+[0, 0,  0]]) = 0
+
+=== §2 SOLUTION (free / linked / zero) — n-INDEPENDENT ===
+rank-0 (blocks over W(2) ⊕ C(d) ⊕ W'(2)):
+  FREE:   A ∈ sp(ν) [Aν+νAᵀ=0, dim 3 = so(2,1) Levi] ; Cc antisym 2x2 [dim 1 = center] ;
+          E ∈ so(G) [dim d(d-1)/2 = core] ; B free 2xd [dim 2d = module]
+  LINKED: F = -G⁻¹Bᵀ ; H = -DᵀG ; K = -Aᵀ
+  ZERO:   G2 = 0 ; D = 0 (⟹ H = 0)
+  dim c = 3 + 1 + d(d-1)/2 + 2d  =  d(d-1)/2 + 2d + 4   [d = n-4]
+rank-1 (blocks over T3(3) ⊕ C(d')):
+  FREE:   P ∈ so(η3)∩centralizer(N3) [dim 1] ; Sm ∈ so(G) [dim d'(d'-1)/2 = Levi+core] ;
+          Q with N3·Q=0 [only ker N3 row ⟹ dim d' = module]
+  LINKED: R = -G⁻¹(η3 Q)ᵀ
+  dim c = 1 + d'(d'-1)/2 + d'  =  d'(d'+1)/2 + 1   [d' = n-3]
+
+=== §3 BRACKET STRUCTURE [M1,M2] (rank-0 free blocks A,Cc,E,B → result block) ===
+  effective M is block-upper-triangular: [[A,B,Cc],[0,E,-G⁻¹Bᵀ],[0,0,-Aᵀ]]
+  A-block: [A1,A2]                         -> A   (Levi so(2,1) closes)
+  E-block: [E1,E2]                         -> E   (core so(G) closes)
+  B-block: A·B - B·E  (A on W, E on C)      -> B   (module: Levi⊕core act on module)
+  Cc-block: A·Cc - Cc·(-Aᵀ) + B·(-G⁻¹B'ᵀ)  -> Cc  (module·module lands in CENTER Cc)
+  ⟹ {Cc(center), B(module)} = Heisenberg ideal ; {A,E} = reductive Levi acting on it.
+  ⟹ c = (so(2,1) ⊕ so(G)) ⋉ Heisenberg(B,Cc) — the n-independent shape.
+
+=== §4 VALIDATION n=5,6,7 (bit-for-bit vs centralizer(): dim + span) ===
+  n=5 (3,2) rank0: d=1 formula dim c=6 | centralizer dim=6 | block-span dim=6 | span-equal=True | valid-gens=True
+  n=6 (4,2) rank0: d=2 formula dim c=9 | centralizer dim=9 | block-span dim=9 | span-equal=True | valid-gens=True
+  n=7 (5,2) rank0: d=3 formula dim c=13 | centralizer dim=13 | block-span dim=13 | span-equal=True | valid-gens=True
+  n=5 (4,1) rank1: d=2 formula dim c=4 | centralizer dim=4 | block-span dim=4 | span-equal=True | valid-gens=True
+  n=6 (5,1) rank1: d=3 formula dim c=7 | centralizer dim=7 | block-span dim=7 | span-equal=True | valid-gens=True
+  n=7 (6,1) rank1: d=4 formula dim c=11 | centralizer dim=11 | block-span dim=11 | span-equal=True | valid-gens=True
+
+=== mutants (one per branch) ===
+MUTANT br-rank0: CAUGHT (rank-0 formula 6,9,13 at d=1,2,3; distinct from rank-1)
+MUTANT br-rank1: CAUGHT (rank-1 formula 2,4,7,11 at d'=1,2,3,4)
+MUTANT br-soeta: CAUGHT (block gen ∈ so(η); perturbed one ∉ so(η))
+MUTANT br-commute: CAUGHT (block gen commutes with N; generic so element does not)
+
+SUMMARY: asserts_passed=24 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

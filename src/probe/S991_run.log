@@ -1,0 +1,321 @@
+--- bit-fence: pipeline reproduces S988 (4,4) single-wedge control (dimc=18, radical h9) ---
+  FENCE (4,4) single-wedge: dimc=18 Levi=so(2,1)+so(2,2) radical=h9
+
+=== OBJECT: (C1) CONTROL single-wedge so(5,4) rank2 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=2
+  c(N): dim=24 dim[c,c]=24 derived=[24] dim_centre(c)=1
+  perfect_core dim=24
+  core: dim=24 Killing_sig=(8, 5, 11)
+  Levi: Levi=so(2,1)+so(3,2)&so(2,1)+sp(4,R)  dim=13 Killing_sig=(8, 5, 0)
+  Levi gen^2 eigenvalues on 9-dim rep (raw, per generator):
+    g0^2 eig={'0': 9}
+    g1^2 eig={'0': 9}
+    g2^2 eig={'1': 4, '0': 5}
+    g3^2 eig={'0': 7, '-1': 2}
+    g4^2 eig={'0': 7, '-1': 2}
+    g5^2 eig={'0': 7, '1': 2}
+    g6^2 eig={'0': 7, '1': 2}
+    g7^2 eig={'0': 7, '-1': 2}
+    g8^2 eig={'0': 7, '1': 2}
+    g9^2 eig={'0': 7, '1': 2}
+    g10^2 eig={'0': 7, '1': 2}
+    g11^2 eig={'0': 7, '1': 2}
+    g12^2 eig={'0': 7, '-1': 2}
+  radical: type=h11 dim=11 lower_central_series=[11, 1, 0] n_central_dirs=1 info={'dr': 11, 'dz': 1, 'drr': 1, 'allmove': True}
+  module (whole): dv=10 commutant=1 weights={-1: 2, 1: 2, 0: 6} mincyc=10
+  module blocks (Levi-irreducible over Q): dims=[10]
+    block0: dim=10 commutant=1 weights={-1: 2, 1: 2, 0: 6}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=0 anti=1
+  centre basis for [EXT-2] coords (1 dirs):
+    zc0 nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+  [EXT-2] full [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> [-1]
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.0, b0.4] -> 0
+      [b0.0, b0.5] -> 0
+      [b0.0, b0.6] -> 0
+      [b0.0, b0.7] -> 0
+      [b0.0, b0.8] -> 0
+      [b0.0, b0.9] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.1, b0.4] -> 0
+      [b0.1, b0.5] -> 0
+      [b0.1, b0.6] -> 0
+      [b0.1, b0.7] -> 0
+      [b0.1, b0.8] -> 0
+      [b0.1, b0.9] -> 0
+      [b0.2, b0.3] -> [-1]
+      [b0.2, b0.4] -> 0
+      [b0.2, b0.5] -> 0
+      [b0.2, b0.6] -> 0
+      [b0.2, b0.7] -> 0
+      [b0.2, b0.8] -> 0
+      [b0.2, b0.9] -> 0
+      [b0.3, b0.4] -> 0
+      [b0.3, b0.5] -> 0
+      [b0.3, b0.6] -> 0
+      [b0.3, b0.7] -> 0
+      [b0.3, b0.8] -> 0
+      [b0.3, b0.9] -> 0
+      [b0.4, b0.5] -> [-1]
+      [b0.4, b0.6] -> 0
+      [b0.4, b0.7] -> 0
+      [b0.4, b0.8] -> 0
+      [b0.4, b0.9] -> 0
+      [b0.5, b0.6] -> 0
+      [b0.5, b0.7] -> 0
+      [b0.5, b0.8] -> 0
+      [b0.5, b0.9] -> 0
+      [b0.6, b0.7] -> 0
+      [b0.6, b0.8] -> [1]
+      [b0.6, b0.9] -> 0
+      [b0.7, b0.8] -> 0
+      [b0.7, b0.9] -> [1]
+      [b0.8, b0.9] -> 0
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+    z0: eig={'0': 9} eig(z^2)={'0': 9}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (A1) TWO-WEDGE so(5,4) rank4 (N^2=0) ===
+  N: rank=4 nilp_depth(min k: N^k=0)=2
+  c(N): dim=20 dim[c,c]=20 derived=[20] dim_centre(c)=1
+  perfect_core dim=20
+  core: dim=20 Killing_sig=(6, 4, 10)
+  Levi: Levi=so(3,2)&sp(4,R)  dim=10 Killing_sig=(6, 4, 0)
+  Levi gen^2 eigenvalues on 9-dim rep (raw, per generator):
+    g0^2 eig={'0': 9}
+    g1^2 eig={'0': 9}
+    g2^2 eig={'1': 4, '0': 5}
+    g3^2 eig={'0': 9}
+    g4^2 eig={'0': 9}
+    g5^2 eig={'0': 9}
+    g6^2 eig={'0': 9}
+    g7^2 eig={'0': 9}
+    g8^2 eig={'0': 9}
+    g9^2 eig={'0': 5, '1': 4}
+  radical: type=R0+h10 dim=10 lower_central_series=[10, 6, 0] n_central_dirs=6 info={'dr': 10, 'dz': 6, 'drr': 6, 'allmove': True, 'a': 0, 'b': 10}
+  module (whole): dv=4 commutant=1 weights={1: 1, -1: 1, 0: 2} mincyc=4
+  module blocks (Levi-irreducible over Q): dims=[4]
+    block0: dim=4 commutant=1 weights={1: 1, -1: 1, 0: 2}
+    block0 basis (module coords): [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=0 anti=1
+  centre basis for [EXT-2] coords (6 dirs):
+    zc0 nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+    zc1 nz=[(0, 2, 1), (0, 7, -1), (2, 0, -1), (2, 5, 1), (5, 2, 1), (5, 7, -1), (7, 0, -1), (7, 5, 1)]
+    zc2 nz=[(0, 3, 1), (0, 8, -1), (3, 0, -1), (3, 5, 1), (5, 3, 1), (5, 8, -1), (8, 0, -1), (8, 5, 1)]
+    zc3 nz=[(1, 2, 1), (1, 7, -1), (2, 1, -1), (2, 6, 1), (6, 2, 1), (6, 7, -1), (7, 1, -1), (7, 6, 1)]
+    zc4 nz=[(1, 3, 1), (1, 8, -1), (3, 1, -1), (3, 6, 1), (6, 3, 1), (6, 8, -1), (8, 1, -1), (8, 6, 1)]
+    zc5 nz=[(2, 3, 1), (2, 8, -1), (3, 2, -1), (3, 7, 1), (7, 3, 1), (7, 8, -1), (8, 2, -1), (8, 7, 1)]
+  [EXT-2] full [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> [-1, 0, 0, 0, 0, 0]
+      [b0.0, b0.2] -> [0, -1, 0, 0, 0, 0]
+      [b0.0, b0.3] -> [0, 0, -1, 0, 0, 0]
+      [b0.1, b0.2] -> [0, 0, 0, -1, 0, 0]
+      [b0.1, b0.3] -> [0, 0, 0, 0, -1, 0]
+      [b0.2, b0.3] -> [0, 0, 0, 0, 0, -1]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (2, 3, 1), (2, 8, -1), (3, 2, -1), (3, 7, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1), (7, 3, 1), (7, 8, -1), (8, 2, -1), (8, 7, 1)]
+    z0: eig={'0': 9} eig(z^2)={'0': 9}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (C2) CONTROL single-wedge so(5,5) rank2 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=2
+  c(N): dim=31 dim[c,c]=31 derived=[31] dim_centre(c)=1
+  perfect_core dim=31
+  core: dim=31 Killing_sig=(11, 7, 13)
+  Levi: Levi=so(2,1)+so(3,3)&so(2,1)+sl(4,R)&sl(3,R)+so(3,2)&sl(3,R)+sp(4,R)  dim=18 Killing_sig=(11, 7, 0)
+  Levi gen^2 eigenvalues on 10-dim rep (raw, per generator):
+    g0^2 eig={'0': 10}
+    g1^2 eig={'0': 10}
+    g2^2 eig={'1': 4, '0': 6}
+    g3^2 eig={'0': 8, '-1': 2}
+    g4^2 eig={'0': 8, '-1': 2}
+    g5^2 eig={'0': 8, '1': 2}
+    g6^2 eig={'0': 8, '1': 2}
+    g7^2 eig={'0': 8, '1': 2}
+    g8^2 eig={'0': 8, '-1': 2}
+    g9^2 eig={'0': 8, '1': 2}
+    g10^2 eig={'0': 8, '1': 2}
+    g11^2 eig={'0': 8, '1': 2}
+    g12^2 eig={'0': 8, '1': 2}
+    g13^2 eig={'0': 8, '1': 2}
+    g14^2 eig={'0': 8, '1': 2}
+    g15^2 eig={'0': 8, '-1': 2}
+    g16^2 eig={'0': 8, '-1': 2}
+    g17^2 eig={'0': 8, '-1': 2}
+  radical: type=h13 dim=13 lower_central_series=[13, 1, 0] n_central_dirs=1 info={'dr': 13, 'dz': 1, 'drr': 1, 'allmove': True}
+  module (whole): dv=12 commutant=1 weights={-1: 2, 1: 2, 0: 8} mincyc=12
+  module blocks (Levi-irreducible over Q): dims=[12]
+    block0: dim=12 commutant=1 weights={-1: 2, 1: 2, 0: 8}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=0 anti=1
+  centre basis for [EXT-2] coords (1 dirs):
+    zc0 nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+  [EXT-2] full [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> [-1]
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.0, b0.4] -> 0
+      [b0.0, b0.5] -> 0
+      [b0.0, b0.6] -> 0
+      [b0.0, b0.7] -> 0
+      [b0.0, b0.8] -> 0
+      [b0.0, b0.9] -> 0
+      [b0.0, b0.10] -> 0
+      [b0.0, b0.11] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.1, b0.4] -> 0
+      [b0.1, b0.5] -> 0
+      [b0.1, b0.6] -> 0
+      [b0.1, b0.7] -> 0
+      [b0.1, b0.8] -> 0
+      [b0.1, b0.9] -> 0
+      [b0.1, b0.10] -> 0
+      [b0.1, b0.11] -> 0
+      [b0.2, b0.3] -> [-1]
+      [b0.2, b0.4] -> 0
+      [b0.2, b0.5] -> 0
+      [b0.2, b0.6] -> 0
+      [b0.2, b0.7] -> 0
+      [b0.2, b0.8] -> 0
+      [b0.2, b0.9] -> 0
+      [b0.2, b0.10] -> 0
+      [b0.2, b0.11] -> 0
+      [b0.3, b0.4] -> 0
+      [b0.3, b0.5] -> 0
+      [b0.3, b0.6] -> 0
+      [b0.3, b0.7] -> 0
+      [b0.3, b0.8] -> 0
+      [b0.3, b0.9] -> 0
+      [b0.3, b0.10] -> 0
+      [b0.3, b0.11] -> 0
+      [b0.4, b0.5] -> [-1]
+      [b0.4, b0.6] -> 0
+      [b0.4, b0.7] -> 0
+      [b0.4, b0.8] -> 0
+      [b0.4, b0.9] -> 0
+      [b0.4, b0.10] -> 0
+      [b0.4, b0.11] -> 0
+      [b0.5, b0.6] -> 0
+      [b0.5, b0.7] -> 0
+      [b0.5, b0.8] -> 0
+      [b0.5, b0.9] -> 0
+      [b0.5, b0.10] -> 0
+      [b0.5, b0.11] -> 0
+      [b0.6, b0.7] -> 0
+      [b0.6, b0.8] -> 0
+      [b0.6, b0.9] -> [1]
+      [b0.6, b0.10] -> 0
+      [b0.6, b0.11] -> 0
+      [b0.7, b0.8] -> 0
+      [b0.7, b0.9] -> 0
+      [b0.7, b0.10] -> [1]
+      [b0.7, b0.11] -> 0
+      [b0.8, b0.9] -> 0
+      [b0.8, b0.10] -> 0
+      [b0.8, b0.11] -> [1]
+      [b0.9, b0.10] -> 0
+      [b0.9, b0.11] -> 0
+      [b0.10, b0.11] -> 0
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+    z0: eig={'0': 10} eig(z^2)={'0': 10}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (A2) TWO-WEDGE so(5,5) rank4 (N^2=0) [MAIN] ===
+  N: rank=4 nilp_depth(min k: N^k=0)=2
+  c(N): dim=25 dim[c,c]=24 derived=[25, 24] dim_centre(c)=1
+  perfect_core dim=24
+  core: dim=24 Killing_sig=(6, 4, 14)
+  Levi: Levi=so(3,2)&sp(4,R)  dim=10 Killing_sig=(6, 4, 0)
+  Levi gen^2 eigenvalues on 10-dim rep (raw, per generator):
+    g0^2 eig={'1': 4, '0': 6}
+    g1^2 eig={'0': 10}
+    g2^2 eig={'0': 10}
+    g3^2 eig={'0': 10}
+    g4^2 eig={'0': 10}
+    g5^2 eig={'0': 10}
+    g6^2 eig={'0': 10}
+    g7^2 eig={'0': 10}
+    g8^2 eig={'1': 8, '0': 2}
+    g9^2 eig={'0': 10}
+  radical: type=R0+h14 dim=14 lower_central_series=[14, 6, 0] n_central_dirs=6 info={'dr': 14, 'dz': 6, 'drr': 6, 'allmove': True, 'a': 0, 'b': 14}
+  module (whole): dv=8 commutant=4 weights={1: 2, -1: 2, 0: 4} mincyc=4
+  module blocks (Levi-irreducible over Q): dims=[4, 4]
+    block0: dim=4 commutant=1 weights={1: 1, -1: 1, 0: 2}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 1, 0]]
+    block1: dim=4 commutant=1 weights={1: 1, -1: 1, 0: 2}
+    block1 basis (module coords): [[0, 1, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=0 anti=1
+    block1: sym=0 anti=1
+    cross block0 x block1: dim=1
+  centre basis for [EXT-2] coords (6 dirs):
+    zc0 nz=[(1, 3, -1), (1, 8, 1), (3, 1, 1), (3, 6, -1), (6, 3, -1), (6, 8, 1), (8, 1, 1), (8, 6, -1)]
+    zc1 nz=[(1, 2, 1), (1, 7, -1), (2, 1, -1), (2, 6, 1), (6, 2, 1), (6, 7, -1), (7, 1, -1), (7, 6, 1)]
+    zc2 nz=[(0, 3, 1), (0, 8, -1), (3, 0, -1), (3, 5, 1), (5, 3, 1), (5, 8, -1), (8, 0, -1), (8, 5, 1)]
+    zc3 nz=[(0, 2, -1), (0, 7, 1), (2, 0, 1), (2, 5, -1), (5, 2, -1), (5, 7, 1), (7, 0, 1), (7, 5, -1)]
+    zc4 nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (2, 3, -1), (2, 8, 1), (3, 2, 1), (3, 7, -1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1), (7, 3, -1), (7, 8, 1), (8, 2, 1), (8, 7, -1)]
+    zc5 nz=[(0, 1, -1), (0, 6, 1), (1, 0, 1), (1, 5, -1), (5, 1, -1), (5, 6, 1), (6, 0, 1), (6, 5, -1)]
+  [EXT-2] full [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> [0, 0, 0, 0, 0, -1]
+      [b0.0, b0.2] -> [-1, 0, 0, 0, 0, 0]
+      [b0.0, b0.3] -> [0, -1, 0, 0, 0, 0]
+      [b0.1, b0.2] -> [0, 0, 1, 0, 0, 0]
+      [b0.1, b0.3] -> [0, 0, 0, 1, 0, 0]
+      [b0.2, b0.3] -> [0, 0, 0, 0, 1, 1]
+    -- pairs (block0,block1) --
+      [b0.0, b1.0] -> 0
+      [b0.0, b1.1] -> 0
+      [b0.0, b1.2] -> 0
+      [b0.0, b1.3] -> 0
+      [b0.1, b1.0] -> 0
+      [b0.1, b1.1] -> 0
+      [b0.1, b1.2] -> 0
+      [b0.1, b1.3] -> 0
+      [b0.2, b1.0] -> 0
+      [b0.2, b1.1] -> 0
+      [b0.2, b1.2] -> 0
+      [b0.2, b1.3] -> 0
+      [b0.3, b1.0] -> 0
+      [b0.3, b1.1] -> 0
+      [b0.3, b1.2] -> 0
+      [b0.3, b1.3] -> 0
+    -- pairs (block1,block1) --
+      [b1.0, b1.1] -> [0, 0, 0, 0, 0, 1]
+      [b1.0, b1.2] -> [1, 0, 0, 0, 0, 0]
+      [b1.0, b1.3] -> [0, 1, 0, 0, 0, 0]
+      [b1.1, b1.2] -> [0, 0, -1, 0, 0, 0]
+      [b1.1, b1.3] -> [0, 0, 0, -1, 0, 0]
+      [b1.2, b1.3] -> [0, 0, 0, 0, -1, -1]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, 1), (0, 6, -1), (1, 0, -1), (1, 5, 1), (2, 3, 1), (2, 8, -1), (3, 2, -1), (3, 7, 1), (5, 1, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1), (7, 3, 1), (7, 8, -1), (8, 2, -1), (8, 7, 1)]
+    z0: eig={'0': 10} eig(z^2)={'0': 10}
+  -- STOP (raw, no interpretation) --
+
+--- mutants (one per branch) ---
+MUTANT br-depth: CAUGHT (N^2=0 for wedges; deep Jordan-3 has N^2!=0, N^3=0)
+MUTANT br-rank: CAUGHT (two-wedge rank4; single-wedge rank2; both signatures)
+MUTANT br-constructible: CAUGHT ((9,0) no isotropic e_i+e_j; (5,4) has)
+MUTANT br-radical: CAUGHT (h3->h3, h5->h5, R3->R3)
+MUTANT br-module: CAUGHT (irreducible commutant=1; reducible 2+2 commutant=4)
+MUTANT br-invform: CAUGHT (so(3):sym1/anti0 ; sp(2,R):sym0/anti1)
+MUTANT br-blocksplit: CAUGHT (2+3 -> blocks [2,3]; isotypic 2+2 -> blocks [2,2])
+MUTANT br-crossform: CAUGHT (std x std cross=1; std x adj cross=0)
+
+SUMMARY: objects=4 (C1/A1/C2/A2) + bit-fence + 8 mutants + neg-control + sign-fence
+SUMMARY: asserts_passed=57 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

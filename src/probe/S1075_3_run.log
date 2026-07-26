@@ -1,0 +1,91 @@
+==============================================================================
+S1075 · AX-dimer · D3 (CHOICE): is there an irreducibility theorem for the choice?
+==============================================================================
+
+───── d=2 (3 axes) ─────
+§1 · the symmetry group of the Gram MEASURED exhaustively: |Aut| = 6 = 3! ⟹ the input really is S_{3}-invariant (✓)
+§2 · transitivity — a permutation is constructed for EVERY pair of axes:
+     9 pairs (i→j) — a witness found for every one ⟹ the action is TRANSITIVE
+§3 · ★A TABLE of invariant subsets of axes by size q:
+     q=0: invariant subsets = 1  (trivial)
+     q=1: invariant subsets = 0  ← the canonical q=1: NO invariants
+     q=2: invariant subsets = 0
+     q=3: invariant subsets = 1  (trivial)
+  ✓ d=2: only ∅ and the WHOLE set are invariant ⟹ no proper nonempty mark (any 0<q<d+1) is the output of an equivariant construction
+       (tooth: said NO on «democracy broken by a norm (axis 0 has norm 2)» ⟹ able to fail)
+§4 · ★THE PRICE OF DERIVABILITY: under which subgroup does one axis become invariant?
+     the largest subgroup with an invariant axis {0} = the stabilizer, |H| = 2 = 2!  ·  INDEX = 3 = d+1
+     ⟹ to DERIVE the choice, one must already hand over exactly 3 = d+1 options,
+       that is, exactly the choice itself.  A structural circularity, the index exact.
+     control (the broken world): |Aut| = 2 = 2! ⟹ there {0} IS invariant, and the choice really IS DERIVABLE — the mechanism shared with S1066-B2 row 3 (stated as an ancestor, not as my own line)
+
+───── d=3 (4 axes) ─────
+§1 · the symmetry group of the Gram MEASURED exhaustively: |Aut| = 24 = 4! ⟹ the input really is S_{4}-invariant (✓)
+§2 · transitivity — a permutation is constructed for EVERY pair of axes:
+     16 pairs (i→j) — a witness found for every one ⟹ the action is TRANSITIVE
+§3 · ★A TABLE of invariant subsets of axes by size q:
+     q=0: invariant subsets = 1  (trivial)
+     q=1: invariant subsets = 0  ← the canonical q=1: NO invariants
+     q=2: invariant subsets = 0
+     q=3: invariant subsets = 0
+     q=4: invariant subsets = 1  (trivial)
+  ✓ d=3: only ∅ and the WHOLE set are invariant ⟹ no proper nonempty mark (any 0<q<d+1) is the output of an equivariant construction
+       (tooth: said NO on «democracy broken by a norm (axis 0 has norm 2)» ⟹ able to fail)
+§4 · ★THE PRICE OF DERIVABILITY: under which subgroup does one axis become invariant?
+     the largest subgroup with an invariant axis {0} = the stabilizer, |H| = 6 = 3!  ·  INDEX = 4 = d+1
+     ⟹ to DERIVE the choice, one must already hand over exactly 4 = d+1 options,
+       that is, exactly the choice itself.  A structural circularity, the index exact.
+     control (the broken world): |Aut| = 6 = 3! ⟹ there {0} IS invariant, and the choice really IS DERIVABLE — the mechanism shared with S1066-B2 row 3 (stated as an ancestor, not as my own line)
+
+───── d=4 (5 axes) ─────
+§1 · the symmetry group of the Gram MEASURED exhaustively: |Aut| = 120 = 5! ⟹ the input really is S_{5}-invariant (✓)
+§2 · transitivity — a permutation is constructed for EVERY pair of axes:
+     25 pairs (i→j) — a witness found for every one ⟹ the action is TRANSITIVE
+§3 · ★A TABLE of invariant subsets of axes by size q:
+     q=0: invariant subsets = 1  (trivial)
+     q=1: invariant subsets = 0  ← the canonical q=1: NO invariants
+     q=2: invariant subsets = 0
+     q=3: invariant subsets = 0
+     q=4: invariant subsets = 0
+     q=5: invariant subsets = 1  (trivial)
+  ✓ d=4: only ∅ and the WHOLE set are invariant ⟹ no proper nonempty mark (any 0<q<d+1) is the output of an equivariant construction
+       (tooth: said NO on «democracy broken by a norm (axis 0 has norm 2)» ⟹ able to fail)
+§4 · ★THE PRICE OF DERIVABILITY: under which subgroup does one axis become invariant?
+     the largest subgroup with an invariant axis {0} = the stabilizer, |H| = 24 = 4!  ·  INDEX = 5 = d+1
+     ⟹ to DERIVE the choice, one must already hand over exactly 5 = d+1 options,
+       that is, exactly the choice itself.  A structural circularity, the index exact.
+     control (the broken world): |Aut| = 24 = 4! ⟹ there {0} IS invariant, and the choice really IS DERIVABLE — the mechanism shared with S1066-B2 row 3 (stated as an ancestor, not as my own line)
+
+SCORE [S1075 · D3-choice of AX-dimer]: 3 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR D3 (a measurement, not a verdict):
+
+  (1) THE IRREDUCIBILITY THEOREM OF THE CHOICE HOLDS, and the mechanism is exactly the one Ω
+      wagered on: the transitivity of S_{d+1} on d+1 axes ⟹ the invariant subsets are only
+      {∅, all} ⟹ no equivariant construction can hand back a single axis.
+      ★This is STRONGER than «4 failures = a theorem» (a rhyme to A-nonderiv): this is not a
+      list of failed attempts, but a structural impossibility for ANY construction from this
+      input.
+
+  (2) ★STRONGER THAN THE EXANTE'S FORMULATION: the theorem forbids not only «which axis
+      exactly», but ANY proper nonempty mark — the table of §3 gives zero invariant subsets
+      at EVERY 0 < q < d+1, not only at q=1.  ⟹ an equivariant construction can only hand
+      back exactly q=0 or q=d+1; the canonical q=1 is not its output, BY TYPE.
+
+  (3) ★A CONSEQUENCE FOR THE WITNESS COUNT (multiplicity by ancestor, not by line):
+      D1 (existence) and D3 (choice) fall from ONE theorem — equivariance.
+      ⟹ they are NOT two independent witnesses of irreducibility, but ONE.  What differs
+      between them is only the INFORMATION (existence = 1 bit ⊥ choice = log₂(d+1) bits),
+      not the mechanism.  The only thing that remains independent is the cone-measurement
+      D1-§2 (it lives in the arena and knows nothing of S_{d+1}) — THAT is the second
+      witness, not D3.
+
+  (4) THE PRICE, named precisely (§4): for the choice to become derivable, democracy must be
+      broken down to the stabilizer — a subgroup of INDEX exactly d+1.  That is, one must
+      pay exactly the information one wants to obtain.  This is not "hard", it is circular.
+
+  (5) ⟹ the choice = SPONTANEITY, the same class as ±m₀ and the 1-bit of T36-(v) (as Ω
+      wagered).  But with the correction of (2): what is spontaneous is not only WHICH, but
+      also WHETHER.
+────────────────────────────────────────────────────────────────────────────────

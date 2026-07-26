@@ -1,0 +1,267 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared fence_scan helper)
+================================================================================================
+  [PASS] fence: forbidden words (list = GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] handles 0 (pure algebra: pair (η,Ω) · centralizer · rank · Killing · nilpotent)
+
+================================================================================================
+SECTION so(2,2) — n=4, η=diag(+1,+1,−1,−1,) · dim so = 6
+================================================================================================
+  [PASS] so(2,2): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(2,2): generator count = n(n−1)/2 — J-moves: 2 · K-moves: 4 · total: 6
+  [PASS] so(2,2): linear independence of the generators — rank = 6
+  [PASS] so(2,2): ηX antisymmetric for EVERY generator X (direction so(η) ⟹ Ω)
+  [PASS] so(2,2): generic antisymmetric Ω ⟹ A = η⁻¹Ω ∈ so(η) (symbolic, 6 symbols)
+
+  BLOCK A — c(a single generator): 2 J-moves + 4 K-moves (each individually)
+  [PASS] so(2,2) block A: all 6 single generators solved (X ∈ c(X) — assert on each)
+    CLASSES (grouping identical):
+     dim c    Killing  degen  count   generators
+         2    (0,0,2)    yes      6   J(0,1) J(2,3) K(0,2) K(0,3) K(1,2) K(1,3)
+
+  BLOCK B — generic A: N = 300, A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 903 (separate Random(903) per signature)
+  [PASS] so(2,2) block B: all 300 A solved (no truncation) — = 300
+    HISTOGRAM OF CLASSES {dim c · Killing c} (N = 300):
+      {dim 2 · Killing (0,0,2)} · degen: yes : 299
+      {dim 4 · Killing (2,1,1)} · degen: yes : 1
+    FACTORIZATION of charpoly(A) over Q BY CLASS (deg^multiplicity : count):
+      {dim 2 · Killing (0,0,2)}:
+        deg1^1 · deg1^1 · deg1^1 · deg1^1 : 23
+        deg1^1 · deg1^1 · deg1^2 : 9
+        deg1^2 · deg1^2 : 10
+        deg1^2 · deg2^1 : 5
+        deg1^4 : 2
+        deg2^1 · deg2^1 : 72
+        deg2^2 : 18
+        deg4^1 : 160
+      {dim 4 · Killing (2,1,1)}:
+        deg2^2 : 1
+
+  BLOCK C — A² = ±𝟙 on so(2,2):
+  [PASS] so(2,2) block C: identity ΩᵀηΩ + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(2,2) block C: identity AᵀηA + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(2,2) block C: identity xᵀΩx = 0 (symbolic; xᵀηAx = xᵀΩx)
+    sym_signature(η) = (2,2,0) · sym_signature(−η) = (2,2,0) · match: yes
+    LINE (from the identities above): A² = +𝟙 ⟹ ΩᵀηΩ = −η (Ω = ηA invertible, since A² = 𝟙); Sylvester: congruence by an invertible matrix preserves the signature
+    LINE (from the identities above): A² = −𝟙 ⟹ AᵀηA = η and xᵀηAx = 0 ∀x ⟹ the Gram of the pair (x, Ax) = [[t,0],[0,t]], t = xᵀηx; p mod 2 = 0 · q mod 2 = 0
+    so(2,2): SEARCH BOUNDARY (stamp): coeffs ∈ {−2..2}^6 — full enumeration 5^6 = 15625
+  [PASS] so(2,2) block C: enumerated 15625 = 5^6 coeff vectors (full enumeration, no truncation)
+
+    TARGET A² = −𝟙 (minimal polynomial x²+1): enumerated 15625 · found 4
+      first found (lexicographic enumeration order): coeffs = [-1, -1, 0, 0, 0, 0]
+      A(rows) = [[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]]
+      charpoly(A) = (x**2 + 1)**2
+      dim c(A) = 4 · Killing (2,1,1) · degen: yes
+
+    TARGET A² = +𝟙 (x²−1): enumerated 15625 · found 56
+      first found (lexicographic enumeration order): coeffs = [-2, -2, -2, -1, -1, 2]
+      A(rows) = [[0, -2, -2, -1], [2, 0, -1, 2], [-2, -1, 0, -2], [-1, 2, 2, 0]]
+      charpoly(A) = (x - 1)**2*(x + 1)**2
+      dim c(A) = 4 · Killing (2,1,1) · degen: yes
+  [PASS] so(2,2) block C: both targets processed (found, or bound stamp + raw line)
+
+  BLOCK D — nilpotent A on so(2,2):
+  [PASS] so(2,2) D1: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(2,2) D1: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D1: rank-2, v=e0+e2 · w=e1
+      A(rows) = [[0, 1, 0, 0], [-1, 0, 1, 0], [0, 1, 0, 0], [0, 0, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 2 · Killing (0,0,2) · degen: yes
+  [PASS] so(2,2) D2: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(2,2) D2: A^2 = 0 and A^1 ≠ 0 (nilpotency degree 2)
+    D2: rank-2, v=e0+e2 · w=e1+e3
+      A(rows) = [[0, 1, 0, -1], [-1, 0, 1, 0], [0, 1, 0, -1], [-1, 0, 1, 0]]
+      nilpotency degree = 2 · dim c(A) = 4 · Killing (2,1,1) · degen: yes
+  [PASS] so(2,2) D3: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(2,2) D3: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D3: rank-2, v=e1+e3 · w=e0
+      A(rows) = [[0, -1, 0, 1], [1, 0, 0, 0], [0, 0, 0, 0], [1, 0, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 2 · Killing (0,0,2) · degen: yes
+
+================================================================================================
+SECTION so(3,1) — n=4, η=diag(+1,+1,+1,−1,) · dim so = 6
+================================================================================================
+  [PASS] so(3,1): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(3,1): generator count = n(n−1)/2 — J-moves: 3 · K-moves: 3 · total: 6
+  [PASS] so(3,1): linear independence of the generators — rank = 6
+  [PASS] so(3,1): ηX antisymmetric for EVERY generator X (direction so(η) ⟹ Ω)
+  [PASS] so(3,1): generic antisymmetric Ω ⟹ A = η⁻¹Ω ∈ so(η) (symbolic, 6 symbols)
+
+  BLOCK A — c(a single generator): 3 J-moves + 3 K-moves (each individually)
+  [PASS] so(3,1) block A: all 6 single generators solved (X ∈ c(X) — assert on each)
+    CLASSES (grouping identical):
+     dim c    Killing  degen  count   generators
+         2    (0,0,2)    yes      6   J(0,1) J(0,2) J(1,2) K(0,3) K(1,3) K(2,3)
+
+  BLOCK B — generic A: N = 300, A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 903 (separate Random(903) per signature)
+  [PASS] so(3,1) block B: all 300 A solved (no truncation) — = 300
+    HISTOGRAM OF CLASSES {dim c · Killing c} (N = 300):
+      {dim 2 · Killing (0,0,2)} · degen: yes : 300
+    FACTORIZATION of charpoly(A) over Q BY CLASS (deg^multiplicity : count):
+      {dim 2 · Killing (0,0,2)}:
+        deg1^1 · deg1^1 · deg1^2 : 5
+        deg1^1 · deg1^1 · deg2^1 : 33
+        deg1^2 · deg2^1 : 17
+        deg2^1 · deg2^1 : 10
+        deg4^1 : 235
+
+  BLOCK C — A² = ±𝟙 on so(3,1):
+  [PASS] so(3,1) block C: identity ΩᵀηΩ + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(3,1) block C: identity AᵀηA + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(3,1) block C: identity xᵀΩx = 0 (symbolic; xᵀηAx = xᵀΩx)
+    sym_signature(η) = (3,1,0) · sym_signature(−η) = (1,3,0) · match: no
+    LINE (from the identities above): A² = +𝟙 ⟹ ΩᵀηΩ = −η (Ω = ηA invertible, since A² = 𝟙); Sylvester: congruence by an invertible matrix preserves the signature
+    LINE (from the identities above): A² = −𝟙 ⟹ AᵀηA = η and xᵀηAx = 0 ∀x ⟹ the Gram of the pair (x, Ax) = [[t,0],[0,t]], t = xᵀηx; p mod 2 = 1 · q mod 2 = 1
+    so(3,1): SEARCH BOUNDARY (stamp): coeffs ∈ {−2..2}^6 — full enumeration 5^6 = 15625
+  [PASS] so(3,1) block C: enumerated 15625 = 5^6 coeff vectors (full enumeration, no truncation)
+
+    TARGET A² = −𝟙 (minimal polynomial x²+1): enumerated 15625 · found 0
+    not found within coeffs ∈ {−2..2}^6 (full enumeration 15625)
+
+    TARGET A² = +𝟙 (x²−1): enumerated 15625 · found 0
+    not found within coeffs ∈ {−2..2}^6 (full enumeration 15625)
+  [PASS] so(3,1) block C: both targets processed (found, or bound stamp + raw line)
+
+  BLOCK D — nilpotent A on so(3,1):
+  [PASS] so(3,1) D1: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,1) D1: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D1: rank-2, v=e2+e3 · w=e0
+      A(rows) = [[0, 0, -1, 1], [0, 0, 0, 0], [1, 0, 0, 0], [1, 0, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 2 · Killing (0,0,2) · degen: yes
+  [PASS] so(3,1) D2: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,1) D2: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D2: rank-2, v=e2+e3 · w=e0+e1
+      A(rows) = [[0, 0, -1, 1], [0, 0, -1, 1], [1, 1, 0, 0], [1, 1, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 2 · Killing (0,0,2) · degen: yes
+  [PASS] so(3,1) D3: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,1) D3: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D3: rank-2, v=e0+e3 · w=e1
+      A(rows) = [[0, 1, 0, 0], [-1, 0, 0, 1], [0, 0, 0, 0], [0, 1, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 2 · Killing (0,0,2) · degen: yes
+
+================================================================================================
+SECTION so(3,3) — n=6, η=diag(+1,+1,+1,−1,−1,−1,) · dim so = 15
+================================================================================================
+  [PASS] so(3,3): Xη + ηXᵀ = 0 for all 15 generators (sympy-exact)
+  [PASS] so(3,3): generator count = n(n−1)/2 — J-moves: 6 · K-moves: 9 · total: 15
+  [PASS] so(3,3): linear independence of the generators — rank = 15
+  [PASS] so(3,3): ηX antisymmetric for EVERY generator X (direction so(η) ⟹ Ω)
+  [PASS] so(3,3): generic antisymmetric Ω ⟹ A = η⁻¹Ω ∈ so(η) (symbolic, 15 symbols)
+
+  BLOCK A — c(a single generator): 6 J-moves + 9 K-moves (each individually)
+  [PASS] so(3,3) block A: all 15 single generators solved (X ∈ c(X) — assert on each)
+    CLASSES (grouping identical):
+     dim c    Killing  degen  count   generators
+         7    (3,3,1)    yes      6   J(0,1) J(0,2) J(1,2) J(3,4) J(3,5) J(4,5)
+         7    (4,2,1)    yes      9   K(0,3) K(0,4) K(0,5) K(1,3) K(1,4) K(1,5) K(2,3) K(2,4) K(2,5)
+
+  BLOCK B — generic A: N = 300, A = Σ cᵢ·Gᵢ, cᵢ ∈ {−3..3}, seed 903 (separate Random(903) per signature)
+  [PASS] so(3,3) block B: all 300 A solved (no truncation) — = 300
+    HISTOGRAM OF CLASSES {dim c · Killing c} (N = 300):
+      {dim 3 · Killing (0,0,3)} · degen: yes : 300
+    FACTORIZATION of charpoly(A) over Q BY CLASS (deg^multiplicity : count):
+      {dim 3 · Killing (0,0,3)}:
+        deg1^1 · deg1^1 · deg1^2 · deg2^1 : 1
+        deg1^1 · deg1^1 · deg2^1 · deg2^1 : 8
+        deg1^1 · deg1^1 · deg2^2 : 1
+        deg1^1 · deg1^1 · deg4^1 : 8
+        deg1^2 · deg2^1 · deg2^1 : 1
+        deg1^2 · deg4^1 : 5
+        deg3^1 · deg3^1 : 16
+        deg6^1 : 260
+
+  BLOCK C — A² = ±𝟙 on so(3,3):
+  [PASS] so(3,3) block C: identity ΩᵀηΩ + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(3,3) block C: identity AᵀηA + ηA² = 0 (symbolic, generic Ω)
+  [PASS] so(3,3) block C: identity xᵀΩx = 0 (symbolic; xᵀηAx = xᵀΩx)
+    sym_signature(η) = (3,3,0) · sym_signature(−η) = (3,3,0) · match: yes
+    LINE (from the identities above): A² = +𝟙 ⟹ ΩᵀηΩ = −η (Ω = ηA invertible, since A² = 𝟙); Sylvester: congruence by an invertible matrix preserves the signature
+    LINE (from the identities above): A² = −𝟙 ⟹ AᵀηA = η and xᵀηAx = 0 ∀x ⟹ the Gram of the pair (x, Ax) = [[t,0],[0,t]], t = xᵀηx; p mod 2 = 1 · q mod 2 = 1
+  [PASS] so(3,3) block C: tr-Gram of the generators is diagonal; diagonal −2 (J) / +2 (K)
+  [PASS] so(3,3) block C: formula tr(A²) = Σ cᵢ²·tr(Gᵢ²) — verification sample of 20 random coeff vectors (seed 9031)
+    so(3,3) target A²=−𝟙: SEARCH BOUNDARY (stamp): coeffs ∈ {−1,0,1}^15 — full domain 3^15 = 14348907; exact necessary condition tr(A²) = -6 ⟹ (count of nonzero J) − (count of nonzero K) = 3; candidates after the condition: 75136 (all enumerated); the rest of the domain is cut by the exact condition
+  [PASS] so(3,3) block C target A²=−𝟙: candidate count = combinatorial formula — 75136 = 75136
+    so(3,3) target A²=+𝟙: SEARCH BOUNDARY (stamp): coeffs ∈ {−1,0,1}^15 — full domain 3^15 = 14348907; exact necessary condition tr(A²) = 6 ⟹ (count of nonzero K) − (count of nonzero J) = 3; candidates after the condition: 2708000 (all enumerated); the rest of the domain is cut by the exact condition
+  [PASS] so(3,3) block C target A²=+𝟙: candidate count = combinatorial formula — 2708000 = 2708000
+
+    TARGET A² = −𝟙 (minimal polynomial x²+1): enumerated 75136 · found 0
+    not found within coeffs ∈ {−1,0,1}^15 (domain 3^15, tr-condition, 75136 candidates)
+
+    TARGET A² = +𝟙 (x²−1): enumerated 2708000 · found 1872
+      first found (lexicographic enumeration order): coeffs = [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1]
+      A(rows) = [[0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0]]
+      charpoly(A) = (x - 1)**3*(x + 1)**3
+      dim c(A) = 9 · Killing (5,3,1) · degen: yes
+  [PASS] so(3,3) block C: both targets processed (found, or bound stamp + raw line)
+
+  BLOCK D — nilpotent A on so(3,3):
+  [PASS] so(3,3) D1: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,3) D1: A^3 = 0 and A^2 ≠ 0 (nilpotency degree 3)
+    D1: rank-2, v=e0+e3 · w=e2
+      A(rows) = [[0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0], [-1, 0, 0, 1, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]
+      nilpotency degree = 3 · dim c(A) = 7 · Killing (2,1,4) · degen: yes
+  [PASS] so(3,3) D2: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,3) D2: A^2 = 0 and A^1 ≠ 0 (nilpotency degree 2)
+    D2: rank-2, v=e0+e3 · w=e1+e4
+      A(rows) = [[0, 1, 0, 0, -1, 0], [-1, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0], [0, 1, 0, 0, -1, 0], [-1, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0]]
+      nilpotency degree = 2 · dim c(A) = 9 · Killing (3,1,5) · degen: yes
+  [PASS] so(3,3) D3: A ∈ so(η) (ηA antisymmetric) and A ≠ 0
+  [PASS] so(3,3) D3: A^5 = 0 and A^4 ≠ 0 (nilpotency degree 5)
+    D3: Witt block [[a,b],[0,−aᵀ]], a=E12+E23 · b=E23−E32 (conjugation S)
+      A(rows) = [[0, 1/2, 0, 0, 1/2, 0], [-1/2, 0, 1, 1/2, 0, 0], [0, -1, 0, 0, 1, 0], [0, 1/2, 0, 0, 1/2, 0], [1/2, 0, 1, -1/2, 0, 0], [0, 0, 0, 0, 0, 0]]
+      nilpotency degree = 5 · dim c(A) = 3 · Killing (0,0,3) · degen: yes
+
+================================================================================================
+BLOCK E — sets of keys {dim · Killing} against the S901/S902 reference lists (raw)
+================================================================================================
+
+  so(2,2):
+    (i)   centralizer classes A∪B∪C∪D (2): {dim 2 · Killing (0,0,2)} {dim 4 · Killing (2,1,1)}
+    (ii)  ∩ S901 (2): {dim 2 · Killing (0,0,2)} {dim 4 · Killing (2,1,1)}
+    (iii) centralizer ∖ S901 (0): ∅
+    (iv)  S901 ∖ centralizer (4): {dim 1 · Killing (0,0,1)} {dim 3 · Killing (2,1,0)} {dim 5 · Killing (3,1,1)} {dim 6 · Killing (4,2,0)}
+    (ii')  ∩ S902 (1): {dim 2 · Killing (0,0,2)}
+    (iii') centralizer ∖ S902 (1): {dim 4 · Killing (2,1,1)}
+    (iv')  S902 ∖ centralizer (4): {dim 0 · Killing (0,0,0)} {dim 1 · Killing (0,0,1)} {dim 3 · Killing (2,1,0)} {dim 6 · Killing (4,2,0)}
+
+  so(3,1):
+    (i)   centralizer classes A∪B∪C∪D (1): {dim 2 · Killing (0,0,2)}
+    (ii)  ∩ S901 (1): {dim 2 · Killing (0,0,2)}
+    (iii) centralizer ∖ S901 (0): ∅
+    (iv)  S901 ∖ centralizer (5): {dim 1 · Killing (0,0,1)} {dim 3 · Killing (0,3,0)} {dim 3 · Killing (2,1,0)} {dim 4 · Killing (1,1,2)} {dim 6 · Killing (3,3,0)}
+
+  so(3,3):
+    (i)   centralizer classes A∪B∪C∪D (6): {dim 3 · Killing (0,0,3)} {dim 7 · Killing (2,1,4)} {dim 7 · Killing (3,3,1)} {dim 7 · Killing (4,2,1)} {dim 9 · Killing (3,1,5)} {dim 9 · Killing (5,3,1)}
+    (ii)  ∩ S901 (3): {dim 3 · Killing (0,0,3)} {dim 7 · Killing (3,3,1)} {dim 7 · Killing (4,2,1)}
+    (iii) centralizer ∖ S901 (3): {dim 7 · Killing (2,1,4)} {dim 9 · Killing (3,1,5)} {dim 9 · Killing (5,3,1)}
+    (iv)  S901 ∖ centralizer (11): {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (0,3,0)} {dim 3 · Killing (2,1,0)} {dim 4 · Killing (0,3,1)} {dim 4 · Killing (2,1,1)} {dim 6 · Killing (0,6,0)} {dim 6 · Killing (3,3,0)} {dim 6 · Killing (4,2,0)} {dim 10 · Killing (6,4,0)} {dim 15 · Killing (9,6,0)}
+    (ii')  ∩ S902 (3): {dim 3 · Killing (0,0,3)} {dim 7 · Killing (3,3,1)} {dim 7 · Killing (4,2,1)}
+    (iii') centralizer ∖ S902 (3): {dim 7 · Killing (2,1,4)} {dim 9 · Killing (3,1,5)} {dim 9 · Killing (5,3,1)}
+    (iv')  S902 ∖ centralizer (12): {dim 0 · Killing (0,0,0)} {dim 1 · Killing (0,0,1)} {dim 2 · Killing (0,0,2)} {dim 3 · Killing (0,3,0)} {dim 3 · Killing (2,1,0)} {dim 4 · Killing (0,3,1)} {dim 4 · Killing (2,1,1)} {dim 6 · Killing (0,6,0)} {dim 6 · Killing (3,3,0)} {dim 6 · Killing (4,2,0)} {dim 10 · Killing (6,4,0)} {dim 15 · Killing (9,6,0)}
+  [PASS] block E: three signatures against S901; containers so(2,2)·so(3,3) additionally against S902
+
+================================================================================================
+SUMMARY S903 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 60/60 PASS
+  Explicit subalgebra bracket-asserts (all c(A), pairwise brackets): 1951
+
+  SEARCH BOUND STAMPS (block C):
+   · so(2,2): SEARCH BOUNDARY (stamp): coeffs ∈ {−2..2}^6 — full enumeration 5^6 = 15625
+   · so(3,1): SEARCH BOUNDARY (stamp): coeffs ∈ {−2..2}^6 — full enumeration 5^6 = 15625
+   · so(3,3) target A²=−𝟙: SEARCH BOUNDARY (stamp): coeffs ∈ {−1,0,1}^15 — full domain 3^15 = 14348907; exact necessary condition tr(A²) = -6 ⟹ (count of nonzero J) − (count of nonzero K) = 3; candidates after the condition: 75136 (all enumerated); the rest of the domain is cut by the exact condition
+   · so(3,3) target A²=+𝟙: SEARCH BOUNDARY (stamp): coeffs ∈ {−1,0,1}^15 — full domain 3^15 = 14348907; exact necessary condition tr(A²) = 6 ⟹ (count of nonzero K) − (count of nonzero J) = 3; candidates after the condition: 2708000 (all enumerated); the rest of the domain is cut by the exact condition
+
+  RAW LINES (no readings):
+   (1) so(2,2)·so(3,1)·so(3,3): generators form a basis + equivalence
+       (η,Ω-antisymmetric) ⟺ A = η⁻¹Ω ∈ so(η) — both directions, sympy-exact;
+   (2) block A: centralizers of all single J/K — classes grouped, count above;
+   (3) block B: 300 random integer A per signature (seed 903) — class
+       histograms and factorization of charpoly(A) by class — above;
+   (4) block C: A² = ±𝟙 — searches within stamped bounds + symbolic identities +
+       signatures of η/−η; A found with its c(A), those not found — raw bound lines — above;
+   (5) block D: nilpotent A (rank-2 + Witt block) with degrees — above;
+   (6) block E: sets of keys against S901/S902 — above.
+  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+

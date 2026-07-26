@@ -1,0 +1,228 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared helper fence_scan)
+================================================================================================
+  [PASS] fence: forbidden words (list = the GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] downstream-content 0 · handles 0 (pure Lie algebra)
+
+================================================================================================
+SECTION so(3,0) — n=3, η=diag(+1,+1,+1,) · dim so = n(n−1)/2 = 3
+================================================================================================
+  [PASS] so(3,0): Xη + ηXᵀ = 0 for all 3 generators (sympy-exact)
+  [PASS] so(3,0): generator count = n(n−1)/2 — J-entries: 3 · K-entries: 0 · total: 3
+  [PASS] so(3,0): linear independence of the generators (sympy-exact rank) — rank = 3
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^3 − 1 = 7
+    sizes covered: ≤3 of 3 (a full pass)
+  [PASS] so(3,0): ALL 7 non-empty subsets were traversed — start count = 7 · lie_closure calls (memoized) = 7
+    unique closure subspaces: 4
+    classes {dim · Killing signature}: 2
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                   3                   3
+         3      (0,3,0)           no                   1                   4
+    summary A: classes with a non-degenerate Killing form = 1 · with a degenerate one = 1
+
+  BLOCK B — random subspaces: k = 1..3, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 6):
+      [dim 3 · Killing (0,3,0)] : 200
+    k=3 (spans accepted 200, discarded for rank<k: 13):
+      [dim 3 · Killing (0,3,0)] : 200
+    classes in B absent from A: 0
+    classes in A absent from B: 0
+
+================================================================================================
+SECTION so(2,1) — n=3, η=diag(+1,+1,−1,) · dim so = n(n−1)/2 = 3
+================================================================================================
+  [PASS] so(2,1): Xη + ηXᵀ = 0 for all 3 generators (sympy-exact)
+  [PASS] so(2,1): generator count = n(n−1)/2 — J-entries: 1 · K-entries: 2 · total: 3
+  [PASS] so(2,1): linear independence of the generators (sympy-exact rank) — rank = 3
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^3 − 1 = 7
+    sizes covered: ≤3 of 3 (a full pass)
+  [PASS] so(2,1): ALL 7 non-empty subsets were traversed — start count = 7 · lie_closure calls (memoized) = 7
+    unique closure subspaces: 4
+    classes {dim · Killing signature}: 2
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                   3                   3
+         3      (2,1,0)           no                   1                   4
+    summary A: classes with a non-degenerate Killing form = 1 · with a degenerate one = 1
+
+  BLOCK B — random subspaces: k = 1..3, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 6):
+      [dim 2 · Killing (1,0,1)] : 12
+      [dim 3 · Killing (2,1,0)] : 188
+    k=3 (spans accepted 200, discarded for rank<k: 13):
+      [dim 3 · Killing (2,1,0)] : 200
+    classes in B absent from A: 1 — [dim 2 · Killing (1,0,1)]
+    classes in A absent from B: 0
+
+================================================================================================
+SECTION so(2,2) — n=4, η=diag(+1,+1,−1,−1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(2,2): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(2,2): generator count = n(n−1)/2 — J-entries: 2 · K-entries: 4 · total: 6
+  [PASS] so(2,2): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^6 − 1 = 63
+    sizes covered: ≤6 of 6 (a full pass)
+  [PASS] so(2,2): ALL 63 non-empty subsets were traversed — start count = 63 · lie_closure calls (memoized) = 38
+    unique closure subspaces: 14
+    classes {dim · Killing signature}: 4
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                   6                   6
+         2      (0,0,2)          yes                   3                   3
+         3      (2,1,0)           no                   4                  16
+         6      (4,2,0)           no                   1                  38
+    summary A: classes with a non-degenerate Killing form = 2 · with a degenerate one = 2
+
+  BLOCK B — random subspaces: k = 1..4, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 0):
+      [dim 4 · Killing (2,1,1)] : 6
+      [dim 5 · Killing (3,1,1)] : 9
+      [dim 6 · Killing (4,2,0)] : 185
+    k=3 (spans accepted 200, discarded for rank<k: 0):
+      [dim 5 · Killing (3,1,1)] : 2
+      [dim 6 · Killing (4,2,0)] : 198
+    k=4 (spans accepted 200, discarded for rank<k: 0):
+      [dim 6 · Killing (4,2,0)] : 200
+    classes in B absent from A: 2 — [dim 4 · Killing (2,1,1)] · [dim 5 · Killing (3,1,1)]
+    classes in A absent from B: 2 — [dim 2 · Killing (0,0,2)] · [dim 3 · Killing (2,1,0)]
+
+================================================================================================
+SECTION so(3,1) — n=4, η=diag(+1,+1,+1,−1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(3,1): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(3,1): generator count = n(n−1)/2 — J-entries: 3 · K-entries: 3 · total: 6
+  [PASS] so(3,1): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^6 − 1 = 63
+    sizes covered: ≤6 of 6 (a full pass)
+  [PASS] so(3,1): ALL 63 non-empty subsets were traversed — start count = 63 · lie_closure calls (memoized) = 35
+    unique closure subspaces: 14
+    classes {dim · Killing signature}: 5
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                   6                   6
+         2      (0,0,2)          yes                   3                   3
+         3      (0,3,0)           no                   1                   4
+         3      (2,1,0)           no                   3                  12
+         6      (3,3,0)           no                   1                  38
+    summary A: classes with a non-degenerate Killing form = 3 · with a degenerate one = 2
+
+  BLOCK B — random subspaces: k = 1..4, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 0):
+      [dim 4 · Killing (1,1,2)] : 1
+      [dim 6 · Killing (3,3,0)] : 199
+    k=3 (spans accepted 200, discarded for rank<k: 0):
+      [dim 6 · Killing (3,3,0)] : 200
+    k=4 (spans accepted 200, discarded for rank<k: 0):
+      [dim 6 · Killing (3,3,0)] : 200
+    classes in B absent from A: 1 — [dim 4 · Killing (1,1,2)]
+    classes in A absent from B: 3 — [dim 2 · Killing (0,0,2)] · [dim 3 · Killing (0,3,0)] · [dim 3 · Killing (2,1,0)]
+
+================================================================================================
+SECTION so(4,0) — n=4, η=diag(+1,+1,+1,+1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(4,0): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(4,0): generator count = n(n−1)/2 — J-entries: 6 · K-entries: 0 · total: 6
+  [PASS] so(4,0): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^6 − 1 = 63
+    sizes covered: ≤6 of 6 (a full pass)
+  [PASS] so(4,0): ALL 63 non-empty subsets were traversed — start count = 63 · lie_closure calls (memoized) = 38
+    unique closure subspaces: 14
+    classes {dim · Killing signature}: 4
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                   6                   6
+         2      (0,0,2)          yes                   3                   3
+         3      (0,3,0)           no                   4                  16
+         6      (0,6,0)           no                   1                  38
+    summary A: classes with a non-degenerate Killing form = 2 · with a degenerate one = 2
+
+  BLOCK B — random subspaces: k = 1..4, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 0):
+      [dim 4 · Killing (0,3,1)] : 5
+      [dim 6 · Killing (0,6,0)] : 195
+    k=3 (spans accepted 200, discarded for rank<k: 0):
+      [dim 6 · Killing (0,6,0)] : 200
+    k=4 (spans accepted 200, discarded for rank<k: 0):
+      [dim 6 · Killing (0,6,0)] : 200
+    classes in B absent from A: 1 — [dim 4 · Killing (0,3,1)]
+    classes in A absent from B: 2 — [dim 2 · Killing (0,0,2)] · [dim 3 · Killing (0,3,0)]
+
+================================================================================================
+SECTION so(3,3) — n=6, η=diag(+1,+1,+1,−1,−1,−1,) · dim so = n(n−1)/2 = 15
+================================================================================================
+  [PASS] so(3,3): Xη + ηXᵀ = 0 for all 15 generators (sympy-exact)
+  [PASS] so(3,3): generator count = n(n−1)/2 — J-entries: 6 · K-entries: 9 · total: 15
+  [PASS] so(3,3): linear independence of the generators (sympy-exact rank) — rank = 15
+
+  BLOCK A — all non-empty subsets of the generator basis: 2^15 − 1 = 32767
+    sizes covered: ≤15 of 15 (a full pass)
+  [PASS] so(3,3): ALL 32767 non-empty subsets were traversed — start count = 32767 · lie_closure calls (memoized) = 985
+    unique closure subspaces: 202
+    classes {dim · Killing signature}: 14
+     dim L      Killing   degenerate      uniq.subspaces    starting subsets
+         1      (0,0,1)          yes                  15                  15
+         2      (0,0,2)          yes                  45                  45
+         3      (0,0,3)          yes                  15                  15
+         3      (0,3,0)           no                   2                   8
+         3      (2,1,0)           no                  18                  72
+         4      (0,3,1)          yes                   6                  24
+         4      (2,1,1)          yes                  54                 216
+         6      (0,6,0)           no                   1                  16
+         6      (3,3,0)           no                   6                 228
+         6      (4,2,0)           no                  18                 486
+         7      (3,3,1)          yes                   6                 228
+         7      (4,2,1)          yes                   9                 342
+        10      (6,4,0)           no                   6                4368
+        15      (9,6,0)           no                   1               26704
+    summary A: classes with a non-degenerate Killing form = 7 · with a degenerate one = 7
+
+  BLOCK B — random subspaces: k = 1..4, N = 200 per k, seed 901, coeff. {−3..3}
+    k=1 (spans accepted 200, discarded for rank<k: 0):
+      [dim 1 · Killing (0,0,1)] : 200
+    k=2 (spans accepted 200, discarded for rank<k: 0):
+      [dim 15 · Killing (9,6,0)] : 200
+    k=3 (spans accepted 200, discarded for rank<k: 0):
+      [dim 15 · Killing (9,6,0)] : 200
+    k=4 (spans accepted 200, discarded for rank<k: 0):
+      [dim 15 · Killing (9,6,0)] : 200
+    classes in B absent from A: 0
+    classes in A absent from B: 12 — [dim 2 · Killing (0,0,2)] · [dim 3 · Killing (0,0,3)] · [dim 3 · Killing (0,3,0)] · [dim 3 · Killing (2,1,0)] · [dim 4 · Killing (0,3,1)] · [dim 4 · Killing (2,1,1)] · [dim 6 · Killing (0,6,0)] · [dim 6 · Killing (3,3,0)] · [dim 6 · Killing (4,2,0)] · [dim 7 · Killing (3,3,1)] · [dim 7 · Killing (4,2,1)] · [dim 10 · Killing (6,4,0)]
+
+================================================================================================
+BLOCK C — growth with n: signature · n · dim so(p,q) · classes A · classes A∪B · non-deg./deg.
+================================================================================================
+  signature      n  dim so classes A classes A∪Bnon-degenerate  degenerate
+  (3,0)         3       3         2           2             1           1
+  (2,1)         3       3         2           3             1           2
+  (2,2)         4       6         4           6             2           4
+  (3,1)         4       6         5           6             3           3
+  (4,0)         4       6         4           5             2           3
+  (3,3)         6      15        14          14             7           7
+
+================================================================================================
+SUMMARY S901 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 26/26 PASS
+
+  RAW LINES (no readings):
+   (1) six signatures so(p,q): basis-hood (count n(n−1)/2 + independence) — sympy-exact;
+   (2) block A: a full enumeration of closures of all non-empty subsets of the generator
+       basis (memoization by size + a cache keyed by RREF) — class tables above;
+   (3) block B: random k-dimensional subspaces (seed 901) — class histograms and a raw
+       intersection of the sets of classes A/B above;
+   (4) block C: the table of growth with n — above.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+

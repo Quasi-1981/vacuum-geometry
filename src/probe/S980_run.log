@@ -1,0 +1,42 @@
+==============================================================================
+W38-leg-1: factorization of the center form ω = ε_W ⊗ G_core
+==============================================================================
+
+--- FULL TABLE ω + TENSOR CROSS-CHECK (ω = const·ε⊗G) ---
+(3,2) | dim module=2 | core-sig=(1, 0) | const=-1 | tensor-match=YES | residual=0
+(4,2) | dim module=4 | core-sig=(2, 0) | const=-1 | tensor-match=YES | residual=0
+(3,3) | dim module=4 | core-sig=(1, 1) | const=-1 | tensor-match=YES | residual=0
+(5,2) | dim module=6 | core-sig=(3, 0) | const=-1 | tensor-match=YES | residual=0
+(4,3) | dim module=6 | core-sig=(2, 1) | const=-1 | tensor-match=YES | residual=0
+(3,4) | dim module=6 | core-sig=(1, 2) | const=-1 | tensor-match=YES | residual=0
+(2,5) | dim module=6 | core-sig=(0, 3) | const=-1 | tensor-match=YES | residual=0
+
+--- ∀d SYMBOLIC (block form ω(E_{u,a},E_{v,b})=ε(u,v)·(G⁻¹)_{ab}) ---
+  blockwise: ω(E_{u,a},E_{v,b})=ε(u,v)·(G⁻¹)_{ab} — a pure tensor for d=1,2,3 (±) → MATCH ∀d
+
+--- TRANSPORT to the Darboux-canonical basis (pairs (m_x@a,m_y@a)) ---
+  (4,2): ω = ⊕_a (const·η_aa·ε) block-diagonal, cross-blocks=0 → transport-match=YES
+  (4,3): ω = ⊕_a (const·η_aa·ε) block-diagonal, cross-blocks=0 → transport-match=YES
+
+--- dim INVARIANT ANTISYM. FORMS (under the full Levi of the core) ---
+  (3,2) | Levi-generators=3 | core-sig=(1,0) | dim invariant antisym.forms=1
+  (4,2) | Levi-generators=4 | core-sig=(2,0) | dim invariant antisym.forms=1
+  (3,3) | Levi-generators=4 | core-sig=(1,1) | dim invariant antisym.forms=1
+  (5,2) | Levi-generators=6 | core-sig=(3,0) | dim invariant antisym.forms=1
+  (4,3) | Levi-generators=6 | core-sig=(2,1) | dim invariant antisym.forms=1
+  (3,4) | Levi-generators=6 | core-sig=(1,2) | dim invariant antisym.forms=1
+  (2,5) | Levi-generators=6 | core-sig=(0,3) | dim invariant antisym.forms=1
+
+BIT-FENCE (ω-ranks = S961/S970):
+  (4,2): ω-rank=4=dim module (nondegenerate, S961/S970)
+  (5,2): ω-rank=6=dim module (nondegenerate, S961/S970)
+
+MUTANTS (one per branch: match / mismatch / dim>1):
+  MUTANT br-match: CAUGHT ((4,2) ω=const·ε⊗G exact tensor, residual 0)
+  MUTANT br-mismatch: CAUGHT (T antisymmetric ≠ symmetric-A tensor)
+  MUTANT br-dim>1: CAUGHT ((5,2) full Levi(6)→dim1 UNIQUE; only 1 generator→dim9>1)
+    (all signatures: under the FULL Levi dim=1 — the form is unique)
+
+SUMMARY: asserts_passed=12 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

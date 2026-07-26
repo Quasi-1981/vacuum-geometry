@@ -1,0 +1,95 @@
+================================================================================
+S1063 T1 — THE SEAM (d,1): build N3 and COMPUTE its signature
+================================================================================
+
+THE ANCHOR — the cell from T19 (d+1 axes, Gram −1/d, Σδ=0), checked against ancestor S1045
+  ✓ ★the ANCESTOR's cell (S1045 bonds(3), a tetrahedron) has a Gram −1/3 ⟹ my T19-construction stands on the SAME cell, not a new one  [anchor · dimensionless · a pairwise Gram]
+       (tooth: said NO on «orthogonal axes (a Gram of 0 — a different cell)» ⟹ able to fail)
+     d=2: axes 3, the off-diagonal of the Gram = -1/2 (T19: −1/2), Σδ = Matrix([[0, 0, 0]])  [T19 · dimensionless · the Gram and the sum of the axes]
+     d=3: axes 4, the off-diagonal of the Gram = -1/3 (T19: −1/3), Σδ = Matrix([[0, 0, 0, 0]])  [T19 · dimensionless · the Gram and the sum of the axes]
+     d=4: axes 5, the off-diagonal of the Gram = -1/4 (T19: −1/4), Σδ = Matrix([[0, 0, 0, 0, 0]])  [T19 · dimensionless · the Gram and the sum of the axes]
+     checked against the ancestor: Gram(S1045 bonds(2)) off-diag = -1/2
+
+(1a) THE NODE EXACTLY, AND THE FORM FROM ANCESTORS (no new term — K2)
+  ✓ ★d=2: the node is EXACT — f = Σ e^{iθ} = 0 at Σθ = 0  [1a · dimensionless · the value of f at the node]
+       (tooth: said NO on «a shifted phase (θ₀ → θ₀+π/6) — f ≠ 0» ⟹ able to fail)
+     d=2: θ = [0, 2*pi/3, -2*pi/3],  f = 0  [1a · dimensionless · the phases of the node]
+  ✓ ★d=3: the node is EXACT — f = Σ e^{iθ} = 0 at Σθ = 0  [1a · dimensionless · the value of f at the node]
+       (tooth: said NO on «a shifted phase (θ₀ → θ₀+π/6) — f ≠ 0» ⟹ able to fail)
+     d=3: θ = [pi/12, 13*pi/12, -13*pi/12, -pi/12],  f = 0  [1a · dimensionless · the phases of the node]
+  ✓ ★d=4: the node is EXACT — f = Σ e^{iθ} = 0 at Σθ = 0  [1a · dimensionless · the value of f at the node]
+       (tooth: said NO on «a shifted phase (θ₀ → θ₀+π/6) — f ≠ 0» ⟹ able to fail)
+     d=4: θ = [0, 2*pi/5, 4*pi/5, -4*pi/5, -2*pi/5],  f = 0  [1a · dimensionless · the phases of the node]
+  ✓ ★d=5: the node is EXACT — f = Σ e^{iθ} = 0 at Σθ = 0  [1a · dimensionless · the value of f at the node]
+       (tooth: said NO on «a shifted phase (θ₀ → θ₀+π/6) — f ≠ 0» ⟹ able to fail)
+     d=5: θ = [pi/12, 13*pi/12, pi/4, 5*pi/4, -11*pi/6, -5*pi/6],  f = 0  [1a · dimensionless · the phases of the node]
+
+★THE MAIN MEASUREMENT — THE INERTIA (n₊, n₋, n₀) of the quadratic part of the seam on (ϸ, k₁…k_d)
+  the exante's wager: a (1,d)-candidate.  Measured by a sign-count, not by description.
+     d=2: the inertia Q(ϸ,k) = (1, 2, 0)  ·  the rank of the Hessian |f|² = 2  ·  the inertia of the Hessian itself = (2, 0, 0)  [T1 · dimensionless · a sign-count of eigenvalues]
+     d=3: the inertia Q(ϸ,k) = (1, 2, 1)  ·  the rank of the Hessian |f|² = 2  ·  the inertia of the Hessian itself = (2, 0, 1)  [T1 · dimensionless · a sign-count of eigenvalues]
+     d=4: the inertia Q(ϸ,k) = (1, 2, 2)  ·  the rank of the Hessian |f|² = 2  ·  the inertia of the Hessian itself = (2, 0, 2)  [T1 · dimensionless · a sign-count of eigenvalues]
+     d=5: the inertia Q(ϸ,k) = (1, 2, 3)  ·  the rank of the Hessian |f|² = 2  ·  the inertia of the Hessian itself = (2, 0, 3)  [T1 · dimensionless · a sign-count of eigenvalues]
+  ✓ ★★THE INERTIA OF THE SEAM = (1, 2, d−2) at d=3: ONE plus (ϸ²) + TWO minuses (transverses) + ONE exact zero along the node-LINE  [T1 · dimensionless · the inertia of Q at d=3]
+       (tooth: said NO on «★the exante's wager's world: an isotropic full-rank Hessian ⟹ (1,d,0)» ⟹ able to fail)
+  ✓ ★the exante's wager «(1,d)» holds EXACTLY at d=2 (because there d−2=0 ⟹ (1,2,0)=(1,d,0)) — that is, it is not wrong, but SPECIAL  [T1 · dimensionless · the inertia of Q at d=2]
+       (tooth: said NO on «d=3 — (1,2,1) ≠ (1,3,0), the exante's wager FAILS» ⟹ able to fail)
+     ⟹ ★★THE EXANTE'S WAGER FAILS AT d≥3, AND I SAY THIS DIRECTLY: «|f|² collects d
+       transverses» is true only at d=2.  At d≥3 the node-set has dimension d−2
+       [S1045] and along it |f|≡0 EXACTLY ⟹ (d−2) directions give EXACT zeros,
+       not minuses.  The live (non-degenerate) block of the seam = (1,2) ∀d.
+
+THE SPECIAL POINT — ancestor S1047 (a drop in rank): measured, not cited
+  ✓ ★the special point EXISTS at d=3 too (α=0 on the node-line): the rank of the Hessian drops 2→1 ⟹ there the inertia of the seam is (1,1,2), not (1,2,1)  [S1047 · dimensionless · the rank at the special point]
+       (tooth: said NO on «a generic point of the same line (α=π/5) — rank 2» ⟹ able to fail)
+     the special point d=3: θ = [0, pi, -pi, 0], f = 0, rank = 1, the inertia of Q = (1, 1, 2)  [S1047 · dimensionless · the inertia at the special point]
+     ⟹ the signature of the seam is NOT constant over the node-set: (1,2,d−2) generically ⊥ (1,1,d−1)
+       at the special points.  This is ancestor S1047, named, not a new witness (multiplicity 1).
+
+(1b) BINARY — is the signature forced by STRUCTURE, or is it a property of the WRITING?
+  ✓ ★★THE THREE SQUARES ARE INDEPENDENT PRECISELY BECAUSE THE SPLITTER ANTICOMMUTES WITH THE HOP: {H, σ_z} = 0 ⟹ (H+m₀σ_z)² = (m₀²+|f|²)·I ⟹ det = ϸ² − m₀² − |f|²  [1b · dimensionless · the characteristic form by splitter-channel]
+       (tooth: said NO on «the splitter ∝ I (commutes) — absorbed by a SHIFT of ϸ, no separate square» ⟹ able to fail)
+     channel σ_z [T39]: det(ϸ−H−mX) = -f_im**2 - f_re**2 - m**2 + ps**2  [1b · dimensionless · the characteristic polynomial]
+     channel I: det(ϸ−H−mX) = -f_im**2 - f_re**2 + m**2 - 2*m*ps + ps**2  [1b · dimensionless · the characteristic polynomial]
+     channel σ_x: det(ϸ−H−mX) = -f_im**2 - f_re**2 - 2*f_re*m - m**2 + ps**2  [1b · dimensionless · the characteristic polynomial]
+     ⟹ ★BINARY: THE SIGNS ARE FORCED BY STRUCTURE, not by the writing.  One plus against
+       the minuses — is not a choice of convention, but the ANTICOMMUTATION of the channels {hop, splitter};
+       in the two legitimate alternative channels the third square VANISHES.
+
+★SYLVESTER — does the inertia withstand what broke the T33 number (relabeling)
+  ✓ ★★THE INERTIA HOLDS under a relabeling of coordinates, whereas the trace-number ½·trM MOVES — the same machinery moves the control  [T1 · dimensionless · (the inertia) ⊥ (½·trM) under k→P·k]
+       invariant [(1, 2, 1), (1, 2, 1), (1, 2, 1)] ⊥ control [2476484*sqrt(3)/4782969 + 49888568/4782969, 12171*sqrt(3)/16384 + 105621/8192, 45072 - 19764*sqrt(3)] — the same machinery MOVES the control,
+       so 'the invariant stands' is a measurement, not blindness
+     ⟹ ★THIS IS PRECISELY THE REASON T1 MEASURES THE INERTIA: a quantity that shifts under
+       a free relabeling, does not measure the object (the class S1057/S1059, the T33
+       erratum).  The inertia is a Sylvester invariant, and it is the only legitimate ruler here.
+
+(1c) THE FENCE OF SQUARES — where does ϸ² come from: from `U†U` (S1061) or from the dispersion?
+  ✓ ★★THE PROVENANCE OF ALL THREE SQUARES IS ONE: `(H+m₀σ_z)² = (m₀²+|f|²)·I` — the scalar is POLYNOMIAL and WITHOUT ϸ ⟹ the squares come from the operator itself, and ϸ² — from the characteristic polynomial [S1045]  [1c · dimensionless · the scalar of the square]
+       (tooth: said NO on «the one-tact U = H·G₀ [S1061] — its square is ALSO scalar, but the scalar = |f|²/(ϸ²−m₀²): rational, with ϸ and poles ⟹ a different object, squares are not taken from it» ⟹ able to fail)
+     U†U [S1061] = diag(-(I*f_im - f_re)*(I*f_im + f_re)/(m - ps)**2, -(I*f_im - f_re)*(I*f_im + f_re)/(m + ps)**2)
+     the scalar of the square: (H+m₀σ_z)² = f_im**2 + f_re**2 + m**2  ⊥  U² = (-f_im**2 - f_re**2)/(m**2 - ps**2)  [1c · dimensionless · the scalar of the square of two objects]
+     ⟹ in `U†U` the splitter sits in the NORM (a polarity of the blades, S1061) — this is not a square
+       of the signature.  The square `ϸ²` comes from the CHARACTERISTIC POLYNOMIAL
+       (a spectral parameter), `m₀²` and `|f|²` — from the Clifford square.
+       ★An exponent-smuggling does not sneak in here: there is no `exp` in the form at all.
+
+
+SCORE [S1063 T1 — the seam (d,1)]: 11 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF T1 (no verdict rendered — the assignment: T1 → STOP)
+  a table of the seam inertias Q(ϸ, k₁…k_d) at a generic point of the node-set:
+     d=2: (n₊, n₋, n₀) = (1, 2, 0)   the rank of the Hessian |f|² = 2   [T1 · dimensionless · the inertia]
+     d=3: (n₊, n₋, n₀) = (1, 2, 1)   the rank of the Hessian |f|² = 2   [T1 · dimensionless · the inertia]
+     d=4: (n₊, n₋, n₀) = (1, 2, 2)   the rank of the Hessian |f|² = 2   [T1 · dimensionless · the inertia]
+     d=5: (n₊, n₋, n₀) = (1, 2, 3)   the rank of the Hessian |f|² = 2   [T1 · dimensionless · the inertia]
+  the special point d=3 (α=0): (1, 1, 2), rank 1  [S1047 · dimensionless · the inertia]
+  (1a) the form is assembled from ancestors, no new terms (K2 did not fire).
+  (1b) ★FORCED BY STRUCTURE: three squares exist ⟺ {hop, splitter} = 0;
+       in the channels I and σ_x the third square vanishes (both worlds were computed).
+  (1c) provenance: all squares from the Clifford (H+m₀σ_z)² ∝ I; NOT from U†U,
+       NOT from an exponent.
+  ★THE EXANTE'S WAGER «(1,d)»: holds EXACTLY at d=2, fails at d≥3.
+     The live block of the seam = (1,2) ∀d; (d−2) directions — EXACT zeros along the node.
+================================================================================

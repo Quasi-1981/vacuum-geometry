@@ -1,0 +1,135 @@
+==============================================================================
+S928 W31 — BLIND PROBE: Jordan block on a NONZERO eigenvalue in so(p,q)
+exact sympy; no float/random/time
+==============================================================================
+
+### SECTION 0: so(p,q) basis + isotropic geometry (measured)
+SIG=(0,4) | dim_so=6 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(1,3) | dim_so=6 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(2,2) | dim_so=6 | max_isotropic_dim_constructed=2 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(3,1) | dim_so=6 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(4,0) | dim_so=6 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(0,5) | dim_so=10 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(1,4) | dim_so=10 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(2,3) | dim_so=10 | max_isotropic_dim_constructed=2 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(3,2) | dim_so=10 | max_isotropic_dim_constructed=2 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(4,1) | dim_so=10 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(5,0) | dim_so=10 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(0,6) | dim_so=15 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(1,5) | dim_so=15 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(2,4) | dim_so=15 | max_isotropic_dim_constructed=2 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(3,3) | dim_so=15 | max_isotropic_dim_constructed=3 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(4,2) | dim_so=15 | max_isotropic_dim_constructed=2 | jordan_on_nonzero_needs_m>=2 = YES
+SIG=(5,1) | dim_so=15 | max_isotropic_dim_constructed=1 | jordan_on_nonzero_needs_m>=2 = NO
+SIG=(6,0) | dim_so=15 | max_isotropic_dim_constructed=0 | jordan_on_nonzero_needs_m>=2 = NO
+
+### SECTION 1: EXISTENCE SCAN — fourth-species element
+### (not semisimple, not nilpotent, Jordan block size>=2 on NONZERO eig)
+SIG=(0,4) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(0,4) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+SIG=(1,3) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(2,2) | CONSTRUCT=jordan-on-nonzero | charpoly=(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(3,1) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(4,0) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(4,0) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+SIG=(0,5) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(0,5) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+SIG=(1,4) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(2,3) | CONSTRUCT=jordan-on-nonzero | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,1,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(3,2) | CONSTRUCT=jordan-on-nonzero | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,1,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(4,1) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(5,0) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(5,0) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+SIG=(0,6) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(0,6) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+SIG=(1,5) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(2,4) | CONSTRUCT=jordan-on-nonzero | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(3,3) | CONSTRUCT=jordan-on-nonzero | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(4,2) | CONSTRUCT=jordan-on-nonzero | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | EXISTS=YES | iso_m=2
+SIG=(5,1) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=NOT-CONSTRUCTIBLE-BY-THIS-FORM: max isotropic dim constructed = 1 < 2, so the [[M,0],[0,-M.T]] block form cannot host a size-2 Jordan block; nonexistence in general NOT measured by this probe
+SIG=(6,0) | CONSTRUCT=jordan-on-nonzero | EXISTS=NO | reason=MEASURED-STRUCTURAL: every so(6,0) basis element satisfies X+X.T=0 (real antisymmetric => normal => semisimple), so NO non-semisimple element exists at all
+
+### SECTION 2: THE PAIR — same charpoly, ss vs non-ss
+SIG=(0,4) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+SIG=(1,3) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(2,2) | CONSTRUCT=PAIR:A_ss | charpoly=(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(2,2) | CONSTRUCT=PAIR:A_jordan | charpoly=(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(2,2) | PAIR_DELTA | dimc_ss=4 dimc_jordan=2 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(3,1) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(4,0) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+SIG=(0,5) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+SIG=(1,4) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(2,3) | CONSTRUCT=PAIR:A_ss | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(0,1,1),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(2,3) | CONSTRUCT=PAIR:A_jordan | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,1,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(2,3) | PAIR_DELTA | dimc_ss=4 dimc_jordan=2 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(3,2) | CONSTRUCT=PAIR:A_ss | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(0,1,1),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(3,2) | CONSTRUCT=PAIR:A_jordan | charpoly=x*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,1,1),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(3,2) | PAIR_DELTA | dimc_ss=4 dimc_jordan=2 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(4,1) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(5,0) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+SIG=(0,6) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+SIG=(1,5) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(2,4) | CONSTRUCT=PAIR:A_ss | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(0,2,2),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(2,4) | CONSTRUCT=PAIR:A_jordan | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(2,4) | PAIR_DELTA | dimc_ss=5 dimc_jordan=3 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(3,3) | CONSTRUCT=PAIR:A_ss | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(0,2,2),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(3,3) | CONSTRUCT=PAIR:A_jordan | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(3,3) | PAIR_DELTA | dimc_ss=5 dimc_jordan=3 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(4,2) | CONSTRUCT=PAIR:A_ss | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,2),(0,2,2),(lam,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0 | charpoly_equal=1
+SIG=(4,2) | CONSTRUCT=PAIR:A_jordan | charpoly=x**2*(-lam + x)**2*(lam + x)**2 | eig=[(-lam,2,1),(0,2,2),(lam,2,1)] | semisimple=0 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1 | charpoly_equal=1
+SIG=(4,2) | PAIR_DELTA | dimc_ss=5 dimc_jordan=3 delta_dimc=2 | dimcc_ss=3 dimcc_jordan=0 | abelian_ss=0 abelian_jordan=1
+SIG=(5,1) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=1 < 2
+SIG=(6,0) | PAIR=IMPOSSIBLE | reason=max_isotropic_dim=0 < 2
+
+### SECTION 3: CONTROLS
+SIG=(0,4) | CONSTRUCT=ctrl-basis0 | charpoly=x**2*(x**2 + 1) | eig=[(-I,1,1),(0,2,2),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(0,4) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+SIG=(1,3) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**4 | eig=[(0,4,2)] | semisimple=0 | nilpotent=1 | dimc=2 | dimcc=0 | abelian=1
+SIG=(1,3) | CONSTRUCT=ctrl-basis0 | charpoly=x**2*(x - 1)*(x + 1) | eig=[(-1,1,1),(0,2,2),(1,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(2,2) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(2,2) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(2,2) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**4 | eig=[(0,4,2)] | semisimple=0 | nilpotent=1 | dimc=4 | dimcc=3 | abelian=0
+SIG=(3,1) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**4 | eig=[(0,4,2)] | semisimple=0 | nilpotent=1 | dimc=2 | dimcc=0 | abelian=1
+SIG=(3,1) | CONSTRUCT=ctrl-basis0 | charpoly=x**2*(x**2 + 1) | eig=[(-I,1,1),(0,2,2),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(4,0) | CONSTRUCT=ctrl-basis0 | charpoly=x**2*(x**2 + 1) | eig=[(-I,1,1),(0,2,2),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(4,0) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+SIG=(0,5) | CONSTRUCT=ctrl-basis0 | charpoly=x**3*(x**2 + 1) | eig=[(-I,1,1),(0,3,3),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(0,5) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+SIG=(1,4) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**5 | eig=[(0,5,3)] | semisimple=0 | nilpotent=1 | dimc=4 | dimcc=2 | abelian=0
+SIG=(1,4) | CONSTRUCT=ctrl-basis0 | charpoly=x**3*(x - 1)*(x + 1) | eig=[(-1,1,1),(0,3,3),(1,1,1)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(2,3) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=x*(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(0,1,1),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(2,3) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=x*(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(0,1,1),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(2,3) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**5 | eig=[(0,5,3)] | semisimple=0 | nilpotent=1 | dimc=6 | dimcc=6 | abelian=0
+SIG=(3,2) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=x*(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(0,1,1),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=2 | dimcc=0 | abelian=1
+SIG=(3,2) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=x*(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(0,1,1),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(3,2) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**5 | eig=[(0,5,3)] | semisimple=0 | nilpotent=1 | dimc=6 | dimcc=6 | abelian=0
+SIG=(4,1) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**5 | eig=[(0,5,3)] | semisimple=0 | nilpotent=1 | dimc=4 | dimcc=2 | abelian=0
+SIG=(4,1) | CONSTRUCT=ctrl-basis0 | charpoly=x**3*(x**2 + 1) | eig=[(-I,1,1),(0,3,3),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(5,0) | CONSTRUCT=ctrl-basis0 | charpoly=x**3*(x**2 + 1) | eig=[(-I,1,1),(0,3,3),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=4 | dimcc=3 | abelian=0
+SIG=(5,0) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+SIG=(0,6) | CONSTRUCT=ctrl-basis0 | charpoly=x**4*(x**2 + 1) | eig=[(-I,1,1),(0,4,4),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=7 | dimcc=6 | abelian=0
+SIG=(0,6) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+SIG=(1,5) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**6 | eig=[(0,6,4)] | semisimple=0 | nilpotent=1 | dimc=7 | dimcc=6 | abelian=0
+SIG=(1,5) | CONSTRUCT=ctrl-basis0 | charpoly=x**4*(x - 1)*(x + 1) | eig=[(-1,1,1),(0,4,4),(1,1,1)] | semisimple=1 | nilpotent=0 | dimc=7 | dimcc=6 | abelian=0
+SIG=(2,4) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=x**2*(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(0,2,2),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1
+SIG=(2,4) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=x**2*(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(0,2,2),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0
+SIG=(2,4) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**6 | eig=[(0,6,4)] | semisimple=0 | nilpotent=1 | dimc=9 | dimcc=8 | abelian=0
+SIG=(3,3) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=x**2*(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(0,2,2),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1
+SIG=(3,3) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=x**2*(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(0,2,2),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0
+SIG=(3,3) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**6 | eig=[(0,6,4)] | semisimple=0 | nilpotent=1 | dimc=9 | dimcc=8 | abelian=0
+SIG=(4,2) | CONSTRUCT=ctrl-a:ss-distinct-nonzero | charpoly=x**2*(x - 2)*(x - 1)*(x + 1)*(x + 2) | eig=[(-1,1,1),(-2,1,1),(0,2,2),(1,1,1),(2,1,1)] | semisimple=1 | nilpotent=0 | dimc=3 | dimcc=0 | abelian=1
+SIG=(4,2) | CONSTRUCT=ctrl-b:ss-repeated-nonzero | charpoly=x**2*(x - 1)**2*(x + 1)**2 | eig=[(-1,2,2),(0,2,2),(1,2,2)] | semisimple=1 | nilpotent=0 | dimc=5 | dimcc=3 | abelian=0
+SIG=(4,2) | CONSTRUCT=ctrl-c:nilpotent-nonzero | charpoly=x**6 | eig=[(0,6,4)] | semisimple=0 | nilpotent=1 | dimc=9 | dimcc=8 | abelian=0
+SIG=(5,1) | CONSTRUCT=ctrl-c:nilpotent-nonzero-searched | charpoly=x**6 | eig=[(0,6,4)] | semisimple=0 | nilpotent=1 | dimc=7 | dimcc=6 | abelian=0
+SIG=(5,1) | CONSTRUCT=ctrl-basis0 | charpoly=x**4*(x**2 + 1) | eig=[(-I,1,1),(0,4,4),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=7 | dimcc=6 | abelian=0
+SIG=(6,0) | CONSTRUCT=ctrl-basis0 | charpoly=x**4*(x**2 + 1) | eig=[(-I,1,1),(0,4,4),(I,1,1)] | semisimple=1 | nilpotent=0 | dimc=7 | dimcc=6 | abelian=0
+SIG=(6,0) | ctrl-c | nonzero_nilpotent_in_basis=NO (definite signature)
+
+### SECTION 4: MUTANTS
+MUTANT m1: CAUGHT | in_so(diag(1,0,0,0),2,2)=False AND in_so(so_basis[0],2,2)=True (function discriminates)
+MUTANT m2: CAUGHT | claim 'every centralizer is abelian' REFUTED at SIG=(0,5) construct=so-basis-element dimc=4 dimcc=3 (>0) | survivability: same derived_dim returns dimcc=0 at SIG=(0,4) (abelian case exists)
+m3-control (survivability): SIG=(2,2) A_jordan vs eta-conjugate: charpoly_equal=1 dimc=2 vs 2 -> measure() DOES report EQUAL dimc when dimc truly is equal (so a dimc difference is a real signal, not an artefact of the function always disagreeing)
+MUTANT m3: CAUGHT | claim 'charpoly determines dim_c' REFUTED at SIG=(2,2): identical charpoly (-lam + x)**2*(lam + x)**2 but dimc_ss=4 != dimc_jordan=2 | survivability: proven by the m3-control above (conjugate pair, dimc reported EQUAL); same-charpoly pairs in (2) with equal dimc: none (every ss/jordan pair differed)
+
+### VALIDITY
+section=1 checks_performed=297
+section=2 checks_performed=66
+section=3 checks_performed=180
+section=4 checks_performed=7
+
+SUMMARY: asserts_passed=550 | FAIL=0

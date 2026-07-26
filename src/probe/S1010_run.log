@@ -1,0 +1,76 @@
+==========================================================================
+W42 probe-5 (layer −2): the ansatz «a rotational axis sets the symmetry of space» on the CELL.
+Does time-detuning (B) spare ⊥ space-detuning (C) kill rotation-born structures?
+Cartan torus A_d; the S999 cone / band C_d-symmetry / node-barycenters; exact; d∈{2,3}.
+==========================================================================
+
+T1 (d=2 cone at a node: isotropy (disc=0?) under detuning — A/B/C):
+config | w0(time) | c1,c2(space) | nodes | rank | disc(K) | isotropic?
+------------------------------------------------------------------------
+(A) equal | 1 | 1,1 | 2 | 2 | 0 | YES(all)
+(B) t=3/2 | 3/2 | 1,1 | 2 | 2 | 225/16 | NO
+(B) t=2 | 2 | 1,1 | 1 | 1 | 81 | NO
+(C) ε=3/2 | 1 | 3/2,1 | 2 | 2 | 225/16 | NO
+(C) ε=2 | 1 | 2,1 | 1 | 1 | 81 | NO
+  ★MEASUREMENT T1 (honest, against bet-1): local cone isotropy breaks under BOTH
+  detunings. Mechanism: the node unpins from the barycenter under any detuning; isotropy
+  was held by the FULL Weyl symmetry S_{d+1} (node at the center), not C_d itself. The cone = an object
+  of the full symmetry, NOT a rotational one ⟹ the B⊥C asymmetry must be sought elsewhere (see T2). The K2 flavor
+  is ONLY for the cone: locally, detuning-as-such breaks it; but globally — it does not (T2/T3).
+
+T2 ★CORE: C_d-symmetry of the BAND |g|² — |g|² at a point vs its C_d-images (equal/different?):
+measured at a seeded point + barycenter; B: all equal (C_d intact) ⊥ C: different (C_d broken)
+d | config | {|g|² on the C_d-orbit of the point} | all equal? | band C_d-symmetry
+------------------------------------------------------------------------
+2 | (A) | equal | YES | INTACT
+2 | (B) t=3/2 | equal | YES | INTACT
+2 | (C) ε=3/2 | DIFFERENT(2) | NO | BROKEN
+3 | (A) | equal | YES | INTACT
+3 | (B) t=3/2 | equal | YES | INTACT
+3 | (C) ε=3/2 | DIFFERENT(2) | NO | BROKEN
+  ★★★MEASUREMENT T2 (THE AUTHOR'S ANSATZ): the band C_d-symmetry SURVIVES under time-detuning (B) ⊥ DIES
+  under space-detuning (C), ∀d. The mechanism EXACTLY the ansatz: the time-column = the FIXED axis
+  of the C_d screw ⟹ its weight is a free spectator (never breaks C_d); the spatial axis
+  sits IN the screw's ORBIT ⟹ its detuning breaks C_d. The forcing = both halves together.
+
+T3 (d=2: orbit structure of NODES under the C_2 swap — closed? orbit sizes):
+config | nodes (w1,w2) | closed under swap? | orbits under C_2
+------------------------------------------------------------------------
+(A) equal     | 2 nodes | True | [2]
+(B) t=3/2     | 2 nodes | True | [2]
+(C) ε=3/2     | 2 nodes | False | [1, 1]
+  ★MEASUREMENT T3: the nodal set holds C_2-orbits under time-detuning (B, paired by the swap)
+  ⊥ splits under space-detuning (C, the swap is not a symmetry). The second leg of T2 — global.
+
+T4 (column period P=d+1, S1001 citation): weight-INDEPENDENT — an honest NON-discriminator:
+  d=2: P=d+1=3 — combinatorial (order of the center ℤ/(d+1), S1001) ⟹ the same in A/B/C
+  d=3: P=d+1=4 — combinatorial (order of the center ℤ/(d+1), S1001) ⟹ the same in A/B/C
+  ★MEASUREMENT T4: the period P does not depend on the weights (a center structure) ⟹ B and C give the same P.
+  Honestly: of the 4 rotational structures, only the C_d-symmetry (T2) and the orbits (T3) distinguish B⊥C;
+  the cone (T1) breaks under both; the period (T4) under neither. The ansatz lives in the GLOBAL ones (T2/T3).
+
+T5 (bet-2: the splitting pattern of the cone eigenvalues under (C) — by stabilizer):
+  (C) ε=3/2: cone eigenvalues (l1,l2)=(81/16, 21/16); disc=225/16≠0 ⟹ split 1+1
+  (C) ε=2: cone eigenvalues (l1,l2)=(9, 0); disc=81≠0 ⟹ split 1+1
+  ★MEASUREMENT T5: under (C) the stabilizer of the detuned config. = trivial (ε singles out axis-1)
+  ⟹ the 2×2 cone splits 1+1 (two distinct eigenvalues) — the isotype pattern of the trivial group.
+  The ancestor-isotypes (S1000-T2 commutant 1/2/3) cited; the block-size here = 1+1 (d=2).
+
+MUTANTS:
+  MUTANT M1 (permuting the detuned axis = an axis-labeling artifact, S1000-4a): CAUGHT (ε on axis-1 vs axis-2
+    gives the SAME disc-multiset ['225/16', '225/16'] — the measurement is invariant to the CHOICE of axis; the K3-artifact is dead)
+  MUTANT M2 (false-isotropy via float): CAUGHT (disc=225/16 EXACTLY≠0; a float tolerance could
+    let a broken cone «pass» — exact arithmetic catches it, float is forbidden in the verdict)
+  MUTANT M3 (size d=2↔3): CAUGHT (at d=3 the same asymmetry: (B) the C_3-band is intact,
+    (C) is broken — the conclusion is not a d=2 lattice artifact)
+  MUTANT M4 (limit ε→1 continuous): CAUGHT (disc(ε=11/10)=0.3969 small>0, disc(ε=1)=0 —
+    a continuous return to (A); a discontinuity would be an artifact)
+
+NEGATIVE CONTROL (seeded): a symmetric point NOT at a C_d-orbit break under (A)
+  phases=[2/9, 5/9, 4/9]: the C_3-values are all equal under (A) — the measurement is sensitive (it distinguishes a break only in C)
+
+SUMMARY: asserts_passed=13 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

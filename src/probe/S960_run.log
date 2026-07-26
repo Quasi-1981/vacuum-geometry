@@ -1,0 +1,35 @@
+==========================================================================
+W34-leg-2: ∀d symbolic derivation of the cell identities
+==========================================================================
+
+--- CLAIM 1: Gram of differences ∝ Cartan(A_d) ∀d (symbolic d) ---
+  symbolic: diag=2 + 2/d, adj=(-d - 1)/d, far=0  =>  Gram=((d+1)/d)·Cartan(A_d)
+  det Cartan(A_d)=d+1 ∀d (recurrence D_d=2D_{d-1}-D_{d-2}, base 2,3)
+  instance-tail d=2..8: Gram=SC·Cartan and det=d+1 — OK
+
+--- CLAIM 2: z=d+1 combinatorially ∀d (minimal coset vectors) ---
+  lemma: Σz_i²≥Σ|z_i|≥|Σz_i|=1, equality ⟺ one-hot ⟹ exactly d+1 minima
+  instance-tail d=2..8 z(d): [3, 4, 5, 6, 7, 8, 9] (expect [3, 4, 5, 6, 7, 8, 9]) — OK
+
+--- CLAIM 3: Gauss sum Σ(d+1)-roots=0 ∀d + exactly d nodes ---
+  symbolic: w^(d+1)=exp(2πI·j)=1 ⟹ the geom-series numerator=0, w≠1 (1≤j≤d) ⟹ f=0
+  ⟹ exactly d nodes (j=1..d), Γ(j=0): f=d+1≠0 (not a node)
+  instance-tail d=2..8: sum=0 (j≠0), nodes=d — OK
+
+--- CLAIM 4: finiteness of the traversal ⟺ d=2 (Niven, explicit) ---
+  Niven set cos∈{0,±1/2,±1}: solutions of 2/d²−1=val for integer d≥2: [(-1/2, 2)]
+  ⟹ the traversal is finite ⟺ d=2 (order 3); d≥3 infinite
+  instance-tail d=2..8: cos2θ∈Niven only for d=2 — OK
+
+BIT-FENCE d=2 (cross-check against the S956 stamp):
+  d=2: Cartan det3 · adj=-3/2 · cos2θ=-1/2 · z=3 · nodes=2 — all agree with S956
+
+MUTANTS (one per branch/claim):
+  MUTANT m1-gram: CAUGHT (off-diag -2 mismatches true Gram; -1 matches)
+  MUTANT m2-zcount: CAUGHT (z=(2,-1,0,0,0) sum=1 but |z|²=5>1, not minimal)
+  MUTANT m3-gauss: CAUGHT (j=0 → w=1 → f=n=5≠0, not a node)
+  MUTANT m4-niven: CAUGHT (d=3 cos2θ=-7/9 ∉ Niven infinite; d=2 -1/2 ∈ finite)
+
+SUMMARY: asserts_passed=16 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

@@ -1,0 +1,82 @@
+================================================================================
+S1063 T3 — 2↔4-COMPONENT: KILL-FIRST on the null hypothesis «4-component = an effective splice»
+================================================================================
+
+STEP 1 — how many components AT A POINT k (ancestor T33, checking the carry-over)
+  ✓ ★the T33-carry-over: `σ_zHσ_z = −H` ⟹ EXACTLY two branches ±|f| at every point k — TWO chiralities at the node, not four  [step1 · dimensionless · the spectrum of the 2×2 chiral H]
+       (tooth: said NO on «H + a diagonal (non-chiral) — the chirality breaks» ⟹ able to fail)
+     ⟹ 2 components at a point — this is an ANCESTOR [the T33 forcing {I,H} dim 2], not my derivation.
+       So 4 could appear ONLY as 2 × (however many INDEPENDENT nodes).
+
+STEP 2 — ★THREE COUNTS OF NODES, and they give DIFFERENT numbers (all three printed)
+  count-1: all solutions f=0 on the torsion · count-2: coset-nodes [S1002] ·
+  count-3: TIME-ACTIVE characters [S1005/S1011: ν ∉ {0, h/2}]
+     d=2 (h=3): all solutions = 2 · coset-nodes = 2 · TIME-ACTIVE = 2 [1, 2] ⟹ components 2×2 = **4**  [step2 · dimensionless · node counts]
+     d=3 (h=4): all solutions = 9 · coset-nodes = 3 · TIME-ACTIVE = 2 [1, 3] ⟹ components 2×2 = **4**  [step2 · dimensionless · node counts]
+     d=4 (h=5): all solutions = 24 · coset-nodes = 4 · TIME-ACTIVE = 4 [1, 2, 3, 4] ⟹ components 2×4 = **8**  [step2 · dimensionless · node counts]
+     d=5 (h=6): all solutions = — · coset-nodes = 5 · TIME-ACTIVE = 4 [1, 2, 4, 5] ⟹ components 2×4 = **8**  [step2 · dimensionless · node counts]
+
+  ★I NAME THE DIVERGENCE OF THE COUNTS, I DO NOT PAPER OVER IT (an order of the assignment):
+     at d=3 the three counts give 9 / 3 / 2 — and only the THIRD gives 4 components.
+     Each selection has a NAMED ancestor: coset-nodes = S1002, time-activity
+     = S1005/S1011 (the same criterion by which T32 counted time-active zeros).
+     ⟹ «4» is NATIVE RELATIVE TO TWO NAMED SELECTIONS, and I say it exactly this way.
+
+STEP 3 — ★THE MECHANISM: why at d=3, of the three characters, exactly two are time-active
+  ✓ ★at d=3 (h=4) among the characters there IS a SELF-CONJUGATE ν=h/2=2 (ν ≡ −ν) — and it alone has sin(2πν/h)=0 ⟹ time-INACTIVE ⟹ drops out  [step3 · dimensionless · the existence of ν=h/2]
+       (tooth: said NO on «d=2 (h=3) — h is ODD, no self-conjugate exists, BOTH are active» ⟹ able to fail)
+     d=2 (h=3): self-conjugate characters = none ⟹ time-active 2 of 2  [step3 · dimensionless · the conjugation ν ↔ h−ν]
+     d=3 (h=4): self-conjugate characters = [2] ⟹ time-active 2 of 3  [step3 · dimensionless · the conjugation ν ↔ h−ν]
+     d=4 (h=5): self-conjugate characters = none ⟹ time-active 4 of 4  [step3 · dimensionless · the conjugation ν ↔ h−ν]
+     d=5 (h=6): self-conjugate characters = [3] ⟹ time-active 4 of 5  [step3 · dimensionless · the conjugation ν ↔ h−ν]
+     ⟹ ★the mechanism is NAMED: active characters go in CONJUGATE PAIRS (ν, h−ν);
+       a self-conjugate ν=h/2 exists ⟺ h is EVEN ⟺ d is ODD, and it drops out.
+       So at d=3 exactly ONE pair remains = 2 ⟹ 2×2 = 4.
+
+STEP 4 — ★KILL-FIRST: did the null hypothesis «4-component = an effective splice» withstand
+  ✓ ★★THE NULL HYPOTHESIS FAILS AT d=3: the native count gives EXACTLY 4 components (2 branches × 2 time-active characters) — WITHOUT a continuum-reading and without a manual choice  [step4 · dimensionless · 2×|active| at d=3]
+       (tooth: said NO on «d=4 (h=5) — there 2×4 = 8, not 4» ⟹ able to fail)
+  ✓ ★★BUT «4» IS NOT A ∀d-LAW: at d≥4 the native count gives 8 ⟹ 4-component-ness is a fact precisely at d ≤ 3 (h ≤ 4)  [step4 · dimensionless · 2×|active| over d=2..5]
+       (tooth: said NO on «a list of only d=2,3 — there 4 comes out always, and the law would seem ∀d» ⟹ able to fail)
+     ⟹ ★★THE KILL-FIRST VERDICT: the null hypothesis FAILS — 4-components are NOT an effective splice
+       of a continuum-reading: it comes out of the COUNT OF CHARACTERS, that is, from the dual of
+       the COLUMN, and this is a native object (S1001/S1005), not an import.
+     ⟹ ★BUT there is NO rhyme with time that the exante hoped for: the continuum fails ∀d,
+       while 4-components hold only at d ≤ 3.  The two mechanisms are DIFFERENT — and I say this directly,
+       because the rhyme would have been prettier than the truth.
+
+STEP 5 — the boundary at which this breaks (a named observation, NOT a claim)
+  ✓ ★the boundary of 4-component-ness is EXACTLY h = d+1 ≤ 4 — the SAME boundary at which the node-mark closed [S1059B: «combinatorially forced at d+1 ≤ 4»]  [step5 · dimensionless · a coincidence of the boundary over d=2..5]
+       (tooth: said NO on «a count WITHOUT time-activity (all characters) — there the boundary would stand at h ≤ 3, and at d=3 the equivalence breaks» ⟹ able to fail)
+     ⟹ ★AND THIS IMMEDIATELY SHOWS THE COST OF THE SELECTION: the boundary `h ≤ 4` holds PRECISELY BECAUSE
+       the count goes over TIME-ACTIVE characters.  Without this ancestor the boundary would be
+       `h ≤ 3` (that is, 4-components only at d=2).  The selection is not cosmetic — it
+       is what carries the whole line about d=3.
+     ⟹ ★I NAME THE COINCIDENCE AND NO MORE: the same boundary `d+1 ≤ 4` already stood in S1059B
+       (the forcing of the decomposition).  Whether this is ONE ancestor, or two different mechanisms with
+       the same boundary — I did NOT measure.  I do not declare a multiplicity: this is a named-question
+       for the Ω court, and presenting it as a witness would be exactly the inflation that
+       our own registry forbids.
+
+
+SCORE [S1063 T3 — 2↔4-component]: 5 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF T3 (no verdict rendered)
+  A TABLE OF COUNTS (all three, none hidden):
+     d | all solutions | coset-nodes | TIME-ACTIVE | components 2×act
+     2 |               2 |            2 |            2 |               4
+     3 |               9 |            3 |            2 |               4
+     4 |              24 |            4 |            4 |               8
+     5 |               — |            5 |            4 |               8
+  ★THE NULL HYPOTHESIS («4-component = an effective splice, the i∂ₜ class») — FAILS at d=2,3:
+     4 = 2 branches [T33] × 2 time-active characters [S1005], zero continuum-reading.
+  ★BUT: «4» is NOT a ∀d-law — at d≥4 the native count gives 8 ⟹ the rhyme «the continuum and the 4-component
+     fail by one mechanism» is NOT confirmed: the continuum fails ∀d, the 4-component case
+     holds only at d+1 ≤ 4.  The mechanisms are different.
+  ★THE MECHANISM OF THE COUNT: characters go in conjugate pairs (ν, h−ν); a self-conjugate
+     ν=h/2 exists ⟺ h is even ⟺ d is odd and it is time-INACTIVE ⟹ it drops out.
+     At d=3: {1,2,3} → the pair {1,3} + the dropped {2} ⟹ exactly 2 ⟹ 4 components.
+  ★HONESTLY ABOUT THE SELECTIONS: «4» is native RELATIVE TO TWO named ancestors (coset-nodes
+     S1002 · time-activity S1005).  Without the second selection, at d=3 it would come out 6.
+================================================================================

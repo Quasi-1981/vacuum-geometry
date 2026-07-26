@@ -1,0 +1,75 @@
+==========================================================================
+W42 probe-8 (layer −2): HOLE №1 — the source of weight detuning. Two NATIVE columns
+Λ=T_A(ψ)−T_col(ν1)−T_col(ν2) at EQUAL weights: q_eff/C̃/split.
+The fork (a)bistable / (b)geometry-self / K2-capacity — raw tables, Omega's court.
+KINEMATICS strictly; ancestors cited; 0 handles; exact arithmetic.
+==========================================================================
+
+######################################################################
+# STAVKA-3: SCALE OF NATIVE COLUMNS 0 / 1 / 2  (bit-fence q=1 against S1011)
+######################################################################
+  d=2, h=3: q0[nneg=0,active=0] · q1[npos:nneg=16:2, q_eff=1, split=0, C̃=1, time-act.zeros=9]  <- bit-fence S1011 ✓
+  d=3, h=4: q0[nneg=0,active=0] · q1[npos:nneg=219:9, q_eff=1, split=0, C̃=1, time-act.zeros=28]  <- bit-fence S1011 ✓
+
+######################################################################
+# K2 (structural): THE CELL CENTER — do 2 bonds = 2 independent column-duals?
+######################################################################
+  d=2: center Z/3; pairwise bond differences integer=True; bond nontrivial=True ⟹ 2 bonds → ONE center class (not 2 independent columns)
+  d=3: center Z/4; pairwise bond differences integer=True; bond nontrivial=True ⟹ 2 bonds → ONE center class (not 2 independent columns)
+
+######################################################################
+# ★STAVKA-2 (the heart): q_eff/C̃/split — THREE constructions of two columns
+######################################################################
+  (I) NAIVE  ν1,ν2 independent ∈(Z/h)² — 2 independent column-duals
+  (II) DIAGONAL ν1=ν2 (momenta locked, axes still 2) — does locking the momenta save it?
+  (III) NATIVE-COLLAPSE ncol=1, ×2 (two bonds of a SHARED center merged into ONE dual, K2)
+  the interpretation (a)/(b)/K2 — Omega's court; the probe gives RAW numbers for all three.
+
+  --- d=2, h=3: (I)  NAIVE (h²=9 states) [2 independent duals] ---
+    npos:nneg=24:24, λ↔−λ=True; zeros=33, both-act=16; q_eff=2, split=16, C=4, C̃=2
+  --- d=2, h=3: (II) DIAGONAL ν1=ν2 (3 states, 2 axes) [momenta locked] ---
+    npos:nneg=8:10, λ↔−λ=False; zeros=9, both-act=8; q_eff=2, split=8, C=4, C̃=2
+  --- d=2, h=3: (III) NATIVE-COLLAPSE ncol=1×2 (3 states) [K2: a single dual] ---
+    npos:nneg=8:10, λ↔−λ=False; zeros=9, both-act=0; q_eff=1, split=0, C=2, C̃=1
+
+  --- d=3, h=4: (I)  NAIVE (h²=16 states) [2 independent duals] ---
+    npos:nneg=638:176, λ↔−λ=False; zeros=210, both-act=60; q_eff=2, split=60, C=4, C̃=2
+  --- d=3, h=4: (II) DIAGONAL ν1=ν2 (4 states, 2 axes) [momenta locked] ---
+    npos:nneg=154:56, λ↔−λ=False; zeros=46, both-act=30; q_eff=2, split=30, C=4, C̃=2
+  --- d=3, h=4: (III) NATIVE-COLLAPSE ncol=1×2 (4 states) [K2: a single dual] ---
+    npos:nneg=154:56, λ↔−λ=False; zeros=46, both-act=0; q_eff=1, split=0, C=2, C̃=1
+
+  SUMMARY OF STAVKA-2 (raw numbers, without a verdict) — (q_eff, split, C̃):
+  d | (I)naive | (II)diagonal | (III)native-collapse | what K2 says
+  2 | (2,16,2) | (2,8,2) | (1,0,1) | center Z/3 rank1 ⟹ (III) — the only native construction
+  3 | (2,60,2) | (2,30,2) | (1,0,1) | center Z/4 rank1 ⟹ (III) — the only native construction
+  ★RAW PICTURE (Omega's court): (I)/(II) bistable q_eff=2 — the resonance trap is ALIVE if
+    the columns are independent OR only momentum-locked; ONE clock (III, q_eff=1) occurs
+    ONLY under a structural collapse to a single column. K2-test: the cell has ONE center
+    (rank1) ⟹ two bonds do NOT give independent duals ⟹ the native construction = (III).
+
+######################################################################
+# STAVKA-1 (address of the break): protected slice ⊥ resonance — a Fraction intersection
+######################################################################
+  weights space+time; C_d keeps space equal (S1010/T31); resonance: Σ_signed w tact ∈ Z (T30).
+  d=2: C_d-slice (s space-scalar, t time); resonance-form 2·s − t (codim 1); the screw protects s-as-a-whole, t = the ONLY unprotected ⟹ the address of the break = the column weight
+  d=3: C_d-slice (s space-scalar, t time); resonance-form 3·s − t (codim 1); the screw protects s-as-a-whole, t = the ONLY unprotected ⟹ the address of the break = the column weight
+  ★THE BOUNDARY OF HONESTY OF STAVKA-1: at L∈{3,4} the tacts are degenerate (S1008), the form contracts
+    to the signed-sum; the QUALITATIVE conclusion (t = the unprotected direction, codim 1) is L-independent,
+    but 'd·s−t' as a form ∀L is NOT carved — the ancestor S1010/T31 (the screw), multiplicity 1.
+
+MUTANTS:
+  MUTANT M1 (false-2nd-bond, foreign period h→h+1): CAUGHT (native npos:nneg=16:2 != foreign 28:7 — not a cell dimer)
+  MUTANT M2 (size d=2↔3): CAUGHT (naive q_eff=2 both, native-collapse q_eff=1 both — the conclusion is not a lattice artifact; scales with h=d+1)
+  MUTANT M3 (false-C̃=bare 2^ncol): CAUGHT (native-collapse C̃=1 != bare naive 2^(ncol−1)=2; the counter READS mode activity — the collapse gives ONE axis, not two)
+  MUTANT M4 (false-sign +T_col Euclidean): CAUGHT (time-active zeros=0 — both tacts ≥0, no balance is possible; the minus-dual is necessary, S1011-M2)
+  MUTANT M5 (false-center): CAUGHT (a foreign difference is not integer ⟹ it would be a DIFFERENT class; the real bonds give an INTEGER difference = the same class — the measurement is sensitive, not a tautology)
+
+NEGATIVE CONTROL (seeded): a random torsion-point — not a resonance zero
+  ψ=(2, 2, 3), ν=3: Λ=8!=0 — the measurement is sensitive (a zero only at tact resonance)
+
+SUMMARY: asserts_passed=23 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

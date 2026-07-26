@@ -1,0 +1,16 @@
+--- W33-нога-2b: explicit iso + bt_verify both ways ---
+CORE (3,2) rank0 | dim core=6 [rad,rad]=1 | construct=central-extended d'=2 sig=None | explicit-iso bt_verify BOTH WAYS: PASS
+CORE (5,1) rank1 | dim core=6 [rad,rad]=0 | construct=affine d'=3 sig=(3, 0) | explicit-iso bt_verify BOTH WAYS: PASS
+CORE (4,2) rank1 | dim core=6 [rad,rad]=0 | construct=affine d'=3 sig=(1, 2) | explicit-iso bt_verify BOTH WAYS: PASS
+CORE (3,3) rank1 | dim core=6 [rad,rad]=0 | construct=affine d'=3 sig=(1, 2) | explicit-iso bt_verify BOTH WAYS: PASS
+CORE (4,2) rank0 | dim core=8 [rad,rad]=1 | construct=central-extended d'=4 sig=None | explicit-iso bt_verify BOTH WAYS: PASS
+CORE (3,3) rank0 | dim core=8 [rad,rad]=1 | construct=central-extended d'=4 sig=None | explicit-iso bt_verify BOTH WAYS: PASS
+--- mutants (one per branch) ---
+MUTANT br-affine: CAUGHT (abelian-rad -> affine, bt both ways PASS)
+MUTANT br-extended: CAUGHT (Heisenberg-rad -> central-extended, bt both ways PASS)
+MUTANT br-none: CAUGHT (true construct matches; sign-corrupted one does NOT)
+EXPORT: 6 cores written to S946_w33_leg2b_iso_export.json
+SUMMARY: cores=6
+SUMMARY: asserts_passed=59 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

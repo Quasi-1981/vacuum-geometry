@@ -1,0 +1,91 @@
+==================================================================================
+S1059-B — THE ∀d-LAW OF THE MEDIAL: does the choice of the Sym²/Λ² half follow from an ANCESTOR
+Layer-1, a bond-index.  Order: KILL-FIRST, and only then the law.
+==================================================================================
+
+A. THE SQUARE OF THE BOND-SPACE, EXACTLY (Murnaghan–Nakayama, integer characters)
+   n=3 (d=2):  Sym²(std) = (3) ⊕ (2,1)
+            Λ²(std)  = (1,1,1)
+   n=4 (d=3):  Sym²(std) = (4) ⊕ (3,1) ⊕ (2,2)
+            Λ²(std)  = (2,1,1)
+   n=5 (d=4):  Sym²(std) = (5) ⊕ (4,1) ⊕ (3,2)
+            Λ²(std)  = (3,1,1)
+   n=6 (d=5):  Sym²(std) = (6) ⊕ (5,1) ⊕ (4,2)
+            Λ²(std)  = (4,1,1)
+   n=7 (d=6):  Sym²(std) = (7) ⊕ (6,1) ⊕ (5,2)
+            Λ²(std)  = (5,1,1)
+  ✓ ★tooth-A1: Λ²(std) at n=3 = (1,1,1) = sign — exactly where S1052 found the node-mark d=2 [A · dimensionless · a character decomposition]
+  ✓ ★tooth-A2: (2,2)=E at n=4 sits in Sym² and NOT in Λ² — exactly the S1052 verdict for d=3 [A · dimensionless · a character decomposition]
+
+B. π₀(THE NODE-SET) + THE ACTION OF S_{d+1} — a sample ON the manifold, the radius NOT hidden
+   ★revision-1 (a mask |f|<eps on a grid) FAILED both controls and was REPLACED, not tuned.
+   d=2: components(r) = r=0.15:2, r=0.25:2, r=0.35:2, r=0.5:1, r=0.7:1  [B · a component · union-find on the sample; COVERAGE: 400 points with |f|<1e-9, the zone metric (period 1), 400 random starts]
+        plateau: 2 component(s) over 3 of 5 radii ⟹ stable
+        ℂ[π₀] = (3) ⊕ (1,1,1)  [B · dimensionless · a decomposition of the permutation character]
+   d=3: components(r) = r=0.15:1, r=0.25:1, r=0.35:1, r=0.5:1, r=0.7:1  [B · a component · union-find on the sample; COVERAGE: 1200 points with |f|<1e-9, the zone metric (period 1), 1200 random starts]
+        plateau: 1 component(s) over 5 of 5 radii ⟹ stable
+        ℂ[π₀] = (4)  [B · dimensionless · a decomposition of the permutation character]
+   d=4: components(r) = r=0.15:1, r=0.25:1, r=0.35:1, r=0.5:1, r=0.7:1  [B · a component · union-find on the sample; COVERAGE: 2500 points with |f|<1e-9, the zone metric (period 1), 2500 random starts]
+        plateau: 1 component(s) over 5 of 5 radii ⟹ stable
+        ℂ[π₀] = (5)  [B · dimensionless · a decomposition of the permutation character]
+   d=5: components(r) = r=0.15:1, r=0.25:1, r=0.35:1, r=0.5:1, r=0.7:1  [B · a component · union-find on the sample; COVERAGE: 3500 points with |f|<1e-9, the zone metric (period 1), 3500 random starts]
+        plateau: 1 component(s) over 5 of 5 radii ⟹ stable
+        ℂ[π₀] = (6)  [B · dimensionless · a decomposition of the permutation character]
+
+  ✓ ★tooth-B1 (a positive control): d=2 → 2 components, ℂ[π₀] = 1 ⊕ sign — the machinery reproduces the KNOWN result (S1052: the node-mark d=2 = orientation)
+   ★tooth-B2 is SPLIT in revision-3.  The sample gives d=3 → 1 component, whereas Test-3 was read
+     as «3 components».  This is not a vote: below, an EXACT test decides whether the «3» were
+     components of CONNECTIVITY, or BRANCHES that intersect.  I do NOT report the number from the sample
+     until the exact test says what it means.
+   the machinery on the d=2 control: PASSED (exactly 2 components = the known node-structure of d=2)
+
+C. KILL-FIRST — does the node-representation embed in std⊗std = Sym² ⊕ Λ²
+   d=2: the nontrivial part = (1,1,1)  →  Λ²
+   d=3: ℂ[π₀] is trivial ⟹ ★THE NODE-MARK DOES NOT EXIST — the question «which half» loses its subject
+   d=4: ℂ[π₀] is trivial ⟹ ★THE NODE-MARK DOES NOT EXIST — the question «which half» loses its subject
+   d=5: ℂ[π₀] is trivial ⟹ ★THE NODE-MARK DOES NOT EXIST — the question «which half» loses its subject
+
+D. THE EXACT TEST (symbolic, without a grid and without a sample) — what «3» means at d=3
+     the witness IN THE ZONE: x = (1/2, 0, 1/2) ⟹ φ = [-pi/2, pi/2, -pi/2, pi/2]
+                    ⟹ z = [-I, I, -I, I]  (the class of the vector (1,−1,1,−1) up to a common phase)
+  ✓ ★the witness has a PREIMAGE in the zone x∈[0,1)³ and Σz=0 exactly [D · dimensionless · a symbolic sum]
+  ✓ ★Πz=1 holds — ★but it is origin-choice-DEPENDENT (here λ^(d+1)=(−i)⁴=1); not to be cited bare [D · dimensionless · a symbolic product]
+  ✓ ★★THE WITNESS BELONGS TO TWO DIFFERENT PAIRINGS simultaneously ({01}{23} AND {03}{12}) ⟹ the branches INTERSECT [D · dimensionless · a check of both pairings in the zone]
+  ✓ ★and does NOT belong to the third ({02}{13}) — the mark does not degenerate completely
+  ✓ ★★AN EXACT BOUNDARY: if a point belonged to ALL THREE pairings, then z₁=z₂=z₃=−z₀ ⟹ Σz=−2z₀≠0 ⟹ at most TWO simultaneously [D · dimensionless · a symbolic solution of the system]
+     ⟹ the branches intersect PAIRWISE and no more — the boundary is exact, not observed.
+   DOES THE MARK HAVE A SUBJECT AT d≥4 — pure arithmetic, not numerics:
+  ✓ ★d=3 ⟹ d+1=4 EVEN (a decomposition into antipodal pairs is possible); d=4 ⟹ d+1=5 ODD (a decomposition into pairs is IMPOSSIBLE at all) [D · a bond · the parity of d+1]
+  ✓ ★at n=5 there exist TWO structurally different exact solutions: {5th-degree roots} and {a triangle ⊕ an antipodal pair} — the type is NOT forced [D · dimensionless · symbolic sums]
+  ✓ ★★d=5 IS CLOSED BY ARITHMETIC, not by a sample: at n=6 (EVEN) there exist THREE structurally different exact families — {6th-degree roots} ⊥ {two triangles, a free phase} ⊥ {three antipodal pairs, THREE free phases} [D · dimensionless · symbolic sums with free phases]
+     ⟹ the third family carries FREE PHASES, that is, a CONTINUUM ⟹ there is no forcing at all,
+       even more so than at n=5.  The parity of d+1 by itself saves nothing: a decomposition
+       into pairs BECOMES possible, but stops being UNIQUE — and the mark does not live off
+       the possibility of the decomposition, but off its BEING FORCED.
+     ⟹ at d≥4 there is no combinatorial forcing: the solution has no unique TYPE,
+       so there is simply NOTHING TO MARK with a mark that could be placed in Sym² or Λ².
+     ⟹ d=2 (orientation, forced) and d=3 (a pairing, forced) — are not two values
+       of one function of d, but TWO DIFFERENT MECHANISMS, and a third does not exist.
+
+==================================================================================
+★THE VERDICT OF THE PROBE
+  ★ATTENTION TO ONE'S OWN DATA: the line «there is no mark at d=3» would be WRONG.  π₀ at d=3
+  is trivial, BUT part D showed that the mark IS there — it is a BRANCH-mark, not a
+  topological one.  So the verdict reads BOTH sources, not the more convenient one:
+
+  | d | what is the mark | nature | half |
+  | 2 | orientation (2 π₀-components) | TOPOLOGICAL | Λ² |
+  | 3 | a pairing (3 branches, π₀=1)  | COMBINATORIAL | Sym² |
+  | ≥4| neither one nor the other    | —            | no subject |
+
+  ⟹ ★THERE IS NO ∀d-LAW IN THE SOUGHT FORM, and the reason is exact: the mark exists precisely where
+  the configuration is combinatorially FORCED, that is, at d+1 ≤ 4.  At d+1=3 the forcing
+  gives a discrete set (hence the topological mark), at d+1=4 — a decomposition into
+  antipodal pairs (hence the combinatorial one).  At d+1≥5 there is no forcing at all:
+  two structurally different exact solutions at n=5 have been exhibited.
+  ⟹ Λ² at d=2 and Sym² at d=3 — are NOT two values of a function of d, but TWO DIFFERENT
+  MECHANISMS on the only two d where the subject exists.  The question «which half ∀d»
+  has no answer not for lack of computation, but through the EXHAUSTION of the subject.
+  ★This is a named-boundary of the problem-front, not its solution — and it is reported precisely as such.
+SCORE: 11 ✓ / 0 ✗
+==================================================================================

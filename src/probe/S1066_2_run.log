@@ -1,0 +1,64 @@
+================================================================================
+S1066 B2 — THE HEART OF THE SIEGE: is the mark READABLE without a minus
+================================================================================
+
+(2a) THE DEFINITION, carved BEFORE the count [T27/T34 — a distinguishing capacity, not a label]:
+     the mark u₀ IS READABLE ⟺ NO isometry of the form carries u₀ into another candidate-axis.
+
+     [definite, equal norms (a democracy)] the norm of the mark = 1 · the norms of the others = [1, 1, 1] ⟹ A LABEL  [2b · dimensionless · the existence of an isometry u₀↦another axis]
+     [indefinite q=1 (the mark = the minus-axis)] the norm of the mark = -1 · the norms of the others = [1, 1, 1] ⟹ READABLE  [2b · dimensionless · the existence of an isometry u₀↦another axis]
+     [definite, the marked axis has NORM 2] the norm of the mark = 2 · the norms of the others = [1, 1, 1] ⟹ READABLE  [2b · dimensionless · the existence of an isometry u₀↦another axis]
+     [DEGENERATE (a radical), q=0] the norm of the mark = 0 · the norms of the others = [1, 1, 1] ⟹ READABLE  [2b · dimensionless · the existence of an isometry u₀↦another axis]
+
+(2b) THE CORE — computed IN THE FIELD (isometries are BUILT, the Witt theorem is not imported)
+  ✓ ★★IN A DEFINITE ARENA WITH EQUAL NORMS THE MARK IS A LABEL: an isometry that carries the marked axis into any other, EXISTS and is built explicitly (RᵀGR=G, Ru₀=u_j checked) [2b · dimensionless · the existence of an isometry]
+       (tooth: said NO on «★indefinite (q=1): the norm of the mark −1 ≠ +1 ⟹ there is no isometry» ⟹ able to fail)
+     an explicit isometry (Euclid, e₀↦e₁):
+⎡0  1  0  0⎤
+⎢          ⎥
+⎢1  0  0  0⎥
+⎢          ⎥
+⎢0  0  1  0⎥
+⎢          ⎥
+⎣0  0  0  1⎦
+     ⟹ the democracy of the axes in a definite arena is NOT broken by the mark: the mark has no
+       invariant carrier, that is, it IS A LABEL, not a property of the structure.
+  ✓ ★★★THE MINUS MAKES THE MARK READABLE: an isometry preserves the form ⟹ norms of −1 and +1 are not carried into one another ⟹ the marked axis is singled out INVARIANTLY  [2b · dimensionless · the non-existence of an isometry between different norms]
+       (tooth: said NO on «definite with equal norms — there the mark IS a label» ⟹ able to fail)
+
+★THE PREMISES THAT DO THE WORK — each with its own alternative world
+  ✓ ★PREMISE-1 «EQUAL NORMS» (a democracy, the AX-alphabet) DOES THE WORK: in a definite arena the mark CAN be made readable WITHOUT a minus — with a different norm  [premise-1 · dimensionless · readability at q=0, norm 2]
+       (tooth: said NO on «the same definite arena with EQUAL norms — the mark IS a label» ⟹ able to fail)
+     ⟹ so the implication does NOT follow from definiteness alone: without a democracy
+       (of equal norms) readability is bought by scale.  The democracy is given by the ROOT
+       AX-alphabet {a bare set of d+1 · S_{d+1}} — and it is precisely this that works here,
+       while the T19-cell (unit axes, a Gram −1/d) forbids rescaling.
+  ✓ ★★PREMISE-2 «NON-DEGENERACY» DOES THE WORK: in a DEGENERATE form (a radical) the mark is readable at q=0 — a zero norm is invariant  [premise-2 · dimensionless · readability at q=0 with a radical]
+       (tooth: said NO on «a non-degenerate definite form with equal norms — the mark IS a label» ⟹ able to fail)
+     ⟹ ★A THIRD WORLD that the exante did not name: a degenerate form reads the mark
+       WITHOUT a minus.  So the implication needs NON-DEGENERACY as an EXPLICIT premise;
+       it cannot be taken silently — that would be a hidden axiom.
+
+A CHECK OF THE MACHINERY — are my «isometries» genuinely isometries
+  ✓ ★the built matrix IS an isometry and genuinely carries e₀↦e₁ (checked exactly) [machinery · dimensionless · RᵀGR−G and Ru−v]
+       (tooth: said NO on «★A DIFFERENT LAW: an attempt to carry DIFFERENT-NORM vectors (an indefinite arena, e₃↦e₀) — the construction does not give an isometry» ⟹ able to fail)
+
+
+SCORE [S1066 B2 — the implication {a mark} ⟹ q≥1]: 5 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF B2 (no verdict rendered — a B-visa, then the Ω court)
+  (2a) the definition carved BEFORE the count: readable ⟺ there is no isometry u₀↦another axis.
+  (2b) THE CORE:
+     · a definite arena + EQUAL norms ⟹ the mark = A LABEL (an isometry is built explicitly);
+     · indefinite (q=1) ⟹ the mark IS READABLE (norms −1 and +1 are not carried into one another).
+  ⟹ ★AN IMPLICATION EXISTS, BUT WITH TWO EXPLICIT PREMISES:
+       {EQUAL NORMS (a democracy, the AX-alphabet) ∧ NON-DEGENERACY ∧ the mark is READABLE}
+       ⟹ q≥1.
+     Both premises are MEASURED as doing work — for each, a world is exhibited where it
+     fails and readability is bought WITHOUT a minus (norm 2 · a degenerate form).
+  ★A THIRD WORLD (the exante did not name it): a DEGENERATE form reads the mark at q=0 ⟹
+     non-degeneracy must stand as an EXPLICIT premise, otherwise it is a hidden axiom.
+  (2c) THE SURFACE GUARD IS OBSERVED: computed ON THE ARENA (where the consumer T5 lives);
+     the column/dimer of the lattice level was NOT identified with it — there is no bridge.
+================================================================================

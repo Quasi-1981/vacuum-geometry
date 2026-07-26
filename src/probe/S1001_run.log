@@ -1,0 +1,67 @@
+==========================================================================
+W40 leg-4: the marked-bond column of A_d + its dual (derivational, §5g)
+     time-bond=u_0 (S597 dimer); period=order of u_0 in disc(A_d)=Z/(d+1);
+     the dual of the discrete translation=a circle; the commutant sl-axis ∥ the column. Exact.
+==========================================================================
+
+T1 (translation along the time-column u_0: an exact symmetry? a primitive period?)
+d | period P=order(u_0 in disc A_d) | 2*u_0 in Lambda? (naive 2) | A/B/hole occupancy per period
+------------------------------------------------------------------------------------------------
+2 | 3 | False | A:1 B:1 holes:1
+3 | 4 | False | A:1 B:1 holes:2
+4 | 5 | False | A:1 B:1 holes:3
+  ★MEASUREMENT: column-translation = an exact symmetry ONLY at step P=d+1 (the order
+  of the glue vector u_0 in ℤ/(d+1)); the naive A/B-period 2 is FALSE for d≥2 (2u_0∉Λ);
+  per period — exactly 1 A, 1 B, (d-1) holes (bipartite balance is preserved).
+
+T2 (the dual of column-translation: the factor group, compactness, length, Z2 A/B)
+d | symmetry group | dual | compact? | circle length (|u_0|=1) | Z2 (A/B) trace
+------------------------------------------------------------------------------------------------
+2 | P·ℤ (discrete rank-1) | circle U(1) | yes | 2*pi/3 | even (1 A : 1 B per period — balanced, chiral symmetry)
+3 | P·ℤ (discrete rank-1) | circle U(1) | yes | pi/2 | even (1 A : 1 B per period — balanced, chiral symmetry)
+4 | P·ℤ (discrete rank-1) | circle U(1) | yes | 2*pi/5 | even (1 A : 1 B per period — balanced, chiral symmetry)
+  ★MEASUREMENT: a discrete rank-1 translation ⟹ the dual is COMPACT (a circle) — the exact
+  Pontryagin theorem (discrete↔compact); length=2π/(d+1) from the period;
+  bipartite balance per period ⟹ the Z2-grading is EVEN (a chiral A/B pair).
+
+T3 (the direction of the m=1 commutant sl-axis vs. the direction of the column u_0: angle/match)
+d | v_T (from the commutant) = c·u_0 ? | cos(v_T, u_0) | angle | ∥ the column?
+----------------------------------------------------------------------------------------
+2 | yes (c=n=3) | 1 | 0 | yes
+3 | yes (c=n=4) | 1 | 0 | yes
+4 | yes (c=n=5) | 1 | 0 | yes
+  ★MEASUREMENT: the sl-axis of the m=1-commutant (T-block imbalance) = v_T = n·u_0 — EXACTLY
+  parallel to the column (the marked bond). Angle 0 ⟹ pillar-3 (coupling)
+  of stake-3 §5g is fulfilled: the sl-direction and the column are the same direction, not two.
+
+T4 (audit of the §5g op.1-5 handles: every constant — an address of an earlier carb OR derived)
+constant | value | source | class
+--------------------------------------------------------------------------------
+Gram cosine | -1/d | S956/S998 (the cell) | carb
+tetrahedron angle d=3 | -1/3 = -1/d | S597 + S956 | carb
+time-projection stacking | d:1 (face -1/d); d=3 -> 3:1 | S597 + S1054/S1055 | carb
+lateral/time | sqrt((d-1)/(d+1)); d=3 -> 1/sqrt2, d=2 -> 1/sqrt3 | S597 + S1054/S1055 | carb
+azimuth C_3 (ternary) | 3×120° | S597 | carb
+weight threshold t* | d | S998 | carb
+discriminant | t=s+(d-1), a multiple of 1/d | S1000 | carb
+commutant ladder | 1/2/3, ranks 1/(m-1)/(d-m) | S1000-T2 | carb
+column period P | d+1 (order u_0 in ℤ/(d+1)) | derived here (T1) | derived
+dual-circle length | 2π/(d+1) | derived here (T2) | derived
+sl-axis ∥ the column | angle 0 (v_T=n·u_0) | derived here (T3) | derived
+  ★AUDIT: 0 new constants (all — a carb address or derived here) ⟹ 0 handles,
+  the prime directive is honored. Pillars 1-5 of §5g are assembled from measured stone.
+
+MUTANTS:
+  MUTANT M1: CAUGHT (broken dimer: bond=u_0-u_1∈Λ, order=1=1 (already lattice, no A/B) != d+1=4)
+  MUTANT M2: CAUGHT (naive period 2: 2*u_0∈Λ = False; in reality order(2u_0)=2, the true period d+1=4)
+  MUTANT M3: CAUGHT (false-sl=u_1: cos(u_1,u_0)=-1/3≠1 => angle≠0, not ∥ the column; the true sl-axis v_T=n·u_0 is ∥)
+  MUTANT M4: CAUGHT (planted constant 7/11 with no address/class => the T4 audit flags FAIL)
+
+NEGATIVE CONTROL (seeded): a false column (not the marked bond)
+  false-column u_0+u_2: order=2 (≠ d+1=4), cos with u_0=sqrt(3)/3 (≠1) — the structure is DIFFERENT; the measurement is sensitive to precisely the marked bond
+
+SUMMARY: asserts_passed=48 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0) [time is allowed; fence on interpretation-words]
+EXIT=0
+PROC_EXIT=0
+STOP

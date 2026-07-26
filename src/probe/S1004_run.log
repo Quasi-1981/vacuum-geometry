@@ -1,0 +1,60 @@
+==========================================================================
+W41 «Coxeter-time axiom»: one ladder cos(πj/h) under the program's spectra +
+the zigzag azimuth = the action of the Coxeter element. Exact algebra, 0 handles.
+==========================================================================
+
+STAKE 1(a): eigenvalues of the cell's unit-Gram (SC·Cartan A_d) = SC(2−2cos(πj/h))
+d | eigenvector test Cartan·v_j=(2−2cos(πj/h))v_j | ladder SC(2−2cos) | matches S956
+------------------------------------------------------------------------------------------------
+2 | OK (all j) | ['3/2', '9/2'] | yes
+3 | OK (all j) | ['8/3 - 4*sqrt(2)/3', '8/3', '4*sqrt(2)/3 + 8/3'] | yes
+4 | OK (all j) | ['15/8 - 5*sqrt(5)/8', '25/8 - 5*sqrt(5)/8', '5*sqrt(5)/8 + 15/8', '5*sqrt(5)/8 + 25/8'] | yes
+  ★MEASUREMENT: the S956 generator-Gram = SC·Cartan(A_d), spectrum = SC(2−2cos(πj/h)) —
+  EXACTLY the ladder of Coxeter exponents. Stake 1(a): WON (an identity, 0 tuning).
+
+STAKE 1(b): are the S999 transverse eigenvalues (isotropic, symmetric points) on the ladder?
+d | transverse = n²/(2d) | = SC·n/2? | a ladder rung SC(2−2cos)? which j | verdict
+------------------------------------------------------------------------------------------------
+2 | 9/4 | yes (SC·n/2) | none | NOT on the ladder
+3 | 8/3 | yes (SC·n/2) | 2 | rung j=2
+4 | 25/8 | yes (SC·n/2) | none | NOT on the ladder
+  ★MEASUREMENT: transverse = n²/(2d) = SC·n/2 — a PURE closed form (SC, not tuning),
+  but on the cos-ladder only at d=3 (j=2, cos(π/2)=0) — a COINCIDENCE, not ∀d. Stake 1(b): «no».
+
+STAKE 1(c): are the S1000-T2 commutant blocks (isotypes) on the cos-ladder?
+d | dim of the commutant (m=0..3) | type | on the cos-ladder?
+------------------------------------------------------------------------
+2 | [1, 2, 2, 1] | integer (orthogonal blocks) | no
+3 | [1, 2, 3, 2] | integer (orthogonal blocks) | no
+4 | [1, 2, 3, 3] | integer (orthogonal blocks) | no
+  ★MEASUREMENT: the commutant = an isotypic decomposition (dim 1/2/3, orthogonal blocks, integer) —
+  structurally NOT a quadratic cos-ladder. Stake 1(c): «no».
+
+  ⟹ STAKE 1: (a) WON (Gram-spectrum=ladder), (b)/(c) «no» ⟹ forcing (≥2)
+  NOT reached (K1 partially): not all quadratic spectra reduce to ONE ladder —
+  only the Gram. The transverse (n²/2d) and the commutant (integer isotypes) — other closed forms.
+
+STAKE 2: the S597 zigzag azimuth = the action of the Coxeter element ⟨c⟩ of order h
+d | c=(d+1)-cycle, order | eigenvalues on {Σx=0} = e^{2πij/h}? | azimuth θ (tr=2cosθ)
+------------------------------------------------------------------------------------------------
+2 | 3 | yes (Σ=−1=tr) | θ=120°=2π/3=2π/h ✓ (=S597 C₃-azimuth)
+3 | 4 | yes (Σ=−1=tr) | order ⟨c⟩=h=4; eigenvalues e^{2πij/h} (exponents)
+4 | 5 | yes (Σ=−1=tr) | order ⟨c⟩=h=5; eigenvalues e^{2πij/h} (exponents)
+  ★MEASUREMENT: the Coxeter element c=(d+1)-cycle, order h; on {Σx=0} eigenvalues = e^{2πij/h}
+  (exponents); d=2 azimuth = 120° = 2π/3 = 2π/h = EXACTLY the S597 C₃-azimuth. ∀d ⟨c⟩ has order h.
+  Stake 2: WON — «time=ladder» is lifted to the Coxeter group action (K2 is dead).
+
+MUTANTS:
+  MUTANT M1: CAUGHT (broken Cartan=cycle-graph: the path eigenvector is NO LONGER an eigenvector => the spectrum != the cos(πj/h)-ladder)
+  MUTANT M2 (ANTI-TUNING): CAUGHT (fitting 9/4 onto the ladder requires cos(πx/3)=1/4, but integer j∈{{1,2}} give cos∈{{1/2,−1/2}} => a coefficient outside the convention = FAIL)
+  MUTANT M3: CAUGHT (false-Coxeter=transposition, order 2 != h=4 => the azimuth-group is not ⟨c⟩)
+  MUTANT M4: CAUGHT (azimuth 2π/(h+1)=2π/4=90° != 2π/h=2π/3=120° S597)
+
+NEGATIVE CONTROL (seeded): a random rung against the ladder
+  random 1/2: on the ladder=False — the measurement is sensitive (only exact cos-values pass)
+
+SUMMARY: asserts_passed=30 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0) [su/Weyl/Coxeter/exponents are allowed]
+EXIT=0
+PROC_EXIT=0
+STOP

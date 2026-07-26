@@ -1,0 +1,57 @@
+==========================================================================
+STIK −2→−1 STEP 1 · PROBE S1028 — FACTORIZATION of the 6 seams through the canonical c=ℤ/(d+1)
+The NULL-HYPOTHESIS DISTINGUISHES {cyclic} vs {dihedral}. P1: commutativity (not iso). Layer: ONLY the stik.
+★shov.1/freezing — NOT this step. FS=STONE. Court — to Omega; I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+FACTORIZATION TEST of the 6 seams through the canonical c=ℤ/(d+1) (commutativity of φₖ=ι∘c, P1)
+──────────────────────────────────────────────────────────────────────────
+   d | n=d+1 | even? | ∃order-2? | shov.2 3 4 5 6 7 (P=pass/F=fail) | hinge
+   2 |     3 | even  | NO          | P  P  F  P  F  P                  | DIHEDRAL ℤ/3⋊ℤ/2
+   3 |     4 | odd   | YES         | P  P  P  P  P  P                  | CYCLIC ℤ/4
+   4 |     5 | even  | NO          | P  P  F  P  F  P                  | DIHEDRAL ℤ/5⋊ℤ/2
+   5 |     6 | odd   | YES         | P  P  P  P  P  P                  | CYCLIC ℤ/6
+
+──────────────────────────────────────────────────────────────────────────
+CHECKING AGAINST PREDICTION P2 (carved BEFORE the count — NOT fitted after)
+──────────────────────────────────────────────────────────────────────────
+   d=2 (even): prediction shov.4/6=dihedral · actual=dihedral ⟹ MATCH ✓
+   d=3 (odd): prediction shov.4/6=clean · actual=clean ⟹ MATCH ✓
+   d=4 (even): prediction shov.4/6=dihedral · actual=dihedral ⟹ MATCH ✓
+   d=5 (odd): prediction shov.4/6=clean · actual=clean ⟹ MATCH ✓
+
+  SUMMARY: the true hinge = a CYCLE ℤ/(d+1) at d ODD · a DIHEDRAL ℤ/(d+1)⋊ℤ/2 at d EVEN.
+  ⟹ the hypothesis is REFINED (not «center», but «center+ℤ/2»): PREDICTION P2 CONFIRMED ∀ d=2..5
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (iso≠factorization, d=4): ℤ/5≅ℤ/5=True, but shov.4 factors=False ⟹ REJECTED ✓ (the b₁-ban: iso=zero information)
+  M2 (ℤ/2 internal only n even): ℤ/5 order-2=False, ℤ/4 order-2=True ⟹ REJECTED false-always ✓
+  M3 (dihedral≠cyclic, d=4): |D_5|=10 vs |C_5|=5, flip∉rotations=True ⟹ REJECTED ✓ (dihedral strictly larger)
+  M4 (pure-seam ∀d, control): shov.3 factors d=2..5 everywhere=True ⟹ REJECTED false-parity ✓ (pure clean ∀d)
+
+  NEGATIVE CONTROL (seed): has_order2(n) == (n even) in 400/400 — the arithmetic is exact
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  • Pure-center shov.2/3/5/7: factor through c ∀d (φₖ=the identity of the center).
+  • ℤ/2-seams shov.4/6: factor ONLY at d ODD (∃ an order-2 in ℤ/(d+1)); d EVEN —
+    ε→−ε is EXTERNAL ⟹ the hinge = a DIHEDRAL ℤ/(d+1)⋊ℤ/2 (does not factor through c alone).
+  • ⟹ the true hinge of the stik −2→−1 = ℤ/(d+1)⋊ℤ/2, degenerating to a CYCLE only at d odd.
+  • ★PREDICTION P2 (carved BEFORE the count) — CONFIRMED ∀d=2..5.
+  • The null-hypothesis worked as a DISTINGUISHER: not «center=stik», but «center+ℤ/2» (a refinement).
+──────────────────────────────────────────────────────────────────────────
+  A consequence for step 2 (NOT done here): the order-parameter/freezing (shov.1) must be formulated
+  ONLY on what survives step 1 — i.e. on the hinge ℤ/(d+1)⋊ℤ/2, not on the bare center.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: prediction-P2=MATCH · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

@@ -1,0 +1,44 @@
+==========================================================================
+W42 probe-2 (layer −2, ultrahyperbolic): classes of iε prescriptions — question №4 «why q=1»
+ε∈{±1}^q; equivalence = the same label on EVERY null mode (active axes).
+==========================================================================
+
+T1 (count of iε-prescription classes; L=4): C(q) vs bare 2^q · C̃(q) · q=1 selection
+signature | q | #null-modes | C(q) | 2^q | lattice distinguishes? | C̃(q) | 2^(q−1) | verdict
+--------------------------------------------------------------------------------------------------------
+(4,0) | 0 | 1 | 1 | 1 | yes | 0 | — | degenerate (nothing to encircle)
+(3,1) | 1 | 28 | 2 | 2 | yes | 1 | 1 | ★UNIQUE class up to arrow (q=1 selected)
+(2,2) | 2 | 70 | 4 | 4 | yes | 2 | 2 | 2 classes (>1, grows)
+(3,3) | 3 | 924 | 8 | 8 | yes | 4 | 4 | 4 classes (>1, grows)
+  ★MEASUREMENT: C̃(0)=0 (degenerate) · C̃(1)=1 · C̃(2)=2 · C̃(3)=4 — GROWS. Only q=1 has
+  a UNIQUE class (up to arrow) ⟹ «why q=1» = the unique signature with an unambiguous iε prescription.
+  ★NON-TAUTOLOGY (measurement): the lattice DISTINGUISHES all 2^q vectors (C=2^q) — it could have glued
+  (K1: C̃(2)=1), but null modes with A SINGLE active axis fix each sign separately.
+
+T2 (substantiality of classes: ΔD=mode count between prescriptions (Hamming); + finding D_net)
+signature | between-class ΔD (min differing modes) | within-class ΔD | D_net=Σlabel ∀ε | substantial?
+--------------------------------------------------------------------------------------------------------
+(4,0) | — (no classes) | — | — | degenerate
+(3,1) | 12 | 0 | 0 (all) | yes (mode-level)
+(2,2) | 40 | 0 | 0 (all) | yes (mode-level)
+(3,3) | 424 | 0 | 0 (all) | yes (mode-level)
+  ★MEASUREMENT+FINDING: classes ARE DISTINGUISHED AT THE MODE LEVEL (ΔD_Hamming>0 between classes —
+  different label-vectors), BUT the pure arg I: D_net=Σlabel=0 for EVERY ε (null modes
+  pair up k↔−k, sin flip ⟹ n_+=n_−). ⟹ bet-2 is HONESTLY RESOLVED: classes are substantial
+  PER-MODE (mode count between prescriptions ≠0), but the PURE arg I phase is blind to the prescription (=0 ∀ε).
+  The q=1 selection is carried by the T1 class-count, NOT the net phase — the seed reading «D=arg I» is refined.
+
+MUTANTS:
+  MUTANT M1 (false-equivalence): CAUGHT (null mode (0, 1, 0, 1) with mute axis 0: flipping its sign does NOT change the label (1=1) — «ignore activity=bare 2^q» is caught; the mode sees only active axes)
+  MUTANT M2 (size): CAUGHT (C̃(1)=1, C̃(2)>1 IDENTICALLY at L=3 and L=4 — the selection is not a lattice artifact)
+  MUTANT M3: CAUGHT (Euclidean (4,0) q=0: the prescription is empty, C̃=0 (no arrow) != q≥1 C̃≥1 — the scale boundary distinguishes)
+  MUTANT M4: CAUGHT (false «net arg I distinguishes ±»: D_net(+)=0=D_net(−)=0 (blind), BUT Hamming(+,−)=12>0 — it distinguishes only at the mode level, not the net phase)
+
+NEGATIVE CONTROL (seeded): Euclidean (p,0) q=0
+  (4,0): #null-modes=1, C=1 (empty ε, nothing to encircle) — the scale boundary q=0 is degenerate, as carved
+
+SUMMARY: asserts_passed=13 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

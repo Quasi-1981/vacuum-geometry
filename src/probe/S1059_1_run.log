@@ -1,0 +1,114 @@
+==============================================================================
+S1059 — A KILL-TEST OF ANSATZ A: is the chain step INDIVISIBLE (step 3 of the assignment)
+Layer-1: the GRADATION of the series G = Σ_n G₀(H·G₀)ⁿ is on trial, not its Layer-2-reading.
+==============================================================================
+
+T1. SCALE — does a REAL parameter enter the step-count (justification E4)
+  ✓ a COMMON scale: (H·G₀) is identical under (H,E,m₀)→c·(H,E,m₀) — ★this is an IDENTITY BY CONSTRUCTION (weight 0), NOT a measurement  [T1 · dimensionless · a 2×2 identity]
+     ★BETA'S VISA (the S1059-visa): this line by itself is NOT A WITNESS — H·G₀ has weight 0,
+       so invariance cannot fail to occur.  The substantive form is below, and it
+       gives a MORE PRECISE support for the main thesis than a cancelling of scale.
+  ✓ ★SUBSTANTIVELY: under H→t·H (E,m₀ left UNTOUCHED) the term of index n goes EXACTLY as t^n, n=0..3 ⟹ the parameter SEPARATES the gradations, it does not mix them  [T1 · dimensionless · a ratio of series terms]
+     ⟹ n is an integer NOT because a scale cancelled, but because the parameter enters as
+       an EXPONENT.  A continuum handle cannot substitute for the integer, because it sits elsewhere.
+  ✓ ★N3 A NEGATIVE CONTROL for T1: the ratio member₂/member₀ under an INDEPENDENT scale = t², under a COMMON one = 1 ⟹ the detector DISTINGUISHES the two scalings, it does not always say «invariant»
+
+T2. FROM BELOW — does a HALF-STEP exist: an operator K with K² = H (justification E1)
+  ✓ ★A LIVENESS CONTROL: a bare (non-Hermitian) root K²=H EXISTS at f=1 — the test is not vacuous  [T2.0 · dimensionless · a matrix identity]
+  ✓    and it is NOT Hermitian (K ≠ K†) — that is, it is precisely the Hermiticity requirement that kills it, not existence
+  ✓ ★MECHANISM-1 (Hermiticity): spec(H) = ±√(f_re²+f_im²) — a NEGATIVE eigenvalue EXISTS at f≠0  [T2.i · dimensionless · eigenvalues of a 2×2]
+     ⟹ there is no Hermitian K with K²=H: K†=K would give K² ⪰ 0, but H has −|f| < 0.
+  ✓ ★det H = −(f_re²+f_im²)  [T2.ii · dimensionless · a 2×2 determinant]
+     d=2: −f·f̄ = a unit · (X1 + X2 + 1)^1 · (X1*X2 + X1 + X2)^1  ⟹ factors of odd multiplicity: 2
+     d=3: −f·f̄ = a unit · (X1 + X2 + X3 + 1)^1 · (X1*X2*X3 + X1*X2 + X1*X3 + X2*X3)^1  ⟹ factors of odd multiplicity: 2
+     d=4: −f·f̄ = a unit · (X1 + X2 + X3 + X4 + 1)^1 · (X1*X2*X3*X4 + X1*X2*X3 + X1*X2*X4 + X1*X3*X4 + X2*X3*X4)^1  ⟹ factors of odd multiplicity: 2
+  ✓ ★★T2.ii REVISION-2 (the visa route): −f·f̄ has TWO DISTINCT irreducible factors of ODD multiplicity ∀d∈{2,3,4} ⟹ not a square in C[X^{±1}] ⟹ NO LOCAL root EXISTS  [T2.ii · dimensionless · factorization in a UFD]
+  ✓ ★N4 A NEGATIVE CONTROL for T2.ii: on the square (det H)² all multiplicities are EVEN ⟹ the detector says YES and is able to fail; this agrees with T2.0 (at f=1 we have −1=i², a square — it does not block)
+     ★THE CLAIM IS RAISED (per the visa's pointer): this argument NOWHERE uses Hermiticity ⟹
+       the correct statement — «no local root exists AT ALL», not «within the class
+       {Hermitian, local}».  Revision-1 under-claimed its own result; fixed.
+     ★AND the mechanism rests on the LATTICE ITSELF (the factorization of f), not the analysis of the node.
+  ✓ ★the node f=0 EXISTS ∀d∈{2,3,4,5} at the point k_a=2πa/(d+1) (the sum of all (d+1)-th roots of 1)  [T2.ii · dimensionless · an exact symbolic substitution]
+  ✓ ★N2 A NEGATIVE CONTROL: on the positive-definite [[2,1],[1,2]] (spec={1,3}) the detector says YES — a Hermitian root DOES exist ⟹ the detector is able to fail
+
+T3. FROM ABOVE — are there OMISSIONS in the series (justification E2)
+     n=0: AB=0, AA≠0 | n=1: AB≠0, AA=0 | n=2: AB=0, AA≠0 | n=3: AB≠0, AA=0 | n=4: AB=0, AA≠0 | n=5: AB≠0, AA=0 | n=6: AB=0, AA≠0
+     ★BETA'S VISA: the non-vanishing of the series terms CANNOT BE A WITNESS for E2 — it
+       is structural: n counts the powers of THAT operator, whatever its reach, and
+       an empty term would require the product of nonzero 2×2 matrices to be zero.
+       Running it on an operator of reach 2 gives the same result — the detector is blind.
+       ⟹ the line below remains as an OBSERVATION (an alternation, S1045), not as a witness.
+     (the AB↔AA alternation — is binary; this is the PARITY of the block, not an omitted term)
+     the r-space detector: reach=1 → min power(0→1) = 1 · reach=2 → (0→1) = None, (0→2) = 1
+  ✓ ★★THE E2 WITNESS (relocated per the visa): reachability in r-space — at reach=1 the neighbor is reached by EXACTLY one power; at reach=2 the neighbor is unreachable by ANY power, and the unit = 2 base edges  [T3 · a base edge · the minimal power with a nonzero entry]
+     ⟹ it is PRECISELY THIS detector that is able to fail and it is the one that carries E2; the non-vanishing test
+       of the series terms no longer carries a witness (the empty safeguard is removed, not hidden).
+
+T4. RELABELING — the same supercell machinery that SHIFTED the length (justification E3)
+  ✓ P=2: the supercell spectrum is IDENTICAL to the direct chain (N=12) ⟹ THE SAME object
+  ✓ P=3: the supercell spectrum is IDENTICAL to the direct chain (N=12) ⟹ THE SAME object
+  ✓ P=4: the supercell spectrum is IDENTICAL to the direct chain (N=12) ⟹ THE SAME object
+  ✓ P=6: the supercell spectrum is IDENTICAL to the direct chain (N=12) ⟹ THE SAME object
+     P | hops per BOND | hops per CELL
+     2 | 1 | 2
+     3 | 1 | 3
+     4 | 1 | 4
+     6 | 1 | 6
+  ✓ ★the count «per BOND» = 1 and does NOT move under relabeling · the count «per CELL» moves as P — ★on a matrix BUILT from P (revision-2 per the visa)  [T4 · a hop · the minimal power in a supercell construction]
+     ⟹ the same free choice of description that shifted the LENGTH as 1/P² (S1057), does NOT
+       move the hop-count.  The asymmetry is measured on ONE object by the same machinery.
+     ★A LINK WITH T2: to take the CELL as the unit, the series would need a power of 1/P
+       (the neighbor 0→1 = «half a cell» at P=2) — but T2 proved that a LOCAL fractional
+       power does not exist at all.  The cell-unit is not inconvenient, it is IMPOSSIBLE.
+
+T5. THE MOST OBVIOUS OBJECTION — «just add a node in the middle of a bond» (E1-bis)
+     📖 the pillar: μ²=λ+r + (m−n) zeros = spectral graph theory (Cvetković–Doob–Sachs);
+        checked with my own hand, but the status is carried by the PILLAR, not my check.
+     C6 (r=2, m=n — the revision-1 case): n=6, m=6 ⟹ the subdivision has 12 states (the excess m−n = 0)  [T5 · a state · the count of eigenvalues]
+  ✓ ★the STRONG form of the law on «C6 (r=2, m=n — the revision-1 case)»: the multiset spec(subdivision) = {±√(λ+r)} ∪ {0×(m−n)} EXACTLY, with multiplicities  [T5 · dimensionless · equality of multisets]
+     K33 (r=3): n=6, m=9 ⟹ the subdivision has 15 states (the excess m−n = 3)  [T5 · a state · the count of eigenvalues]
+  ✓ ★the STRONG form of the law on «K33 (r=3)»: the multiset spec(subdivision) = {±√(λ+r)} ∪ {0×(m−n)} EXACTLY, with multiplicities  [T5 · dimensionless · equality of multisets]
+     a honeycomb-torus 2×2 (r=3 = our z=d+1): n=8, m=12 ⟹ the subdivision has 20 states (the excess m−n = 4)  [T5 · a state · the count of eigenvalues]
+  ✓ ★the STRONG form of the law on «a honeycomb-torus 2×2 (r=3 = our z=d+1)»: the multiset spec(subdivision) = {±√(λ+r)} ∪ {0×(m−n)} EXACTLY, with multiplicities  [T5 · dimensionless · equality of multisets]
+  ✓ ★★«DOUBLING» — A PROPERTY OF C6, NOT OF OUR LATTICE (a visa finding): at m=n the excess is 0, while at r=3 the excess m−n>0 ⟹ subdivision costs EVEN MORE than revision-1 showed
+     ⟹ ★THE KEY (stands unchanged): subdivision gives a root NOT of H, but of (H + r·I) — of a
+       SHIFTED operator.  The shift by r is exactly what removes the obstruction of T2.i.
+       Subdivision BUYS the half-step at exactly the price T2 named: by changing the object, not the description.
+     ⟹ splitting a bond = a DIFFERENT LATTICE (more states, a different spectrum), NOT a relabeling
+       of ours.  The step is indivisible RELATIVE TO the lattice; the lattice is set by T19, not this probe.
+
+JUSTIFICATION E1-E4 — what WOULD FORCE ansatz A to FAIL (all four computed, not declared)
+  E1 «a LOCAL K, K²=H exists» ⟹ the step divides, A is demoted: DID NOT OCCUR
+     ★THE CLAIM IS RAISED (revision-2 per the visa): the «Hermitian» condition is DROPPED from the E1 formulation —
+     the argument via the factorization of det kills ANY local root, Hermitian or not.
+     (two mechanisms: spec(H) ∌ [0,∞) — requires Hermiticity ⊥ −f·f̄ not a square in
+      C[X^±1] — does NOT require it; the second is stronger, and it is the one that carries E1)
+  E2 «the neighbor is reached by more than one hop» ⟹ the unit > 1, A is wrong: DID NOT OCCUR
+     ★THE WITNESS WAS RELOCATED (revision-2 per the visa) from the non-vanishing of the series terms (an empty
+     detector — is silent even where the unit is genuinely 2) to REACHABILITY in r-space.
+  E3 «the count moves under a free relabeling» ⟹ a convention, as the length once was: DID NOT OCCUR
+  E4 «a real parameter enters the count» ⟹ a handle was added, a STOP per K2: DID NOT OCCUR
+
+★THE MULTIPLICITY COUNT, HONESTLY (the rule «witnesses by ANCESTOR, not by citation»)
+  The mechanisms T2.i (Hermiticity) and T2.ii (locality+node) both read ONE
+  structure — the off-diagonal form H=[[0,f],[f̄,0]] (T19-bipartite + T33).  A shared
+  ancestor ⟹ MULTIPLICITY 1, not 2.  The exante named this risk BEFORE the count; it came true.
+  T4 rests on a different ancestor (the S1057-machinery of relabeling) — but it measures
+  the INVARIANCE of the count, not its indivisibility: this is the other half of the question, not a second
+  witness of the same one.  ⟹ on indivisibility the witness is SINGLE.
+
+  ✓ the Layer-1 fence: 0 hits on 15 patterns (source + log)
+     (English `path` is deliberately NOT scanned — a technical homonym of os.path, not a Layer-2 word)
+
+==============================================================================
+★A BINARY OUTPUT (as the assignment asked):
+  THE CHAIN STEP IS FORCED to one hop — FROM BELOW (a LOCAL fractional power
+  does not exist at all, without any Hermiticity condition) and FROM ABOVE (the neighbor is reached by exactly one
+  hop, and on a lattice of reach 2 — by none), and moreover
+  the hop-count is INVARIANT under the same relabeling that shifted the length.
+  ⟹ none of the four justifications occurred; NO HANDLE WAS ADDED:
+  the unit of gradation — is an INTEGER, not a value, so the question «what value»
+  does not apply to it.  Wager A stands as an OUTPUT at Layer-1.
+SCORE: 22 ✓ / 0 ✗
+STOP. The registry is untouched; step 4 is not begun.
+==============================================================================

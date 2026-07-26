@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Period P=d+1 plus dual column equals the circle 2pi/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
+| [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
 | [First minus from participation + character bridge: minus equals the sign of the Pontryagin dual; hole #2 closed kinematically](T32.md) | theorem | candidate |
 
 ## FUNCTION

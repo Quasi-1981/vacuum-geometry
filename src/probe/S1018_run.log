@@ -1,0 +1,45 @@
+==========================================================================
+W42 probe-12 (layer −2): ROAD-2 domains/mark-agreement (№6/№10). A pair of ADJACENT
+cells, a column in EACH of its own. The cost of disagreement · the pair's capacity · the globality of the choice.
+★COUNTING, not physics; ancestors cited; exact arithmetic.
+==========================================================================
+
+######################################################################
+# STAVKA-3: bit-fence of a single cell (S1011) + an unmarked neighbor (q=0)
+######################################################################
+  d=2, h=3: a pair with a SHARED clock q_eff=1, split=0 (one column of the S1011 type); an unmarked neighbor (q=0) — no column ⟹ no clock, no mark (the T26-endpoint)
+  d=3, h=4: a pair with a SHARED clock q_eff=1, split=0 (one column of the S1011 type); an unmarked neighbor (q=0) — no column ⟹ no clock, no mark (the T26-endpoint)
+
+######################################################################
+# ★STAVKA-2 (the pair's capacity): the center-charge of two columns in DIFFERENT cells (a T34-rhyme)
+######################################################################
+  d=2: center Z/3; column-1 (cell-1) charge=1 · column-2 (neighboring cell, a different bond) charge=1 ⟹ rank⟨1,1⟩=1 ⟹ ★THE PAIR'S CAPACITY = 1 (a merge forced by the center)
+  d=3: center Z/4; column-1 (cell-1) charge=1 · column-2 (neighboring cell, a different bond) charge=1 ⟹ rank⟨1,1⟩=1 ⟹ ★THE PAIR'S CAPACITY = 1 (a merge forced by the center)
+  ⟹ a pair of adjacent cells of one lattice = ONE center ⟹ ONE clock per pair
+   (a merge like T34, but for DIFFERENT cells — not a tautology): the synchronization is STRUCTURAL,
+   the 1-bit choice (S1017) is GLOBAL (not per-cell), domains are impossible — outcome №10=globality.
+
+######################################################################
+# STAVKA-1 (the cost of disagreement): AGREE (a shared clock) ⊥ DISAGREE (2 forced clocks)
+######################################################################
+  d=2: AGREE q_eff=1/split=0 ⊥ DISAGREE q_eff=2/split=96 ⟹ COST=96>0 (disagreeing is COSTLIER — a void-rhyme of S1000; the marks are mutually VISIBLE)
+  d=3: AGREE q_eff=1/split=0 ⊥ DISAGREE q_eff=2/split=264 ⟹ COST=264>0 (disagreeing is COSTLIER — a void-rhyme of S1000; the marks are mutually VISIBLE)
+  ★THE SIGN OF THE COST (carved BEFORE the count, honest): disagreeing is COSTLIER (split appears) ⟹
+   the marks are NOT invisible (not K1) ⟹ but capacity=1 makes disagreement NOT the native state:
+   forcing disagreement = breaking the shared center = generating bistability. Domains cost something.
+
+MUTANTS:
+  MUTANT M1 (★same-cell tautology K2): CAUGHT (S1013 = 2 columns in ONE cell stick together TAUTOLOGICALLY; a pair = 2 columns in DIFFERENT cells, DIFFERENT bonds, stick together
+    through a SHARED CENTER (both charge 1) — not by construction ⟹ the conclusion is not a tautology)
+  MUTANT M2 (false-cost=0): CAUGHT (disagree split=96 > agree split=0 ⟹ cost>0; if the cost=0 it would be K1 — here it is NOT K1, the marks are visible through the shared center)
+  MUTANT M3 (size d=2↔3): CAUGHT (capacity=1 (shared center) is stable ∀d; the cost of disagreement>0 both — the conclusion is not a lattice artifact)
+  MUTANT M4 (origin-shift of the start): CAUGHT (shifting the marked bond by a ROOT does not change the center-charge (1→1) ⟹ capacity=1 is origin-choice-invariant, not an artifact of the choice of start)
+
+NEGATIVE CONTROL (seeded): an unmarked neighbor (q=0) — a cell without a mark
+  d=2: an unmarked neighbor carries neither a clock nor a side — a pair with it does NOT give a second clock (capacity=1 trivially); the disagreement question is empty
+
+SUMMARY: asserts_passed=15 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

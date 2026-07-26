@@ -1,0 +1,108 @@
+[master] dispatching 20 tasks to Pool(18)
+[done] ('t1', 2)
+[done] ('t1', 3)
+[done] ('t1', 4)
+[done] ('t2', 0)
+[done] ('t2', 1)
+[done] ('t3u',)
+[done] ('t3w',)
+[done] ('t3j', 1)
+[done] ('t3j', 2)
+[done] ('t3j', 3)
+[done] ('t4g', '2', '-2', 'P1 (a,b)=(2,-2)')
+[done] ('t4g', '2', '1/2', 'P2 (a,b)=(2,1/2)')
+[done] ('t4j', 1)
+[done] ('t4j', 2)
+[done] ('t4j', 3)
+[done] ('t4j', 4)
+[done] ('t51', 0)
+[done] ('t51', 1)
+[done] ('t52', '1/2', 'w1=-1 (p=1/2)')
+[done] ('t52', '1/4', 'w1=I (p=1/4)')
+==========================================================================
+W40: structure of f near the zero-set — linear order and eigenvalues
+     (blind probe; convention: J without 2pi, eigenvalues in (2pi)^2-units;
+      frame A=Cholesky(G), G_ij=<alpha_i,alpha_j>_unit; verdicts exact;
+      Pool(18), collected in fixed order — the log is bit-reproducible)
+==========================================================================
+
+T1 (bit-fence): type/dimension of Z (t=1, d=2,3,4) — cross-check against S998 run.log BIT-FOR-BIT
+  d=2: points | dim=0 | #points=2 | rank=2  <- matches S998 run.log
+  d=3: variety | dim=1 | #points=- | rank=2  <- matches S998 run.log
+  d=4: variety | dim=2 | #points=- | rank=2  <- matches S998 run.log
+
+T2 (d=2, t=1): expansion g(psi0 + dk) = L(dk) + O(dk^2) at each of the 2 zeros
+point w=(w1,w2) | J_k (rows) | det J_k | eigenvalues J^T J | equal?
+----------------------------------------------------------------------------------------------------
+w=(-1/2 - sqrt(3)*I/2, -1/2 + sqrt(3)*I/2) | [3/4, -3*sqrt(3)/4; -3*sqrt(3)/4, -3/4] | -9/4 | 9/4, 9/4 | yes
+w=(-1/2 + sqrt(3)*I/2, -1/2 - sqrt(3)*I/2) | [-3/4, 3*sqrt(3)/4; -3*sqrt(3)/4, -3/4] | 9/4 | 9/4, 9/4 | yes
+  (convention: J_k = J_psi*A2, A2 = Cholesky(G2); the O(dk^2) remainder — the series is analytic)
+
+T3 (d=3, t=1): the zero-set = 3 circles (exact certificate) + Jacobian structure
+  certificate: on Z(t=1,d=3) some w_i = -1, the other two are antipodes =>
+  Z = C1 (z,-z,-1) ∪ C2 (z,-1,-z) ∪ C3 (-1,z,-z)  (three circles; intersections at
+  the collinear points (1,-1,-1),(-1,1,-1),(-1,-1,1))
+
+T3(a) GENERIC point on C1 (symbolic parameter u; w1 = ((1-u^2)+2Iu)/(1+u^2)):
+  rank=2 (u outside the collinear intersections of the circles); ker = span(1,1,0) = tangent: yes
+  K(u) = [[32*_u**2/(3*(_u**4 + 2*_u**2 + 1)), 16*_u*(_u**2 - 1)/(3*(_u**4 + 2*_u**2 + 1))], [16*_u*(_u**2 - 1)/(3*(_u**4 + 2*_u**2 + 1)), 16*(_u**4 + 1)/(3*(_u**4 + 2*_u**2 + 1))]]
+  tr=16/3; disc=((16/3)x1(u))^2 => eigenvalues = 8/3 +- (8/3)|x1(u)|
+  equal only at x1(u)=0, i.e. u in [-1, 1] (w1 = +-I); GENERICALLY: no
+
+T3 table of points (witness u=1/2 + all symmetric cosets k_j on Z):
+point | rank | ker-vs-tangents | K | eigenvalues (transverse) | equal?
+--------------------------------------------------------------------------------------------------------------
+C1 u=1/2 w1=(3/5,4/5) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 1) | K=[[128/75, -32/25], [-32/25, 272/75]] | eig=(64/15, 16/15) | equal: no
+k_1 (branches: C2) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 1) | K=[[8/3, 0], [0, 8/3]] | eig=(8/3, 8/3) | equal: yes
+k_2 (branches: C1,C3) | rank=1 | ker=tangents: no: singular (rank 1, ker dim 2 = the plane of 2 tangent branches) | K=[[0, 0], [0, 16/3]] | eig=(16/3, 0) | equal: no (degenerate: rank<2)
+k_3 (branches: C2) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 1) | K=[[8/3, 0], [0, 8/3]] | eig=(8/3, 8/3) | equal: yes
+
+T4 (d=4, t=1): a 2-variety — generic points + all symmetric cosets
+point | rank | ker-vs-tangents | K | eigenvalues (transverse) | equal?
+--------------------------------------------------------------------------------------------------------------
+P1 (a,b)=(2,-2) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[163/40, 0], [0, 87/40]] | eig=(163/40, 87/40) | equal: no
+P2 (a,b)=(2,1/2) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[11667/3560, -78/89], [-78/89, 10583/3560]] | eig=(sqrt(2507041)/1780 + 25/8, 25/8 - sqrt(2507041)/1780) | equal: no
+k_1 (d=4) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[25/8, 0], [0, 25/8]] | eig=(25/8, 25/8) | equal: yes
+k_2 (d=4) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[25/8, 0], [0, 25/8]] | eig=(25/8, 25/8) | equal: yes
+k_3 (d=4) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[25/8, 0], [0, 25/8]] | eig=(25/8, 25/8) | equal: yes
+k_4 (d=4) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 2) | K=[[25/8, 0], [0, 25/8]] | eig=(25/8, 25/8) | equal: yes
+
+T5: shift the weight t = 11/10 on axis 0
+
+T5.1 (d=2, t=11/10): repeat of T2
+point w=(w1,w2) | J_k (rows) | det J_k | eigenvalues J^T J | equal?
+----------------------------------------------------------------------------------------------------
+w=(-11/20 - 3*sqrt(31)*I/20, -11/20 + 3*sqrt(31)*I/20) | [3*sqrt(93)/40, -9*sqrt(31)/40; -33*sqrt(3)/40, -33/40] | -99*sqrt(93)/400 | 1089/400, 837/400 | no
+w=(-11/20 + 3*sqrt(31)*I/20, -11/20 - 3*sqrt(31)*I/20) | [-3*sqrt(93)/40, 9*sqrt(31)/40; -33*sqrt(3)/40, -33/40] | 99*sqrt(93)/400 | 1089/400, 837/400 | no
+  verdict T5.1: the eigenvalues at t=11/10 do NOT remain equal
+
+T5.2 (d=3, t=11/10): repeat of T3(a,b) for the surviving component
+  the parametrization is complete: w1 free on the arc x1 <= 179/220 (|t+w1| <= 2),
+  the pair (w2,w3) = S(1/2 +- I tau), S = -(t+w1); the two branches join at tau=0
+  => ONE circle (there are no collinear singularities at t=11/10)
+point | rank | ker-vs-tangents | K | eigenvalues (transverse) | equal?
+--------------------------------------------------------------------------------------------------------------
+T5.2 w1=-1 (p=1/2) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 1) | K=[[133/50, 0], [0, 443/150]] | eig=(443/150, 133/50) | equal: no
+T5.2 w1=I (p=1/4) | rank=2 | ker=tangents: yes (ker = span of tangents, dim 1) | K=[[87959/33150, -154/1105], [-154/1105, 98123/33150]] | eig=(77*sqrt(221)/5525 + 421/150, 421/150 - 77*sqrt(221)/5525) | equal: no
+T5.2(b) symmetric cosets k_j at t=11/10 (the value of g, exact):
+  j=0: |g|^2 = 1681/100  -> on Z: no
+  j=1: |g|^2 = 1/100  -> on Z: no
+  j=2: |g|^2 = 1/100  -> on Z: no
+  j=3: |g|^2 = 1/100  -> on Z: no
+
+MUTANTS:
+  MUTANT M1: CAUGHT (truncation at O(dk^0): L=0 => det=0, but exactly c1(q=(1,0)) = pi*(sqrt(3) - I) != 0, det J_k = -9/4 != 0)
+  MUTANT M2: CAUGHT (the plane with the tangent: eigenvalues [0, 8/3] != transverse [8/3, 8/3]; the zero gives away the substitution)
+  MUTANT M3: CAUGHT (pair (2, 2+10^-12): float(1e-9) says 'equal', symbolically the difference = -1/10^12 != 0)
+  MUTANT M4: CAUGHT (t=11/10: type/dim/#/rank would agree, but the note 'solve: (x=-11/20,y=-3*sqrt(31)/20); (x=-11/20,y=3*sqrt(31)/20)' != log 'solve: (x=-1/2,y=-sqrt(3)/2); (x=-1/2,y=sqrt(3)/2)')
+  MUTANT M5: CAUGHT (j=0: g = 4 != 0 — the point is not on Z, the 'point on Z' assert fails the probe)
+
+NEGATIVE CONTROL (seeded): weight 13/10 on two axes, d=3
+  axes=[0, 2], weight=13/10: symmetric zeros j=[1, 3] (count 2) against the base j=[1, 2, 3] (count 3)
+  surviving j=1: rank=2, K=[[8/3, 0], [0, 338/75]], eigenvalues=(338/75, 8/3), equal: no  <- the structure differs from the base (there rank=2, 8/3=8/3)
+  surviving j=3: rank=2, K=[[8/3, 0], [0, 338/75]], eigenvalues=(338/75, 8/3), equal: no  <- the structure differs from the base (there rank=2, 8/3=8/3)
+
+SUMMARY: asserts_passed=153 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+STOP

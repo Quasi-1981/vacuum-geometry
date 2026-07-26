@@ -1,0 +1,91 @@
+==========================================================================
+DELIRIUM-2 PROBE S1027 — T32-RECONCILIATION (a homonym-court: does the new minus =? the canonical T32-minus)
+★KILL-FIRST: null = DIFFERENT ancestors (a homonym). T32=an ANCESTOR-CITATION. The three laws of S1024. FS=STONE.
+★COURT — to Omega; I check BY ANCESTOR and lay it out raw, I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+(3) MARK: α (the S1026 selector) — a root in Q; the center-generator — a fund.weight in P∖Q. The same choice?
+──────────────────────────────────────────────────────────────────────────
+   d | n | α=e_0−e_1 ∈ Q (a root)? | center-gen w₁=e_0−𝟙/n ∈ Q? | mark=which ROOT/BOND
+   1 | 2 | YES (integer, Σ=0)     | NO (fractional, P∖Q)     | root/bond (T34: «which bond»)
+   2 | 3 | YES (integer, Σ=0)     | NO (fractional, P∖Q)     | root/bond (T34: «which bond»)
+   3 | 4 | YES (integer, Σ=0)     | NO (fractional, P∖Q)     | root/bond (T34: «which bond»)
+   4 | 5 | YES (integer, Σ=0)     | NO (fractional, P∖Q)     | root/bond (T34: «which bond»)
+  ⟹ the arc's MARK = the choice of the ROOT α (∈Q). The T34-mark = «WHICH bond» of the cell = an edge = a weight difference
+    = a ROOT. ★MARK — a SHARED ancestor: both = the choice of one root/bond α. (The center-generator
+    w₁∈P∖Q — a DIFFERENT object, α-blind; it belongs to the canon's dual-minus, NOT to the mark.)
+
+──────────────────────────────────────────────────────────────────────────
+(2) MECHANISM-ANCESTOR [THE KEY]: is the compact so(2)_α = the Pontryagin-dual of the column = the center ℤ/(d+1)?
+──────────────────────────────────────────────────────────────────────────
+  Arc: so(2)_α = exp(t·k_α), k_α=E_α−F_α. Canon [T26.5 cited]: the column-dual = a circle 2π/(d+1) = the center.
+   d | n | k_α² = ? | exp(t·k_α) block-local (≠scalar ω·I outside (i,j))? | so(2)_α ∋ center\{I}?
+   1 | 2 | −(E₀₀+E₁₁) | YES (rotation in the (0,1)-plane, identity outside) | NO (only I)
+   2 | 3 | −(E₀₀+E₁₁) | YES (rotation in the (0,1)-plane, identity outside) | NO (only I)
+   3 | 4 | −(E₀₀+E₁₁) | YES (rotation in the (0,1)-plane, identity outside) | NO (only I)
+   4 | 5 | −(E₀₀+E₁₁) | YES (rotation in the (0,1)-plane, identity outside) | NO (only I)
+  ⟹ so(2)_α = a BARE U(1) rotation in the plane of ONE root α (block-local, identity outside the block):
+    it does NOT contain a nontrivial center ℤ/(d+1) (for a scalar ω·I we need ω=1 at all outside-block
+    positions ⟹ ω=1). The canon-dual = the dual of the FINITE center ℤ/(d+1) (d+1 characters, α-BLIND,
+    T34 rank 1). ★DIFFERENT OBJECTS: a continuous geometric rotation of one root ⊥ the dual of a finite
+    center (arithmetic, d+1 characters). No shared ancestor is visible at THIS object's level.
+
+──────────────────────────────────────────────────────────────────────────
+(1) FORM (d,1): the arc vs T32 [cited] — a numeric match + CHEAPNESS ((d,1) is not an object's fingerprint)
+──────────────────────────────────────────────────────────────────────────
+  Canon T32 [cited basis.md]: d=2 spectrum 16:2, d=3 spectrum 219:9 ⟹ the (d,1)-signature falls out.
+  Arc S1026: h⊕ℝ(E_α−F_α) = (d,1) exactly. A numeric MATCH. But (d,1) is CHEAP:
+   d | h⊕ℝ(E_{01}−F) | h⊕ℝ(E_{02}−F) | h⊕ℝ(E_{12}−F) | all (d,1)? ⟹ count is a weak witness
+   2 | (2, 1, 0)      | (2, 1, 0)      | (2, 1, 0)      | all (d,1) ✓ ⟹ CHEAP
+   3 | (3, 1, 0)      | (3, 1, 0)      | (3, 1, 0)      | all (d,1) ✓ ⟹ CHEAP
+   4 | (4, 1, 0)      | (4, 1, 0)      | (4, 1, 0)      | all (d,1) ✓ ⟹ CHEAP
+  ⟹ ANY root β gives (d,1) — the form (d,1) = the generic count «d definite+1 negative»,
+    NOT the fingerprint of a specific ancestor. The numeric (d,1)-match with T32 = NECESSARY, NOT sufficient
+    (the S1022/S1024 discipline: a count-match ≠ a bridge). The source of «d»: the arc=the Cartan rank; the canon=the d
+    characters of ℤ/(d+1) [T32-cited] — numerically d, but the ancestor DIFFERS (rank ≠ character-count).
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (false «so(2)_α=center» d=4): k_α² outside the (0,1)-block = 0? True ⟹ REJECTED ✓ (block-local, ∌ ω·I)
+  M2 (false «α=fund.weight=center-gen» d=4): α∈Q integer, w₁∈P∖Q fractional? True ⟹ REJECTED ✓ (a root ≠ a fund.weight)
+  M3 (false «(d,1) is an ancestor's fingerprint» d=4): root(0,1)=(4, 1, 0) vs root(2,3)=(4, 1, 0) identical? True ⟹ REJECTED ✓ ((d,1) does not identify — the count is weak)
+  M4 (structural difference d→d+1): so(2)_α is ALWAYS 2-planar ∀d, the center ℤ/(d+1) GROWS ⟹ REJECTED false-sameness ✓ (they scale DIFFERENTLY)
+
+  NEGATIVE CONTROL (seed): a shared ROLE ((d,1)) but a different OBJECT in 261/300=0.870 — role≠ancestor
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS + HOMONYM-AUDIT BY ANCESTOR (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+   aspect            | canon T32 [cited]                | arc S1025-6             | ancestor
+   MARK (AX-dimer)   | which bond-column (T34)          | which α (root)          | ★SHARED (root/bond)
+   FORM (d,1)        | d characters of ℤ/(d+1) + minus  | d Cartan rank + 1 comp  | a NUMBER match, not the ancestor
+   MINUS-OBJECT      | the Pontryagin-dual of the FINITE center | a bare U(1) so(2)_α | ★DIFFERENT (arithm ⊥ geom)
+                     | ℤ/(d+1) (d+1 char., α-blind)     | a 2-planar rotation of 1 root |
+──────────────────────────────────────────────────────────────────────────
+  KILL-FIRST RESULT (raw, not a verdict):
+   • MARK: the kill FAILED — a shared ancestor (both = the choice of one root/bond α).
+     ⟹ the S1026-mark = the T34-«which bond» = ONE object. The bridge on the MARK is GENUINE.
+   • MINUS: the kill STANDS — so(2)_α (a bare U(1), geometric, α-specific, 2-planar ∀d) ≠ the dual of the finite
+     center ℤ/(d+1) (arithmetic, d+1 characters, α-blind, grows with d). The (d,1)-match = a cheap count
+     (any root gives (d,1)). ★A HOMONYM on the MINUS-object — despite a strong rhyme (both
+     «a compact circle», both (d,1), both at the mark) and a shared mark.
+──────────────────────────────────────────────────────────────────────────
+  ⟹ PART 2 closes PARTIALLY (raw, Omega's call): the MARK is sewn together (arc=canon); the MINUS —
+    two PARALLEL objects (geometric so(2)_α ⊥ arithmetic center-dual) under one role. «One machinery»
+    is HONESTLY chipped at the minus-object level; the debt is named. ★OR (a residue for the court): is the rhyme «compact
+    circle» a deeper identity (does a complexification/real-form bridge so(2)_α↔the center-rotation)?
+    — I could NOT either kill it or force it, this deeper link; I leave it to Omega.
+──────────────────────────────────────────────────────────────────────────
+  (3)mark-shared         : YES/PASS
+  (2)so2≠center(key)     : YES/PASS
+  (1)form-(d,1)-cheap    : YES/PASS
+  mutants                : YES/PASS
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

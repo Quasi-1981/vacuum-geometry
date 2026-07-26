@@ -1,0 +1,39 @@
+SIG=(2,2) | TYPE=coll-pure | S=B(0,2)x1,B(1,3)x1 | N=- | K=- | dimc=4 | dimcc=3 | abelian=0 | eig=[(-1,2),(1,2)] | dimker=0 | A2zero=0 | minpolydeg=2 | Qsig=(3,1,0)
+SIG=(2,2) | TYPE=coll-jordan | S=B(0,2)x1,B(1,3)x1 | N=JORD | K=- | dimc=2 | dimcc=0 | abelian=1 | eig=[(-1,2),(1,2)] | dimker=0 | A2zero=0 | minpolydeg=4
+SIG=(2,2) | TYPE=NONE | S=B(0,2)x1,B(1,3)x1 | N=D1 | K=(0,0) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(3,2) | TYPE=coll-pure | S=B(0,3)x1,B(1,4)x1 | N=- | K=- | dimc=4 | dimcc=3 | abelian=0 | eig=[(-1,2),(0,1),(1,2)] | dimker=1 | A2zero=0 | minpolydeg=3 | Qsig=(3,1,0)
+SIG=(3,2) | TYPE=coll-jordan | S=B(0,3)x1,B(1,4)x1 | N=JORD | K=- | dimc=2 | dimcc=0 | abelian=1 | eig=[(-1,2),(0,1),(1,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+SIG=(3,2) | TYPE=NONE | S=B(0,3)x1,B(1,4)x1 | N=D1 | K=(1,0) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(3,3) | TYPE=coll-pure | S=B(0,3)x1,B(1,4)x1 | N=- | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-1,2),(0,2),(1,2)] | dimker=2 | A2zero=0 | minpolydeg=3 | Qsig=(4,1,0)
+SIG=(3,3) | TYPE=coll-jordan | S=B(0,3)x1,B(1,4)x1 | N=JORD | K=- | dimc=3 | dimcc=0 | abelian=1 | eig=[(-1,2),(0,2),(1,2)] | dimker=2 | A2zero=0 | minpolydeg=5
+SIG=(3,3) | TYPE=NONE | S=B(0,3)x1,B(1,4)x1 | N=D1 | K=(1,1) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(4,2) | TYPE=coll-pure | S=R+(0,1)x1,R+(2,3)x1 | N=- | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-I,2),(0,2),(I,2)] | dimker=2 | A2zero=0 | minpolydeg=3 | Qsig=(0,5,0)
+SIG=(4,2) | TYPE=NONE-CERT | S=R+(0,1)x1,R+(2,3)x1 | N=JORD | K=- | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(4,2) | TYPE=NONE | S=R+(0,1)x1,R+(2,3)x1 | N=D1 | K=(0,2) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(4,2) | TYPE=coll-pure | S=B(0,4)x1,B(1,5)x1 | N=- | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-1,2),(0,2),(1,2)] | dimker=2 | A2zero=0 | minpolydeg=3 | Qsig=(3,2,0)
+SIG=(4,2) | TYPE=coll-jordan | S=B(0,4)x1,B(1,5)x1 | N=JORD | K=- | dimc=3 | dimcc=0 | abelian=1 | eig=[(-1,2),(0,2),(1,2)] | dimker=2 | A2zero=0 | minpolydeg=5
+SIG=(4,2) | TYPE=NONE | S=B(0,4)x1,B(1,5)x1 | N=D1 | K=(2,0) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(5,2) | TYPE=coll-pure | S=R+(0,1)x1,R+(2,3)x1 | N=- | K=- | dimc=7 | dimcc=6 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=3 | A2zero=0 | minpolydeg=3 | Qsig=(2,5,0)
+SIG=(5,2) | TYPE=coll-jordan | S=R+(0,1)x1,R+(2,3)x1 | N=JORD | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+SIG=(5,2) | TYPE=coll-wedge | S=R+(0,1)x1,R+(2,3)x1 | N=D1 | K=(1,2) | dimc=5 | dimcc=3 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+SIG=(5,2) | TYPE=coll-pure | S=B(0,5)x1,B(1,6)x1 | N=- | K=- | dimc=7 | dimcc=6 | abelian=0 | eig=[(-1,2),(0,3),(1,2)] | dimker=3 | A2zero=0 | minpolydeg=3 | Qsig=(3,4,0)
+SIG=(5,2) | TYPE=coll-jordan | S=B(0,5)x1,B(1,6)x1 | N=JORD | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-1,2),(0,3),(1,2)] | dimker=3 | A2zero=0 | minpolydeg=5
+SIG=(5,2) | TYPE=NONE | S=B(0,5)x1,B(1,6)x1 | N=D1 | K=(3,0) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(6,1) | TYPE=coll-pure | S=R+(0,1)x1,R+(2,3)x1 | N=- | K=- | dimc=7 | dimcc=6 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=3 | A2zero=0 | minpolydeg=3 | Qsig=(2,5,0)
+SIG=(6,1) | TYPE=coll-jordan | S=R+(0,1)x1,R+(2,3)x1 | N=JORD | K=- | dimc=5 | dimcc=3 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+SIG=(6,1) | TYPE=coll-wedge | S=R+(0,1)x1,R+(2,3)x1 | N=D1 | K=(2,1) | dimc=5 | dimcc=3 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+SIG=(4,3) | TYPE=coll-pure | S=R+(0,1)x1,R+(2,3)x1 | N=- | K=- | dimc=7 | dimcc=6 | abelian=0 | eig=[(-I,2),(0,3),(I,2)] | dimker=3 | A2zero=0 | minpolydeg=3 | Qsig=(0,7,0)
+SIG=(4,3) | TYPE=NONE-CERT | S=R+(0,1)x1,R+(2,3)x1 | N=JORD | K=- | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(4,3) | TYPE=NONE | S=R+(0,1)x1,R+(2,3)x1 | N=D1 | K=(0,3) | dimc=- | dimcc=- | abelian=- | eig=- | dimker=- | A2zero=- | minpolydeg=-
+SIG=(4,3) | TYPE=coll-pure | S=B(0,4)x1,B(1,5)x1 | N=- | K=- | dimc=7 | dimcc=6 | abelian=0 | eig=[(-1,2),(0,3),(1,2)] | dimker=3 | A2zero=0 | minpolydeg=3 | Qsig=(5,2,0)
+SIG=(4,3) | TYPE=coll-jordan | S=B(0,4)x1,B(1,5)x1 | N=JORD | K=- | dimc=3 | dimcc=0 | abelian=1 | eig=[(-1,2),(0,3),(1,2)] | dimker=1 | A2zero=0 | minpolydeg=7
+SIG=(4,3) | TYPE=coll-wedge | S=B(0,4)x1,B(1,5)x1 | N=D1 | K=(2,1) | dimc=5 | dimcc=3 | abelian=0 | eig=[(-1,2),(0,3),(1,2)] | dimker=1 | A2zero=0 | minpolydeg=5
+--- mutants ---
+MUTANT m1: CAUGHT
+MUTANT m2: CAUGHT
+MUTANT m3: CAUGHT
+MUTANT m4: CAUGHT
+SUMMARY: rows=30 | coll-pure=10 | coll-jordan=8 | coll-wedge=3 | NONE=7 | NONE-CERT=2 | NONE-SCAN=0
+SUMMARY: asserts_passed=229 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

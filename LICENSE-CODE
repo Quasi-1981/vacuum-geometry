@@ -7,6 +7,8 @@ Covers the code in this repository:
   .github/workflows/pages.yml   — build and deploy workflow
   mkdocs.yml                    — site build configuration
   docs/katex-init.js            — formula rendering initialisation
+  src/**                        — the ported probes and their supporting tools
+  test/**                       — the assertion harness used by the probes
 
 The prose and documentation under docs/ are licensed separately under
 CC BY 4.0 — see LICENSE.

@@ -1,0 +1,131 @@
+--- bit-fence: shared pipeline reproduces S950 single-wedge (5,2) rank0 (n=7) ---
+  FENCE (5,2)r0: dimc=13 Levi=so(3)+so(2,1) radical=h7
+
+=== OBJECT: (C) CONTROL single-wedge so(4,4) rank2 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=2
+  c(N): dim=18 dim[c,c]=18 derived=[18] dim_centre(c)=1
+  perfect_core dim=18
+  core: dim=18 Killing=(6, 3, 9)
+  Levi: Levi=so(2,1)+so(2,2)  dim=9 Killing_sig=(6, 3, 0)
+  Levi gen^2 eigenvalues on 8-dim rep (raw, per generator):
+    g0^2 eig={'0': 8}
+    g1^2 eig={'0': 8}
+    g2^2 eig={'1': 4, '0': 4}
+    g3^2 eig={'0': 6, '-1': 2}
+    g4^2 eig={'0': 6, '1': 2}
+    g5^2 eig={'0': 6, '1': 2}
+    g6^2 eig={'0': 6, '1': 2}
+    g7^2 eig={'0': 6, '1': 2}
+    g8^2 eig={'0': 6, '-1': 2}
+  radical: type=h9 dim=9 lower_central_series=[9, 1, 0] n_central_dirs=1 info={'dr': 9, 'dz': 1, 'drr': 1, 'allmove': True}
+  module: dv=8 commutant=1 weights={-1: 2, 1: 2, 0: 4} mincyc=8
+  module Levi-invariant bilinear forms: symmetric=0 antisymmetric=1
+  [module,module] bracket table (coords in centre basis; else flag):
+    [m0,m1] -> [-1]
+    [m0,m2] -> 0
+    [m0,m3] -> 0
+    [m0,m4] -> 0
+    [m0,m5] -> 0
+    [m0,m6] -> 0
+    [m0,m7] -> 0
+    [m1,m2] -> 0
+    [m1,m3] -> 0
+    [m1,m4] -> 0
+    [m1,m5] -> 0
+    [m1,m6] -> 0
+    [m1,m7] -> 0
+    [m2,m3] -> [-1]
+    [m2,m4] -> 0
+    [m2,m5] -> 0
+    [m2,m6] -> 0
+    [m2,m7] -> 0
+    [m3,m4] -> 0
+    [m3,m5] -> 0
+    [m3,m6] -> 0
+    [m3,m7] -> 0
+    [m4,m5] -> 0
+    [m4,m6] -> [1]
+    [m4,m7] -> 0
+    [m5,m6] -> 0
+    [m5,m7] -> [1]
+    [m6,m7] -> 0
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (A) TWO-WEDGE so(4,4) rank4 (N^2=0) ===
+  N: rank=4 nilp_depth(min k: N^k=0)=2
+  c(N): dim=16 dim[c,c]=15 derived=[16, 15] dim_centre(c)=1
+  perfect_core dim=15
+  core: dim=15 Killing=(6, 4, 5)
+  Levi: Levi=so(3,2)&sp(4,R)  dim=10 Killing_sig=(6, 4, 0)
+  Levi gen^2 eigenvalues on 8-dim rep (raw, per generator):
+    g0^2 eig={'1': 4, '0': 4}
+    g1^2 eig={'0': 8}
+    g2^2 eig={'0': 8}
+    g3^2 eig={'0': 8}
+    g4^2 eig={'0': 8}
+    g5^2 eig={'0': 8}
+    g6^2 eig={'0': 8}
+    g7^2 eig={'0': 8}
+    g8^2 eig={'1': 8}
+    g9^2 eig={'0': 8}
+  radical: type=R5 dim=5 lower_central_series=[5, 0] n_central_dirs=5 info={'dr': 5, 'dz': 5, 'drr': 0, 'allmove': True}
+  module: dv=5 commutant=1 weights={1: 2, -1: 2, 0: 1} mincyc=5
+  module Levi-invariant bilinear forms: symmetric=1 antisymmetric=0
+  [module,module] bracket table (coords in centre basis; else flag):
+    [m0,m1] -> 0
+    [m0,m2] -> 0
+    [m0,m3] -> 0
+    [m0,m4] -> 0
+    [m1,m2] -> 0
+    [m1,m3] -> 0
+    [m1,m4] -> 0
+    [m2,m3] -> 0
+    [m2,m4] -> 0
+    [m3,m4] -> 0
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (B) DEEP so(4,4) (N^2!=0, Jordan-3) ===
+  N: rank=2 nilp_depth(min k: N^k=0)=3
+  c(N): dim=16 dim[c,c]=15 derived=[16, 15] dim_centre(c)=1
+  perfect_core dim=15
+  core: dim=15 Killing=(6, 4, 5)
+  Levi: Levi=so(3,2)&sp(4,R)  dim=10 Killing_sig=(6, 4, 0)
+  Levi gen^2 eigenvalues on 8-dim rep (raw, per generator):
+    g0^2 eig={'0': 6, '1': 2}
+    g1^2 eig={'0': 6, '1': 2}
+    g2^2 eig={'0': 6, '1': 2}
+    g3^2 eig={'0': 6, '1': 2}
+    g4^2 eig={'0': 6, '1': 2}
+    g5^2 eig={'0': 6, '1': 2}
+    g6^2 eig={'0': 6, '-1': 2}
+    g7^2 eig={'0': 6, '-1': 2}
+    g8^2 eig={'0': 6, '-1': 2}
+    g9^2 eig={'0': 6, '-1': 2}
+  radical: type=R5 dim=5 lower_central_series=[5, 0] n_central_dirs=5 info={'dr': 5, 'dz': 5, 'drr': 0, 'allmove': True}
+  module: dv=5 commutant=1 weights={-1: 1, 1: 1, 0: 3} mincyc=5
+  module Levi-invariant bilinear forms: symmetric=1 antisymmetric=0
+  [module,module] bracket table (coords in centre basis; else flag):
+    [m0,m1] -> 0
+    [m0,m2] -> 0
+    [m0,m3] -> 0
+    [m0,m4] -> 0
+    [m1,m2] -> 0
+    [m1,m3] -> 0
+    [m1,m4] -> 0
+    [m2,m3] -> 0
+    [m2,m4] -> 0
+    [m3,m4] -> 0
+  -- STOP (raw, no interpretation) --
+
+--- mutants (one per branch) ---
+MUTANT br-depth: CAUGHT (N^2=0 for wedges; N^2!=0 for deep)
+MUTANT br-rank: CAUGHT (two-wedge rank4; single/deep rank2)
+MUTANT br-constructible: CAUGHT ((8,0) no isotropic e_i+e_j; (4,4) has)
+MUTANT br-radical: CAUGHT (h3->h3, h5->h5, R3->R3)
+MUTANT br-module: CAUGHT (irreducible commutant=1; reducible 2+2 commutant=4)
+MUTANT br-invform: CAUGHT (so(3):sym1/anti0 ; sp(2,R):sym0/anti1)
+
+SUMMARY: objects=3 (control/two-wedge/deep) + bit-fence + 6 mutants + neg-control
+SUMMARY: asserts_passed=31 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

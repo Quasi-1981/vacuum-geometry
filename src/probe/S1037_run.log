@@ -1,0 +1,76 @@
+==========================================================================
+THE THIRD FORCE · S1037 — the relief of the prime-metric = a sign-selector? (the author's wager, kill-first)
+(A) deficit ≠0? (B) the ε-parity of the relief (the CORE) (C) the fork I/II/III. The null=(II)/(III).
+Legal through the S1036 eye of the needle (only ε-even is forbidden). COMPUTING. FS=STONE. Court — to Omega.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+(A) THE ANGULAR DEFICIT of codim-2 faces of the A_d-complex (dihedral from the Cartan-metric)
+──────────────────────────────────────────────────────────────────────────
+   d | θ_d=arccos(1/d) | 2π/θ_d | flat(≡0)? | deficit δ | relief-bumps?
+   2 |         60.0000 |  6.000 | YES(flat)   | -0.0000 | ≡0 flat
+   3 |         70.5288 |  5.104 | no          | +0.1284 | ≠0 BUMPS
+   4 |         75.5225 |  4.767 | no          | -0.3074 | ≠0 BUMPS
+   5 |         78.4630 |  4.588 | no          | -0.5640 | ≠0 BUMPS
+  ⟹ d=2: 2π/60°=6 an integer ⟹ FLAT (deficit 0) · d≥3: 2π/θ is NOT an integer ⟹ deficit ≠0 (BUMPS exist).
+    the relief of the prime-metric EXISTS (curvature ≠0) for d≥3 ⟹ (III) is rejected for d≥3; d=2 is the boundary.
+
+──────────────────────────────────────────────────────────────────────────
+(B) ★the ε-PARITY of the relief under w₀ (k→−k) — the kill-first CORE (the null=(II) ε-even)
+──────────────────────────────────────────────────────────────────────────
+  (B1) the angular deficit = an unsigned SCALAR (2π−Σθ, θ=arccos∈[0,π]) ⟹ w₀ does NOT negate it
+       (an angle — a metric quantity, inversion-invariant) ⟹ ε-EVEN structurally.
+  (B2) a direct check of the curvature |f|² at the ±K nodes (Hessian): |f(−k)|=|f(k)| (f(−k)=conj f) ⟹
+       |f|²(kx,ky) − |f|²(−kx,−ky) = 0 ⟹ |f|² is EVEN in k ⟹ Hessian(K)=Hessian(−K):
+       YES ⟹ the curvature (convexity) at the NODE is ε-EVEN (w₀ does NOT swap convex↔concave).
+  (B3) ★is there an ORIENTED (ε-odd) variant of the deficit? A signed curvature requires
+       a PRIOR orientation of the space — and that is exactly what the wager wants to DERIVE ⟹ CIRCULAR.
+       The unsigned deficit is canonical, the oriented one is not (it requires an already-chosen sign).
+
+──────────────────────────────────────────────────────────────────────────
+(C) THE FORK I/II/III (from (A)+(B); kill-first null=(II)/(III))
+──────────────────────────────────────────────────────────────────────────
+  the deficit ≠0 (BUMPS exist, d≥3) BUT the relief is ε-EVEN ⟹ ★(II): bumps exist, they do NOT select the sign —
+   the wager LOSES HONESTLY. The relief cannot give an ε-odd tilt h·m (it is even).
+
+  ★KILL-FIRST RESULT: the null=(II)/(III). The branch = (II).
+   ⟹ THE NULL SURVIVES (not killed): the relief does NOT select the sign (ε-even for d≥3 / flat d=2).
+   ⟹ the author's wager LOSES honestly; the sign REMAINS spontaneous (the S1036-theorem holds),
+   the T36-«bit of realization» is NOT demoted — the arrow REMAINS a freedom, not a geometry.
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (the relief exists at d=3, not a false-flat): δ=+0.1284 ⟹ REJECTED false-flat ✓ (the bumps are real)
+  M2 (d=2 is flat, a contrast): 2π/θ=6.0 an integer ⟹ REJECTED false-bumps-everywhere ✓ (d=2 is flat)
+  M3 (|f|² is even ⟹ the curvature is ε-even): |f|²(k)=|f|²(−k) ⟹ REJECTED false-ε-odd-relief ✓ (sinks the wager honestly)
+  M4 (an oriented deficit is circular): the sign of the curvature requires an already-chosen orientation ⟹ REJECTED false-ε-odd-via-orientation ✓ (circular)
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  (A) the relief EXISTS: the angular deficit ≠0 for d≥3 (a regular simplex does NOT tessellate flat);
+      d=2 is flat (2π/60°=6). ⟹ the bumps are real, (III) only at d=2.
+  (B)★ the relief is ε-EVEN: the deficit=an unsigned scalar (inversion-invariant) + |f|² is even in k
+      ⟹ the curvature at the ±K nodes is EQUAL (Hessian(K)=Hessian(−K)); the oriented variant is CIRCULAR.
+  (C) THE FORK = (II): (III) flat d=2 / (II) ε-even d≥3 ⟹ THE NULL SURVIVES
+──────────────────────────────────────────────────────────────────────────
+  ★THE HONEST VERDICT (the kill-first null SURVIVES): the author's wager LOSES honestly.
+   The relief of the prime-metric is REAL (bumps at d≥3) BUT ε-EVEN ⟹ it does NOT give an ε-odd tilt h·m ⟹
+   it does NOT select the sign. The third force exists as GEOMETRY, but it is even — it CANNOT be the
+   arbiter of parity (to select an ε-odd sign, it would itself have to be ε-odd, and it is not).
+   ⟹ the sign of m₀ REMAINS SPONTANEOUS (the S1036-theorem holds); the T36-«bit of realization» is NOT demoted;
+   the arrow = a freedom (SSB, spontaneous symmetry breaking), NOT a geometry. The author's pre-registration is REFUTED by the field — honestly.
+──────────────────────────────────────────────────────────────────────────
+  ★OMEGA'S CALL: the conclusion rests on «the deficit=an unsigned scalar». If a NATIVE
+   oriented geom.object exists (not requiring a prior orientation) — I have not found it;
+   the |f|²-parity + the scalar nature of the deficit close off the naive paths. Your call decides.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: relief-exists=YES · ε-parity=EVEN · fork=(II) · null=SURVIVES(the wager loses) · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

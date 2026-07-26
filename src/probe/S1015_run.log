@@ -1,0 +1,78 @@
+==========================================================================
+W42 probe-9 (layer −2): the sl-gl KILL-TEST of the fantasy «+/−-chain = a tower of commutants».
+Counters N_iso/N_pair (rule fixed BEFORE the numbers) against the T26.3 commutant ladder (1/2/3/3),
+sl-rank(=d), the null-law. An EXACT match wins; K2 anti-tautology is mandatory.
+★COUNTING, not physics; ancestors cited; exact arithmetic.
+==========================================================================
+
+######################################################################
+# MAIN LADDER: N_iso, N_pair against the targets (COMMUTANT / sl-rank / null)
+######################################################################
+  d | m | #modes | N_iso | N_pair | COMMUTANT C(m) | sl-rank(=d) | match N_iso=C?
+  ------------------------------------------------------------------------------
+  2 | 0 |    1 | 0 | 0 | 1 | 2 | MISS
+  2 | 1 |    5 | 2 | 1 | 2 | 2 | EXACT
+  2 | 2 |    5 | 2 | 1 | 2 | 2 | EXACT
+  2 | 3 |    1 | 0 | 0 | 1 | 2 | MISS
+  3 | 0 |    1 | 0 | 0 | 1 | 3 | MISS
+  3 | 1 |   16 | 2 | 1 | 2 | 3 | EXACT
+  3 | 2 |   38 | 3 | 2 | 3 | 3 | EXACT
+  3 | 3 |   16 | 2 | 1 | 2 | 3 | EXACT
+  3 | 4 |    1 | 0 | 0 | 1 | 3 | MISS
+  4 | 0 |    1 | 0 | 0 | 1 | 4 | MISS
+  4 | 1 |   25 | 2 | 2 | 2 | 4 | EXACT
+  4 | 2 |  113 | 3 | 3 | 3 | 4 | EXACT
+  4 | 3 |  113 | 3 | 3 | 3 | 4 | EXACT
+  4 | 4 |   25 | 2 | 2 | 2 | 4 | EXACT
+  4 | 5 |    1 | 0 | 0 | 1 | 4 | MISS
+
+  N_iso == COMMUTANT on the INTERIOR (1<=m<=d, the +/− pair domain): True
+  N_iso == COMMUTANT across the WHOLE grid (incl. degenerate boundaries): False
+  boundaries m=0/m=d+1 → N_iso=0 (pre-reg «no pairs»; Pillar-3 q=0⟹no time): True
+  sl-rank(=d) REJECTED (N_iso is NOT constant =d on the interior): True
+
+######################################################################
+# EDGE-CASE ROWS: m=0 (no pairs, N_pair=0) · m=q=1 (minimal pair)
+######################################################################
+  d=2: m=0 N_pair=0 (=0 ✓) · m=1 N_pair=1, pairs=[(1, 1)]
+  d=3: m=0 N_pair=0 (=0 ✓) · m=1 N_pair=1, pairs=[(1, 1)]
+  d=4: m=0 N_pair=0 (=0 ✓) · m=1 N_pair=2, pairs=[(1, 1), (1, 3)]
+
+######################################################################
+# K2 (anti-tautology): the match HAD TO BE ABLE to fail — three independent tests
+######################################################################
+  (i) the commutant changes (m=1..4, d=4): N_iso=[2, 3, 3, 2] = commutant[2, 3, 3, 2] — follows the COMMUTANT (not m linearly; sl-rank=4 rejected) ✓
+  (ii) #modes↑ (38→150, the same m=2,d=3): N_iso 3→3 — NOT by dimension ✓
+  (iii) activity killed (all-on, d=3,m=2): N_iso 3→0 — drops ⟹ it reads real activity ✓
+
+######################################################################
+# RAW COUNTING VERDICT (court/fantasy-verdict — Omega/author):
+######################################################################
+  ★N_iso follows the T26.3 commutant ladder EXACTLY on the INTERIOR (1<=m<=d — the whole
+   domain of +/− pairs): d=2→[2,2], d=3→[2,3,2], d=4→[2,3,3,2] = the commutant, symmetric in
+   m↔(d+1−m), saturating at 3, INDEPENDENT of d, WITHOUT shifts/normalizations.
+   The boundaries m=0/m=d+1 → N_iso=0 = a pre-reg «no pairs» (Pillar-3: q=0 ⟹ no sl-content
+   ⟹ no time — CONSISTENT, not a miss: the commutant there counts a pure-space isotype,
+   which is NOT a +/− pair). K2: the match COULD have failed — it tracks the COMMUTANT (not #modes,
+   not the dimension), and drops under killed activity. sl-rank(=d) REJECTED (not constant).
+   ⟹ RAW (Omega/author's verdict): the fantasy «tower of commutants» PREDICTED A NUMBER —
+   +/− activity on the null modes realizes EXACTLY the isotypes of the stabilizer Sym(m)×Sym(d+1−m).
+   NOT physics: a count of isotypes; the B1-reading («+/−=an atom of …») — BEHIND THE FENCE, court/author.
+  HONEST BOUNDARY: 'tower' = the NAME of the N_iso↔commutant match; a physics reading (of the fenced kind) —
+  behind the fence. N_pair (cross-check): m=0→0 ✓, but the form is NOT clean (d=3 [1,2,1], d=4 [2,3,3,2])
+  — it is precisely N_iso (the isotype-count), not the raw-pair-count, that carries the match. The anchor/kill verdict — Omega.
+
+MUTANTS:
+  MUTANT M1 (false-ladder, block-ranks permuted m−1↔d−m): CAUGHT (e.g. m=1: the true (1,0,3) != the permuted (1,3,0) — the block-structure DIFFERS, not just dim)
+  MUTANT M2 (size d=2↔3↔4): CAUGHT (the commutant ladder m=0,1,2: d=2→[1,2,2] (saturates earlier because d−m=0), d=3,4→[1,2,3] — the d-structure is LEGITIMATE, not an artifact)
+  MUTANT M3 (false-activity, ignoring S1005): CAUGHT (all-on N_iso=0 != the real 3 — the sin≠0 criterion CARRIES the conclusion)
+  MUTANT M4 (false-counter=raw modes): CAUGHT (#modes L=h→2h: 38→150 L-DEPENDENT — the raw count = an artifact; N_iso is invariant (K2-ii) — hence type/isotype, not raw)
+
+NEGATIVE CONTROL (seeded): q=0 (m=0) — no sl-part ⟹ no time (Pillar-3)
+  d=4: m=0 → N_pair=0, C=1 — no time at q=0 (Pillar-3/T26.3) ✓
+
+SUMMARY: asserts_passed=10 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

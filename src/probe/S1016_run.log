@@ -1,0 +1,80 @@
+==========================================================================
+W42 probe-10 (layer −2): ARROW, road K. Is the orientation of the clock coupled
+(c→c⁻¹, Coxeter) with the orientation of SPACE (mirror=Weyl parity)? Exact count S_{d+1}.
+★COUNTING, not physics; the info-count is INFORMATIONAL only; heat-bath stuff behind the fence; ancestors cited.
+==========================================================================
+
+######################################################################
+# ★STAVKA-1a (the heart): parity of the set of inverters {g: gcg⁻¹=c⁻¹} over d
+######################################################################
+  d | n=d+1 | |I| | #even(EVEN) | #odd(ODD) | coupling with the mirror?
+  ----------------------------------------------------------------------
+  2 | 3 | 3 | 0 | 3 | FORCED (all odd)
+  3 | 4 | 4 | 2 | 2 | MIXED (some even too)
+  4 | 5 | 5 | 5 | 0 | NONE (all even=K1)
+
+  ★RAW ROW (an honest result either way, carved BEFORE the count):
+   d=2: all odd ⟹ coupling with the mirror is FORCED · d=3: 2 even/2 odd ⟹ inversion is reachable BOTH ways (coupling is optional) · d=4: all even ⟹ NO coupling (inversion PRESERVES orientation) — K1 at d=4
+   ⟹ the arrow⊗mirror coupling is d-DEPENDENT, non-monotone: strong at d=2 → none at d=4.
+
+######################################################################
+# STAVKA-1b: ε→−ε (T28) = w₀ (reversal = k↔−k, measured)? the parity of w₀ over d
+######################################################################
+  d=2, n=3: w₀=(2, 1, 0), inverts c=True, parity of w₀=1 (odd=mirror)
+  d=3, n=4: w₀=(3, 2, 1, 0), inverts c=True, parity of w₀=0 (even=rotation)
+  d=4, n=5: w₀=(4, 3, 2, 1, 0), inverts c=True, parity of w₀=0 (even=rotation)
+  ⟹ the arrow ε→−ε = a facet of an ALREADY-measured symmetry k↔−k (w₀), NOT an independent freedom;
+   its mirror-content = the parity of w₀ (odd at d=2 · even at d=3,4) — an address-transfer (K3),
+   NOT a selection mechanism. (At d=3 w₀ is even, BUT I also has odd inverters — stavka-1a.)
+
+######################################################################
+# ★STAVKA-ANZATS (the author's pre-reg «the dial turns one way: prime→daughter»):
+#   does EVERY measured realization of k→−k (rotation of the circle) INVERT the marker A↔B (σ_x)?
+######################################################################
+  ancestor S1012 (citation): H(−k)=σ_x H σ_x ⟹ bare k→−k is NOT a symmetry, bare σ_x is NOT
+  a symmetry — only B=σ_x∘(k→−k) is. Counting g=K^a X^b Z^c (rule BEFORE the numbers):
+  symmetries (g·H=H): ['K0X0Z0', 'K1X1Z0']
+  of them invert the clock (a=1): ['K1X1Z0'] — do all flip A↔B (b=1)? True
+  ★HIERARCHY-NEUTRAL ROTATOR (symmetry ∧ a=1 ∧ b=0): 0 — DOES NOT EXIST ⟹ THE ANSATZ WINS
+  native d=2 (h=3): f(−k)=conj f(k) exactly ∀9 native momenta — H(−k)=σ_x H σ_x ✓ (bare k→−k is not a symmetry)
+  native d=3 (h=4): f(−k)=conj f(k) exactly ∀64 native momenta — H(−k)=σ_x H σ_x ✓ (bare k→−k is not a symmetry)
+  ⟹ d-INDEPENDENTLY (the Pauli-algebra of H is the same ∀d; f only changes the #terms, not the structure):
+   the hierarchy-change ⟺ circle-rotation are LOCKED TOGETHER in B — «descending, not the reverse» WINS as a measurement.
+   Contrast with stavka-1a: in the full S_{d+1} inverters can be EVEN (d=3,4), BUT those are
+   SPATIAL permutations, not two-component measured symmetries — the ansatz lives at the S1012 level.
+
+######################################################################
+# STAVKA-2 (info-row): azimuth row of the c-traversal vs c⁻¹ — distinguishable INTERNALLY?
+######################################################################
+  d=2,n=3: ABS row c=(0, 1, 2) — chiral(oriented)=True · REL increment c=(1, 1, 1),c⁻¹=(2, 2, 2) — blind-under-negation=True
+  d=3,n=4: ABS row c=(0, 1, 2, 3) — chiral(oriented)=True · REL increment c=(1, 1, 1, 1),c⁻¹=(3, 3, 3, 3) — blind-under-negation=True
+  d=4,n=5: ABS row c=(0, 1, 2, 3, 4) — chiral(oriented)=True · REL increment c=(1, 1, 1, 1, 1),c⁻¹=(4, 4, 4, 4, 4) — blind-under-negation=True
+  ★HONEST FORK (both readings raw, the verdict — Omega):
+   ABS (there is an absolute azimuth-zero): the row is ORIENTED ∀d≥2 — the arrow reads from inside.
+   REL (increments only): c⁻¹=negation(c) ⟹ BLIND — distinguishing needs an already-fixed
+   azimuth sign = the ARROW ITSELF (circularly) ⟹ a D_net=0 rhyme, reinforcing road R.
+
+######################################################################
+# STAVKA-3 (T34 link): orbits of (marked bond, orientation) under D_h=⟨c,w₀⟩
+######################################################################
+  d=2,n=3: |D_h|=6, orbits (bond,orient)=1, w₀-fixed bonds=[1] (the middle bond (n odd))
+  d=3,n=4: |D_h|=8, orbits (bond,orient)=1, w₀-fixed bonds=[] (none (n even) — bond↔partner)
+  d=4,n=5: |D_h|=10, orbits (bond,orient)=1, w₀-fixed bonds=[2] (the middle bond (n odd))
+  ⟹ (bond-representative ⊗ orientation) = ONE orbit under the dihedral group ⟹ the two T34 residues
+   (the bond-representative + the arrow) are COUPLED by the cell symmetry — the first bridge to door D.
+
+MUTANTS:
+  MUTANT M1 (false-parity=first inverter): CAUGHT (d=3 I has BOTH parities [0, 1] — the verdict must count the WHOLE set, not a representative; a bare 'first' would mislead)
+  MUTANT M2 (false-composition): CAUGHT (c²∈⟨c⟩ does NOT invert: gcg⁻¹=c!=c⁻¹ — membership in I is checked by the equation, not by declaration)
+  MUTANT M3 (size d=2↔3↔4): CAUGHT (#even inverters = [0, 2, 5] — the d-structure (n odd→all even/odd equal; n even→split) is LEGITIMATE, not a lattice artifact)
+  MUTANT M4 (false string-counter): CAUGHT (n=2 row [0,1] is NOT chiral (reverse=rotation), n=3 is chiral — the test is rotation-invariant, does not misfire on a palindrome)
+  MUTANT M5 (false-relation of the ansatz): CAUGHT (bare k→−k [K1X0Z0] is NOT a symmetry: H(−k)=σ_x H σ_x != H — IF it were, a hierarchy-neutral rotator would exist; the conclusion carries an S1012-fact, not a postulate)
+
+NEGATIVE CONTROL (seeded): a random element of S_n — NOT an inverter (in general)
+  g=(2, 3, 1, 0, 4): gcg⁻¹ != c⁻¹ — the measurement is sensitive (only 5 of 120 elements invert)
+
+SUMMARY: asserts_passed=20 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

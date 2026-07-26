@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Period P=d+1 plus dual column equals the circle 2pi/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
+| [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
 | [Two-component structure forced (0 free parameters) {I,H}; v^2=(1/2)*trM=(d+1)^2/(2d) (d=2->9/4, d=3->8/3); sub-bridge #3(a) sealed](T33.md) | theorem | candidate |
 
 ## FUNCTION

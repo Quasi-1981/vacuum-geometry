@@ -1,0 +1,34 @@
+S1102 — THE PROBE LADDER-ANCESTOR (exante S1101, Ω).  Executor lane-A.
+Solvability/steps = our own hand (the commutant by full enumeration); Galois = a reference.
+
+=== T1 — THE SEAM OF CARRIERS (the action of the terminal step of the derived series of S_{d+1} = the mark's carrier) ===
+  [PASS] T1/d=2: the terminal step S₃ (|3|) = valley-ℤ₃ as a SUBGROUP of axes (equivariantly: both = a cyclic ℤ/3-shift of 3 axes)
+  [PASS] T1/d=3: the terminal step S₄ (|4|) = the kernel of Test-3 (S₄→S₃ on pairings) as a SUBGROUP of axes — an equivariant equality, not a coincidence of names
+  [PASS] T1/d=3-eqv: equivariance: the kernel acts trivially on the pairings, the quotient S₄/V₄ = the full S₃ (5 nontrivial actions) — an ACTION, not a name
+  [PASS] T1-negworld(i): the lower central series S₄ terminates at |12| (A₄) ≠ the carrier V₄ — the detector said NO (a different ladder ⟹ the coincidence BROKE)
+  [PASS] T1-negworld(i-b): A₄ (|12|, a middle step) ≠ the carrier V₄ (|4|) — NO
+  [PASS] T1-negworld(ii): broken democracy S₃ terminates at |3| (ℤ/3) ≠ the carrier for d=3 |4| (V₄) — the carrier DRIFTED AWAY, the detector said NO
+
+=== T2 — THE SEAM OF THE CLOCK (the sin-criterion ⊥ the step-criterion, by both hands) ===
+  [PASS] T2/d=2-canon: the clock = the full 3-cycle ⟨c⟩, |3| (a Coxeter element) — a canonical embedding
+  [PASS] T2/d=2: BOTH hands agree: time-active ν=[1, 2] (|⟨c⟩∩term|=3); the sin-criterion = the step-criterion
+  [PASS] T2/d=3-canon: the clock = the full 4-cycle ⟨c⟩, |4| (a Coxeter element) — a canonical embedding
+  [PASS] T2/d=3: BOTH hands agree: time-active ν=[1, 3] (|⟨c⟩∩term|=2); the sin-criterion = the step-criterion
+  [PASS] T2-boundary/d=4: S₅: the derived series is stuck on A₅ (a nonabelian simple group) ⟹ THERE IS NO TERMINAL ABELIAN STEP — the step-hand has NOTHING TO READ (the clock sinks into A₅).  The sin-hand still turns (ν∈{1,2,3,4}), but the seam FALLS APART = a fence of a boundary, not a witness
+  [PASS] T2-negworld: the scattered clock ⟨(01)(23)⟩ = |2| ≠ 4 — does NOT realize ℤ/4, the bridge fell (the detector said NO to a non-cycle)
+
+=== T3 — THE WRITE FENCE (deliverable: «guards against false irrationals») ===
+  [PASS] T3-registry: Gram −1/d = −1/3: PASSED the fence — rational/linear (degrees [1]) — legal TRIVIALLY (a degeneration)
+  [PASS] T3-registry: v² = (d+1)²/(2d) = 8/3: PASSED the fence — rational/linear (degrees [1]) — legal TRIVIALLY (a degeneration)
+  [PASS] T3-registry: T(k) ∈ ℤ (e.g. 2): PASSED the fence — rational/linear (degrees [1]) — legal TRIVIALLY (a degeneration)
+  [PASS] T3-registry: the hexagon e^{±iπ/3}: PASSED the fence — deg2:|Gal|=2,solv.
+  [PASS] T3-registry: the plastic ρ (x³−x−1): PASSED the fence — deg3:|Gal|=6,solv.
+  [PASS] T3-registry: the golden φ (x²−x−1): PASSED the fence — deg2:|Gal|=2,solv.
+  [PASS] T3-registry: the 1/ρ-branch of the seed (x³+x²−1): PASSED the fence — deg3:|Gal|=6,solv.
+  [PASS] T3-registry: the seed's §4 inverse slice x⁵+x−1 (a 2+3 factorization): PASSED the fence — deg2:|Gal|=2,solv.; deg3:|Gal|=6,solv.  (degrees of factors [2, 3])
+  [PASS] T3-tooth: the control x⁵−x−1 (Galois S₅): REJECTED by the fence — deg5:|Gal|=120,NOT SOLV.
+  [PASS] T3-tooth: the degenerate control x−1: TRUE trivially (a named degeneration) — rational/linear (degrees [1]) — legal TRIVIALLY (a degeneration)
+  [PASS] T3-tooth: control-2 x⁵−x+1 (Galois S₅): REJECTED — deg5:|Gal|=120,NOT SOLV.
+
+===== CLASS: 23/0/0 (pass/fail/skip) =====
+All teeth move the right way (positives passed, negative-worlds failed, S₅ rejected).

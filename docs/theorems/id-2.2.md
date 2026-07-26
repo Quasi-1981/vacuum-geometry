@@ -1,4 +1,4 @@
-# w_0 is identified with k <-> -k, identified with the epsilon-flip
+# w_0, the map k <-> -k, and the epsilon-flip are identified
 
 **Kind:** identity · **Status:** measured · **Address:** §2.2 · T28 · S1007/S1016 · J-0462/J-0471
 
@@ -18,7 +18,7 @@ Establishes the identity between w_0, the momentum-reversal map k <-> -k, and th
 
 ## OUTPUT
 
-Grounds the scalar/Weyl-level (S_{d+1}) structure used in T28 and reused in the class-count seam shov.6.
+Grounds the scalar/Weyl-level (S_{d+1}) structure used in T28 and reused in the class-count seam seam.6.
 
 **Consumed by:** nothing in this graph — a terminal node.
 

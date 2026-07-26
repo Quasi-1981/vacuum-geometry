@@ -1,0 +1,263 @@
+
+========================================================================
+B1 — "[T,T]=0" IN S921 IS AN IDENTITY OF THE FORM, NOT A MEASUREMENT
+========================================================================
+  S921: Tmat(a) = [[0,a],[0,0]]. For ARBITRARY symbolic a,b I compute
+  the product T_a·T_b — if it is zero IDENTICALLY, then '[T,T]=0' is built
+  in by the form of the embedding, not measured.
+
+  n=3: T_a·T_b ≡ 0 — no property of so(p,q) was used.
+  n=4: T_a·T_b ≡ 0 — no property of so(p,q) was used.
+  n=5: T_a·T_b ≡ 0 — no property of so(p,q) was used.
+
+  ⇒ ★ '[T,T]=0' in S921 does not depend AT ALL on the signature, on η, on so(p,q): this is a property of the strictly-upper block. The probe proved a property of the CHOSEN EMBEDDING and called it the forcedness of the structure.
+
+========================================================================
+B2 — THE ONE-PARAMETER FAMILY T_a(λ): CLOSURE AT EVERY λ
+========================================================================
+  T_a(λ) = [[0,a],[−λ(ηa)ᵀ,0]]. Question: is span{M̂, T(λ)} closed
+  under the bracket at a SYMBOLIC λ (not at λ=0 and not at λ=1)?
+
+  (2,1): (a)=9 OK, (b)=3 OK — closed ∀λ
+  (1,2): (a)=9 OK, (b)=3 OK — closed ∀λ
+  (3,1): (a)=24 OK, (b)=6 OK — closed ∀λ
+  (1,3): (a)=24 OK, (b)=6 OK — closed ∀λ
+  (2,2): (a)=24 OK, (b)=6 OK — closed ∀λ
+  (4,1): (a)=50 OK, (b)=10 OK — closed ∀λ
+  (3,2): (a)=50 OK, (b)=10 OK — closed ∀λ
+  (2,3): (a)=50 OK, (b)=10 OK — closed ∀λ
+  (3,3): (a)=90 OK, (b)=15 OK — closed ∀λ
+
+  ⇒ ★THE FAMILY IS CLOSED AT EVERY λ. Jacobi here is just as automatic as in S921 (matrices = an associative algebra) ⟹ the S921 argument that "Jacobi holds automatically" does NOT SINGLE OUT λ=0 in any way: it holds equally on the whole family.
+
+========================================================================
+B3 — WHAT ALGEBRA THIS IS AT λ≠0 (★the label is COUNTED, not hand-written)
+========================================================================
+  ★★A STAMP AGAINST MYSELF — THE FIRST PASS OF THIS SECTION WAS WRONG, AND GREEN.
+  I wrote the label BY HAND: "λ=+1 → so(p,q+1)". Flipped on all 8/8: η̃ =
+  diag(η,+1) adds a PLUS ⟹ so(p+1,q). For (3,1) I called so(4,1) — "so(3,2)".
+  WHY IT PASSED: what was asserted was allin (membership in so(η̃)) — true regardless
+  of the label; the LABEL ITSELF rode along in the f-string of that SAME check,
+  which measured something else. Exactly the class "the label of the rule ≠ its
+  execution" — in a probe written against it, in a section about mutants. ⟹ THE
+  FIX: the signature of η̃ is now COUNTED by machine and this count is
+  ASSERTED; the hand no longer writes labels.
+
+  (2,1): λ=+1 → so(3, 1) · λ=−1 → so(2, 2) · λ=0 → so(2,1)⋉R^3 [the S921 term] ⟹ DISTINCT algebras: 3
+  (1,2): λ=+1 → so(2, 2) · λ=−1 → so(1, 3) · λ=0 → so(1,2)⋉R^3 [the S921 term] ⟹ DISTINCT algebras: 3
+  (3,1): λ=+1 → so(4, 1) · λ=−1 → so(3, 2) · λ=0 → so(3,1)⋉R^4 [the S921 term] ⟹ DISTINCT algebras: 3
+  (1,3): λ=+1 → so(2, 3) · λ=−1 → so(1, 4) · λ=0 → so(1,3)⋉R^4 [the S921 term] ⟹ DISTINCT algebras: 3
+  (2,2): λ=+1 → so(3, 2) · λ=−1 → so(2, 3) · λ=0 → so(2,2)⋉R^4 [the S921 term] ⟹ DISTINCT algebras: 2
+  (4,1): λ=+1 → so(5, 1) · λ=−1 → so(4, 2) · λ=0 → so(4,1)⋉R^5 [the S921 term] ⟹ DISTINCT algebras: 3
+  (3,2): λ=+1 → so(4, 2) · λ=−1 → so(3, 3) · λ=0 → so(3,2)⋉R^5 [the S921 term] ⟹ DISTINCT algebras: 3
+  (2,3): λ=+1 → so(3, 3) · λ=−1 → so(2, 4) · λ=0 → so(2,3)⋉R^5 [the S921 term] ⟹ DISTINCT algebras: 3
+  (3,3): λ=+1 → so(4, 3) · λ=−1 → so(3, 4) · λ=0 → so(3,3)⋉R^6 [the S921 term] ⟹ DISTINCT algebras: 2
+
+  ⇒ ★A FAMILY, NOT A SINGLETON: λ=0 is not "a structure without a parameter", but a DEGENERATE term (an Inönü–Wigner contraction). There are THREE distinct algebras at p≠q and TWO at p=q (since so(A,B)≅so(B,A)) — a correction my first pass did not have.
+
+========================================================================
+B4 — λ=0 IS THE ONLY CASE WHERE THE SHIFTS = AN IDEAL (and this is exactly what rung-5 stands on)
+========================================================================
+  The rung-5 verdict asks "WHAT NUMBER attaches invariantly to a shift".
+  The question makes sense only if the shifts are an invariant subspace (an ideal).
+  I measure: whether [T,T] lies in span{T}, and whether the Killing form is degenerate.
+
+  (2,1): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (1,2): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (3,1): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (1,3): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (2,2): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (4,1): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (3,2): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (2,3): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+  (3,3): λ=0 — span{T} is an ideal, the Killing form is degenerate (NOT semisimple); λ=±1 — span{T} is NOT an ideal, the Killing form is non-degenerate (semisimple)
+
+  ⇒ ★★span{T} IS AN IDEAL ONLY AT λ=0 — and this is exactly what the rung-5 question "what number attaches to a SHIFT" stands on. At λ≠0 a "shift" stops being an invariant subspace ⟹ the question loses its OBJECT. ★PRECISION (an adversarial-check correction): what was measured is exactly "span{T} is not an ideal", NOT "there are no invariant subspaces at all" — so(2,2) does have proper ideals of its own. The claim carries exactly what was measured. ★PRECISION-2: a non-degenerate Killing form = SEMIsimple (so(2,2) ≅ sl(2,ℝ)⊕sl(2,ℝ) — semisimple, not simple).
+
+  ★λ=0 — not a sample point, but a ROOT: computing det K(λ) as a polynomial.
+    (2,1): det K(λ) = -4096*lambda**3
+    (3,1): det K(λ) = 60466176*lambda**4
+
+  ⇒ ★DEGENERACY EXACTLY AT λ=0 AND NOWHERE ELSE (a polynomial, not a sample). The dimension of the Killing radical is an isomorphism invariant — n at λ=0, 0 at λ≠0 ⟹ λ=0 is NOT isomorphic to its neighbors by any change of basis. The family is real.
+
+========================================================================
+B5 — WHAT λ COSTS: rescaling T→μT gives λ→μ²λ
+========================================================================
+
+  μ² > 0 for real μ≠0 ⟹ the SIGN of λ is invariant, the MAGNITUDE is not.
+
+  ⇒ ★AN HONEST TALLY OF HANDLES — AND IT FAVORS THE COURT: λ is NOT a continuous handle at the level of the algebra (|λ| is washed out by the scale T→μT). What remains is only a DISCRETE choice of sign(λ) ∈ {−,0,+}. The program counts continuous metric-linking constants ⟹ **"HANDLES 0" STANDS**. Inflating a discrete choice into a constant would be a fudge — and my first pass did exactly that (the summary said "the handle is set to zero", contradicting THIS very section).
+
+  ★DEBT (a bridge, not a measurement): "handles 0" holds EXACTLY as long as μ is free.
+  But premise (b) of the theory — "d+1 UNIT axes" — is a NORMALIZATION: a unit
+  axis fixes the length. As soon as μ is pinned down, |λ| = 1/R² stops being washed
+  out and becomes a genuine continuous dimensionful constant (a radius of curvature).
+  ⟹ the honest tally line is not "handles 0" but "HANDLES 0, AS LONG AS NO LENGTH
+  IS PINNED DOWN ANYWHERE" — and the program pins it down on the neighboring rung.
+  Class: a bridge between floors (its multiplicity is carried from there, not from
+  here). NOT a verdict of this probe — a flag for the court.
+
+========================================================================
+B6 — MULTIPLICITY OF A2: the verdict's three numbers = ONE fact
+========================================================================
+  The A2 verdict reported THREE numbers (linear 0 · quadratic 1 ·
+  antisymmetric 0) as three measurements. I measure the commutant and the
+  space of invariant BILINEAR forms (symmetric+antisymmetric TOGETHER).
+
+  (2,1): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (1,2): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (3,1): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (1,3): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (2,2): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (4,1): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (3,2): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (2,3): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+  (3,3): vector-invariants 0 · commutant 1 · ALL bilinear 1 ⟹ (0,1,0) exhausted by two lines
+
+  ★witness n=2: why "irreducible over ℝ" is a wrong name for the lemma.
+    (2,0): commutant dim=2 — so(2,0) is IRREDUCIBLE over ℝ, but the commutant = ℂ ⟹ "antisym. 0" is WRONG at n=2
+    (1,1): commutant dim=2 — so(2,0) is IRREDUCIBLE over ℝ, but the commutant = ℂ ⟹ "antisym. 0" is WRONG at n=2
+
+  ⇒ ★THE MULTIPLICITY OF A2 = 1, not 3. The space of ALL invariant bilinear forms is one-dimensional; the fact that its generator is symmetric gives "antisymmetric 0" FOR FREE. There is one ancestor — the ABSOLUTE irreducibility of the standard representation at n≥3 (📖 reference, MULTIPLICITY 0).
+     ★THE NAME OF THE LEMMA IS CORRECTED UNDER ADVERSARIAL CHECKING: writing "irreducible over ℝ" is WRONG. so(2,0) is irreducible over ℝ, yet the commutant = ℂ and an antisymmetric invariant EXISTS (dim=1). So irreducibility over ℝ alone does not give (0,1,0) — ABSOLUTE irreducibility does (commutant = ℝ). n≥3 has it; the qualifier is load-bearing, not decoration.
+     The 6492 checks of S921 = 17 instances of one textbook line.
+
+========================================================================
+B7 — THE SCOPE OF ORIENTABILITY: time reversal is also an isometry
+========================================================================
+  S920 measured COORDINATE flows exp(sM) and their finite compositions
+  = the connected component SO⁺(p,q). Question: does this exhaust the isometries?
+
+
+  ⟹ [MACH] R is an isometry, and it swaps the cones FOR ANY q.
+     Each cone is SEPARATELY invariant under SO⁺(p,q); the UNORDERED pair
+     {C₊,C₋} is invariant under the whole of O(p,q).
+
+
+  ⇒ ★★THE VISA'S CATCH WAS HERE — AND IT IS DEAD. I report it with its name attached, because a catch quietly withdrawn is a fudge.
+     I wanted to say: "the rung-4 verdict silently narrowed the scope from isometries to the connected component". WRONG, for three reasons, each sufficient on its own:
+     (1) the quantifier sits INSIDE the theorem itself, not in a qualifier below: "splits into two cones, INVARIANT WITH RESPECT TO ALL COORDINATE FLOWS". I read past it and attacked the sentence with an object its own quantifier excludes;
+     (2) "orientABLE" — the suffix '-able' = POSSIBILITY (as in "solvable", "measurable"): orientable, not oriented. The language already carried what I was demanding be added;
+     (3) the verdict says "an invariant sign of charge is POSSIBLE ⟺ …". "Possible" = a choice exists. My "correction" was a restatement of the sentence I was trying to fix.
+     ⟹ B7 is not a catch, but an ADDENDUM TO THE QUALIFIER: the reflection R explicitly realizes the reversal of the cones. The content of rung-4 STANDS WHOLE.
+  ★RESIDUE (hygiene, not a verdict): in §(2) of the court's text "an invariant
+    sign of charge" stands BARE — the scope is inherited from §(3) below it, while
+    §(2) is written in physical language. A sentence from §(2) lifted out of the
+    court's text will have the reader supply the word "isometries" themselves.
+    The cost of the fix is zero: write the scope into §(2) inline, as already done in §(1). This is a drift risk in citation, not a defect.
+
+========================================================================
+B8 — THE COURT'S LAST REDOUBT + S921's EMPTY MUTANT
+========================================================================
+  The court itself handed back the frame: "agreement with the textbook = a
+  frame, multiplicity 0" — and fell back to ONE claim: "the load-bearing new
+  measurement = ZERO linear invariants". Question: is this last redoubt a
+  separate fact, or the same one?
+
+
+  ⟹ η is a bijection between invariant VECTORS and invariant
+     COVECTORS. "Zero linear invariants" ≡ "there is no invariant
+     vector" — and that is a one-line corollary of irreducibility (a fixed
+     vector spans a 1-dimensional trivial sub-representation; irreducibility +
+     n≥2 ⟹ it is zero).
+
+  ⇒ ★★THE LAST REDOUBT FALLS. The claim the court PULLED OUT from under the frame as "a load-bearing NEW measurement" is the very same textbook fact, reached by η-conjugation from what the court itself marked with multiplicity 0. The multiplicity of A2 = 0 IN FULL, including the exception the court kept for itself.
+
+  ★AS A SIDE EFFECT — S921's mutant m3 IS EMPTY (class: a mutant that could not survive):
+
+  ⇒ ★S921's m3 = "there exists a SECOND independent invariant symmetric form". But dim=1 in EVERY signature n=3..7 without exception ⟹ this mutant could not have survived ANYWHERE. A mutant that cannot fail to be caught measures nothing — it is not a kill-test, but a tautology. ⟹ "mutants 3/3 CAUGHT ⟹ the measurement is valid" in S921 should be read as 2/3 (m1, m2 are real). Not a wrong number — a wrong IMPLICATION, exactly the class [[zero-from-a-count-that-never-ran]].
+
+========================================================================
+M — MUTANTS (class S909: a silent mutant ⟹ THE MEASUREMENT IS INVALID)
+========================================================================
+  ★★THIS SECTION WAS REWRITTEN AFTER A CATCH AGAINST MYSELF. The first pass had
+  TWO empty mutants — exactly the class this same probe judges m3 for in S921:
+    · m1 did its OWN inline check ⟹ it never ran the B3 code at all;
+    · m3 asked "are T_a(0) abelian?" — which is an identity of the form (my own
+      B1), the answer is ALWAYS "yes" ⟹ the mutant could not fail to fire.
+  A mutant that cannot fail to be caught measures nothing. Now EACH one runs
+  through the REAL measurement function (family_closes / dim_bilinear_invariants),
+  and each one CAN survive — which is why catching them is a measurement.
+
+  m1: T_bad — the same form, but WITHOUT η in the bottom row
+      (run through the REAL family_closes, not an inline check)
+     m1 CAUGHT: family_closes((3,1), T_bad) = False — the same code that gave True for the real form catches the broken one.
+     ★the mutant COULD have survived: at η=I (a definite signature) T_bad ≡ Tmat —
+       so 'False' on (3,1) came from INDEFINITENESS, not for free.
+  m2: a planted "invariant linear form" φ=(1,0,0,0)
+     m2 CAUGHT: an explicit M with φ(M·) ≠ 0 was found (3 of them) — the B6(i) measurement is alive.
+  m3: the claim "dim(invariant bilinear) = 1 ALWAYS" (i.e. my
+      solver is blind and prints 1 for anything) — must fail
+     the same code: (3,1) → 1 · (2,0) → 2
+     m3 CAUGHT: the solver RETURNED NOT-1 on (2,0) ⟹ its "1" at n≥3 is a real measurement, not a constant in the code.
+  m4: a kill-test of B1 — take λ≠0 and ask the same check "T_a·T_b ≡ 0"
+     m4 CAUGHT: at λ=1 the same expression is NONzero ⟹ the B1 check is capable of seeing a nonzero, its '≡0' at λ=0 is a real measurement of the form.
+
+  MUTANTS: 4/4 CAUGHT
+
+========================================================================
+SUMMARY
+========================================================================
+
+  ★WHAT STANDS:
+    · S916/S918-S921 AS COMPUTATION: 5/5 W29 probes reproduced BIT-FOR-BIT,
+      exit=0. The logs are honest about the code.
+    · RUNG-4 IS WHOLE. My scope catch died (see B7) — the S920 verdict
+      survived adversarial checking unscathed.
+    · the η-norm — the one invariant form — stands (📖, multiplicity 0).
+
+  ★WHAT SURVIVED AGAINST ME (reporting honestly — two of my four catches are dead):
+    · "HANDLES 0" — STANDS. |λ| is washed out by the scale T→μT; what remains is
+      the discrete sign(λ). A discrete choice ≠ a constant. My first summary
+      said the opposite, contradicting my own section B5 (B5).
+    · "CHOSEN SILENTLY" — WRONG. The choice was made OPENLY in the ex-ante text: "the
+      affine algebra iso(p,q) = so(p,q) ⋉ translations". By writing "⋉ ℝⁿ", the
+      ex-ante text NAMED ℝⁿ abelian — from there [T,T]=0 is forced BY THE NAME. The
+      probe honestly measured the declared object. My B1 "caught" the fact that
+      ℝⁿ is abelian.
+
+  ★WHAT DOES NOT STAND (rung-5) — narrower and more precise than my first pass:
+    1. ★MAIN POINT: the ex-ante text asked THREE things — "is it closed · IS IT
+       CANONICAL · is it free of new constants". The word "canonic-" appears 0
+       times in S921's code and log; no alternative was ever built. Canonicity
+       IS a question about alternatives, so it CANNOT be answered without a
+       comparison. S921 measured the CLOSURE of the declared object and spent
+       the word "FORCED" — which answers CANONICITY. Question 2 of 3 was left
+       unmeasured, yet the verdict reads as an answer to it.
+       "Closed" ≠ "forced".
+    2. Rung-5 (the A2/A3/E-skeleton) is CONDITIONAL on λ=0, and the condition is
+       NOT DECLARED. Only at λ=0 is span{T} an ideal (B4), i.e. only there does
+       the question "the invariant number of a shift" have an OBJECT. The
+       conditionality is legitimate (the declaration precedes it), but the
+       summary "at floor −1 the quantity has exactly this skeleton and NO
+       MORE" is a claim of EXHAUSTIVENESS OF THE FLOOR, while only one member
+       of the family was measured. The family is real: det K(λ) ∝ λⁿ ⟹ the
+       degeneracy is exactly at λ=0 and nowhere else; the Killing radical n vs
+       0 ⟹ not isomorphic.
+    3. The multiplicity of A2 = 0 IN FULL (B6+B8). The three numbers = one
+       ancestor (absolute irreducibility, n≥3). The court itself handed back
+       the frame ("agreement with the textbook = a frame, multiplicity 0"),
+       keeping for itself ONE exception — "ZERO linear invariants = a
+       load-bearing new measurement". The redoubt falls: η is a
+       vector↔covector bijection (an identity, 9/9), so this is the same
+       fact.
+    4. "Mutants 3/3" in S921 should be read as 2/3: m3 could not have
+       survived in any signature n=3..7 (B8).
+
+  ⟹ VISA B: RUNG-4 — OK (my catch fell, the verdict survived whole).
+              RUNG-5 — NOT OK as currently worded.
+    The content of rung-5 does not fall: the numbers are correct, the machine
+    is clean, the declaration is honest. What falls is ONE WORD — "forced" —
+    and the claim of exhaustiveness.
+    ★THE FIX = ONE QUALIFIER, not a re-measurement:
+      "forced WITHIN the declared object so(p,q) ⋉ ℝⁿ;
+       the canonicity of the object is NOT MEASURED (no alternative was built)".
+    ★A DEBT LEFT BEHIND (a bridge, not a verdict): "handles 0" holds as long as μ
+      is free. Premise (b) "d+1 UNIT axes" fixes the length ⟹ |λ|=1/R² becomes a
+      real dimensionful constant. The honest line: "handles 0, AS LONG AS NO
+      LENGTH IS PINNED DOWN ANYWHERE". The slot in the shift leg is exactly one —
+      and the program has exactly one allowed constant. The slot is not empty —
+      it is UNMEASURED.
+
+
+  checks: 329 · FAIL: 0

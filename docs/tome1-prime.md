@@ -1,19 +1,52 @@
 # TOME I — PRIME FLOOR: pure mathematics
 
-> **Status of this text.** Written natively in English from the canonical sources. The Ukrainian
-> tome is the source of truth for **content** — addresses, statuses, boundaries, numbers; where the
-> two disagree on any of those, the Ukrainian ruling stands. A mechanical check compares the
-> carriers (⊙ markers, J-/S- addresses, boundary blocks, numbers). Qualifiers are rendered
-> conservatively and close to the letter: a qualifier is exactly what gets lost in transfer.
+> **Status of this text.** This English text is the original, written directly from the project's
+> canonical sources. Qualifiers are rendered conservatively and close to the letter: a qualifier is
+> exactly what gets lost in transfer.
 >
-> **Scope (by the author's word, 2026-07-25).** This is the only tome published. Tomes II–III — the bridge, $(3,1)$, and the dictionary
-> of identifications — stay internal. Tome I therefore has to stand alone, so §7 lists everything it
-> does not prove.
+> **Scope (by the author's word, 2026-07-25).** This is the first tome published. Tomes II and III —
+> the bridge, $(3,1)$, and the identifications — are not yet ready; they will follow. Tome I therefore
+> has to stand alone, so §7 lists everything it does not prove.
 >
 > **What it is.** One chain, already proved, each link carrying the address of its primary act.
 > Distillation moves no status: where the source says `candidate`, `candidate` stands here. This is
 > representation, not derivation — no new claim and no new number.
 > **Floor fence:** a word is admissible only if its referent is derived or axiomatic on this floor.
+
+## Why any of this
+
+<!--program-preface-->
+*This preface speaks of the programme one level above this tome's floor, so it may use words the
+floor itself has not earned; the floor fence applies from §0 onward.*
+
+The original goal was rather modest: to determine whether a topology could be constructed at all if
+**E** (energy) were taken as the fundamental quantity and **Λ** as the characteristic unit of vacuum
+stiffness. The answer proved to be yes.
+
+The difficulty emerged elsewhere. Modern physics offers a wide variety of theories, each describing
+only its own limiting regime—a diverse collection of mathematical frameworks for projecting
+interactions and processes toward the sub-Planck scale. A broader analysis suggested that these
+families of topologies are structurally overdetermined. Together with the heterogeneity of the
+existing approaches, this observation motivated a step one level deeper, leading to the present
+volume.
+
+**Tome I** is therefore a purely mathematical abstraction. Its purpose is to construct a more robust
+mathematical framework for these topologies and to place them within a unified space of solutions
+based on Lie algebras.
+
+**A note on confidence.** The author does not regard personal intuition as sufficient
+evidence—including the possibility that the entire construction may be fundamentally mistaken. This
+is not a rhetorical disclaimer but a design principle. Nothing in this work is intended to rest on
+the author's confidence alone. Every claim is accompanied by its current status
+(measured / ∀d-symbolic / candidate), the probe that produced it, and the conditions under which it
+would be considered falsified.
+
+The reader is therefore invited to approach this work exactly as it was written: assume the author
+may be wrong, and verify every step.
+
+*How the work was organized — the roles, the ids, and what is public — is described on
+[Process & roles](process.md).*
+<!--/program-preface-->
 
 ---
 

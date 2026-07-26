@@ -1,0 +1,36 @@
+==========================================================================
+W36-leg-2: the fate of the center form under c(S)∩c(N)
+==========================================================================
+
+--- REAL J2/J4: spectrum of ad(S)|module, survivors, ω|surv, partners ---
+J2 | dim module=4 | spectrum ad(S)={-I^2, I^2} | dim surv=0 | rankω|surv=0 | isotropic=yes
+    partners: (no survivors — S rotates the whole module; the form dies completely)
+J4 | dim module=4 | spectrum ad(S)={-1^2, 1^2} | dim surv=0 | rankω|surv=0 | isotropic=yes
+    partners: (no survivors — S rotates the whole module; the form dies completely)
+
+--- CLAIM symbolic block family: adS(B)=a·B−B·E, ω=antisym(B G⁻¹ B'ᵀ) ---
+  (i) a=0, E full rank (d=2): dim surv=0, rankω|surv=0, isotropic=True [J-like]
+  (ii) a=0, E kills 1 of 3 core: dim surv=2, rankω|surv=2, isotropic=False [NONDEGEN.]
+  (iii) a nilpotent (Jordan), E=0: dim surv=1, rankω|surv=0, isotropic=True [ISOTROPIC/Lagrangian]
+
+  cross-check of the real J2/J4 against block (i) [a=0,E-full → surv 0]:
+    J2: dim surv=0 → ✓ (the whole module rotates)
+    J4: dim surv=0 → ✓ (the whole module rotates)
+
+--- CONTROL: S≠0, trivial on the module (constructible?) ---
+  S≠0 of Levi type, trivial on the module: NOT CONSTRUCTIBLE (every Levi element
+    acts nontrivially — the module occupies the whole core). The trivial endpoint = S=0 = c(N) itself.
+  endpoint S=0: the whole module survives, rankω|surv=4 (=nondegenerate, as c(N) in leg-1)
+
+BIT-FENCE J2/J4 (= S961 empty full form):
+  J2: c(A) rad/Z=0 → the form is empty (S961 confirmed)
+  J4: c(A) rad/Z=0 → the form is empty (S961 confirmed)
+
+MUTANTS (one per branch: isotropic / nondegenerate / trivial-S):
+  MUTANT br-isotropic: CAUGHT (matched-eigenvalue survivors ω|surv=0)
+  MUTANT br-nondeg: CAUGHT (partial-E survivors ω|surv nondeg rank=2)
+  MUTANT br-trivialS: CAUGHT (a=0,E-full → 0 survivors; real J2 matches)
+
+SUMMARY: asserts_passed=11 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

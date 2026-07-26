@@ -1,0 +1,158 @@
+==============================================================================
+S908 — VISA W28 phase (a): independent rederivation of closed forms
+==============================================================================
+CONVENTION: η = diag(+1×p, −1×q); so(p,q) = {A : ηA is antisymmetric}
+
+B1 (mechanism of T1, Beta's OWN prediction — it is NOT in §12):
+    a 2-plane span(a,b) ⊂ so(3) closes ⟺ a×b ∈ span(a,b). But a×b ⊥ a,b
+    ⟹ a×b ∈ span(a,b) ∩ span(a,b)^⊥. In EUCLIDEAN space this is {0} (sign-definiteness!)
+    ⟹ a×b=0 ⟹ a∥b ⟹ dim≤1. ⟹ T1 holds NOT "because so(3)", but because the METRIC
+    IS SIGN-DEFINITE: a plane cannot be orthogonal to itself.
+B2 (BOUNDARY of the mechanism — kill-test of my own T1; predicted BEFORE the run):
+    In so(2,1) the metric on the algebra is INDEFINITE ⟹ THERE EXIST planes orthogonal
+    to themselves = DEGENERATE (tangent to the cone) ⟹ there a×_η b ∈ span(a,b) IS POSSIBLE
+    ⟹ 2-dim subalgebras of so(2,1) MUST EXIST and be NON-abelian (Borel).
+    ⟹ "C_2D ≺ C_3D" is NOT universal: it is a verdict of the SIGN-DEFINITE sector.
+    Exact criterion-prediction: span(a,b) ⊂ so(p,q) closes ⟺ the plane
+    IS DEGENERATE with respect to the Killing form (restricted to it).
+B3 (T9): sign(det A) = sign(det g) requires Pf≠0. At the Pf=0 locus det A=0 —
+    "sign = sign" holds only as ≤/≥ (non-strict), not as a strict equality of signs.
+B4 (T7): A²=−𝟙 ⟺ p,q even ⟹ (4,2) MUST carry −𝟙 (p=4,q=2 both even),
+    even though it is asymmetric. That is, "square structures" are NOT an axis of symmetry.
+
+
+──────────────────────────────────────────────────────────────────────────────
+A. so(3): [A,B] = a×b  +  det[a;b;a×b] = Gram(a,b)   — sympy, EXACT
+──────────────────────────────────────────────────────────────────────────────
+[PASS] A.1  hat(a)·w = a×w (isomorphism, sign convention)
+[PASS] A.2  ★[A,B] = hat(a×b)  — CLOSED FORM (S899)  — identity in 6 free symbols, not a scan
+[PASS] A.3  ★det[a;b;a×b] = det Gram(a,b)  — CLOSED FORM (S899)  — = |a×b|² = |a|²|b|²−(a·b)² (Lagrange identity)
+[PASS] A.4  Gram(a,b) > 0 ⟺ a,b independent (Euclidean definiteness)  — Gram = |a×b|² ≥ 0, =0 ⟺ a∥b — this is exactly where SIGN-DEFINITENESS enters
+
+──────────────────────────────────────────────────────────────────────────────
+B. T1: no 2-dim subalgebras of so(3) — derivation, mechanism (B1), boundary (B2)
+──────────────────────────────────────────────────────────────────────────────
+[PASS] B.1  (a×b)·(αa+βb) ≡ 0 in ALL symbols  — ⟹ if a×b=αa+βb, then |a×b|²=0 ⟹ a×b=0 (Euclidean!) ⟹ a∥b ⟹ dim≤1
+[PASS] B.2  ★T1: a 2-dim subalgebra of so(3) DOES NOT EXIST — proved, not scanned  — chain: closure ⟹ a×b ⊥ itself ⟹ (definiteness) a×b=0 ⟹ dependence
+[PASS] B.3  ★mechanism (B1, OWN): T1 carries the DEFINITENESS of the metric, not "so(3)"  — the only step that can fail: "v⊥v ⟹ v=0" — holds ⟺ the form is definite
+    so(3,0): closed BASIS pairs: 0  []
+    so(2,1): closed BASIS pairs: 0  []
+[PASS] B.4  ★BOUNDARY (B2): so(2,1) HAS a 2-dim non-abelian subalgebra {K02, J01+K12}  — [X,Y] = Y exactly (True) ⟹ Borel sl(2,ℝ); closure=solved, non-abelian=True
+[PASS] B.5  ★criterion (B2): THIS closed 2-plane of so(2,1) IS DEGENERATE by the Killing form  — det K|span = 0 = 0 ⟹ tangent to the cone
+    so(3,0) scan 298 2-planes: closed&degen=0 · closed&NONdegen=0 · NOTclosed&degen=0 · NOTclosed&NONdegen=298
+[PASS] B.6.(3,0)  ★criterion B2: closure ⟺ degeneracy of the plane  — counterexamples: closed-nondegen=0, notclosed-degen=0
+    so(2,1) scan 295 2-planes: closed&degen=27 · closed&NONdegen=0 · NOTclosed&degen=0 · NOTclosed&NONdegen=268
+[PASS] B.6.(2,1)  ★criterion B2: closure ⟺ degeneracy of the plane  — counterexamples: closed-nondegen=0, notclosed-degen=0
+[PASS] B.7  control: a 2-plane of so(3) is ALWAYS non-degenerate (Killing definite)  — det K|span = 4 ≠ 0 ⟹ closure is impossible — the same definiteness
+
+──────────────────────────────────────────────────────────────────────────────
+C. Mirrored log-pair: det A = Pf(Ω)²/det g ⟹ sign(det A) = sign(det g)
+──────────────────────────────────────────────────────────────────────────────
+[PASS] C.1.n=2  Pf(Ω)² = det Ω  (symbolic, 1 free)
+[PASS] C.1.n=4  Pf(Ω)² = det Ω  (symbolic, 6 free)
+[PASS] C.1.n=6  Pf(Ω)² = det Ω  (symbolic, 15 free)
+[PASS] C.1b.n=3  odd n: det Ω ≡ 0 ⟹ the mirror ≡ 0 (T9)
+[PASS] C.1b.n=5  odd n: det Ω ≡ 0 ⟹ the mirror ≡ 0 (T9)
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (3,1) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (3,1) η−
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (2,2) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (2,2) η−
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (4,0) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (4,0) η−
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (3,3) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (3,3) η−
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (5,1) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (5,1) η−
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (4,2) η+
+[PASS] C.2  ★det A = Pf(Ω)²/det g  (4,2) η−
+
+    Sign law across the ladder (det g = (−1)^q):
+      (3,1) n=4: det g = -1 ⟹ sign(det A) = -1·(Pf²≥0)
+      (2,2) n=4: det g = +1 ⟹ sign(det A) = +1·(Pf²≥0)
+      (4,0) n=4: det g = +1 ⟹ sign(det A) = +1·(Pf²≥0)
+      (3,3) n=6: det g = -1 ⟹ sign(det A) = -1·(Pf²≥0)
+      (5,1) n=6: det g = -1 ⟹ sign(det A) = -1·(Pf²≥0)
+      (4,2) n=6: det g = +1 ⟹ sign(det A) = +1·(Pf²≥0)
+      (6,6) n=12: det g = +1 ⟹ sign(det A) = +1·(Pf²≥0)
+[PASS] C.3  ★sign(det A) = sign(det g)  — from Pf²≥0, WITHOUT computation  — Pf² ≥ 0 ⟹ the sign is carried ONLY by det g = (−1)^q
+[PASS] C.4  ★B3-BOUNDARY (OWN): at the Pf=0 locus det A = 0 ⟹ the law is NON-STRICT (≤/≥)  — read "sign det A = sign det g" as (−1)^q·det A ≥ 0, not as a strict equality of signs
+
+──────────────────────────────────────────────────────────────────────────────
+D. Orientation: Pf(SᵀΩS) = det(S)·Pf(Ω)  — symbolic, full n=4
+──────────────────────────────────────────────────────────────────────────────
+[PASS] D.1  ★Pf(SᵀΩS) = det(S)·Pf(Ω)  — FULL symbolic n=4 (6+16 free)  — identity in ALL symbols of S — not a scan, not special cases
+[PASS] D.2  ★corollary: Pf is an SO(p,q)-invariant, flips exactly under det S = −1  — from D.1 + det S = ±1 on O(p,q); mechanism: Pf is linear in Ω, weight det S
+[PASS] D.3  ★two-tier structure (T9×T10): det A carries Pf² ⟹ the SIGN of Pf is lost in det  — Pf → −Pf under det S=−1, but Pf² is invariant ⟹ det is fundamentally blind to orientation
+[PASS] D.4  Pf=0 ⟺ rank deficiency of Ω (det Ω = Pf² = 0 ⟺ Ω degenerate)  — example: rank=2 < 4, Pf=0
+
+──────────────────────────────────────────────────────────────────────────────
+E. Square structures A ∈ so(p,q):  A²=+𝟙 ⟺ p=q · A²=−𝟙 ⟺ p,q even
+──────────────────────────────────────────────────────────────────────────────
+    derivation ⟹ (A²=+𝟙): ηA antisym ⟹ Aᵀη = −ηA ⟹
+      η(Ax,Ay) = xᵀAᵀηA y = xᵀ(−ηA)A y = −xᵀηA² y = −xᵀη y = −η(x,y)
+      ⟹ A — an ANTI-isometry: carries η ↦ −η ⟹ (p,q) ≅ (q,p) ⟹ p=q  ∎
+[PASS] E.1  (2,2) Aᵀ g A = −g·A²  (anti-isometry step, symbolic)
+[PASS] E.1  (3,1) Aᵀ g A = −g·A²  (anti-isometry step, symbolic)
+[PASS] E.2  (1,1) ⟸ construction of A²=+𝟙 exists (para-complex)  — A ∈ so=True, A²=+𝟙=True
+[PASS] E.2  (2,2) ⟸ construction of A²=+𝟙 exists (para-complex)  — A ∈ so=True, A²=+𝟙=True
+[PASS] E.2  (3,3) ⟸ construction of A²=+𝟙 exists (para-complex)  — A ∈ so=True, A²=+𝟙=True
+
+    derivation ⟹ (A²=−𝟙): η(Ax,Ay) = −xᵀηA²y = +xᵀηy ⟹ A — an ISOMETRY;
+      A²=−𝟙 ⟹ V becomes a ℂ-space (i·v := Av), η is ℂ-compatible ⟹
+      the ±-eigenspaces of η are themselves A-invariant ⟹ each is a ℂ-space
+      ⟹ dim_ℝ of each is even ⟹ p even ∧ q even  ∎
+[PASS] E.4  (2,2) ⟸ construction of A²=−𝟙 exists (p,q both even)  — A ∈ so=True, A²=−𝟙=True
+[PASS] E.4  (4,2) ⟸ construction of A²=−𝟙 exists (p,q both even)  — A ∈ so=True, A²=−𝟙=True
+[PASS] E.4  (4,0) ⟸ construction of A²=−𝟙 exists (p,q both even)  — A ∈ so=True, A²=−𝟙=True
+[PASS] E.4  (2,0) ⟸ construction of A²=−𝟙 exists (p,q both even)  — A ∈ so=True, A²=−𝟙=True
+
+    Ladder profile (from the two laws, plain counting):
+      (3,1): A²=+𝟙 ✗ · A²=−𝟙 ✗  ⟹ NEITHER
+      (2,2): A²=+𝟙 ✓ · A²=−𝟙 ✓  ⟹ both
+      (3,3): A²=+𝟙 ✓ · A²=−𝟙 ✗  ⟹ only +𝟙
+      (5,1): A²=+𝟙 ✗ · A²=−𝟙 ✗  ⟹ NEITHER
+      (4,2): A²=+𝟙 ✗ · A²=−𝟙 ✓  ⟹ only −𝟙
+      (4,0): A²=+𝟙 ✗ · A²=−𝟙 ✓  ⟹ only −𝟙
+      (6,6): A²=+𝟙 ✓ · A²=−𝟙 ✓  ⟹ both
+[PASS] E.5  ★(3,1) carries NEITHER square structure (p≠q ∧ p odd)
+[PASS] E.6  ★B4-PREDICTION (OWN): (4,2) is ASYMMETRIC, yet carries A²=−𝟙  — ⟹ square structures are NOT an axis of symmetry; the −𝟙-leg = the axis of PARITY
+
+──────────────────────────────────────────────────────────────────────────────
+F. T5: {cell ⟹ p≥3} ∧ {break ⟹ q≥1} ⟹ n≥4; unique at the minimum (3,1)
+──────────────────────────────────────────────────────────────────────────────
+[PASS] F.1.d=2  simplex Gram: 2 positive + 1 zero ⟹ embedding ⟺ d≤p  — eigenvalues={3/2: 2, 0: 1}
+[PASS] F.1.d=3  simplex Gram: 3 positive + 1 zero ⟹ embedding ⟺ d≤p  — eigenvalues={4/3: 3, 0: 1}
+[PASS] F.1.d=4  simplex Gram: 4 positive + 1 zero ⟹ embedding ⟺ d≤p  — eigenvalues={5/4: 4, 0: 1}
+[PASS] F.2  ★kill: the d=3 cell (n₊=3) does NOT embed in (2,2) (p=2 < 3)  — n₊ is a Sylvester invariant ⟹ the failure is a theorem, not a way of embedding
+
+    Full enumeration of n≤4 under {p≥3 ∧ q≥1}:
+      (3,1) n=4  ← PASSES both conditions
+[PASS] F.3  ★T5: n≥4 is forced; at n=4 there is EXACTLY ONE solution = (3,1)  — solutions n≤4: [(3, 1)]
+[PASS] F.4  ★honest boundary of T5 (OWN note): the arithmetic n≥4 is TRIVIAL  — the entire content of T5 lives in two PREMISES {p≥3 from the Gram leg · q≥1 from the ⊕-act}; T5 itself is not a witness, but a COUNT on the accepted premises ⟹ kratn T5 = kratn of the premises
+
+    Exclusivity control (n=5,6 under the same conditions):
+      legal above the minimum: [(3, 2), (4, 1), (3, 3), (4, 2), (5, 1)]
+[PASS] F.5  there is NO exclusivity: (3,2)/(4,1)/(3,3)/(5,1)/(4,2)… also pass  — T5 = MINIMALITY, not uniqueness ⟹ a selection-claim does NOT follow from T5
+
+──────────────────────────────────────────────────────────────────────────────
+FENCE (anti-fishing, scan_forbidden helper — inline forbidden)
+──────────────────────────────────────────────────────────────────────────────
+[PASS] FENCE  selection-mints outside GUARDLINE: 0  — hits=[]
+
+==============================================================================
+SUMMARY S908: 54/54 PASS
+==============================================================================
+
+★PHASE (a) STAMP — what this file establishes INDEPENDENTLY (kratn-2):
+  · [A,B]=a×b + Gram chain — REDERIVED (identities, not scans);
+  · T1 (no 2-dim subalgebras of so(3)) — REDERIVED + named the MECHANISM (B1);
+  · det A = Pf²/det g + Pf(SᵀΩS)=det(S)Pf(Ω) — REDERIVED symbolically;
+  · A²=±𝟙 laws — REDERIVED in BOTH directions (⟹ derivation, ⟸ construction);
+  · T5 — REDERIVED with an explicit note on the triviality of the arithmetic.
+★WHAT THIS FILE ADDS BEYOND §12 (candidates for conflict/refinement — for the court):
+  B2 · boundary of T1: so(2,1) HAS a 2-dim non-abelian subalgebra (a degenerate plane);
+       ⟹ "C_2D ≺ C_3D" is a verdict of the SIGN-DEFINITE sector, not universal.
+  B3 · boundary of T9: the sign law is non-strict at the Pf=0 locus.
+  B4 · boundary of T7: (4,2) is asymmetric, yet carries A²=−𝟙 ⟹ the −𝟙-leg = the axis of PARITY.
+  F4 · boundary of T5: all the force is in the premises; kratn T5 = kratn of the premises, not a separate witness.
+

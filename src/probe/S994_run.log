@@ -1,0 +1,505 @@
+--- bit-fence: pipeline reproduces S988 (4,4) single-wedge control (dimc=18, radical h9) ---
+  FENCE (4,4) single-wedge: dimc=18 Levi=so(2,1)+so(2,2) radical=h9 LCS-length=2
+
+--- constructibility gates (raw) ---
+  Jordan-3 required subspace signature = (2,1); Jordan-5 G5 signature = (2, 3, 0)
+  (C) so(4,3): isotropic e0+e4 exists (4+,3-) -> single-wedge CONSTRUCTIBLE
+  (J3-a) so(4,3): isotropic e0+e4, orthogonal anisotropic e1 -> Jordan-3 CONSTRUCTIBLE
+  (J3-b) so(5,4): isotropic e0+e5, orthogonal anisotropic e1 -> Jordan-3 CONSTRUCTIBLE
+  (J3+w) so(5,4): Jordan-3 support {e0,e5,e1} + orthogonal wedge support {e2,e6,e3,e7} -> mixed CONSTRUCTIBLE
+  (J5) so(5,5): G5(2,3) (+) diag(+,+,+,-,-)(3,2) = signature (5,5) -> Jordan-5 CONSTRUCTIBLE
+
+=== OBJECT: (C) CONTROL single-wedge so(4,3) rank2 N^2=0 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=2 (N^2!=0 : False)
+  c(N): dim=13 dim[c,c]=13 derived=[13] dim_centre(c)=1
+  perfect_core dim=13
+  core: dim=13 Killing_sig=(4, 2, 7)
+  Levi: Levi=so(2,2)&so(2,1)+so(2,1)  dim=6 Killing_sig=(4, 2, 0)
+  Levi gen^2 eigenvalues on 7-dim rep (raw, per generator):
+    g0^2 eig={'0': 7}
+    g1^2 eig={'0': 7}
+    g2^2 eig={'1': 4, '0': 3}
+    g3^2 eig={'0': 5, '-1': 2}
+    g4^2 eig={'0': 5, '1': 2}
+    g5^2 eig={'0': 5, '1': 2}
+  radical: type=h7 dim=7 lower_central_series(dims)=[7, 1, 0] LENGTH(class)=2 n_central_dirs=1 info={'dr': 7, 'dz': 1, 'drr': 1, 'allmove': True}
+  module Levi-action-closes-on(Z+module) clean=True
+  module (whole): dv=6 commutant=1 weights={-1: 2, 1: 2, 0: 2} mincyc=6
+  module blocks (Levi-irreducible over Q): dims=[6]
+    block0: dim=6 commutant=1 weights={-1: 2, 1: 2, 0: 2}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=0 anti=1
+  centre basis for [EXT-2] coords (1 dirs):
+    zc0 nz=[(0, 1, 1), (0, 5, -1), (1, 0, -1), (1, 4, 1), (4, 1, 1), (4, 5, -1), (5, 0, -1), (5, 4, 1)]
+  [EXT-2] [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> [-1]
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.0, b0.4] -> 0
+      [b0.0, b0.5] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.1, b0.4] -> 0
+      [b0.1, b0.5] -> 0
+      [b0.2, b0.3] -> [-1]
+      [b0.2, b0.4] -> 0
+      [b0.2, b0.5] -> 0
+      [b0.3, b0.4] -> 0
+      [b0.3, b0.5] -> 0
+      [b0.4, b0.5] -> [1]
+  [NEW-2] FULL [rad,rad] table over the WHOLE radical (all levels):
+  radical LCS levels (dims): [7, 1]  LENGTH(class)=2
+  radical LCS-adapted basis (index: level k = gamma_(k+1); nz entries):
+    r0 [k=0] nz=[(0, 2, -1), (2, 0, 1), (2, 4, -1), (4, 2, -1)]
+    r1 [k=0] nz=[(1, 2, -1), (2, 1, 1), (2, 5, -1), (5, 2, -1)]
+    r2 [k=0] nz=[(0, 3, -1), (3, 0, 1), (3, 4, -1), (4, 3, -1)]
+    r3 [k=0] nz=[(1, 3, -1), (3, 1, 1), (3, 5, -1), (5, 3, -1)]
+    r4 [k=0] nz=[(0, 6, -1), (4, 6, -1), (6, 0, -1), (6, 4, 1)]
+    r5 [k=0] nz=[(1, 6, -1), (5, 6, -1), (6, 1, -1), (6, 5, 1)]
+    r6 [k=1] nz=[(0, 1, -1), (0, 5, 1), (1, 0, 1), (1, 4, -1), (4, 1, -1), (4, 5, 1), (5, 0, 1), (5, 4, -1)]
+  [rad,rad] FULL blockwise table (coords in LCS-adapted rad basis; label = level of each index):
+    [r0(k=0), r1(k=0)] -> [0, 0, 0, 0, 0, 0, 1]  lands_in(index,level)=[(6, 1)]
+    [r0(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r3(k=0)] -> [0, 0, 0, 0, 0, 0, 1]  lands_in(index,level)=[(6, 1)]
+    [r2(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r5(k=0)] -> [0, 0, 0, 0, 0, 0, -1]  lands_in(index,level)=[(6, 1)]
+    [r4(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, 1), (0, 5, -1), (1, 0, -1), (1, 4, 1), (4, 1, 1), (4, 5, -1), (5, 0, -1), (5, 4, 1)]
+    z0: eig={'0': 7} eig(z^2)={'0': 7}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (J3-a) JORDAN-3 so(4,3) rank2 N^2!=0 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=3 (N^2!=0 : True)
+  c(N): dim=11 dim[c,c]=10 derived=[11, 10] dim_centre(c)=1
+  perfect_core dim=10
+  core: dim=10 Killing_sig=(4, 2, 4)
+  Levi: Levi=so(2,2)&so(2,1)+so(2,1)  dim=6 Killing_sig=(4, 2, 0)
+  Levi gen^2 eigenvalues on 7-dim rep (raw, per generator):
+    g0^2 eig={'0': 5, '1': 2}
+    g1^2 eig={'0': 5, '1': 2}
+    g2^2 eig={'0': 5, '1': 2}
+    g3^2 eig={'0': 5, '1': 2}
+    g4^2 eig={'0': 5, '-1': 2}
+    g5^2 eig={'0': 5, '-1': 2}
+  radical: type=R4 dim=4 lower_central_series(dims)=[4, 0] LENGTH(class)=1 n_central_dirs=4 info={'dr': 4, 'dz': 4, 'drr': 0, 'allmove': True}
+  module Levi-action-closes-on(Z+module) clean=True
+  module (whole): dv=4 commutant=1 weights={-1: 1, 1: 1, 0: 2} mincyc=4
+  module blocks (Levi-irreducible over Q): dims=[4]
+    block0: dim=4 commutant=1 weights={-1: 1, 1: 1, 0: 2}
+    block0 basis (module coords): [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=1 anti=0
+  centre basis for [EXT-2] coords (4 dirs):
+    zc0 nz=[(0, 3, 1), (3, 0, -1), (3, 4, 1), (4, 3, 1)]
+    zc1 nz=[(0, 2, -1), (2, 0, 1), (2, 4, -1), (4, 2, -1)]
+    zc2 nz=[(0, 5, 1), (4, 5, 1), (5, 0, 1), (5, 4, -1)]
+    zc3 nz=[(0, 6, 1), (4, 6, 1), (6, 0, 1), (6, 4, -1)]
+  [EXT-2] [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> 0
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.2, b0.3] -> 0
+  [NEW-2] FULL [rad,rad] table over the WHOLE radical (all levels):
+  radical LCS levels (dims): [4]  LENGTH(class)=1
+  radical LCS-adapted basis (index: level k = gamma_(k+1); nz entries):
+    r0 [k=0] nz=[(0, 3, 1), (3, 0, -1), (3, 4, 1), (4, 3, 1)]
+    r1 [k=0] nz=[(0, 2, -1), (2, 0, 1), (2, 4, -1), (4, 2, -1)]
+    r2 [k=0] nz=[(0, 5, 1), (4, 5, 1), (5, 0, 1), (5, 4, -1)]
+    r3 [k=0] nz=[(0, 6, 1), (4, 6, 1), (6, 0, 1), (6, 4, -1)]
+  [rad,rad] FULL blockwise table (coords in LCS-adapted rad basis; label = level of each index):
+    [r0(k=0), r1(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, -1), (1, 0, 1), (1, 4, -1), (4, 1, -1)]
+    z0: eig={'0': 7} eig(z^2)={'0': 7}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (J3-b) JORDAN-3 so(5,4) rank2 N^2!=0 ===
+  N: rank=2 nilp_depth(min k: N^k=0)=3 (N^2!=0 : True)
+  c(N): dim=22 dim[c,c]=21 derived=[22, 21] dim_centre(c)=1
+  perfect_core dim=21
+  core: dim=21 Killing_sig=(9, 6, 6)
+  Levi: Levi=so(3,3)&sl(4,R)  dim=15 Killing_sig=(9, 6, 0)
+  Levi gen^2 eigenvalues on 9-dim rep (raw, per generator):
+    g0^2 eig={'0': 7, '-1': 2}
+    g1^2 eig={'0': 7, '1': 2}
+    g2^2 eig={'0': 7, '1': 2}
+    g3^2 eig={'0': 7, '1': 2}
+    g4^2 eig={'0': 7, '-1': 2}
+    g5^2 eig={'0': 7, '1': 2}
+    g6^2 eig={'0': 7, '1': 2}
+    g7^2 eig={'0': 7, '1': 2}
+    g8^2 eig={'0': 7, '1': 2}
+    g9^2 eig={'0': 7, '1': 2}
+    g10^2 eig={'0': 7, '1': 2}
+    g11^2 eig={'0': 7, '-1': 2}
+    g12^2 eig={'0': 7, '-1': 2}
+    g13^2 eig={'0': 7, '-1': 2}
+    g14^2 eig={'0': 7, '-1': 2}
+  radical: type=R6 dim=6 lower_central_series(dims)=[6, 0] LENGTH(class)=1 n_central_dirs=6 info={'dr': 6, 'dz': 6, 'drr': 0, 'allmove': True}
+  module Levi-action-closes-on(Z+module) clean=True
+  module (whole): dv=6 commutant=1 weights={-1: 1, 1: 1, 0: 4} mincyc=6
+  module blocks (Levi-irreducible over Q): dims=[6]
+    block0: dim=6 commutant=1 weights={-1: 1, 1: 1, 0: 4}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=1 anti=0
+  centre basis for [EXT-2] coords (6 dirs):
+    zc0 nz=[(0, 3, 1), (3, 0, -1), (3, 5, 1), (5, 3, 1)]
+    zc1 nz=[(0, 2, -1), (2, 0, 1), (2, 5, -1), (5, 2, -1)]
+    zc2 nz=[(0, 4, 1), (4, 0, -1), (4, 5, 1), (5, 4, 1)]
+    zc3 nz=[(0, 6, 1), (5, 6, 1), (6, 0, 1), (6, 5, -1)]
+    zc4 nz=[(0, 7, 1), (5, 7, 1), (7, 0, 1), (7, 5, -1)]
+    zc5 nz=[(0, 8, 1), (5, 8, 1), (8, 0, 1), (8, 5, -1)]
+  [EXT-2] [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> 0
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.0, b0.4] -> 0
+      [b0.0, b0.5] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.1, b0.4] -> 0
+      [b0.1, b0.5] -> 0
+      [b0.2, b0.3] -> 0
+      [b0.2, b0.4] -> 0
+      [b0.2, b0.5] -> 0
+      [b0.3, b0.4] -> 0
+      [b0.3, b0.5] -> 0
+      [b0.4, b0.5] -> 0
+  [NEW-2] FULL [rad,rad] table over the WHOLE radical (all levels):
+  radical LCS levels (dims): [6]  LENGTH(class)=1
+  radical LCS-adapted basis (index: level k = gamma_(k+1); nz entries):
+    r0 [k=0] nz=[(0, 3, 1), (3, 0, -1), (3, 5, 1), (5, 3, 1)]
+    r1 [k=0] nz=[(0, 2, -1), (2, 0, 1), (2, 5, -1), (5, 2, -1)]
+    r2 [k=0] nz=[(0, 4, 1), (4, 0, -1), (4, 5, 1), (5, 4, 1)]
+    r3 [k=0] nz=[(0, 6, 1), (5, 6, 1), (6, 0, 1), (6, 5, -1)]
+    r4 [k=0] nz=[(0, 7, 1), (5, 7, 1), (7, 0, 1), (7, 5, -1)]
+    r5 [k=0] nz=[(0, 8, 1), (5, 8, 1), (8, 0, 1), (8, 5, -1)]
+  [rad,rad] FULL blockwise table (coords in LCS-adapted rad basis; label = level of each index):
+    [r0(k=0), r1(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, -1), (1, 0, 1), (1, 5, -1), (5, 1, -1)]
+    z0: eig={'0': 9} eig(z^2)={'0': 9}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (J3+w) JORDAN-3 (+) WEDGE so(5,4) rank4 N^2!=0 ===
+  N: rank=4 nilp_depth(min k: N^k=0)=3 (N^2!=0 : True)
+  c(N): dim=16 dim[c,c]=15 derived=[16, 15] dim_centre(c)=1
+  perfect_core dim=15
+  core: dim=15 Killing_sig=(2, 1, 12)
+  Levi: Levi=so(2,1)  dim=3 Killing_sig=(2, 1, 0)
+  Levi gen^2 eigenvalues on 9-dim rep (raw, per generator):
+    g0^2 eig={'0': 5, '1': 4}
+    g1^2 eig={'0': 9}
+    g2^2 eig={'0': 9}
+  radical: type=R-3+h15 dim=12 lower_central_series(dims)=[12, 6, 2, 0] LENGTH(class)=3 n_central_dirs=3 info={'dr': 12, 'dz': 3, 'drr': 6, 'allmove': True, 'a': -3, 'b': 15}
+  module Levi-action-closes-on(Z+module) clean=True
+  module (whole): dv=9 commutant=18 weights={0: 3, -1: 3, 1: 3} mincyc=1
+  module blocks (Levi-irreducible over Q): dims=[1, 1, 1, 2, 2, 2]
+    block0: dim=1 commutant=1 weights={0: 1}
+    block0 basis (module coords): [[1, 0, 0, 0, 0, 0, 0, 0, 0]]
+    block1: dim=1 commutant=1 weights={0: 1}
+    block1 basis (module coords): [[0, 0, 0, 1, 0, 0, 0, 0, 0]]
+    block2: dim=1 commutant=1 weights={0: 1}
+    block2 basis (module coords): [[0, 0, 0, 0, 1, 0, 0, 0, 0]]
+    block3: dim=2 commutant=1 weights={-1: 1, 1: 1}
+    block3 basis (module coords): [[0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0, 0, 0]]
+    block4: dim=2 commutant=1 weights={1: 1, -1: 1}
+    block4 basis (module coords): [[0, 0, 0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 1, 0]]
+    block5: dim=2 commutant=1 weights={1: 1, -1: 1}
+    block5 basis (module coords): [[0, 0, 0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=1 anti=0
+    block1: sym=1 anti=0
+    block2: sym=1 anti=0
+    block3: sym=0 anti=1
+    block4: sym=0 anti=1
+    block5: sym=0 anti=1
+    cross block0 x block1: dim=1
+    cross block0 x block2: dim=1
+    cross block0 x block3: dim=0
+    cross block0 x block4: dim=0
+    cross block0 x block5: dim=0
+    cross block1 x block2: dim=1
+    cross block1 x block3: dim=0
+    cross block1 x block4: dim=0
+    cross block1 x block5: dim=0
+    cross block2 x block3: dim=0
+    cross block2 x block4: dim=0
+    cross block2 x block5: dim=0
+    cross block3 x block4: dim=1
+    cross block3 x block5: dim=1
+    cross block4 x block5: dim=1
+  centre basis for [EXT-2] coords (3 dirs):
+    zc0 nz=[(0, 3, -1), (0, 7, 1), (3, 0, 1), (3, 5, -1), (5, 3, -1), (5, 7, 1), (7, 0, 1), (7, 5, -1)]
+    zc1 nz=[(0, 2, 1), (0, 6, -1), (2, 0, -1), (2, 5, 1), (5, 2, 1), (5, 6, -1), (6, 0, -1), (6, 5, 1)]
+    zc2 nz=[(0, 1, 2/3), (1, 0, -2/3), (1, 5, 2/3), (2, 3, -2/3), (2, 7, 2/3), (3, 2, 2/3), (3, 6, -2/3), (5, 1, 2/3), (6, 3, -2/3), (6, 7, 2/3), (7, 2, 2/3), (7, 6, -2/3)]
+  [EXT-2] [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+    -- pairs (block0,block1) --
+      [b0.0, b1.0] -> 0
+    -- pairs (block0,block2) --
+      [b0.0, b2.0] -> 0
+    -- pairs (block0,block3) --
+      [b0.0, b3.0] -> [0, -3, 0]
+      [b0.0, b3.1] -> [3, 0, 0]
+    -- pairs (block0,block4) --
+      [b0.0, b4.0] -> 0
+      [b0.0, b4.1] -> 0
+    -- pairs (block0,block5) --
+      [b0.0, b5.0] -> 0
+      [b0.0, b5.1] -> 0
+    -- pairs (block1,block1) --
+    -- pairs (block1,block2) --
+      [b1.0, b2.0] -> 0
+    -- pairs (block1,block3) --
+      [b1.0, b3.0] -> 0
+      [b1.0, b3.1] -> 0
+    -- pairs (block1,block4) --
+      [b1.0, b4.0] -> [1, 0, 0]
+      [b1.0, b4.1] -> [0, -1, 0]
+    -- pairs (block1,block5) --
+      [b1.0, b5.0] -> 0
+      [b1.0, b5.1] -> 0
+    -- pairs (block2,block2) --
+    -- pairs (block2,block3) --
+      [b2.0, b3.0] -> 0
+      [b2.0, b3.1] -> 0
+    -- pairs (block2,block4) --
+      [b2.0, b4.0] -> 0
+      [b2.0, b4.1] -> 0
+    -- pairs (block2,block5) --
+      [b2.0, b5.0] -> [-1, 0, 0]
+      [b2.0, b5.1] -> [0, 1, 0]
+    -- pairs (block3,block3) --
+      [b3.0, b3.1] -> OUTSIDE-CENTRE
+    -- pairs (block3,block4) --
+      [b3.0, b4.0] -> OUTSIDE-CENTRE
+      [b3.0, b4.1] -> 0
+      [b3.1, b4.0] -> 0
+      [b3.1, b4.1] -> OUTSIDE-CENTRE
+    -- pairs (block3,block5) --
+      [b3.0, b5.0] -> OUTSIDE-CENTRE
+      [b3.0, b5.1] -> 0
+      [b3.1, b5.0] -> 0
+      [b3.1, b5.1] -> OUTSIDE-CENTRE
+    -- pairs (block4,block4) --
+      [b4.0, b4.1] -> OUTSIDE-CENTRE
+    -- pairs (block4,block5) --
+      [b4.0, b5.0] -> 0
+      [b4.0, b5.1] -> 0
+      [b4.1, b5.0] -> 0
+      [b4.1, b5.1] -> 0
+    -- pairs (block5,block5) --
+      [b5.0, b5.1] -> OUTSIDE-CENTRE
+  [NEW-2] FULL [rad,rad] table over the WHOLE radical (all levels):
+  radical LCS levels (dims): [12, 6, 2]  LENGTH(class)=3
+  radical LCS-adapted basis (index: level k = gamma_(k+1); nz entries):
+    r0 [k=0] nz=[(0, 3, 1), (1, 2, 1), (1, 6, -1), (2, 1, -1), (3, 0, -1), (3, 5, 1), (5, 3, 1), (6, 1, -1)]
+    r1 [k=0] nz=[(0, 6, -1), (1, 3, 1), (1, 7, -1), (3, 1, -1), (5, 6, -1), (6, 0, -1), (6, 5, 1), (7, 1, -1)]
+    r2 [k=0] nz=[(3, 4, 1), (4, 3, -1), (4, 7, 1), (7, 4, 1)]
+    r3 [k=0] nz=[(3, 8, 1), (7, 8, 1), (8, 3, 1), (8, 7, -1)]
+    r4 [k=0] nz=[(2, 4, 1), (4, 2, -1), (4, 6, 1), (6, 4, 1)]
+    r5 [k=0] nz=[(2, 8, 1), (6, 8, 1), (8, 2, 1), (8, 6, -1)]
+    r6 [k=1] nz=[(0, 1, -2), (1, 0, 2), (1, 5, -2), (2, 3, -1), (2, 7, 1), (3, 2, 1), (3, 6, -1), (5, 1, -2), (6, 3, -1), (6, 7, 1), (7, 2, 1), (7, 6, -1)]
+    r7 [k=1] nz=[(0, 4, 1), (4, 0, -1), (4, 5, 1), (5, 4, 1)]
+    r8 [k=1] nz=[(0, 8, 1), (5, 8, 1), (8, 0, 1), (8, 5, -1)]
+    r9 [k=1] nz=[(2, 3, 1), (2, 7, -1), (3, 2, -1), (3, 6, 1), (6, 3, 1), (6, 7, -1), (7, 2, -1), (7, 6, 1)]
+    r10 [k=2] nz=[(0, 2, 3), (0, 6, -3), (2, 0, -3), (2, 5, 3), (5, 2, 3), (5, 6, -3), (6, 0, -3), (6, 5, 3)]
+    r11 [k=2] nz=[(0, 3, 3), (0, 7, -3), (3, 0, -3), (3, 5, 3), (5, 3, 3), (5, 7, -3), (7, 0, -3), (7, 5, 3)]
+  [rad,rad] FULL blockwise table (coords in LCS-adapted rad basis; label = level of each index):
+    [r0(k=0), r1(k=0)] -> [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]  lands_in(index,level)=[(6, 1)]
+    [r0(k=0), r2(k=0)] -> [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]  lands_in(index,level)=[(7, 1)]
+    [r0(k=0), r3(k=0)] -> [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]  lands_in(index,level)=[(8, 1)]
+    [r0(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r6(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]  lands_in(index,level)=[(10, 2)]
+    [r0(k=0), r7(k=1)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r9(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1/3, 0]  lands_in(index,level)=[(10, 2)]
+    [r0(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r4(k=0)] -> [0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0]  lands_in(index,level)=[(7, 1)]
+    [r1(k=0), r5(k=0)] -> [0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0]  lands_in(index,level)=[(8, 1)]
+    [r1(k=0), r6(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]  lands_in(index,level)=[(11, 2)]
+    [r1(k=0), r7(k=1)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r9(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1/3]  lands_in(index,level)=[(11, 2)]
+    [r1(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r4(k=0)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]  lands_in(index,level)=[(9, 1)]
+    [r2(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r7(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1/3]  lands_in(index,level)=[(11, 2)]
+    [r2(k=0), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r5(k=0)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0]  lands_in(index,level)=[(9, 1)]
+    [r3(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r7(k=1)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r8(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1/3]  lands_in(index,level)=[(11, 2)]
+    [r3(k=0), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r5(k=0)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r7(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1/3, 0]  lands_in(index,level)=[(10, 2)]
+    [r4(k=0), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r4(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r6(k=1)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r7(k=1)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r8(k=1)] -> [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1/3, 0]  lands_in(index,level)=[(10, 2)]
+    [r5(k=0), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r5(k=0), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r6(k=1), r7(k=1)] -> 0  lands_in(index,level)=[]
+    [r6(k=1), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r6(k=1), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r6(k=1), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r6(k=1), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r7(k=1), r8(k=1)] -> 0  lands_in(index,level)=[]
+    [r7(k=1), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r7(k=1), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r7(k=1), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r8(k=1), r9(k=1)] -> 0  lands_in(index,level)=[]
+    [r8(k=1), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r8(k=1), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r9(k=1), r10(k=2)] -> 0  lands_in(index,level)=[]
+    [r9(k=1), r11(k=2)] -> 0  lands_in(index,level)=[]
+    [r10(k=2), r11(k=2)] -> 0  lands_in(index,level)=[]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 1, -1), (1, 0, 1), (1, 5, -1), (2, 3, 1), (2, 7, -1), (3, 2, -1), (3, 6, 1), (5, 1, -1), (6, 3, 1), (6, 7, -1), (7, 2, -1), (7, 6, 1)]
+    z0: eig={'0': 9} eig(z^2)={'0': 9}
+  -- STOP (raw, no interpretation) --
+
+=== OBJECT: (J5) JORDAN-5 so(5,5) rank4 N^4!=0 [DEEP] ===
+  N: rank=4 nilp_depth(min k: N^k=0)=5 (N^2!=0 : True)
+  c(N): dim=17 dim[c,c]=15 derived=[17, 15] dim_centre(c)=2
+  perfect_core dim=15
+  core: dim=15 Killing_sig=(6, 4, 5)
+  Levi: Levi=so(3,2)&sp(4,R)  dim=10 Killing_sig=(6, 4, 0)
+  Levi gen^2 eigenvalues on 10-dim rep (raw, per generator):
+    g0^2 eig={'0': 8, '-1': 2}
+    g1^2 eig={'0': 8, '1': 2}
+    g2^2 eig={'0': 8, '1': 2}
+    g3^2 eig={'0': 8, '-1': 2}
+    g4^2 eig={'0': 8, '1': 2}
+    g5^2 eig={'0': 8, '1': 2}
+    g6^2 eig={'0': 8, '1': 2}
+    g7^2 eig={'0': 8, '1': 2}
+    g8^2 eig={'0': 8, '-1': 2}
+    g9^2 eig={'0': 8, '-1': 2}
+  radical: type=R5 dim=5 lower_central_series(dims)=[5, 0] LENGTH(class)=1 n_central_dirs=5 info={'dr': 5, 'dz': 5, 'drr': 0, 'allmove': True}
+  module Levi-action-closes-on(Z+module) clean=True
+  module (whole): dv=5 commutant=1 weights={-1: 1, 1: 1, 0: 3} mincyc=5
+  module blocks (Levi-irreducible over Q): dims=[5]
+    block0: dim=5 commutant=1 weights={-1: 1, 1: 1, 0: 3}
+    block0 basis (module coords): [[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]
+  [EXT-1] per-block invariant bilinear forms (sym/anti dims) + cross-block invariants:
+    block0: sym=1 anti=0
+  centre basis for [EXT-2] coords (5 dirs):
+    zc0 nz=[(0, 6, 1), (6, 4, 1)]
+    zc1 nz=[(0, 7, 1), (7, 4, 1)]
+    zc2 nz=[(0, 8, -1), (8, 4, 1)]
+    zc3 nz=[(0, 9, -1), (9, 4, 1)]
+    zc4 nz=[(0, 5, -1), (5, 4, -1)]
+  [EXT-2] [mod,mod] bracket table in centre-basis coords, blockwise:
+    -- pairs (block0,block0) --
+      [b0.0, b0.1] -> 0
+      [b0.0, b0.2] -> 0
+      [b0.0, b0.3] -> 0
+      [b0.0, b0.4] -> 0
+      [b0.1, b0.2] -> 0
+      [b0.1, b0.3] -> 0
+      [b0.1, b0.4] -> 0
+      [b0.2, b0.3] -> 0
+      [b0.2, b0.4] -> 0
+      [b0.3, b0.4] -> 0
+  [NEW-2] FULL [rad,rad] table over the WHOLE radical (all levels):
+  radical LCS levels (dims): [5]  LENGTH(class)=1
+  radical LCS-adapted basis (index: level k = gamma_(k+1); nz entries):
+    r0 [k=0] nz=[(0, 6, 1), (6, 4, 1)]
+    r1 [k=0] nz=[(0, 7, 1), (7, 4, 1)]
+    r2 [k=0] nz=[(0, 8, -1), (8, 4, 1)]
+    r3 [k=0] nz=[(0, 9, -1), (9, 4, 1)]
+    r4 [k=0] nz=[(0, 5, -1), (5, 4, -1)]
+  [rad,rad] FULL blockwise table (coords in LCS-adapted rad basis; label = level of each index):
+    [r0(k=0), r1(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r0(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r2(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r1(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r3(k=0)] -> 0  lands_in(index,level)=[]
+    [r2(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+    [r3(k=0), r4(k=0)] -> 0  lands_in(index,level)=[]
+  reductive-centre (centre of c(N)) basis, exact eigenvalues (W3-type raw):
+    z0: nz=[(0, 3, 1), (1, 4, 1)]
+    z0: eig={'0': 10} eig(z^2)={'0': 10}
+    z1: nz=[(0, 1, -1), (1, 2, -1), (2, 3, -1), (3, 4, -1)]
+    z1: eig={'0': 10} eig(z^2)={'0': 10}
+  -- STOP (raw, no interpretation) --
+
+--- mutants (one per branch) ---
+MUTANT br-depth: CAUGHT (ctrl N^2=0 d2; Jordan-3 N^2!=0 N^3=0 d3; Jordan-5 N^4!=0 N^5=0 d5)
+MUTANT br-rank: CAUGHT (single-block rank2; mixed/Jordan-5 rank4)
+MUTANT br-constructible: CAUGHT ((7,0) no isotropic e_i+e_j -> NOT-CONSTRUCTIBLE; (4,3) has)
+MUTANT br-radical: CAUGHT (h3->h3, h5->h5, R3->R3)
+MUTANT br-lcs: CAUGHT (Heisenberg h3 class=2; strictly-upper n(4) class=3 -> deeper)
+MUTANT br-module: CAUGHT (irreducible commutant=1; reducible 2+2 commutant=4)
+MUTANT br-invform: CAUGHT (so(3):sym1/anti0 ; sp(2,R):sym0/anti1)
+MUTANT br-blocksplit: CAUGHT (2+3 -> [2,3]; isotypic 2+2 -> [2,2])
+
+SUMMARY: objects=5 (C/J3-a/J3-b/J3+w/J5) + bit-fence + 8 mutants + neg-control + sign-fence
+SUMMARY: asserts_passed=48 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

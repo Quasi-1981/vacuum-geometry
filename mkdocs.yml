@@ -29,6 +29,7 @@ theme:
 nav:
   - Start: index.md
   - The chain (Tome I): tome1-prime.md
+  - Process & roles: process.md
   - The graph: graph.md
   - All nodes: theorems/index.md
 

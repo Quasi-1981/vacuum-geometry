@@ -1,0 +1,145 @@
+==========================================================================
+PLAN-1 FORMAL PROBE S1023 — THE SIEGE of the AX-cell
+Candidate theorem: {alphabet d+1 · democracy S_{d+1} · Λ} ⟹ the cell A_d is forced ENTIRELY
+★LINEAR ALGEBRA / REPRESENTATION THEORY; the bets are carved BEFORE the count (exante §EXANTE).
+Contamination DECLARED (Lite-4 = a seed); honesty = symbolics + mutants, not blindness.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+C0 (C-GUARD, anti-circularity): W={Σx=0} is forced ONLY by input [2] (the S-action), not Lie
+──────────────────────────────────────────────────────────────────────────
+  Audit of inputs: {Ω a bare set (indicators e_i) · the S_n-action · Λ}. Lie-objects = OUTPUT.
+   n | S_n-fixed subspace = span? | dim=1? | W=orthogonal ⟹ dim W=n−1?
+   2 | span(𝟙)                         | YES    | dim W=1 ✓
+   3 | span(𝟙)                         | YES    | dim W=2 ✓
+   4 | span(𝟙)                         | YES    | dim W=3 ✓
+   5 | span(𝟙)                         | YES    | dim W=4 ✓
+   6 | span(𝟙)                         | YES    | dim W=5 ✓
+   7 | span(𝟙)                         | YES    | dim W=6 ✓
+   8 | span(𝟙)                         | YES    | dim W=7 ✓
+  ⟹ the decomposition R^n = (fixed triv) ⊕ W is forced by the S-action; W is the arena of the metric, WITHOUT su(n).
+    «weights/Cartan/center» below = a RECOGNIZED output in check-rows, NOT an input to the count.
+
+──────────────────────────────────────────────────────────────────────────
+C1 (the points, SYMBOLICALLY in n): proj(e_i)=e_i−𝟙/n = a weight of the su(n) fund. repr.; the Gram of differences=Cartan(A_d)
+──────────────────────────────────────────────────────────────────────────
+  ⟨proj e_i, proj e_i⟩ = (n - 1)/n   (symbolically in n)
+  ⟨proj e_i, proj e_j⟩ = -1/n   (i≠j, symbolically in n)
+  ⟹ the Gram of the projections = I − 𝟙𝟙ᵀ/n — invariant under permutations, forced by the projection.
+  the Gram of the simple roots v_i=e_i−e_{i+1}: ⟨v_i,v_i⟩=2, ⟨v_i,v_{i±1}⟩=−1, otherwise 0
+  = Cartan(A_d) VERBATIM, tridiagonal [2,−1] — the expression is n-INDEPENDENT (from Kronecker deltas).
+  machine check n=2..8: Gram(roots)=Cartan(A_d) AND projection=I−𝟙𝟙ᵀ/n — MATCH (the n-independent derivation is confirmed)
+
+──────────────────────────────────────────────────────────────────────────
+C2 (THE HEART): dim of S_n-inv. symmetric forms on W = 1 — native-Schur via an orbital count
+──────────────────────────────────────────────────────────────────────────
+  The argument (DIMENSION-INDEPENDENT, ∀n≥2):
+    (i)  the commutant of the perm.-repr R^n = span of orbit-indicators = #orbitals of G on (i,j);
+    (ii) S_n is 2-transitive ∀n≥2 ⟹ exactly 2 orbitals: {i=j} ⊥ {i≠j} ⟹ commutant={I,J};
+    (iii) the perm.-repr = triv ⊕ W, dim End = Σm² = 2 ⟹ W is IRREDUCIBLE, multiplicity 1, W≇triv;
+    (iv) J|_W = 𝟙𝟙ᵀ|_W = 0 (W ⊥ 𝟙) ⟹ on W the inv. form = a·I ⟹ dim = 1.  ∎ ∀d
+
+  Machine check (a native rank of the system ρᵀSρ=S on W; NOT a citation):
+   d | n=d+1 | 2-transitive? | #orbitals | dim_inv_sym_forms(W) | expected=1
+   1 |     2 | YES      |          2 |                   1 | ✓
+   2 |     3 | YES      |          2 |                   1 | ✓
+   3 |     4 | YES      |          2 |                   1 | ✓
+   4 |     5 | YES      |          2 |                   1 | ✓
+   5 |     6 | YES      |          2 |                   1 | ✓
+   6 |     7 | YES      |          2 |                   1 | ✓
+   7 |     8 | YES      |          2 |                   1 | ✓
+  ⟹ dim=1 ∀ measured d; the orbital argument is n-independent ⟹ K1 does NOT fire.
+
+──────────────────────────────────────────────────────────────────────────
+C3 (M1, democracy is LOAD-BEARING): breaking S_n → S_k×S_{n−k} ⟹ dim of inv. forms ≥2 ⟹ uniqueness DIES
+──────────────────────────────────────────────────────────────────────────
+  Symbolically: W|_H = triv ⊕ std_k ⊕ std_{n−k}; dim = #distinct H-irreducibles.
+   n | k | dim_inv(W) | expected (2≤k≤n−2 ⟹ 3; k=1 ⟹ 2) | uniqueness
+   4 | 1 |          2 |                               2 | DIES ✓
+   4 | 2 |          3 |                               3 | DIES ✓
+   4 | 3 |          2 |                               2 | DIES ✓
+   5 | 1 |          2 |                               2 | DIES ✓
+   5 | 2 |          3 |                               3 | DIES ✓
+   5 | 3 |          3 |                               3 | DIES ✓
+   6 | 1 |          2 |                               2 | DIES ✓
+   6 | 2 |          3 |                               3 | DIES ✓
+   6 | 3 |          3 |                               3 | DIES ✓
+   7 | 1 |          2 |                               2 | DIES ✓
+   7 | 2 |          3 |                               3 | DIES ✓
+   7 | 3 |          3 |                               3 | DIES ✓
+  ⟹ any break of democracy ⟹ dim≥2 ⟹ the metric stops being forced.
+
+──────────────────────────────────────────────────────────────────────────
+C4a (M4-HEART, RIGIDITY): n+1 points with 1 distance-class ⟹ the Gram is forced ⟹ a simplex
+──────────────────────────────────────────────────────────────────────────
+  Solution (symbolically, vertices=N+1 in R^N): G_ii = N*s**2/(2*(N + 1)), G_ij = -s**2/(2*N + 2) (i≠j)
+  ⟹ the Gram = (s²/2)(I − 𝟙𝟙ᵀ/(N+1)), rank N, PSD ⟹ the configuration is UNIQUE up to isometry+scale
+    = a regular simplex.  (1 distance-class ⟹ a simplex, ∀d symbolically.)
+  machine check n=2..7: simplex = 1 class AND Gram = the forced expression — MATCH
+
+──────────────────────────────────────────────────────────────────────────
+C4b (M4, «why THIS cell»): vertex distance-classes — simplex=1 ⊥ cross-polytope=2 ⊥ cube=d
+──────────────────────────────────────────────────────────────────────────
+   d | simplex | cross-polytope | hypercube | only 1-class?
+   2 |        1 |            2 |        2 | YES ✓ (the simplex is the only 1-class)
+   3 |        1 |            2 |        3 | YES ✓ (the simplex is the only 1-class)
+   4 |        1 |            2 |        4 | YES ✓ (the simplex is the only 1-class)
+   5 |        1 |            2 |        5 | YES ✓ (the simplex is the only 1-class)
+   6 |        1 |            2 |        6 | YES ✓ (the simplex is the only 1-class)
+  ⟹ democracy on vertex-pairs (1 orbit = 1 class) ⟹(C4a) a REGULAR SIMPLEX is forced.
+
+──────────────────────────────────────────────────────────────────────────
+C5 (M2, a false projection): projecting onto a SKEWED Σc_i x_i=0 (unequal c) ⟹ Gram ≠ Cartan
+──────────────────────────────────────────────────────────────────────────
+   d | c-weights (skew) | Gram of differences = Cartan(A_d)? 
+   2 | ['1', '2', '3'] | ≠ Cartan ✓ (the mutant fired)
+   3 | ['1', '2', '3', '4'] | ≠ Cartan ✓ (the mutant fired)
+   4 | ['1', '2', '3', '4', '5'] | ≠ Cartan ✓ (the mutant fired)
+   5 | ['1', '2', '3', '4', '5', '6'] | ≠ Cartan ✓ (the mutant fired)
+  ⟹ only a DEMOCRATIC projection (equal weights, onto Σx=0) gives the fund. repr. weights + Cartan.
+
+──────────────────────────────────────────────────────────────────────────
+C6 (M3, the free parameters are EXACTLY 1): = the C2 conclusion (dim=1). Λ and only Λ — not 2.
+  (no step asked for a NEW constant ⟹ K2 did not fire; the scale of the form = a Λ-slot, not a handle)
+──────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────
+C7 (negative control, SEEDED): (a) NON-2-transitive subgroups ⟹ dim≥2 ; (b) random points ⟹ >1 class
+──────────────────────────────────────────────────────────────────────────
+  (a) random subgroups of S_n (seed 1023071): among the NON-2-transitive ones — the fraction with dim≥2
+      n | #trials | #not-2-transitive | #(not-2-transitive ∧ dim≥2) | fraction
+      4 |    60 |          35 |                    35 | 1.000
+      5 |    60 |          37 |                    37 | 1.000
+      6 |    60 |          45 |                    45 | 1.000
+  (b) random n+1 points in R^d (ℚ-coordinates): a 1-distance-class = measure zero
+      d | #trials | #(1-class) | 1-class fraction
+      2 |   200 |         0 | 0.0000
+      3 |   200 |         0 | 0.0000
+      4 |   200 |         0 | 0.0000
+      5 |   200 |         0 | 0.0000
+  ⟹ (a) non-democracy ⟹ the metric is NOT unique; (b) 1-class ⟹ forcing, not a coincidence.
+
+──────────────────────────────────────────────────────────────────────────
+C8 (THE BOUNDARY OF HONESTY): the alphabet (d+1 distinguishable states) and democracy (S_{d+1}) remain
+  PREMISES. The probe derives geometry (points+metric+the very fact of the simplex) FROM these premises,
+  it does NOT derive the premises themselves. The claim = «the postulate of geometry RETREATED to the informational
+  (alphabet+democracy)», NOT «vanished». Why there are distinguishable states — falls on existing roots.
+──────────────────────────────────────────────────────────────────────────
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+  C0(anti-circ)  : PASS
+  C1             : PASS
+  C2             : PASS
+  C3(M1)         : PASS
+  C4a            : PASS
+  C4b(M4)        : PASS
+  C5(M2)         : PASS
+  C6(M3)         : PASS
+  C7(negctrl)    : PASS
+  mutants ≥4 (M1·M2·M4·negctrl)  : all fired
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

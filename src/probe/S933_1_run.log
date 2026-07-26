@@ -1,0 +1,5 @@
+(3,1) | dimc=2 derived=[2, 0] | expect=(2, [2, 0]) | OK 
+(3,2) | dimc=4 derived=[4, 2, 0] | expect=(4, [4, 2, 0]) | OK 
+(2,2) | dimc=4 derived=[4, 3] | expect=(4, [4, 3]) | OK 
+(3,3) | dimc=7 derived=[7, 6] | expect=(7, [7, 6]) | OK 
+COURT-HAND: ALL-OK

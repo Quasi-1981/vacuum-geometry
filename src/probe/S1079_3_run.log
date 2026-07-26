@@ -1,0 +1,63 @@
+==============================================================================
+S1079 · AX-closure · Z4 (THE CARRIER): «real quadratic spaces» —
+        a separate handle or consumed by the roots {AX-alphabet · Λ}?
+==============================================================================
+
+Z4-a · SPACE — not measured, and here is why this is not laziness: the vector space
+   everything lives on IS the LINEAR SPAN of the alphabet (the bare set d+1 + democracy
+   S_{d+1} ⟹ the permutation representation).  Nothing beyond the root appears here;
+   building a "measurement" of this would be fabricating a witness.  CONSUMED by the root
+   AX-alphabet.
+
+Z4-b · QUADRATIC — how much freedom the alphabet leaves, and who eats it
+   d=2: S_{3}-invariant symmetric forms: dim = 2  ·  after the condition «Σ u_j = 0» there remains 1 parameter  ·  coincides with the Gram of the cell up to scale: True
+   d=3: S_{4}-invariant symmetric forms: dim = 2  ·  after the condition «Σ u_j = 0» there remains 1 parameter  ·  coincides with the Gram of the cell up to scale: True
+   d=4: S_{5}-invariant symmetric forms: dim = 2  ·  after the condition «Σ u_j = 0» there remains 1 parameter  ·  coincides with the Gram of the cell up to scale: True
+   d=5: S_{6}-invariant symmetric forms: dim = 2  ·  after the condition «Σ u_j = 0» there remains 1 parameter  ·  coincides with the Gram of the cell up to scale: True
+
+   ★READING: the alphabet ITSELF leaves a 2-dimensional space of invariant forms
+   (⟨𝟙, J⟩), that is, one free handle beyond scale.  It is eaten NOT by taste, but by the
+   condition "d+1 directions live in d dimensions" (Σ u_j = 0 — the same thing that makes
+   the cell a cell): it pins the ratio uniquely, leaving EXACTLY the scale.  The scale = the
+   Λ-ruler.  ⟹ QUADRATIC is consumed by {AX-alphabet + the cell} + Λ, no new handle.
+  ✓ d=2: under the FULL S_{3} the invariant forms are exactly 2 ⟹ there is almost no freedom «which form» — and this is a property of DEMOCRACY, not of my algebra
+       (tooth: said NO on «democracy broken down to the stabilizer S_2» ⟹ able to fail)
+  ✓ d=3: under the FULL S_{4} the invariant forms are exactly 2 ⟹ there is almost no freedom «which form» — and this is a property of DEMOCRACY, not of my algebra
+       (tooth: said NO on «democracy broken down to the stabilizer S_3» ⟹ able to fail)
+  ✓ d=4: under the FULL S_{5} the invariant forms are exactly 2 ⟹ there is almost no freedom «which form» — and this is a property of DEMOCRACY, not of my algebra
+       (tooth: said NO on «democracy broken down to the stabilizer S_4» ⟹ able to fail)
+
+Z4-c · REALNESS — a field ablation (is this a load-bearing component?)
+   an explicit reduction over ℂ (constructive, not by citing a theorem):
+     S = diag(1,…,1, i) ⟹ SᵀGS = [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]] = 𝟙 ⟹ over ℂ the minus DISAPPEARS, no signature exists
+   over an ordered field: the vector v=[0, 0, 0, 1] has norm -1 < 0, while SᵀGS=𝟙 would make all norms > 0 ⟹ the reduction is IMPOSSIBLE
+  ✓ the notion of signature survives exactly over an ORDERED field
+       (tooth: said NO on «ℂ (no order) — and the reduction is exhibited explicitly» ⟹ able to fail)
+  ✓ ★the same certificate holds over ℚ ⟹ the carrier needs the field's ORDEREDNESS, not the completeness of ℝ
+       (tooth: said NO on «ℂ (no order)» ⟹ able to fail)
+
+SCORE [S1079 · Z4-carrier of AX-closure]: 5 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR Z4 (a measurement, not a verdict):
+
+  (a) SPACE — consumed by `AX-alphabet` (the linear span of the alphabet).  New: 0.
+  (b) QUADRATIC — consumed by {`AX-alphabet` + the cell} + Λ: democracy leaves exactly a
+      2-dimensional space of forms ⟨𝟙, J⟩, the condition «Σ u_j = 0» eats the last freedom,
+      leaving EXACTLY the scale = Λ.  Measured ∀d=2..5, with a tooth (broken democracy
+      leaves more freedom ⟹ the pin is a property of DEMOCRACY, not of the apparatus).
+  (c) ★REALNESS — LOAD-BEARING, and this is the main line of Z4: over ℂ the minus is
+      removed by an explicit S=diag(1,…,1,i), that is, the NOTION OF SIGNATURE DISAPPEARS,
+      and with it the entire verdict {a (3,0)-minimum · (3,1) after the break}.  ⟹ the
+      component cannot be silently inherited: it must have a source.
+      ★BUT IT IS NARROWER THAN NAMED: the certificate holds over ℚ just the same ⟹ the
+      carrier needs the field's **ORDEREDNESS**, not "realness" (the completeness of ℝ is
+      not used anywhere in this step).  The honest name of the component = "a formally real
+      (ordered) field", and this is a WEAKER premise than stands in the prose.
+  (d) ⟹ the form of the verdict handed to Ω (not rendered here): Z4 = {a,b consumed} + {c —
+      a named input component that SHOULD BE NARROWED to orderedness}.  Whether
+      orderedness already carries Λ (a ruler = an ordered quantity by type) — a question for
+      the court, not decided here: this is the difference between "consumed" and "named".
+  BOUNDARY: not measured whether the COMPLETENESS of ℝ is needed elsewhere in T1–T11 (here
+  — no).  This line is not carried beyond the step.
+────────────────────────────────────────────────────────────────────────────────

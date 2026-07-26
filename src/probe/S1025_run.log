@@ -1,0 +1,133 @@
+==========================================================================
+PLAN-1C PROBE S1025 — FLAG/NILPOTENT (the siege of AXIS[AX-indef] + MARK[AX-dimer])
+The triangular decomposition sl(n)=n₋⊕h⊕n₊. CENTRAL: H2(two,directly) vs H3(three,connector=closure).
+★KILL-FIRST: null = «axis+mark are NOT from the flag». The three laws of S1024. FS=STONE. Court — to Omega.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+ANTI-REUSE AUDIT (law-1): used_inputs ∩ FORBIDDEN(S1023 outputs) = ∅ ?
+──────────────────────────────────────────────────────────────────────────
+   used     = ['Lambda', 'bare_set_Omega', 'cartan_involution_theta', 'lie_bracket_AXclosure_ROOT', 'nilpotent_nplus', 'trace_form_native', 'triangular_decomp']
+   FORBIDDEN= ['T19', 'arena_W_as_metric', 'cartan_matrix_as_given', 'gram', 'metric_S1023', 'simplex_as_given']
+   ★the Lie bracket is marked as a ROOT (AX-closure), not a space-output — law-1 allows it with a label.
+   ★h = a diag-subalgebra of MATRICES (its form computed natively via tr), NOT the S1023 metric arena.
+   leak = [] ⟹ CLEAN ✓
+
+──────────────────────────────────────────────────────────────────────────
+B1 (AXIS=θ-split): signatures of the trace form — WHOSE is indefinite and of WHAT FORM (q=1 like AX-indef?)
+──────────────────────────────────────────────────────────────────────────
+  θ(X)=−Xᵀ: θ=−1-eigenspace=symmetric(p) · θ=+1-eigenspace=antisymmetric(k=so(n)) · nilpotent=«bits»(n₊⊕n₋)
+   d | n | sig(p:θ=−1) | sig(k:θ=+1) | sig(nilpotent «bits») | sig(whole sl_n,ℝ) | indef?/form
+   1 | 2 | (2, 0, 0)   | (0, 1, 0)   | (1, 1, 0)           | (2, 1, 0)        | nilpotent,whole
+   2 | 3 | (5, 0, 0)   | (0, 3, 0)   | (3, 3, 0)           | (5, 3, 0)        | nilpotent,whole
+   3 | 4 | (9, 0, 0)   | (0, 6, 0)   | (6, 6, 0)           | (9, 6, 0)        | nilpotent,whole
+   4 | 5 | (14, 0, 0)  | (0, 10, 0)  | (10, 10, 0)         | (14, 10, 0)      | nilpotent,whole
+
+  READING (raw facts):
+   • the θ=−1-eigenspace (symmetric p) = DEFINITE (positive) ⟹ «axis=θ=−1-eigenspace indefinite» is FALSE —
+     the same failure as sgn (S1024): the subspace is definite, not (p,q). B1-as-stated dies.
+   • the θ=+1-eigenspace (k=so(n)) = DEFINITE (negative).
+   • ★NILPOTENT n₊⊕n₋ (the author's «bits») = HYPERBOLIC (p=q=C(n,2)) — INDEFINITE, BALANCED.
+     This is a LIVE axis candidate: indefiniteness FROM the flag-sector, a real-quad-form type (NOT the sgn character).
+   • the whole sl(n,ℝ) = indefinite (the faces k⊥p).
+
+  HOMONYM-check (θ/nilpotent-minus vs the T32-minus[participation/Pontryagin]):
+   the nilpotent form = BALANCED (C(n,2),C(n,2)); AX-indef/T32 in the measured families = SMALL q
+   ((d,1)-type, S918/S923). ⟹ the TYPE matches (an indefinite real-form, NOT the character), the FORM differs
+   (balanced ≠ (d,1)). ★QUESTION FOR THE COURT: is nilpotent-indefiniteness the root essence of AX-indef, or
+   a sector-prefix homonym (like sgn carried the arrow, not the axis)? I do not render a verdict.
+
+──────────────────────────────────────────────────────────────────────────
+★MECHANISM-TEST (AN ADDENDUM, more important than H2/H3): «is the mechanism the SAME?» — the S1023 move on sl(n)
+──────────────────────────────────────────────────────────────────────────
+  The S1023-move = the UNIQUE invariant symmetric form under the group (Schur). Applying it to the WHOLE
+  sl(n) (simple ⟹ the adjoint is irreducible ⟹ Schur ⟹ the form is UNIQUE), then we look at BOTH halves of
+  the Jordan-Chevalley decomposition: h(semisimple)=space ⊥ n±(nilpotent)=time.
+   d | n | dim ad-inv. sym. forms (Schur→expect 1) | new constant (K2)? | halves of the form
+   1 | 2 |                                   1 | NO (K2 clean)    | h=(1, 0, 0)(definite=True) ⊥ n±=(1, 1, 0)(indef=True)
+   2 | 3 |                                   1 | NO (K2 clean)    | h=(2, 0, 0)(definite=True) ⊥ n±=(3, 3, 0)(indef=True)
+   3 | 4 |                                   1 | NO (K2 clean)    | h=(3, 0, 0)(definite=True) ⊥ n±=(6, 6, 0)(indef=True)
+
+  ★BINARY MEASUREMENT (the author's question):
+   • dim of ad-inv. forms = 1 ∀ measured d ⟹ the form is UNIQUE (Schur, EXACTLY the S1023 move, WITHOUT a new constant).
+   • this UNIQUE form: the h-half is DEFINITE (=space, as in S1023) ⊥ the n±-half is INDEFINITE (=axis).
+   ⟹ ★THE MECHANISM IS THE SAME: space and time = two halves of ONE Schur-form on ONE simple
+     algebra (Jordan-Chevalley: semisimple⊥nilpotent). The axis comes from the SAME machinery, not a separate one.
+   ≠ S1024: there sgn(the Weyl-sub-channel) was DEFINITE and carried NO minus; here the nilpotent-half
+     of ONE invariant form — is indefinite. A different channel, as the task warned.
+   ★A residue for the COURT (not rendered): the FORM of the nilpotent-half is balanced (C(n,2),C(n,2)); is AX-indef
+     ((d,1)) = this half on a SUB-object (a parabolic/one root), or a different object — a homonym-court question.
+
+──────────────────────────────────────────────────────────────────────────
+B2 (MARK=a θ-fixed simple root?): the diagram automorphism σ:i↦d+1−i (=θ on the simple roots) — does it single out a BOND?
+──────────────────────────────────────────────────────────────────────────
+   d | simple roots | fixed point of σ | type (node/bond) | «exactly one BOND» ∀d?
+   2 | [1, 2]        | 1-2              | bond             | yes
+   3 | [1, 2, 3]     | 2                | node             | no (parity!)
+   4 | [1, 2, 3, 4]  | 2-3              | bond             | yes
+   5 | [1, 2, 3, 4, 5] | 3                | node             | no (parity!)
+   6 | [1, 2, 3, 4, 5, 6] | 3-4              | bond             | yes
+   7 | [1, 2, 3, 4, 5, 6, 7] | 4                | node             | no (parity!)
+   8 | [1, 2, 3, 4, 5, 6, 7, 8] | 4-5              | bond             | yes
+  ⟹ σ singles out the CENTER of the diagram — BUT it is a NODE at d odd, a BOND at d even (parity).
+    A bare permutation (S1024) singled out nothing; θ singles out the center, but NOT «exactly one bond»
+    ∀d ⟹ AX-dimer(one marked BOND) is NOT forced uniformly by θ. The mark remains independent
+    (the 2nd nail: neither order(S1024) nor θ gives a clean mark-bond ∀d). The KILL holds.
+
+──────────────────────────────────────────────────────────────────────────
+B3 (H2/H3): [n₊,n₋] — structure constants ∈{0,±1}? does the h-component span h? a new constant (K2)?
+──────────────────────────────────────────────────────────────────────────
+   d | n | all struct.constants [n₊,n₋] ∈ {0,±1}? | rank of h-components = dim h = d? | new constant?
+   1 | 2 | YES                                  | YES (rank 1)                    | NO (none, K2 clean)
+   2 | 3 | YES                                  | YES (rank 2)                    | NO (none, K2 clean)
+   3 | 4 | YES                                  | YES (rank 3)                    | NO (none, K2 clean)
+   4 | 5 | YES                                  | YES (rank 4)                    | NO (none, K2 clean)
+  ⟹ [n₊,n₋]: structure constants exclusively {0,±1} (no NEW constant at all, K2 clean); the h-component
+    of the bracket SPANS the whole h. The connector time(n±)↔space(h) = the Lie bracket itself = AX-closure (an existing
+    root). ⟹ H3 WITH AN EXPLICIT connector, WITHOUT a 4th card. (The bracket is marked as a root in the manifest.)
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4; each one MUST fire)
+──────────────────────────────────────────────────────────────────────────
+  M1 (false «p=θ=−1-eigenspace indefinite» d=3): sig(p)=(9, 0, 0) ⟹ REJECTED ✓ (definite)
+  M2 (false «the nilpotent is definite» d=3): sig=(6, 6, 0) ⟹ REJECTED ✓ (indefinite, p=q)
+  M3 (false «θ→one bond ∀d»): d=3 center = node([2])/bond([]) ⟹ REJECTED ✓ (a node, not a bond)
+  M4 (false «the bracket asks for a new constant» d=3): struct.constants outside {0,±1}? False ⟹ REJECTED ✓ (K2 clean)
+
+  NEGATIVE CONTROL (seed): random 6×6 forms are indefinite 300/300=1.000 — the inertia is sensitive
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS + STRUCTURAL CONCLUSION (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  ★★MECHANISM (the author's question «is it one and the same?», more important than H2/H3):
+   • dim of ad-inv. forms on sl(n) = 1 (Schur, EXACTLY the S1023 move, K2 clean) ⟹ the form is UNIQUE; its
+     halves: h is DEFINITE(=space) ⊥ n± is INDEFINITE(=axis) ⟹ ★THE MECHANISM IS THE SAME (one
+     Schur-form, two Jordan-Chevalley halves). The axis comes from the same machinery, not a separate postulate.
+──────────────────────────────────────────────────────────────────────────
+  CENTRAL H2 vs H3:
+   • [n₊,n₋]→h with structure constants {0,±1} (K2 clean), h is spanned ⟹ the connector n±↔h =
+     the Lie bracket = AX-closure (an EXISTING root), NOT a 4th card ⟹ ★H3 WITH AN EXPLICIT CONNECTOR.
+     A foundation-candidate: {Ω(set+order) · AX-closure · Λ} — three structures, the third already present.
+  AXIS (AX-indef), kill-first:
+   • the θ=−1-eigenspace = DEFINITE ⟹ «axis=θ=−1-eigenspace» is FALSE (a failure like sgn). BUT
+   • the NILPOTENT n₊⊕n₋ («bits») = HYPERBOLIC (p=q) = INDEFINITE, a real-form type (≠ sgn):
+     a LIVE axis candidate FROM the flag. A homonym-flag: the form is BALANCED ≠ (d,1)-T32 ⟹ the type matches/the form does not,
+     ★identity with AX-indef = A QUESTION FOR THE COURT (a root essence or a sector prefix).
+  MARK (AX-dimer):
+   • θ singles out the CENTER of the diagram, but node(d odd)/bond(d even) — NOT «one bond» ∀d ⟹
+     the mark is NOT forced uniformly (the 2nd nail: neither order nor θ). It remains an independent root.
+──────────────────────────────────────────────────────────────────────────
+  anti-reuse                 : YES/PASS
+  ★mechanism-the-same        : YES/PASS
+  B1-nilpotent-indef         : YES/PASS
+  B1-theta(-1)eigenspace-definite : YES/PASS
+  B2-mark-independent(kill)  : YES/PASS
+  B3-[n₊,n₋]→h-K2-clean      : YES/PASS
+  mutants                    : YES/PASS
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

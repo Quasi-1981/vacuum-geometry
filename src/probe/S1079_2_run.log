@@ -1,0 +1,67 @@
+==============================================================================
+S1079 · AX-closure · Z2 (THE CLASS OF MOVES): is the class a hidden switch?
+==============================================================================
+
+§1 · TYPES OF 2-PLANES of the carrier (Gram restriction + Sylvester) vs the carved class
+   (2,1): coordinate planes → {'J': 1, 'K': 2}   ·   degenerate (N) planes in the carrier: YES
+   (3,1): coordinate planes → {'J': 3, 'K': 3}   ·   degenerate (N) planes in the carrier: YES
+   (2,2): coordinate planes → {'J': 2, 'K': 4}   ·   degenerate (N) planes in the carrier: YES
+   (3,0): coordinate planes → {'J': 3}   ·   degenerate (N) planes in the carrier: none
+   (4,0): coordinate planes → {'J': 6}   ·   degenerate (N) planes in the carrier: none
+  ✓ (3,0): the carved class {J,K} is COMPLETE — no degenerate 2-plane exists in a definite carrier
+       (tooth: said NO on «(3,1) — an indefinite carrier» ⟹ able to fail)
+  ✓ (4,0): the carved class {J,K} is COMPLETE — no degenerate 2-plane exists in a definite carrier
+       (tooth: said NO on «(3,1) — an indefinite carrier» ⟹ able to fail)
+   ✓ a control: COORDINATE 2-planes in the diagonal basis are never
+     degenerate (checked on all 5 carriers) ⟹ the carve «coordinate planes»
+     EXCLUDES the N-type NOT by content, but BY THE CHOICE OF BASIS.
+
+§2 · THE N-MOVE (a generator of isometries of a DEGENERATE plane) — built explicitly
+   (2,1): N ∈ so(η) ✓ · the plane type = N · nilpotent: N^3 = 0 · Killing span{N} = (0, 0, 1) · bracket-closed (1-dim abelian) ⟹ a TERMINAL in (b)
+   (3,1): N ∈ so(η) ✓ · the plane type = N · nilpotent: N^3 = 0 · Killing span{N} = (0, 0, 1) · bracket-closed (1-dim abelian) ⟹ a TERMINAL in (b)
+
+§3 · ★DOES THE N-MOVE GIVE A CLASS THE COORDINATE LIST DOES NOT SEE
+   (2,1): Lie{N, K} → dim = 2 · Killing = (1, 0, 1)
+           [D,N] = [[0, -1, 0], [1, 0, -1], [0, -1, 0]]
+   the coordinate classes of (2,1) from S901-A: [(1, (0, 0, 1)), (3, (2, 1, 0))]
+   our class: (2, (1, 0, 1)) — OUTSIDE the coordinate list
+  ✓ ★the closure {N-move, K-move} gives a class OUTSIDE the coordinate list S901-A ⟹ the carved class of moves does NOT exhaust the terminals of its own carrier
+       (tooth: said NO on «a coordinate class {1·(0,0,1)}» ⟹ able to fail)
+
+SCORE [S1079 · Z2-class of moves of AX-closure]: 3 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR Z2 (a measurement, not a verdict):
+
+  (1) ★THE CLASS OF MOVES IS A SWITCH — but not the one that was feared.  It does not
+      change the VERDICT-NUMBER (that lives on the premises, Z1-§1); it changes the LIST OF
+      TERMINALS.  The carve «COORDINATE 2-planes» excludes a third plane type — DEGENERATE
+      (N) — and does so NOT by content, but BY THE CHOICE OF BASIS: in the diagonal basis a
+      coordinate plane is never degenerate (measured on 5 carriers).
+
+  (2) ★THERE ARE EXACTLY THREE TYPES, AND THE THIRD EXISTS ONLY AT THE BREAK: restricting
+      the form to a 2-plane gives {definite-sign J · mixed nondegenerate K · DEGENERATE N},
+      and N exists ⟺ the carrier is indefinite.  The tooth is exactly this: on (3,0)/(4,0)
+      the detector says «the class is complete», on (2,1)/(3,1) — «incomplete».  ⟹ the
+      carved class {J,K} is COMPLETE for a definite carrier and INCOMPLETE exactly where our
+      arena lives.
+
+  (3) ★THIS CLOSES A NAMED LIMIT OF THE ANCESTOR WITH A MECHANISM (not a new claim):
+      S901 honestly carved that block-B (random subspaces) finds classes OUTSIDE the
+      coordinate list (a Borel-type), and that a full classification of subalgebras was not
+      done.  Measured: Lie{N-move, K-move} in (2,1) gives exactly a class outside the
+      coordinate list.  ⟹ the source of those "extra" classes is NOT a scan accident, but a
+      SYSTEMATICALLY omitted type of move.
+
+  (4) ⟹ the form of the verdict handed to Ω (not rendered here): on Z2 the wager
+      "inheritance of direction" is NOT refuted by this probe (the J/K direction was not
+      touched), but the CARVED phrase itself, «coordinate 2-planes», is measured to be
+      BASIS-DEPENDENT and incomplete on an indefinite carrier.  This is either (i) a
+      narrowing of the carve that must be stated honestly in the preprint, or (ii) an
+      assignment to fill in the N-row of table O1 (the direction for {N,N}/{N,J}/{N,K}) —
+      but that is already a NEW assignment, not my choice.
+
+  BOUNDARIES: the direction (who forces whom) for the N-type was NOT measured — that is a
+  separate table.  It is not claimed that the verdict (3,1) moves: it does not even appear
+  in this probe.
+────────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,54 @@
+================================================================================
+S1066 B1 — KILL-FIRST: is EUCLID (q=0) SELF-SUFFICIENT for T1–T4
+================================================================================
+
+PART 1 — AN AUDIT OF THE ACCEPTED GRAPH: at WHICH node is AX-indef first needed
+     T1: ancestors = ['AX-closure']  ⟹ AX-indef NO  [pt.1 · dimensionless · the closure of deps in graph.json]
+     T2: ancestors = ['AX-closure', 'T1']  ⟹ AX-indef NO  [pt.1 · dimensionless · the closure of deps in graph.json]
+     T3: ancestors = ['AX-closure', 'T1', 'T2']  ⟹ AX-indef NO  [pt.1 · dimensionless · the closure of deps in graph.json]
+     T4: ancestors = ['AX-closure', 'T1', 'T2', 'T3']  ⟹ AX-indef NO  [pt.1 · dimensionless · the closure of deps in graph.json]
+     T5: ancestors = ['A-space', 'AX-alphabet', 'AX-cell', 'AX-closure', 'AX-dimer', 'AX-indef', 'AX-lambda', 'OBJ-sln', 'T1', 'T2', 'T3', 'T4']  ⟹ AX-indef YES  [pt.1 · dimensionless · the closure of deps in graph.json]
+     T7: ancestors = ['A-space', 'AX-alphabet', 'AX-cell', 'AX-closure', 'AX-dimer', 'AX-indef', 'AX-lambda', 'OBJ-sln', 'T1', 'T2', 'T3', 'T4', 'T5']  ⟹ AX-indef YES  [pt.1 · dimensionless · the closure of deps in graph.json]
+  ✓ ★★T1–T4 DO NOT DEPEND on AX-indef: the entire closure of their ancestors = {AX-closure} ⟹ Euclid is self-sufficient ON THIS STRETCH by the construction of the graph  [pt.1 · dimensionless · the closure of deps]
+       (tooth: said NO on «T5 — there AX-indef IS present (it is the first consumer)» ⟹ able to fail)
+     ⟹ ★q≥1 enters the arc EXACTLY ONCE and EXACTLY at T5.  This is not my paraphrase —
+       this is the closure of deps of the accepted graph, read by the machine.
+
+PART 2 — does anything break STRUCTURALLY at a sign-definite form (q=0)
+  ✓ ★the machinery holds in the SIGN-DEFINITE sector: the basis of so(3,0) lies in the algebra, dim = 3 = n(n−1)/2  [pt.2 · dimensionless · a check of XᵀG+GX=0 and the rank]
+       (tooth: said NO on «★A DIFFERENT LAW: a metric-blind (always-antisymmetric) construction at q=1 — the generators cease to lie in the algebra» ⟹ able to fail)
+     so(3,0): dim J = 3 · dim K = 0 (= p·q = 0) · together 3 = n(n−1)/2  [pt.2 · dimensionless · a count of generators]
+     so(4,0): dim J = 6 · dim K = 0 (= p·q = 0) · together 6 = n(n−1)/2  [pt.2 · dimensionless · a count of generators]
+     so(3,1): dim J = 3 · dim K = 3 (= p·q = 3) · together 6 = n(n−1)/2  [pt.2 · dimensionless · a count of generators]
+     so(2,2): dim J = 2 · dim K = 4 (= p·q = 4) · together 6 = n(n−1)/2  [pt.2 · dimensionless · a count of generators]
+  ✓ ★★THE BRACKET-CLOSURE CONVERGES EVEN AT q=0, without exiting the algebra ⟹ the T3/T4-finiteness does NOT rest on the minus  [pt.2 · dimensionless · a fixed point of the iteration span(V∪[V,V])]
+       (tooth: said NO on «★A DIFFERENT OPERATION: an ordinary product instead of the bracket — exits the algebra (symmetric parts)» ⟹ able to fail)
+  ✓ ★T1 in the sign-definite sector: a generic 2-dimensional plane closes EXACTLY to dim 3 (so(3)) — «there is no 2-dim non-abelian one»  [pt.2 · dimensionless · the rank of the closure]
+       (tooth: said NO on «★A DIFFERENT LAW of choosing the plane: an ABELIAN (Cartan) pair — the closure = the plane itself, dim 2» ⟹ able to fail)
+
+PART 3 — ★what EXACTLY fades at q=0: a degeneracy ⊥ a contradiction
+  ✓ ★THE SECOND SECTOR (K) exists ⟺ q≥1: |K| = p·q  [pt.3 · dimensionless · a count of mixed generators]
+       (tooth: said NO on «q=0, (3,0) — K is EMPTY» ⟹ able to fail)
+  ✓ ★★THE INDEFINITENESS OF THE ARENA IS READ EVEN ON THE ALGEBRA: the Killing form is SIGN-DEFINITE at q=0 and INDEFINITE at q≥1  [pt.3 · dimensionless · the signs of the eigenvalues of tr(ad·ad)]
+       (tooth: said NO on «(3,1) — there the Killing form is INdefinite» ⟹ able to fail)
+
+
+SCORE [S1066 B1 — is Euclid self-sufficient?]: 6 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF B1 (no verdict rendered — a B-visa, then the Ω court)
+  PART 1 (a graph audit): AX-indef is ABSENT from the closure of ancestors of T1–T4 and
+     PRESENT in T5/T7 ⟹ q≥1 enters the arc EXACTLY ONCE, at T5.
+  PART 2 (the machinery at q=0): nothing breaks —
+     · the basis of so(n,0) lies in the algebra, dim = n(n−1)/2;
+     · the closure CONVERGES (a fixed point) ⟹ the T3/T4-finiteness does not
+       rest on the minus;
+     · T1 holds: a generic plane closes exactly to dim 3.
+  PART 3 (what fades): the SECOND SECTOR K is empty at q=0 (|K| = p·q) ⟹
+     the order ≺ [T2] — a relation BETWEEN the sectors — becomes EMPTY.
+     The Killing form at q=0 is SIGN-DEFINITE; at q≥1 it is indefinite.
+  ⟹ ★THE NULL HYPOTHESIS B1 WITHSTOOD: there is no contradiction, there is a DEGENERACY.
+     «Empty» ≠ «breaks» — and I do NOT present the former as the latter.
+     ⟹ there is NO unconditional forcing of q≥1 from this stretch; the siege must go
+       into B2 (an implication between roots), just as Ω's wager carved.
+================================================================================

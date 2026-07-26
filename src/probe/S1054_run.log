@@ -1,0 +1,211 @@
+==============================================================================
+S1054 — THE UNITS LADDER, steps 1-2 (assignment hub/prime/UNITS_LADDER_EXANTE.md)
+Layer-1, exact arithmetic. STOP after step 2 (steps 3-4 do not begin).
+==============================================================================
+
+A. CELL PRIMITIVES (from a realization, not from the formula)
+d | Gram diag | Gram off | Σδ | half_bond | medial_step | equal?
+  ✓ d=2: the Gram of the bonds = 1 diag, −1/d off (computed from the realization)
+  ✓ d=2: Σδ = 0 (closure of the cell)
+  ✓ d=2: medial_step from the Gram = sqrt((1+1/d)/2) = sqrt(3)/2
+  ✓ d=2: half_bond=1/2 ≠ medial_step=sqrt(3)/2 (a K-mixing has resolving power)
+  2 | 1 | −1/2 | 0 | 1/2 | sqrt(3)/2 | NO
+  ✓ d=3: the Gram of the bonds = 1 diag, −1/d off (computed from the realization)
+  ✓ d=3: Σδ = 0 (closure of the cell)
+  ✓ d=3: medial_step from the Gram = sqrt((1+1/d)/2) = sqrt(6)/3
+  ✓ d=3: half_bond=1/2 ≠ medial_step=sqrt(6)/3 (a K-mixing has resolving power)
+  3 | 1 | −1/3 | 0 | 1/2 | sqrt(6)/3 | NO
+  ✓ d=4: the Gram of the bonds = 1 diag, −1/d off (computed from the realization)
+  ✓ d=4: Σδ = 0 (closure of the cell)
+  ✓ d=4: medial_step from the Gram = sqrt((1+1/d)/2) = sqrt(10)/4
+  ✓ d=4: half_bond=1/2 ≠ medial_step=sqrt(10)/4 (a K-mixing has resolving power)
+  4 | 1 | −1/4 | 0 | 1/2 | sqrt(10)/4 | NO
+  ✓ d=5: the Gram of the bonds = 1 diag, −1/d off (computed from the realization)
+  ✓ d=5: Σδ = 0 (closure of the cell)
+  ✓ d=5: medial_step from the Gram = sqrt((1+1/d)/2) = sqrt(15)/5
+  ✓ d=5: half_bond=1/2 ≠ medial_step=sqrt(15)/5 (a K-mixing has resolving power)
+  5 | 1 | −1/5 | 0 | 1/2 | sqrt(15)/5 | NO
+  ✓ d=6: the Gram of the bonds = 1 diag, −1/d off (computed from the realization)
+  ✓ d=6: Σδ = 0 (closure of the cell)
+  ✓ d=6: medial_step from the Gram = sqrt((1+1/d)/2) = sqrt(21)/6
+  ✓ d=6: half_bond=1/2 ≠ medial_step=sqrt(21)/6 (a K-mixing has resolving power)
+  6 | 1 | −1/6 | 0 | 1/2 | sqrt(21)/6 | NO
+  ✓ ★∀d symbolically: medial_step² − half_bond² = (d+2)/(4d) > 0 — they NEVER coincide
+
+B. THE NUMERATOR [S999: SC·n/2] — what it is and which LENGTH it carries
+   tr M = Σ_{j,l} cos(θ_j−θ_l)·⟨δ_j,δ_l⟩ — the length enters PRECISELY through the Gram of the bonds.
+  ✓ d=2: the identity ∀k (symbolic phases): tr M = n(1+1/d) − |f|²/d
+  ✓ d=2: at the node (|f|²=0) ⟹ tr M = (d+1)²/d = 9/2 — k-INDEPENDENT
+  ✓ d=2: [S999: SC·n/2] = ½·tr M = 9/4 — the NUMBERS COINCIDE (not two objects)
+  ✓ d=3: the identity ∀k (symbolic phases): tr M = n(1+1/d) − |f|²/d
+  ✓ d=3: at the node (|f|²=0) ⟹ tr M = (d+1)²/d = 16/3 — k-INDEPENDENT
+  ✓ d=3: [S999: SC·n/2] = ½·tr M = 8/3 — the NUMBERS COINCIDE (not two objects)
+  ✓ d=4: the identity ∀k (symbolic phases): tr M = n(1+1/d) − |f|²/d
+  ✓ d=4: at the node (|f|²=0) ⟹ tr M = (d+1)²/d = 25/4 — k-INDEPENDENT
+  ✓ d=4: [S999: SC·n/2] = ½·tr M = 25/8 — the NUMBERS COINCIDE (not two objects)
+  ✓ ★THE DICTIONARY OF THE NUMERATOR: δ→ρδ ⟹ tr M→ρ²·tr M ⟹ [S999: SC·n/2] carries (LENGTH_⊥)²,
+     and this length = |δ| = 1 BOND (the Gram has 1 on the diagonal, step A) ⟹
+     ½·tr M = (amplitude·bond)² at amplitude 1 — that is, (bond/step)² is NOT YET fixed:
+     it is fixed only together with the denominator, which brings the STEP.
+
+C. THE DENOMINATOR curv_col — the column as an h-cycle, and TWO possible momentum variables
+  ✓ d=2: the spectrum of the column h-cycle = {2−2cos(2πν/h)}, ν∈ℤ/h — h=3 points
+  ✓ d=3: the spectrum of the column h-cycle = {2−2cos(2πν/h)}, ν∈ℤ/h — h=4 points
+  ✓ d=4: the spectrum of the column h-cycle = {2−2cos(2πν/h)}, ν∈ℤ/h — h=5 points
+  ✓ d=5: the spectrum of the column h-cycle = {2−2cos(2πν/h)}, ν∈ℤ/h — h=6 points
+
+   TWO VARIABLES OF THE SAME object (this IS the fork of the dictionary):
+  ✓ the hop-variable x (the phase per ONE bond-hop): T_col ≈ 1·x², T''(0) = 2
+  ✓ the index-variable ν (a ℤ/h character): T_col ≈ (2π/h)²·ν², T''(0) = 2(2π/h)²
+  ✓ ★THE RELATION: x = 2πν/h EXACTLY ⟹ dd_ν/dd_x = (2π)²/h² — (2π)² is the phase↔radian conversion,
+     and 1/h² — is the LENGTH: ν measures in units of 1/(h bonds) = 1/PERIOD of the column,
+     x measures in units of 1/(1 bond) = 1/HOP. The denominator 2/h² = this is dd_ν with the (2π)² REMOVED,
+     that is, CURVATURE PER UNIT OF PERIOD, not per unit of hop.
+
+D. ON-SHELL SOLVED AS A SERIES (not asserted): what exactly gives the slope of the cone
+  ✓ ★the on-shell 2−2cos(x)=λ²·s solved EXACTLY: x = λ·sqrt(s) + O(λ³) ⟹ dx/dλ = sqrt(uᵀMu)
+  ✓ ★TOOTH: the next order is printed (λ³·s^{3/2}/24 ≠ 0) ⟹ the statement is of LEADING order,
+     not an identity (a test that cannot fail is not a witness).
+   ⟹ the slope in the HOP-dictionary: (phase per hop) = sqrt(uᵀMu)·|q|, q — the transverse wavevector
+     in units of 1/bond. Averaging over the TWO nonzero directions of the cone (rank M = 2):
+  ✓ d=2: v_mean2(hop-dictionary) = ½·tr M = [S999: SC·n/2] = 9/4
+  ✓ d=3: v_mean2(hop-dictionary) = ½·tr M = [S999: SC·n/2] = 8/3
+   ★∀d: v_mean2(hop) = (d+1)²/(2d) — WITHOUT h⁴, because the column is measured in HOPS, like the numerator.
+
+D2. END-TO-END FROM THE LATTICE TO THE SLOPE (no borrowed object: |f|² is expanded
+    HERE, M is built HERE, on-shell is solved HERE — the chain is closed)
+  ✓ d=2: the chosen phases satisfy the node condition Σe^{iθ}=0 (symbolically)
+  ✓ d=2: |f|² at the node: λ⁰=0 and λ¹=0 ⟹ the node is genuinely a node, the expansion begins at λ²
+  ✓ d=2: ★the λ²-coefficient |f|² = uᵀMu EXACTLY (symbolic u) — WITHOUT a ½ factor
+  ✓ d=2: tr M = |a|²+|b|² = (d+1)²/d = 9/2 (the same object, built here)
+  ✓ d=3: the chosen phases satisfy the node condition Σe^{iθ}=0 (symbolically)
+  ✓ d=3: |f|² at the node: λ⁰=0 and λ¹=0 ⟹ the node is genuinely a node, the expansion begins at λ²
+  ✓ d=3: ★the λ²-coefficient |f|² = uᵀMu EXACTLY (symbolic u, symbolic t along the WHOLE line) — WITHOUT a ½ factor
+  ✓ d=3: tr M = |a|²+|b|² = (d+1)²/d = 16/3 (the same object, built here)
+   ⟹ THE CHAIN IS CLOSED: |f|² = λ²·uᵀMu (without ½) ⊥ T_col = x² (without ½ in the hop-variable)
+     ⟹ on-shell x = λ·sqrt(uᵀMu): the slope of the cone carries NO factor of two.
+
+E. THE PAIRING AUDIT — where h⁴/(4d) comes from (all four pairings, enumerated)
+   (everything in the PERIOD-unit of the column, to isolate the pairing itself)
+     coeff / coeff   (consistent)           = (d + 1)**4/(2*d)
+     2nd-deriv / 2nd-deriv (consistent)     = (d + 1)**4/(2*d)
+     ★coeff / 2nd-deriv (MIXED)             = (d + 1)**4/(4*d)
+     2nd-deriv / coeff (MIXED)              = (d + 1)**4/d
+  ✓ ★BOTH CONSISTENT pairings give ONE AND THE SAME thing: h⁴/(2d) (not my choice — an agreement of two)
+  ✓ ★the REGISTERED h⁴/(4d) is reproduced by EXACTLY one — MIXED — pairing (coeff over 2nd-deriv)
+  ✓ ★∀d symbolically: registered / consistent = 1/2 (not a d-dependent factor — exactly a two)
+  ✓ d=2: reproduced the S1012 assembly bit-for-bit: (SC·n/2)/(2/h²) = h⁴/(4d) = 81/8
+  ✓ d=3: reproduced the S1012 assembly bit-for-bit: (SC·n/2)/(2/h²) = h⁴/(4d) = 64/3
+
+   ⟹ THE DICTIONARY OF THE REGISTERED NUMBER (the answer to step 1, verbatim):
+      h⁴/(4d) = [the coefficient of q² in |f|², length = 1 BOND]
+                 / [the second derivative of T_col, length = 1 PERIOD = h bonds]
+      that is, TWO DIFFERENT lengths (bond ⊥ h·bond) AND two different operations (coeff ⊥ 2nd-deriv).
+      One consistent dictionary: both lengths = HOP ⟹ v_mean2 = (d+1)²/(2d).
+      A second consistent dictionary: the column in PERIODS ⟹ h⁴/(2d).  The registered one is neither.
+
+F. STEP 2 — THE LADDER: which scale ENTERS (derived, not chosen)
+   Method: a scale-probe. The number v_mean2 is re-expressed in each candidate unit;
+   the one that ENTERS is the one the machinery USES (the Gram of the numerator / the cycle-step of the denominator),
+   not the one in which the number is prettier.
+  ✓ ★∀d symbolically: v_mean2 in units of medial_step = d+1 = h EXACTLY (an integer ∀d)
+  ✓ ★∀d symbolically: v_mean2 in units of half_bond = 2(d+1)²/d (an integer only when d|2(d+1)²)
+   d | v_mean2 [bond] | [half_bond] | [medial_step]
+   2 | 9/4 | 9 | 3
+   3 | 8/3 | 32/3 | 4
+   4 | 25/8 | 25/2 | 5
+   5 | 18/5 | 72/5 | 6
+   6 | 49/12 | 49/3 | 7
+  ✓ ★THE NUMERATOR-INPUT: the diagonal of the Gram = 1 = |δ|² ⟹ tr M has the FULL bond entering it,
+     not its midpoint: half a bond would give a Gram of 1/4 on the diagonal (the scale-probe of B).
+  ✓ ★THE DENOMINATOR-INPUT: adjacency of the cycle = ONE step of the column = one bond (S1001) ⟹ the hop = a FULL bond
+   ⟹ THE VERDICT OF STEP 2: the FULL BOND ENTERS the dictionary of v — in BOTH slots.
+     NEITHER half_bond NOR medial_step APPEAR in the derivation: both are a RE-EXPRESSION of
+     the already-derived number, not inputs. ⟨An observation, NOT a derivation: in medial_step-units the number
+     becomes the integer h ∀d — pretty, but it does not follow from the derivation; weight = 0 until forced.⟩
+
+G. THE GEOMETRY OF THE COLUMN (S597: a 3:1 stacking, «lateral 1/√2») — does it enter curv_col
+   Question: does the h in T_col come from the PATH LENGTH (zigzag) or from the ORDER of u₀?
+  ✓ d=2: the order of u₀ in A_d*/A_d = 3 = h ⟹ h comes FROM THE ORDER, not from a path length
+  ✓ d=2: the zigzag-step (u₀−u_j) = a root ∈ Λ ⟹ order 1 ⟹ it CANNOT carry an h-cycle
+  ✓ d=3: the order of u₀ in A_d*/A_d = 4 = h ⟹ h comes FROM THE ORDER, not from a path length
+  ✓ d=3: the zigzag-step (u₀−u_j) = a root ∈ Λ ⟹ order 1 ⟹ it CANNOT carry an h-cycle
+  ✓ d=4: the order of u₀ in A_d*/A_d = 5 = h ⟹ h comes FROM THE ORDER, not from a path length
+  ✓ d=4: the zigzag-step (u₀−u_j) = a root ∈ Λ ⟹ order 1 ⟹ it CANNOT carry an h-cycle
+  ✓ d=5: the order of u₀ in A_d*/A_d = 6 = h ⟹ h comes FROM THE ORDER, not from a path length
+  ✓ d=5: the zigzag-step (u₀−u_j) = a root ∈ Λ ⟹ order 1 ⟹ it CANNOT carry an h-cycle
+  ✓ ★the S597-number in its place: lateral/axis of the zigzag = sqrt((d−1)/(d+1)); at d=3 = 1/√2 EXACTLY
+  ✓ ★…but at d=2 it = 1/√3, not 1/√2 ⟹ «lateral 1/√2» — a d-DEPENDENT number, not a constant
+   d | lateral/axis of the zigzag
+   2 | sqrt(3)/3
+   3 | sqrt(2)/2
+   4 | sqrt(15)/5
+   5 | sqrt(6)/3
+   6 | sqrt(35)/7
+   ⟹ THE VERDICT of G: the geometry of the zigzag does NOT enter curv_col. The h-cycle of T_col carries the ORDER of u₀
+     in A_d*/A_d (=h, S1001), while the zigzag-step — a root, is already in the lattice (order 1).
+     The zigzag describes the REALIZED PATH between endpoints, not the coset-shift that carries the dual.
+
+H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (Omega's brake: do not change until checked)
+   The primary source: viz/SIMPLEX_LATTICE_MEMBRANES_omega_analysis.md, a table row:
+   «the forced lateral per time-period | lat/time = 1/√2 (0.4082/0.5774) | exactly».
+   ★It prints TWO numbers separately — so I check not the ratio, but EACH of the two.
+   d=3, the source realization (diamond, cube a=1):
+     |bond|                                       = sqrt(3)/4 = 0.43301
+     δ = |axis-projection of the space-bond|      = sqrt(3)/12 = 0.14434
+     time-step (axis-projection of the time-bond) = 3δ = sqrt(3)/4 = 0.43301
+     ★TIME = the axial travel per period = 4δ     = sqrt(3)/3 = 0.57735
+     ★LAT = the transverse part of the space-bond = sqrt(6)/6 = 0.40825
+  ✓ ★checked against the source: δ = 0.1443 (the row «space-ends at −δ»)
+  ✓ ★checked against the source NUMBER-1: lat = 0.4082 = 1/√6 (the transverse part of the space-bond)
+  ✓ ★checked against the source NUMBER-2: time = 0.5774 = 1/√3 (the axial travel per zigzag-period, 4δ)
+  ✓ ★and only then the ratio: lat/time = 1/√2 EXACTLY (both numbers matched SEPARATELY)
+  ✓ ★checked against the source: the «3:1» stacking = the time-projection of the time-bond : the space-bond = 3
+  ✓ ★checked against the source: cos(space-bond, time-axis-bond) = −1/3 (an aperture of 109.47°)
+
+   ⟹ THE DEFINITION, EXPLICITLY (exactly what is divided by what — this was missing from the citations):
+     TIME  := the axial travel of the world-line per ONE forced zigzag-period
+             = (time-step +u₀: travel 1) + (space-step −u_j: travel +1/d)  = 1 + 1/d  [bond]
+     LAT  := the transverse (⊥ axis) drift over the same period; the time-step gives 0,
+             all the drift — from the space-step = sqrt(1 − 1/d²)  [bond]
+  ✓ d=2: TIME = 1+1/d = 3/2 · LAT = sqrt(1−1/d²) = sqrt(3)/2 (the same definition)
+  ✓ d=2: lat/time = sqrt((d−1)/(d+1)) = sqrt(3)/3
+  ✓ d=2: the stacking = d:1 = 2:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
+  ✓ d=3: TIME = 1+1/d = 4/3 · LAT = sqrt(1−1/d²) = 2*sqrt(2)/3 (the same definition)
+  ✓ d=3: lat/time = sqrt((d−1)/(d+1)) = sqrt(2)/2
+  ✓ d=3: the stacking = d:1 = 3:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
+  ✓ d=4: TIME = 1+1/d = 5/4 · LAT = sqrt(1−1/d²) = sqrt(15)/4 (the same definition)
+  ✓ d=4: lat/time = sqrt((d−1)/(d+1)) = sqrt(15)/5
+  ✓ d=4: the stacking = d:1 = 4:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
+  ✓ d=5: TIME = 1+1/d = 6/5 · LAT = sqrt(1−1/d²) = 2*sqrt(6)/5 (the same definition)
+  ✓ d=5: lat/time = sqrt((d−1)/(d+1)) = sqrt(6)/3
+  ✓ d=5: the stacking = d:1 = 5:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
+  ✓ d=6: TIME = 1+1/d = 7/6 · LAT = sqrt(1−1/d²) = sqrt(35)/6 (the same definition)
+  ✓ d=6: lat/time = sqrt((d−1)/(d+1)) = sqrt(35)/7
+  ✓ d=6: the stacking = d:1 = 6:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
+
+   ★WHY A CHECK ON A SINGLE NUMBER WOULD BE EMPTY (Omega's brake is structurally right):
+     form | d=2 | d=3 | d=4 | d=5
+     sqrt((d−1)/(d+1))  [this one] | sqrt(3)/3 | sqrt(2)/2 | sqrt(15)/5 | sqrt(6)/3
+     1/sqrt(d−1)              | 1 | sqrt(2)/2 | sqrt(3)/3 | 1/2
+     sqrt(2/(d+1))            | sqrt(6)/3 | sqrt(2)/2 | sqrt(10)/5 | sqrt(3)/3
+     sqrt(d−1)/2              | 1/2 | sqrt(2)/2 | sqrt(3)/2 | 1
+  ✓ ★ALL four forms agree at d=3 (=1/√2) and DIVERGE at d=2 ⟹ the d=3-instance does NOT determine
+     the form. The form is determined only by checking the TWO quantities SEPARATELY (lat and time), and it is exactly
+     that the source gives: 0.4082 = sqrt(1−1/d²)·|bond| ⊥ 0.5774 = (1+1/d)·|bond| at d=3.
+
+TEETH AND MUTANTS:
+  M1 (a mutated Gram −1/d → −1/d+1/5): CAUGHT — the identity breaks ⟹ it has resolving power
+  M2 (the column hop = 2 bonds): CAUGHT — v_mean2 9/4 → 9/16 ⟹ the LENGTH truly enters,
+     the dictionary question is NOT empty (had it not moved, no dictionary could be wrong)
+  M3 (a K-mixing: half_bond ≡ medial_step): CAUGHT — the difference (d+2)/(4d) ≠ 0 ∀d
+  M4 (is it not a d-dependent factor?): registered/consistent = 1/2 — a constant 1/2, not f(d)
+  T5 (an external anchor d=2): the hop-dictionary gives 9/4; the external ruler (|c|²/2 at d=2) = 9/4 — AGREES
+  ✓ all mutants/teeth fired correctly
+
+  ✓ the Layer-1 fence is clean: 0 hits on 10 patterns (source + log)
+
+==============================================================================
+SCORE: 93 ✓ / 0 ✗
+STOP per the assignment: steps 3 (the kill-test of the «1 hop» ansatz) and 4 (the ∀d-law of the medial) did NOT begin.
+==============================================================================

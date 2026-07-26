@@ -1,0 +1,56 @@
+==========================================================================
+W42 probe-14 (layer −2): ROAD-5, the Heisenberg leg. The arrow lock (rotation⟺flip, T36)
+on the WEDGE machinery (the T24 bracket, a DIFFERENT ancestor line): does a center-inverter
+preserving BOTH the orientation of W AND the η′-types exist? ★COUNTING symmetries; T-rows by citation; exact arithmetic.
+==========================================================================
+
+######################################################################
+# ★STAVKA-1 (the heart): center-inverters (c=−1) of the T24 bracket, dim W=2, η′ enumerated
+######################################################################
+  η′=++: #automorphisms_G=8 · center-inverters(c=−1)=8 · NEUTRAL=0 · breakdown={'W-mirror (det−1,φ+1)': 8, 'η′-swap (det+1,φ−1)': 0, 'both (det−1,φ−1)': 0}
+  η′=+-: #automorphisms_G=8 · center-inverters(c=−1)=12 · NEUTRAL=0 · breakdown={'W-mirror (det−1,φ+1)': 4, 'η′-swap (det+1,φ−1)': 8, 'both (det−1,φ−1)': 0}
+  η′=--: #automorphisms_G=8 · center-inverters(c=−1)=8 · NEUTRAL=0 · breakdown={'W-mirror (det−1,φ+1)': 8, 'η′-swap (det+1,φ−1)': 0, 'both (det−1,φ−1)': 0}
+  η′=+ (dimG=1): #automorphisms_G=2 · center-inverters(c=−1)=2 · NEUTRAL=0 · breakdown={'W-mirror (det−1,φ+1)': 2, 'η′-swap (det+1,φ−1)': 0, 'both (det−1,φ−1)': 0}
+
+  ★OUTCOME (I): the center z∈Λ²W scales as c=det(g_W)·φ (DIRECTLY from the bracket (u∧v)η′(a,b))
+   ⟹ the inversion z→−z FORCES det g_W=−1 (a mirror of W) OR φ=−1 (a swap of η′-types) — every
+   rotation of the center touches the «hierarchy» side too. THE LOCK = A PROPERTY OF THE WEDGE machinery TOO
+   ⟹ A SECOND WITNESS of «descending» along a DIFFERENT ancestor line (a genuine multiplicity, not a rhyme).
+
+######################################################################
+# STAVKA-2 (the contraction arrow λ→0, T22): orientedness via the count dim[A,A]
+######################################################################
+  λ=1: dim[A,A]=1 (Heisenberg (center alive))
+  λ=1/2: dim[A,A]=1 (Heisenberg (center alive))
+  λ=0: dim[A,A]=0 (AFFINE (abelian))
+  λ=-1: dim[A,A]=1 (Heisenberg (center alive))
+  ⟹ the contraction λ→0 = the ONLY direction-limit (Heisenberg ⤳ affine); the reverse limit
+   (affine ⤳ Heisenberg) DOES NOT EXIST (the rank does not grow in a limit) ⟹ «canonically down, not up»
+   in the wedge-form. Reparametrizing λ does NOT save it (the K2 mutant bites). T22 is a CITATION, not a re-derivation.
+
+######################################################################
+# STAVKA-3 (boundaries): the T21 bit-fence (inv. antisym-form 1-dim) + dim W=4 (Λ²W=6)
+######################################################################
+  T21 (citation): the inv. antisym-form on W⊗G = EXACTLY 1-dim (ω⊗η′) ∀ signatures ✓ (forced by T24-S993)
+  dim W=4: Λ²W = 6-dim (T23-check); z→−z = an inversion of the 6-dim center — the lock generalizes
+   (dim W=2 = the scalar case, the main bet; a step above cites T23/T24).
+
+MUTANTS:
+  MUTANT M1 (false-inverter): CAUGHT (the identity c=+1 is NOT an inverter; membership is checked
+    by DIRECT computation c=det·φ from the bracket, not by declaration)
+  MUTANT M2 (λ-reparametrization): CAUGHT (no λ→cλ (c≠0) gives dim[A,A]=0 — 
+    'upward is not a limit' is NOT a parametrization artifact; reparametrization does not save it)
+  MUTANT M3 (size dim W=2↔4): CAUGHT (the lock at dim W=2 (scalar c=det·φ); dim W=4
+    Λ²W=6-dim (T23) — the center is covariant to g_W ∀dim, not an artifact of small size)
+  MUTANT M4 (false-bracket center∝W-only): CAUGHT (η′-swap: the REAL bracket c=−1 (inverts
+    the center, touches the hierarchy) ⊥ a false-bracket (center∝W) c=+1 (does not invert) ⟹ PRECISELY the η′-
+    dependence of T24 carries the lock — not a det·φ tautology)
+
+NEGATIVE CONTROL (seeded): the identity — NOT a center-inverter (c=+1)
+  η′=+ (dimG=1): g=I⊗I ⟹ c=+1 (the center is preserved) — the control worked
+
+SUMMARY: asserts_passed=10 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

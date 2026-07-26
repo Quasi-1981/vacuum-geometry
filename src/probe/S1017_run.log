@@ -1,0 +1,70 @@
+==========================================================================
+W42 probe-11 (layer −2): CANONICITY of A/B + a bottom for door D. The S1016 lock: circle-rotation
+⟺ flip prime↔daughter. Does the native structure distinguish INTERNALLY which side is prime?
+(I) a distinguisher exists ⟹ the direction of time=A THEOREM, 0 bits · (II) an origin-choice artifact ⟹ 1 BIT.
+★COUNTING, not physics; ancestors cited; exact arithmetic.
+==========================================================================
+
+######################################################################
+# STAVKA-3: BIT-FENCE S1001 (period h=d+1, 1A+1B+(d−1)holes, 2u₀∉Λ)
+######################################################################
+  d=2, h=3: sites(A=0,B=1)=[0, 1] · holes=[2] · period=3 · 2u₀=2∈holes ✓
+  d=3, h=4: sites(A=0,B=1)=[0, 1] · holes=[2, 3] · period=4 · 2u₀=2∈holes ✓
+  d=4, h=5: sites(A=0,B=1)=[0, 1] · holes=[2, 3, 4] · period=5 · 2u₀=2∈holes ✓
+
+######################################################################
+# ★STAVKA-1 (the heart): A/B distinguishers (a/b/c) + ★ORIGIN-SHIFT-MUTANT (shifting the start)
+######################################################################
+  d=2: (a)closure pick=0 → after the shift pick=None → the SAME PHYS.class? False
+       (b)inversion-fate pick=0 → after the shift pick=None → the SAME PHYS.class? False
+       (c)S+u₀=S? False (class-NEUTRAL: it says 'the step is oriented', not 'who is prime')
+  d=3: (a)closure pick=0 → after the shift pick=0 → the SAME PHYS.class? False
+       (b)inversion-fate pick=0 → after the shift pick=None → the SAME PHYS.class? False
+       (c)S+u₀=S? False (class-NEUTRAL: it says 'the step is oriented', not 'who is prime')
+  d=4: (a)closure pick=0 → after the shift pick=0 → the SAME PHYS.class? False
+       (b)inversion-fate pick=0 → after the shift pick=None → the SAME PHYS.class? False
+       (c)S+u₀=S? False (class-NEUTRAL: it says 'the step is oriented', not 'who is prime')
+
+  ★STRUCTURAL REASON (measured): the bond-inversion β: x→(1−x)%h preserves the sites and SWAPS A↔B:
+   d=2: β(sites)=[0, 1]=sites ✓, β(0)=1,β(1)=0 (A↔B swap) ⟹ a measured symmetry swaps the classes
+   d=3: β(sites)=[0, 1]=sites ✓, β(0)=1,β(1)=0 (A↔B swap) ⟹ a measured symmetry swaps the classes
+   d=4: β(sites)=[0, 1]=sites ✓, β(0)=1,β(1)=0 (A↔B swap) ⟹ a measured symmetry swaps the classes
+  ⟹ no invariant can distinguish A/B (any such invariant would be β-invariant, but β swaps them) ⟹
+   OUTCOME (II): there is NO origin-choice-invariant class-distinguisher ⟹ exactly ONE BIT of realization.
+
+######################################################################
+# STAVKA-2 (the bottom of door D): #orbits (bond, orientation, side) mod ⟨c, w₀+B-lock⟩
+######################################################################
+  d=2: #orbits (bond×orient×side)=2 ⟹ 2 classes = ONE BIT (II), the S1016 lock CONFIRMED
+  d=3: #orbits (bond×orient×side)=2 ⟹ 2 classes = ONE BIT (II), the S1016 lock CONFIRMED
+  d=4: #orbits (bond×orient×side)=2 ⟹ 2 classes = ONE BIT (II), the S1016 lock CONFIRMED
+
+######################################################################
+# RAW VERDICT (Omega/author's court):
+######################################################################
+  ★OUTCOME (II) — EXACTLY ONE BIT: the native structure does NOT distinguish A/B internally
+   (distinguishers (a),(b) are origin-choice-dependent — the origin-shift-mutant swaps the phys.class; (c) is origin-
+   invariant BUT class-neutral). Reason: the bond-inversion β swaps A↔B while preserving
+   the sites. The D-count = 2 classes (agrees with S1016, tooth K2 does NOT bite). ⟹ the direction of time is NOT a theorem:
+   the freedom of the model = 1 bit of realization («which side to call prime»); the arrow is closed by
+   an HONEST R. The S1016 lock stands: rotation⟺side-flip is forced, only the side itself = 1 bit.
+   (Together: the arrow is NOT an independent freedom (S1016-1b) + its ONLY residue = 1 bit (here).)
+
+MUTANTS:
+  MUTANT M1 (★origin-shift, mandatory): CAUGHT (without the shift, (a) pick class-0 looks
+    'canonical'; after shifting by u₀ the pick is again class-0 in the NEW coords = old-B ⟹ the phys.class
+    swapped ⟹ the origin-choice artifact carries outcome (II), not (I))
+  MUTANT M2 (false-invariant, sites={0,2}): CAUGHT (a β-asymmetric structure: β is not a symmetry ⟹ a distinguisher WOULD SURVIVE = false-(I); the native {0,1} is β-SYMMETRIC ⟹ (II) — 
+    the conclusion is carried by the β-symmetry of the native sites, not a postulate)
+  MUTANT M3 (size d=2↔3↔4): CAUGHT (holes=d−1 scales; (II) is stable ∀d — 
+    not a lattice artifact; the structure 1A+1B+(d−1)holes is legitimate)
+  MUTANT M4 (false-count, A↔B as an origin-choice): CAUGHT (with a pure s-flip #orbits=1=false-(I) '0 bits'; the measured group WITHOUT a pure s-flip ⟹ 2=(II) — the count READS that A↔B is NOT an origin-choice)
+
+NEGATIVE CONTROL (seeded): q=0 (no marking) — no hierarchy, no question
+  d=4: without a marked bond there is neither prime/daughter nor an arrow — the question is empty (the T26-endpoint)
+
+SUMMARY: asserts_passed=28 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

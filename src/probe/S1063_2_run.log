@@ -1,0 +1,76 @@
+================================================================================
+S1063 T2 — A HOMONYM-COURT N1↔N3: is the minus of the seam THE minus of T32 (the map COMPUTED)
+================================================================================
+
+THE CANDIDATE MAP, which must be checked (not accepted):
+  The T32 Box:  Λ(ψ,ν) = T_A(ψ) − T_col(ν)      — a minus between the CELL and the COLUMN
+  The N3 seam:   Q(ϸ,k) = ϸ² − m₀² − |f(k)|²     — a minus between ϸ² and the HOP of the cell
+  ⟹ a bridge exists ⟺ |f|² stands on the same side and IS the same object
+     as one of the terms of the Box.  This is checked by FUNCTIONS, not by roles.
+
+(2a-i) THE VALUE — are |f|² and T_A the same function on the h-torsion
+  ✓ ★|f|² and T_A — are DIFFERENT functions on the h-torsion (d=2, h=3)  [2a-i · dimensionless · a comparison of values over the whole grid]
+       (tooth: said NO on «T_A against T_A computed a different way (|1−ω|²) — the same function, d=2» ⟹ able to fail)
+     d=2: nodes on the torsion 2; at the node (1, 2): |f|² = 0  ⊥  T_A = 6 (=2h=6)  [2a-i · dimensionless · the value at the node]
+  ✓ ★|f|² and T_A — are DIFFERENT functions on the h-torsion (d=3, h=4)  [2a-i · dimensionless · a comparison of values over the whole grid]
+       (tooth: said NO on «T_A against T_A computed a different way (|1−ω|²) — the same function, d=3» ⟹ able to fail)
+     d=3: nodes on the torsion 9; at the node (0, 2, 2): |f|² = 0  ⊥  T_A = 8 (=2h=8)  [2a-i · dimensionless · the value at the node]
+     ⟹ ★THE SHARPEST POINT OF DIVERGENCE — THE NODE ITSELF: there |f|² = 0 BY DEFINITION,
+       while T_A = 2h ≠ 0 (this is a line of ancestor S1011: «T_A(coset-node) = 2h ∉ range T_col»).
+       That is, at the very point for which the seam is built, the two functions are not merely
+       different — they diverge MAXIMALLY.
+
+(2a-ii) SYMMETRY — a global shift of the phases of all (d+1) axes
+  ✓ ★★|f|² IS INVARIANT under a global shift of the phases of all (d+1) axes (d=2)  [2a-ii · dimensionless · an exhaustive check of all shifts over the whole grid]
+       (tooth: said NO on «T_A — is NOT invariant: it stands on the origin-choice p₀=0 (d=2)» ⟹ able to fail)
+     ⟹ ★★THIS DISTINGUISHES THE MECHANISM, NOT THE VALUE: |f|² does not depend on the origin-choice
+       of axis-0, while T_A STANDS on it.  To identify them would mean ascribing to one
+       object a symmetry the other does not have.  This is not «the numbers did not match»,
+       these are DIFFERENT OBJECTS.
+
+(2a-iii) THE BUILDER — what each side of the minus is made of
+  ✓ ★★|f|² is BUILT from the PAIRWISE DIFFERENCES of phases: |f|² = (d+1) + 2Σ_{a<b} cos(θ_a−θ_b) — a PARTICIPATION structure of pairs  [2a-iii · dimensionless · symbolic invariance under θ→θ+c]
+       (tooth: said NO on «T_A is built from INDIVIDUAL phases (Σ(2−2cos θ_i)) — moves under a shift» ⟹ able to fail)
+     |f|² symbolically (4 axes) = 2*cos(theta0 - theta1) + 2*cos(theta0 - theta2) + 2*cos(theta0 - theta3) + 2*cos(theta1 - theta2) + 2*cos(theta1 - theta3) + 2*cos(theta2 - theta3) + 4
+     ⟹ ★A THIRD, INDEPENDENT DIVERGENCE: the sides of the T32 Box (T_A and T_col) have ONE
+       builder `2−2cos` (individual phases), while |f|² has a DIFFERENT one (pairwise differences).
+       The T32-minus stands BETWEEN TWO SAME-BUILDER objects; the seam-minus does not.
+
+★WHERE THE SEAM-MINUS ACTUALLY COMES FROM — computing the ancestor, not naming it
+  ✓ ★★THE SEAM-MINUS = OPPOSITE SIGNS OF TWO BRANCHES: the chirality `σ_zHσ_z = −H` [T33] gives tracelessness ⟹ det = −(m₀²+|f|²) < 0 ⟹ the form is INDEFINITE  [N3 · dimensionless · the sign of det of the operator]
+       (tooth: said NO on «a NON-chiral operator diag(a,b), a,b>0 — branches of ONE sign, det > 0 ⟹ the form is DEFINITE, no minus» ⟹ able to fail)
+     det(H_chiral) = -f_im**2 - f_re**2 - m**2  ⊥  det(H_definite) = a_p*b_p  [N3 · dimensionless · the determinant]
+     ⟹ ★the seam-minus is born from the OPPOSITION OF THE SIGNS OF THE BRANCHES (the T33 chirality/
+       T39 ε-parity), not from the participation of the column (T30/T32).  I name it
+       `minus_chiral` — a THIRD minus, separate from `minus_arith` and `minus_geom`.
+
+★A CAVEAT TO T1, which must be said HERE (otherwise the reader will fill it in themselves)
+  ✓ ★THE SPLIT «one against two» is INVARIANT to the global sign of the form, whereas the ORDERED pair (1,2)⊥(2,1) is NOT  [T1-caveat · dimensionless · a sign-count under Q→−Q]
+       (tooth: said NO on «a false world: the split «zero against three» (a definite form) — there the split is different» ⟹ able to fail)
+     ⟹ T1 printed (1,2,d−2) in ITS OWN writing (+ϸ²).  The invariant — the split
+       {1 against 2}; which side is called the «plus» is fixed by the convention of the writing, not
+       by the measurement.  T32 fixes a RELATIVE sign in ITS OWN pair (cell⊥column) — this
+       is a different pair, so its fixing does not carry over to ours.
+
+
+SCORE [S1063 T2 — a homonym-court]: 6 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF T2 (no verdict rendered — Ω judges)
+  (2a) THE MAP IS COMPUTED AND IT DOES NOT EXIST — three independent divergences:
+     · THE VALUE: at the node |f|² = 0, while T_A = 2h ≠ 0 (the maximal divergence
+       precisely at the point for which the seam is built);
+     · THE SYMMETRY: |f|² is invariant under a global phase shift, T_A is not
+       (it stands on the origin-choice p₀=0);
+     · THE BUILDER: the sides of the T32 Box are same-builder (2−2cos, individual phases),
+       |f|² — from pairwise differences (a participation structure of pairs).
+  ⟹ (2c) ★A HOMONYM: `minus_arith` [T32: cell⊥column, participation/Pontryagin]
+     ⊥ `minus_chiral` [N3: opposite signs of the branches, T33/T39 chirality].
+     Shared — only the ARENA (the same lattice).  This is EXACTLY the S1027 pattern, and I
+     cite it as a precedent, I do not re-try it.
+  ⟹ (2b) ★THE CARVED CONSEQUENCE «THE LINKING OF FRONTS» DOES NOT FOLLOW: the premise
+     («the minus of N3 = minus_arith») is FALSE by computation ⟹ a second independent
+     input for the T32→AX-indef dotted line DOES NOT exist from this.  I report it loudly, as
+     befits a negative (the same class as Λ_min in S1061).
+  ⟹ N1↔N3: two ROOTS, not two witnesses.  Ω judges the multiplicity — not me.
+================================================================================

@@ -1,0 +1,32 @@
+==========================================================================
+W36-leg-3: constructibility of the form-fate regimes (real A=S+N)
+==========================================================================
+
+--- n6: sig (4,2) deep rank0 wedge, core dim d=2, core-indices=[2, 3] ---
+    c(N): dim of module V=4, dim Z=1
+    A=S+N [semisimple core-rot(2,3), semisimple] | spectrum ad(S)|V={-I^2, I^2} | dim 0-space=0 | ω|surv: rank=0 isotropic=yes | k(c(A))=0 [empty]
+    A=S+N [nilpotent-Levi, nilpotent] | spectrum ad(S)|V={0^4} | dim 0-space=2 | ω|surv: rank=0 isotropic=yes | k(c(A))=0 [empty]
+
+--- n7: sig (5,2) deep rank0 wedge, core dim d=3, core-indices=[2, 3, 4] ---
+    c(N): dim of module V=6, dim Z=1
+    A=S+N [semisimple core-rot(2,3), semisimple] | spectrum ad(S)|V={-I^2, I^2, 0^2} | dim 0-space=2 | ω|surv: rank=2 isotropic=no | k(c(A))=1 [nondegenerate]
+    A=S+N [semisimple core-rot(2,4), semisimple] | spectrum ad(S)|V={-I^2, I^2, 0^2} | dim 0-space=2 | ω|surv: rank=2 isotropic=no | k(c(A))=1 [nondegenerate]
+    A=S+N [semisimple core-rot(3,4), semisimple] | spectrum ad(S)|V={0^2, -I^2, I^2} | dim 0-space=2 | ω|surv: rank=2 isotropic=no | k(c(A))=1 [nondegenerate]
+    A=S+N [nilpotent-Levi, nilpotent] | spectrum ad(S)|V={0^6} | dim 0-space=3 | ω|surv: rank=0 isotropic=yes | k(c(A))=0 [empty]
+
+RAW TARGET:
+  regime (ii) k>0 is constructible: YES
+  regime (iii) Lagrangian is constructible: YES
+
+BIT-FENCE (S961/S966):
+  n=6 core=[2, 3] full-rotation: k=0 (even core → full action → the form dies, =S966 J2)
+  n=6 c(N) alone: ω nondegenerate rank=4 (S961)
+
+MUTANTS (by branch: k>0 / Lagrangian / full-core-kills):
+  MUTANT br-kpos: CAUGHT (n=7 partial core-rot → k=1>0, regime ii is alive)
+  MUTANT br-fullkill: CAUGHT (n=6 full core-rot → k=0, the form is dead)
+  MUTANT br-lagrangian: CAUGHT (a nilpotent S gave an isotropic 0-space)
+
+SUMMARY: asserts_passed=4 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

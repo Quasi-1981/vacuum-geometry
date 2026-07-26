@@ -1,0 +1,37 @@
+--- part 1: pure nilpotent  N = x wedge y  (S=0) ---
+NILP SIG=(4,0) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(4,0) | class=rank1 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(3,1) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(3,1) | class=rank1 | constructible=Y | ker-prof=[2, 3, 4] | dimc=2 | dim[c,c]=0 | derived=[2, 0] | dimZ=2 | IMAGES=[x:sub-of=so(3,1):dim2:bt=[]] | audit=OK
+NILP SIG=(2,2) | class=rank0 | constructible=Y | ker-prof=[2, 4] | dimc=4 | dim[c,c]=3 | derived=[4, 3] | dimZ=1 | IMAGES=[x:sub-of=so(2,2):dim4:bt=[(0,1):(0,0,-1,0),(0,2):(1,1,0,-1),(0,3):(0,0,-1,0),(1,2):(-1,-1,0,-1),(1,3):(0,0,-1,0),(2,3):(2,2,0,0)]] | audit=OK
+NILP SIG=(2,2) | class=rank1 | constructible=Y | ker-prof=[2, 3, 4] | dimc=2 | dim[c,c]=0 | derived=[2, 0] | dimZ=2 | IMAGES=[x:sub-of=so(2,2):dim2:bt=[]] | audit=OK
+NILP SIG=(5,0) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(5,0) | class=rank1 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(4,1) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(4,1) | class=rank1 | constructible=Y | ker-prof=[3, 4, 5] | dimc=4 | dim[c,c]=2 | derived=[4, 2, 0] | dimZ=1 | IMAGES=[x:sub-of=so(4,1):dim4:bt=[(1,2):(0,0,0,-1),(1,3):(0,0,1,0)]] | audit=OK
+NILP SIG=(3,2) | class=rank0 | constructible=Y | ker-prof=[3, 5] | dimc=6 | dim[c,c]=6 | derived=[6] | dimZ=1 | IMAGES=[x:sub-of=so(3,2):dim6:bt=[(0,1):(0,0,-1,0,0,0),(0,2):(1,1,0,0,0,-1),(0,3):(0,0,0,0,-1,0),(0,5):(0,0,-1,0,0,0),(1,2):(-1,-1,0,0,0,-1),(1,4):(0,0,0,-1,0,0),(1,5):(0,0,-1,0,0,0),(2,3):(0,0,0,1,0,0),(2,4):(0,0,0,0,-1,0),(2,5):(2,2,0,0,0,0),(3,4):(-1,1,0,0,0,-1),(3,5):(0,0,0,0,-1,0),(4,5):(0,0,0,1,0,0)]] | audit=OK
+NILP SIG=(3,2) | class=rank1 | constructible=Y | ker-prof=[3, 4, 5] | dimc=4 | dim[c,c]=2 | derived=[4, 2, 0] | dimZ=1 | IMAGES=[x:sub-of=so(3,2):dim4:bt=[(1,2):(0,0,0,-1),(2,3):(0,1,0,0)]] | audit=OK
+NILP SIG=(6,0) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(6,0) | class=rank1 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(5,1) | class=rank0 | constructible=N (no totally-isotropic pair of required corank) | ker-prof=n/a | dimc=n/a
+NILP SIG=(5,1) | class=rank1 | constructible=Y | ker-prof=[4, 5, 6] | dimc=7 | dim[c,c]=6 | derived=[7, 6] | dimZ=1 | IMAGES=[x:sub-of=so(5,1):dim7:bt=[(1,2):(0,0,0,0,-1,0,0),(1,3):(0,0,0,0,0,-1,0),(1,4):(0,0,1,0,0,0,0),(1,5):(0,0,0,1,0,0,0),(2,3):(0,0,0,0,0,0,-1),(2,4):(0,-1,0,0,0,0,0),(2,6):(0,0,0,1,0,0,0),(4,5):(0,0,0,0,0,0,-1),(4,6):(0,0,0,0,0,1,0)]] | audit=OK
+NILP SIG=(4,2) | class=rank0 | constructible=Y | ker-prof=[4, 6] | dimc=9 | dim[c,c]=8 | derived=[9, 8] | dimZ=1 | IMAGES=[x:sub-of=so(4,2):dim9:bt=[(0,1):(0,0,-1,0,0,0,0,0,0),(0,2):(1,1,0,0,0,0,0,0,-1),(0,4):(0,0,0,0,0,-1,0,0,0),(0,6):(0,0,0,0,0,0,0,-1,0),(0,8):(0,0,-1,0,0,0,0,0,0),(1,2):(-1,-1,0,0,0,0,0,0,-1),(1,5):(0,0,0,0,-1,0,0,0,0),(1,7):(0,0,0,0,0,0,-1,0,0),(1,8):(0,0,-1,0,0,0,0,0,0),(2,4):(0,0,0,0,1,0,0,0,0),(2,5):(0,0,0,0,0,-1,0,0,0),(2,6):(0,0,0,0,0,0,1,0,0),(2,7):(0,0,0,0,0,0,0,-1,0),(2,8):(2,2,0,0,0,0,0,0,0),(3,4):(0,0,0,0,0,0,-1,0,0),(3,5):(0,0,0,0,0,0,0,-1,0),(3,6):(0,0,0,0,1,0,0,0,0),(3,7):(0,0,0,0,0,1,0,0,0),(4,5):(-1,1,0,0,0,0,0,0,-1),(4,8):(0,0,0,0,0,-1,0,0,0),(5,8):(0,0,0,0,1,0,0,0,0),(6,7):(-1,1,0,0,0,0,0,0,-1),(6,8):(0,0,0,0,0,0,0,-1,0),(7,8):(0,0,0,0,0,0,1,0,0)]] | audit=OK
+NILP SIG=(4,2) | class=rank1 | constructible=Y | ker-prof=[4, 5, 6] | dimc=7 | dim[c,c]=6 | derived=[7, 6] | dimZ=1 | IMAGES=[x:sub-of=so(4,2):dim7:bt=[(1,2):(0,0,0,0,-1,0,0),(1,3):(0,0,0,0,0,-1,0),(1,4):(0,0,1,0,0,0,0),(1,5):(0,0,0,1,0,0,0),(2,3):(0,0,0,0,0,0,-1),(3,5):(0,1,0,0,0,0,0),(3,6):(0,0,1,0,0,0,0),(4,5):(0,0,0,0,0,0,-1),(5,6):(0,0,0,0,1,0,0)]] | audit=OK
+NILP SIG=(3,3) | class=rank0 | constructible=Y | ker-prof=[4, 6] | dimc=9 | dim[c,c]=8 | derived=[9, 8] | dimZ=1 | IMAGES=[x:sub-of=so(3,3):dim9:bt=[(0,1):(0,0,-1,0,0,0,0,0,0),(0,2):(1,1,0,0,0,0,-1,0,0),(0,3):(0,0,0,0,-1,0,0,0,0),(0,6):(0,0,-1,0,0,0,0,0,0),(0,7):(0,0,0,0,0,0,0,0,-1),(1,2):(-1,-1,0,0,0,0,-1,0,0),(1,4):(0,0,0,-1,0,0,0,0,0),(1,6):(0,0,-1,0,0,0,0,0,0),(1,8):(0,0,0,0,0,0,0,-1,0),(2,3):(0,0,0,1,0,0,0,0,0),(2,4):(0,0,0,0,-1,0,0,0,0),(2,6):(2,2,0,0,0,0,0,0,0),(2,7):(0,0,0,0,0,0,0,1,0),(2,8):(0,0,0,0,0,0,0,0,-1),(3,4):(-1,1,0,0,0,0,-1,0,0),(3,5):(0,0,0,0,0,0,0,-1,0),(3,6):(0,0,0,0,-1,0,0,0,0),(4,5):(0,0,0,0,0,0,0,0,-1),(4,6):(0,0,0,1,0,0,0,0,0),(5,7):(0,0,0,1,0,0,0,0,0),(5,8):(0,0,0,0,1,0,0,0,0),(6,7):(0,0,0,0,0,0,0,0,1),(6,8):(0,0,0,0,0,0,0,-1,0),(7,8):(1,-1,0,0,0,0,1,0,0)]] | audit=OK
+NILP SIG=(3,3) | class=rank1 | constructible=Y | ker-prof=[4, 5, 6] | dimc=7 | dim[c,c]=6 | derived=[7, 6] | dimZ=1 | IMAGES=[x:sub-of=so(3,3):dim7:bt=[(1,2):(0,0,0,0,-1,0,0),(1,3):(0,0,0,0,0,-1,0),(2,3):(0,0,0,0,0,0,-1),(2,4):(0,1,0,0,0,0,0),(2,6):(0,0,0,-1,0,0,0),(3,5):(0,1,0,0,0,0,0),(3,6):(0,0,1,0,0,0,0),(4,6):(0,0,0,0,0,-1,0),(5,6):(0,0,0,0,1,0,0)]] | audit=OK
+--- part 2: mixed  A = S + N,  c(A) = c(S) cap c(N) ---
+MIXED SIG=(2,2) | J1[S=B(0,2)x1,B(1,3)x1;N=scan] | dimc=2 | dim[c,c]=0 | derived=[2, 0] | dimZ=2 | c(A)=c(S)cap c(N):EQUAL (dimcS=4,dimcN=4,dimInt=2) | bit-fence=OK | IMAGES=[x^2-1:sub-of=gl(2,R):dim2:bt=[]] | audit=OK
+MIXED SIG=(4,2) | J2[S=R+(0,1)x1;N=D0] | dimc=5 | dim[c,c]=3 | derived=[5, 3] | dimZ=2 | c(A)=c(S)cap c(N):EQUAL (dimcS=7,dimcN=9,dimInt=5) | bit-fence=OK | IMAGES=[x:sub-of=so(2,2):dim4:bt=[(0,1):(0,0,-1,0),(0,2):(1,1,0,-1),(0,3):(0,0,-1,0),(1,2):(-1,-1,0,-1),(1,3):(0,0,-1,0),(2,3):(2,2,0,0)]; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+MIXED SIG=(5,1) | J3[S=R+(0,1)x1;N=D1] | dimc=3 | dim[c,c]=0 | derived=[3, 0] | dimZ=3 | c(A)=c(S)cap c(N):EQUAL (dimcS=7,dimcN=7,dimInt=3) | bit-fence=OK | IMAGES=[x:sub-of=so(3,1):dim2:bt=[]; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+MIXED SIG=(3,3) | J4[S=B(0,3)x1;N=D0] | dimc=5 | dim[c,c]=3 | derived=[5, 3] | dimZ=2 | c(A)=c(S)cap c(N):EQUAL (dimcS=7,dimcN=9,dimInt=5) | bit-fence=OK | IMAGES=[x:sub-of=so(2,2):dim4:bt=[(0,1):(0,0,-1,0),(0,2):(1,1,0,-1),(0,3):(0,0,-1,0),(1,2):(-1,-1,0,-1),(1,3):(0,0,-1,0),(2,3):(2,2,0,0)]; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+--- mutants ---
+MUTANT mu1: CAUGHT (c(S) cap c(S) != c(A): dim 7 vs 5)
+MUTANT mu2: CAUGHT (derived series separates solvable [2, 1, 0] from perfect [3])
+MUTANT mu3: CAUGHT (center rejects non-commuting injection: dimZ=0<2)
+MUTANT mu4: CAUGHT (ker-profile separates rank-0 [4, 6] from rank-1 [4, 5, 6])
+MUTANT mu5: CAUGHT (bracket-table MISMATCH reported)
+SUMMARY: rows_nilp=20 | rows_mixed=4
+SUMMARY: matches gl=1 | u=2 | so=3 | sp=0 | OTHER=0 | sub-of=15
+SUMMARY: asserts_passed=597 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

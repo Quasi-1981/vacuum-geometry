@@ -1,0 +1,63 @@
+--- strata (semisimple S) ---
+SIG=(4,0) | S=S1[R+(0,1)x1] | BLOCKS=[(x,2,(2,0)),(x^2+1,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,0) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,0) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x^2+1,4,(4,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x^2+1:match=u(2):dim4] | audit=OK
+SIG=(3,1) | S=S1[R+(0,1)x1] | BLOCKS=[(x,2,(1,1)),(x^2+1,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(3,1) | S=S2[B(0,3)x1] | BLOCKS=[(x,2,(2,0)),(x^2-1,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,1) | S=S7[R+(0,1)x1,B(2,3)x1] | BLOCKS=[(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(2,2) | S=S1[R+(0,1)x1] | BLOCKS=[(x,2,(0,2)),(x^2+1,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,2):dim1; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(2,2) | S=S2[B(0,2)x1] | BLOCKS=[(x,2,(1,1)),(x^2-1,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(2,2) | S=S5[B(0,2)x1,B(1,3)x2] | BLOCKS=[(x^2-1,2,(1,1)),(x^2-4,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x^2-1:match=gl(1,R)&so(1,1):dim1; x^2-4:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(2,2) | S=S6[B(0,2)x1,B(1,3)x1] | BLOCKS=[(x^2-1,4,(2,2))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x^2-1:match=gl(2,R):dim4] | audit=OK
+SIG=(5,0) | S=S1[R+(0,1)x1] | BLOCKS=[(x,3,(3,0)),(x^2+1,2,(2,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(3,0):dim3; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(5,0) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x,1,(1,0)),(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,0):dim0; x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(5,0) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x,1,(1,0)),(x^2+1,4,(4,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,0):dim0; x^2+1:match=u(2):dim4] | audit=OK
+SIG=(4,1) | S=S1[R+(0,1)x1] | BLOCKS=[(x,3,(2,1)),(x^2+1,2,(2,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,1):dim3; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,1) | S=S2[B(0,4)x1] | BLOCKS=[(x,3,(3,0)),(x^2-1,2,(1,1))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(3,0):dim3; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(4,1) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x,1,(0,1)),(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,1):dim0; x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,1) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x,1,(0,1)),(x^2+1,4,(4,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,1):dim0; x^2+1:match=u(2):dim4] | audit=OK
+SIG=(4,1) | S=S7[R+(0,1)x1,B(2,4)x1] | BLOCKS=[(x,1,(1,0)),(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,0):dim0; x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,2) | S=S1[R+(0,1)x1] | BLOCKS=[(x,3,(1,2)),(x^2+1,2,(2,0))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,2):dim3; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(3,2) | S=S2[B(0,3)x1] | BLOCKS=[(x,3,(2,1)),(x^2-1,2,(1,1))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,1):dim3; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,2) | S=S5[B(0,3)x1,B(1,4)x2] | BLOCKS=[(x,1,(1,0)),(x^2-1,2,(1,1)),(x^2-4,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,0):dim0; x^2-1:match=gl(1,R)&so(1,1):dim1; x^2-4:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,2) | S=S6[B(0,3)x1,B(1,4)x1] | BLOCKS=[(x,1,(1,0)),(x^2-1,4,(2,2))] | dimc=4 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,0):dim0; x^2-1:match=gl(2,R):dim4] | audit=OK
+SIG=(3,2) | S=S7[R+(0,1)x1,B(2,3)x1] | BLOCKS=[(x,1,(0,1)),(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,1):dim0; x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(6,0) | S=S1[R+(0,1)x1] | BLOCKS=[(x,4,(4,0)),(x^2+1,2,(2,0))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(4,0):dim6; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(6,0) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x,2,(2,0)),(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(6,0) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x,2,(2,0)),(x^2+1,4,(4,0))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2+1:match=u(2):dim4] | audit=OK
+SIG=(5,1) | S=S1[R+(0,1)x1] | BLOCKS=[(x,4,(3,1)),(x^2+1,2,(2,0))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(3,1):dim6; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(5,1) | S=S2[B(0,5)x1] | BLOCKS=[(x,4,(4,0)),(x^2-1,2,(1,1))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(4,0):dim6; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(5,1) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x,2,(1,1)),(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(5,1) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x,2,(1,1)),(x^2+1,4,(4,0))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2+1:match=u(2):dim4] | audit=OK
+SIG=(5,1) | S=S7[R+(0,1)x1,B(2,5)x1] | BLOCKS=[(x,2,(2,0)),(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(4,2) | S=S1[R+(0,1)x1] | BLOCKS=[(x,4,(2,2)),(x^2+1,2,(2,0))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,2):dim6; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,2) | S=S2[B(0,4)x1] | BLOCKS=[(x,4,(3,1)),(x^2-1,2,(1,1))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(3,1):dim6; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(4,2) | S=S3[R+(0,1)x1,R+(2,3)x2] | BLOCKS=[(x,2,(0,2)),(x^2+1,2,(2,0)),(x^2+4,2,(2,0))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,2):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2+4:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(4,2) | S=S4[R+(0,1)x1,R+(2,3)x1] | BLOCKS=[(x,2,(0,2)),(x^2+1,4,(4,0))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,2):dim1; x^2+1:match=u(2):dim4] | audit=OK
+SIG=(4,2) | S=S5[B(0,4)x1,B(1,5)x2] | BLOCKS=[(x,2,(2,0)),(x^2-1,2,(1,1)),(x^2-4,2,(1,1))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1; x^2-4:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(4,2) | S=S6[B(0,4)x1,B(1,5)x1] | BLOCKS=[(x,2,(2,0)),(x^2-1,4,(2,2))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,0):dim1; x^2-1:match=gl(2,R):dim4] | audit=OK
+SIG=(4,2) | S=S7[R+(0,1)x1,B(2,4)x1] | BLOCKS=[(x,2,(1,1)),(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,3) | S=S1[R+(0,1)x1] | BLOCKS=[(x,4,(1,3)),(x^2+1,2,(2,0))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(1,3):dim6; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(3,3) | S=S2[B(0,3)x1] | BLOCKS=[(x,4,(2,2)),(x^2-1,2,(1,1))] | dimc=7 | dimcc=6 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(2,2):dim6; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,3) | S=S5[B(0,3)x1,B(1,4)x2] | BLOCKS=[(x,2,(1,1)),(x^2-1,2,(1,1)),(x^2-4,2,(1,1))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1; x^2-4:match=gl(1,R)&so(1,1):dim1] | audit=OK
+SIG=(3,3) | S=S6[B(0,3)x1,B(1,4)x1] | BLOCKS=[(x,2,(1,1)),(x^2-1,4,(2,2))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=gl(1,R)&so(1,1):dim1; x^2-1:match=gl(2,R):dim4] | audit=OK
+SIG=(3,3) | S=S7[R+(0,1)x1,B(2,3)x1] | BLOCKS=[(x,2,(0,2)),(x^2+1,2,(2,0)),(x^2-1,2,(1,1))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:match=so(0,2):dim1; x^2+1:match=u(1)&so(2,0):dim1; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+--- jordan (A = S + N) ---
+SIG=(2,2) | A=S+N J1[S=B(0,2)x1,B(1,3)x1;N=scan] | BLOCKS=[(x^2-1,4,(2,2))] | dimc=2 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x^2-1:sub-of=gl(2,R):dim2:bt=[]] | audit=OK
+SIG=(4,2) | A=S+N J2[S=R+(0,1)x1;N=D0] | BLOCKS=[(x,4,(2,2)),(x^2+1,2,(2,0))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:sub-of=so(2,2):dim4:bt=[(0,1):(0,0,-1,0),(0,2):(1,1,0,-1),(0,3):(0,0,-1,0),(1,2):(-1,-1,0,-1),(1,3):(0,0,-1,0),(2,3):(2,2,0,0)]; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(5,1) | A=S+N J3[S=R+(0,1)x1;N=D1] | BLOCKS=[(x,4,(3,1)),(x^2+1,2,(2,0))] | dimc=3 | dimcc=0 | preserved=ALL | ker_rho=0 | IMAGES=[x:sub-of=so(3,1):dim2:bt=[]; x^2+1:match=u(1)&so(2,0):dim1] | audit=OK
+SIG=(3,3) | A=S+N J4[S=B(0,3)x1;N=D0] | BLOCKS=[(x,4,(2,2)),(x^2-1,2,(1,1))] | dimc=5 | dimcc=3 | preserved=ALL | ker_rho=0 | IMAGES=[x:sub-of=so(2,2):dim4:bt=[(0,1):(0,0,-1,0),(0,2):(1,1,0,-1),(0,3):(0,0,-1,0),(1,2):(-1,-1,0,-1),(1,3):(0,0,-1,0),(2,3):(2,2,0,0)]; x^2-1:match=gl(1,R)&so(1,1):dim1] | audit=OK
+--- mutants ---
+MUTANT m1: CAUGHT (bracket-table MISMATCH reported)
+MUTANT m2: CAUGHT (block-preservation flagged 2 violations)
+MUTANT m3: CAUGHT (gl(2,R) equality rejected for so(2,2)-image)
+MUTANT m4: gl tester PASS on canonical gl(2,R)
+MUTANT m4: u tester PASS on canonical u(1)
+MUTANT m4: so tester PASS on canonical so(2,1)
+MUTANT m4: sp tester PASS on canonical sp(2,R)
+MUTANT m4: CAUGHT (all four testers pass on their own canonical models)
+SUMMARY: rows_strata=43 | rows_jordan=4
+SUMMARY: matches gl=33 | u=36 | so=90 | sp=0 | OTHER=0 | sub-of=4
+SUMMARY: asserts_passed=2521 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

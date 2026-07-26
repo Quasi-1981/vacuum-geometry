@@ -1,0 +1,50 @@
+================================================================================
+S1066 B3 — AN AUDIT OF THE CONSUMER T5: is `q=1` enough instead of `q≥1`
+================================================================================
+
+A RAW TABLE — the T5 law (n = p+q → min) on various sets of premises:
+     [T5 as is (p≥3 ∧ q≥1)] min n = 4 · minimizers = [(3, 1)] · UNIQUE  [B3 · dimensionless · an exhaustive search of (p,q) up to 9]
+     [without the break (only p≥3)] min n = 3 · minimizers = [(3, 0)] · UNIQUE  [B3 · dimensionless · an exhaustive search of (p,q) up to 9]
+     [without the cell (only q≥1)] min n = 1 · minimizers = [(0, 1)] · UNIQUE  [B3 · dimensionless · an exhaustive search of (p,q) up to 9]
+     [q=1 EXACTLY (instead of q≥1)] min n = 4 · minimizers = [(3, 1)] · UNIQUE  [B3 · dimensionless · an exhaustive search of (p,q) up to 9]
+     [q≥2 (a stronger break)] min n = 5 · minimizers = [(3, 2)] · UNIQUE  [B3 · dimensionless · an exhaustive search of (p,q) up to 9]
+
+(1) REMOVE-AND-LOOK [S1060-C] — does every premise carry weight
+  ✓ ★T5 in its standing form: min n = 4 and the minimizer is UNIQUELY (3,1)  [B3 · dimensionless · the minimum and a count of minimizers]
+       (tooth: said NO on «the break IS REMOVED (only p≥3) — the minimum slides to (3,0), n=3» ⟹ able to fail)
+     ⟹ BOTH premises CARRY WEIGHT: removing either destroys the verdict (n=3 · n=1).
+
+(2) ★THE CORE — is the verdict at `q=1` THE SAME as at `q≥1`
+  ✓ ★★T5 DOES NOT NEED THE RANGE: `q=1` gives EXACTLY the same verdict (n=4, uniquely (3,1)) ⟹ the consumer uses `q≥2` NOWHERE  [B3 · dimensionless · a coincidence of (the minimum, the set of minimizers)]
+       (tooth: said NO on «`q≥2` (a stronger break) — the verdict is DIFFERENT: n=5, minimizer (3,2)» ⟹ able to fail)
+     ⟹ ★the content T5 actually consumes is EXACTLY the FORBIDDING of `q=0`, not a range:
+       all that `q≥1` does in the proof — is to throw (4,0) out of the level n=4.
+
+(3) ★DOES MINIMALITY ITSELF EXTRACT `q=1` from `q≥1` (then no input is needed at all)
+  ✓ ★★★`q=1` IS AN OUTPUT OF THE MINIMIZATION, NOT AN INPUT: the T5 law strictly increases in q ⟹ the minimum settles on the smallest admissible q, and the minimizer is uniquely (3,1)  [B3 · dimensionless · monotonicity in q + the q-component of the minimizer]
+       (tooth: said NO on «★A DIFFERENT LAW `|p−q| → min` — NOT monotonic in q; minimizers (3,3),(4,4),… ⟹ q=1 does not fall out» ⟹ able to fail)
+     ⟹ ★ROBUSTNESS, not specificity (stated after the failure of the first form):
+       `p·q` — a DIFFERENT law, and it ALSO gives (3,1).  So q=1 is taken by ANY law
+       strictly increasing in q; the verdict is not bought by the choice of `n=p+q` specifically.
+     the law n=p+q: min = 4 · minimizers = [(3, 1)]  [B3 · dimensionless · minimizers by law]
+     the law |p−q|: min = 0 · minimizers = [(3, 3), (4, 4), (5, 5), (6, 6)] …  [B3 · dimensionless · minimizers by law]
+     the law p·q: min = 3 · minimizers = [(3, 1)]  [B3 · dimensionless · minimizers by law]
+     ⟹ ★this closes the audit: the siege must DELIVER exactly «q≠0»; the value q=1
+       is then produced by the T5 minimality law ITSELF, without any additional input.
+
+
+SCORE [S1066 B3 — an audit of the consumer T5]: 3 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF B3 (no verdict rendered)
+  (1) BOTH T5 premises CARRY WEIGHT: remove the cell ⟹ n=1; remove the break ⟹ n=3.
+  (2) ★`q=1` gives EXACTLY the same verdict as `q≥1` (n=4, uniquely (3,1)) ⟹
+      T5 does NOT use `q≥2` anywhere; the real content of the premise = the FORBIDDING of q=0.
+  (3) ★★minimality ITSELF yields `q=1` (under the law n=p+q the minimizer is unique
+      and has exactly one time-axis) ⟹ `q=1` IS AN OUTPUT, not an input.
+      The negative worlds — OTHER LAWS (|p−q|, p·q): there q=1 does not fall out ⟹ this line is
+      a property of the T5 LAW, not of arithmetic in general.
+  ⟹ ★FOR THE SIEGE (conditionally, Ω judges): the demotion is clean ALSO ON THE CONSUMER SIDE —
+      B2/B2b deliver exactly «q≠0», and this is EXACTLY what, and no more than, what
+      T5 consumes.  There is no split «delivered ⊥ consumed».
+================================================================================

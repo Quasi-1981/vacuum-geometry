@@ -1,0 +1,66 @@
+==========================================================================
+THE MIRROR-ASSEMBLY LAW · S1034 — the SSB-bypass of the ε-barrier (a two-stage law)
+(SSB = spontaneous symmetry breaking)
+(i) V even → (ii) nativeness → (iii)★HEART kill-first: collapse=precondition. I do NOT do (iv).
+SSB: the law respects the mirror (V even), the ground state ±m₀ breaks it. FS=STONE. Court — to Omega.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+(i) LEGALITY: V(m) is strictly ε-EVEN (symbolically, dependence only through m²)
+──────────────────────────────────────────────────────────────────────────
+  the trace-term V(m) = −√(|f|²+m²); V(−m)−V(m) = 0
+  ⟹ V depends ONLY through m² ⟹ ε-EVEN: YES ✓
+  ⟹ the (b) selection rule IS RESPECTED: the law is even, the state (±m₀) is odd. SSB is legal.
+
+──────────────────────────────────────────────────────────────────────────
+(ii) NATIVENESS: the GL-coeffs a,b = a SPECTRAL sum over the native |f| (H), 0 new constants (K2)
+──────────────────────────────────────────────────────────────────────────
+  V(m)=const −a·m²+b·m⁴, a,b = Σ over the native band |f(k)| (H=[[0,f],[f̄,0]], native momenta).
+  a=0.4445 (>0, m=0 unstable) · b=1.5596 (>0, stabilizing) — both from |f|, NO new constant.
+  K2-stop: did NOT fire (no imported constant; the trace=a spectral sum, not statistical mechanics).
+  ⟹ «the filled-band trace» is LEGALIZED as a derived −2-object (an ANSWER to the S1033 trap-charge).
+
+──────────────────────────────────────────────────────────────────────────
+(iii) ★HEART KILL-FIRST: the SPLITTER channel (ε-odd c-inv SPLITTERS) — q=1 vs q≥2 split
+──────────────────────────────────────────────────────────────────────────
+  THE NULL (kill first): «the channel is THE SAME before and after the collapse» ⟹ the collapse is not a precondition.
+
+  (a) q=1 (collapsed, one Dirac band): the SPLITTER channel dim = 1 ⟹ UNIQUE (σ_z, as in S1032)
+  (b) q≥2 (split, two active bands, T27): the SPLITTER channel dim = 4 ⟹ DEGENERATE (>1: uniform + staggered splitters, m undetermined)
+
+  KILL-FIRST RESULT:
+   • THE NULL IS KILLED: the q=1 channel (dim 1) ≠ the q≥2 channel (dim 4) ⟹ the collapse is NOT moot.
+   • ★THE COLLAPSE = A PRECONDITION OF THE ASSEMBLY (a new measured fact): q≥2 gives a DEGENERATE SPLITTER channel
+     (uniform I⊗σ_z ⊥ staggered τ_z⊗σ_z — m undetermined, SSB does not pin one arrow);
+     the collapse q≥2→q=1 removes the degeneracy ⟹ the channel becomes UNIQUE (σ_z) ⟹ the mirror can
+     assemble ONLY AFTER the collapse. The two-stage law is MEASURED, the −2-link holds.
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (an added cm³): V(−m)≠V(m)? True ⟹ REJECTED ✓ (the (i)-detector catches the oddness)
+  M2 (the b-sign is structural, not arbitrary): 1/8|f|³>0 always ⟹ REJECTED false-arbitrary-b ✓ (the trace carries structure)
+  M3 (split ≠ q=1): dim(q=1)=1 vs dim(q≥2)=4 ⟹ REJECTED false-sameness ✓ (the precondition IS MEASURED)
+  M4 (m₀² is covariant under Λ→cΛ): m₀²→c²·m₀² (a splitter~momentum), the ratio is dimensionless ⟹ REJECTED false-hidden-scale ✓
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict; I do NOT do (iv) without your (iii) verdict):
+──────────────────────────────────────────────────────────────────────────
+  (i) LEGALITY: V(m) is ε-EVEN (only m²) — the (b) selection rule is respected. ✓
+  (ii) NATIVENESS: a,b — a spectral sum over the native |f|, 0 handles (K2 clean). ✓
+  (iii)★HEART: the SPLITTER channel q=1 dim=1 (UNIQUE σ_z) ⊥ q≥2 dim=4 (DEGENERATE) ⟹
+     THE NULL IS KILLED: the collapse IS a precondition of the assembly.
+──────────────────────────────────────────────────────────────────────────
+  ★THE CANDIDATE LAW SURVIVES (i)+(ii)+(iii): the SSB-bypass is legal (the law is even/the state is odd),
+   native (0 handles), the TWO-STAGE structure is MEASURED (the collapse removes the degeneracy of the SPLITTER channel =
+   a precondition of the mirror assembly). The −2-link of the law HOLDS. The weak link (iii) WITHSTOOD.
+   ⟹ (iv) SSB-bit=?T36-bit by ancestor — READY to launch by YOUR verdict (I do not do it myself).
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: (i)even=YES · (ii)native=YES · (iii)collapse-precondition=YES · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE+heat-bath): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

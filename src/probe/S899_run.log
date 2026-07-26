@@ -1,0 +1,71 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared helper fence_scan)
+================================================================================================
+  [PASS] fence: forbidden words (list = the GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] downstream-content 0 · handles 0 (pure Lie algebra)
+
+================================================================================================
+SECTION 1 — CLOSED FORM (sympy): [A,B] in so(3) = a×b; determinant identity
+================================================================================================
+  [PASS] basis: [J_i,J_j] = ε_{ijk} J_k (all 9 pairs, sympy-exact)
+  [PASS] [A,B] = Σ (a×b)_i J_i (the component vector of the bracket = the cross product; sympy-exact)
+  (a×b) = [a2*b3 - a3*b2, -a1*b3 + a3*b1, a1*b2 - a2*b1]
+  [PASS] det[a; b; a×b] − |a×b|² = 0 (sympy-exact)
+  RAW IDENTITY: det[a; b; a×b] = |a×b|²  ;  simplify(det − |a×b|²) = 0
+  [PASS] |a×b|² − (|a|²|b|² − (a·b)²) = 0 (Lagrange; sympy-exact)
+  RAW IDENTITY: |a×b|² = |a|²|b|² − (a·b)² = Gram(a,b)  ;  simplify(difference) = 0
+  RAW CHAIN: rank[a;b]=2 ⟺ Gram(a,b)>0 ⟺ |a×b|²>0 ⟺ det[a;b;a×b]>0 ⟺ a×b ∉ span{a,b}
+
+================================================================================================
+SECTION 2 — NUMERIC SWEEP: N=10000 random 2-dimensional V ⊂ so(3), rank(span(V ∪ [V,V]))
+================================================================================================
+  N=10000 · discarded for degeneracy rank<2: 0
+  HISTOGRAM rank(span(V ∪ [V,V])): rank=2 → 0 · rank=3 → 10000
+  [PASS] the sweep ran to completion (N=10000, no truncation) — rank=2: 0 · rank=3: 10000
+
+================================================================================================
+SECTION 3 — DIMENSION COUNT: dim so(p,q) = n(n−1)/2, n = p+q
+================================================================================================
+  n=2 → dim so(p,q) = n(n−1)/2 = 1
+  n=3 → dim so(p,q) = n(n−1)/2 = 3
+  [PASS] n=2 → dim=1 · n=3 → dim=3
+
+================================================================================================
+SECTION 4 — KILLING SIGNATURES AT n=3: so(3) and so(2,1), K(X,Y)=tr(ad_X ad_Y)
+================================================================================================
+  [PASS] so(3)-basis: J_iᵀ = −J_i (all 3, antisymmetry explicit)
+  so(3):   K = [[-2, 0, 0], [0, -2, 0], [0, 0, -2]]
+  so(3):   eigenvalues K = [-2, -2, -2] · signature (n₊,n₋,n₀) = (0, 3, 0)
+  [PASS] so(2,1)-basis: X η + η Xᵀ = 0 (all 3, the isometry condition diag(+1,+1,−1) explicit)
+  so(2,1): K = [[-2, 0, 0], [0, 2, 0], [0, 0, 2]]
+  so(2,1): eigenvalues K = [-2, 2, 2] · signature (n₊,n₋,n₀) = (2, 1, 0)
+
+  RAW SIGNATURES SIDE BY SIDE (the Killing signature = an isomorphism invariant; numbers only):
+    so(3)   → (n₊,n₋,n₀) = (0, 3, 0)
+    so(2,1) → (n₊,n₋,n₀) = (2, 1, 0)
+    a 3-dimensional subalgebra of a 3-dimensional algebra = the whole algebra; dim so(2,1) = 3
+
+  change of basis e' = P·e (random integer P, det≠0) — the Killing signature of so(2,1) by number:
+    P=[[3, -1, 0], [0, 0, -3], [1, 1, -1]] → eigenvalues K' = [-19.168351, 2.976385, 20.191965] → (n₊,n₋,n₀) = (2, 1, 0)
+    P=[[3, -2, 1], [1, -1, -3], [-3, 3, -3]] → eigenvalues K' = [-11.465226, 2.735605, 36.729621] → (n₊,n₋,n₀) = (2, 1, 0)
+    P=[[3, -1, -2], [-3, -2, -2], [-3, -3, -3]] → eigenvalues K' = [-45.128357, 0.030047, 53.09831] → (n₊,n₋,n₀) = (2, 1, 0)
+    P=[[3, -3, 3], [-2, -2, -1], [1, -3, -1]] → eigenvalues K' = [-14.730849, 12.0, 40.730849] → (n₊,n₋,n₀) = (2, 1, 0)
+    P=[[3, 3, -1], [3, 1, -2], [-3, 2, -2]] → eigenvalues K' = [-52.03565, 4.203198, 39.832452] → (n₊,n₋,n₀) = (2, 1, 0)
+  [PASS] the Killing signature of so(2,1) is the same in all 5 random bases (Sylvester, by number) — [(2, 1, 0), (2, 1, 0), (2, 1, 0), (2, 1, 0), (2, 1, 0)]
+  [PASS] raw signatures printed side by side (no word of conclusion) — so(3): (0, 3, 0) · so(2,1): (2, 1, 0)
+
+================================================================================================
+SUMMARY S899 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 12/12 PASS
+
+  RAW LINES (no readings):
+   (1) [A,B] = Σ (a×b)_i J_i ; det[a;b;a×b] = |a×b|² = |a|²|b|² − (a·b)² (sympy-exact).
+   (2) histogram of rank(span(V ∪ [V,V])) over N=10000: rank=2 → 0 · rank=3 → 10000.
+   (3) dim so(p,q) = n(n−1)/2: n=2 → 1 · n=3 → 3.
+   (4) Killing signatures (n₊,n₋,n₀): so(3) → (0, 3, 0) · so(2,1) → (2, 1, 0);
+       the so(2,1) signature is unchanged under 5 random changes of basis.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+

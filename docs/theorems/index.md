@@ -24,8 +24,8 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 
 | node | status |
 |:--|:--|
-| [Center Z/(d+1) is identified with the column dual, identified with Z/h](id-2.1.md) | measured |
-| [w_0 is identified with k <-> -k, identified with the epsilon-flip](id-2.2.md) | measured |
+| [Center Z/(d+1), the column dual, and Z/h are identified](id-2.1.md) | measured |
+| [w_0, the map k <-> -k, and the epsilon-flip are identified](id-2.2.md) | measured |
 | [B = sigma_x composed with (k <-> -k) is the unique reflector; bare k<->-k or sigma_x alone are not symmetries](id-2.3.md) | measured |
 | [sigma_x (bipartite), sigma_z (chirality), and B (mirror) are three distinct Z_2 involutions](id-2.4.md) | measured |
 | [(marked bond tensor orientation) equals a single D_h orbit, D_h=<c,w_0>](id-2.5.md) | measured |
@@ -60,13 +60,13 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 
 | node | status |
 |:--|:--|
-| [Seam event of the -2 -> -1 break (T29 collapse) leads to loss of column-tick equality](shov.1.md) | measured |
-| [The sign of the first minus (T32) leads to the sign of the circle dual (Pontryagin dual)](shov.2.md) | measured |
-| [Center Z/(d+1) (T32 nodes + T34 locality) leads to nodes = center = barycenters of T26.7](shov.3.md) | measured |
-| [Two-component structure (T33) leads to classes 1A+1B of the T26.5 column](shov.4.md) | measured |
-| [The sl-gl tower (T35) leads to the T26.3 commutant ladder](shov.5.md) | measured |
-| [Arrow/class-count (T28+T36 from W41): Coxeter action c leads to epsilon -> -epsilon, 1 bit, D_h orbit](shov.6.md) | measured |
-| [Globality (S1018): pair-locality=1 leads to a single dial on the connected lattice](shov.7.md) | measured |
+| [Seam event of the -2 -> -1 break (T29 collapse) leads to loss of column-tick equality](seam.1.md) | measured |
+| [The sign of the first minus (T32) leads to the sign of the circle dual (Pontryagin dual)](seam.2.md) | measured |
+| [Center Z/(d+1) (T32 nodes + T34 locality) leads to nodes = center = barycenters of T26.7](seam.3.md) | measured |
+| [Two-component structure (T33) leads to classes 1A+1B of the T26.5 column](seam.4.md) | measured |
+| [The sl-gl tower (T35) leads to the T26.3 commutant ladder](seam.5.md) | measured |
+| [Arrow/class-count (T28+T36 from W41): Coxeter action c leads to epsilon -> -epsilon, 1 bit, D_h orbit](seam.6.md) | measured |
+| [Globality (S1018): pair-locality=1 leads to a single dial on the connected lattice](seam.7.md) | measured |
 
 ## theorem
 
@@ -107,7 +107,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Two-weight discriminant law: t=s+(d-1) (symbolic for all d); Z2 symmetry exchanges s and t](T26.2.md) | candidate |
 | [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/3/3](T26.3.md) | candidate |
 | [Nodal threads plus forced transversality (Schur argument, isotropic cone)](T26.4.md) | candidate |
-| [Period P=d+1 plus dual column equals the circle 2pi/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | candidate |
+| [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | candidate |
 | [Reading-B: time equals a labeled coordinate (invariant at q=1; branches at q>=2)](T26.6.md) | candidate |
 | [Cartan torus: nodes equal the center Z/(d+1), the barycenters of the alcoves (symbolic for all d)](T26.7.md) | candidate |
 | [Clock-ness scale: none at q=0; canonical time at q=1; split at min(p,q)>=2](T27.md) | candidate |

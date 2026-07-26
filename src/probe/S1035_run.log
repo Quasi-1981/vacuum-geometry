@@ -1,0 +1,76 @@
+==========================================================================
+THE ASSEMBLY LAW (iv) · S1035 — the SSB-bit =? the T36-bit BY ANCESTOR (a homonym-audit, S1027)
+(SSB = spontaneous symmetry breaking)
+T36-(v) proclaimed «a spontaneous mark» WITHOUT a mechanism; the S1034-SSB = the mechanism. A canonical map?
+PRIMITIVES+2×2. I do NOT do (c). FS=STONE. Court — to Omega; I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+ANCESTOR-CHECK 1: are the SSB-bit and the T36-bit flipped by THE SAME generator B=σ_x∘w₀?
+──────────────────────────────────────────────────────────────────────────
+  The SSB-carrier σ_z under B (=a σ_x-conjugation on the uniform sector): σ_x·σ_z·σ_x = −σ_z
+  The T36-rotator [T36-ii citation] = B=σ_x∘(k→−k) — THE SAME B, flips prime↔child (the orientation).
+  ⟹ both bits are flipped by B=σ_x∘w₀ (S1031: B|center=w₀). a SHARED generator ✓
+
+──────────────────────────────────────────────────────────────────────────
+ANCESTOR-CHECK 2: do both bits live in THE SAME irreducible D_h (the sign-character c→+1,w₀→−1)?
+──────────────────────────────────────────────────────────────────────────
+  σ_z: the c-action = INVARIANT (c→+1) [S1032] · the w₀/B-action = NEGATION (w₀→−1) ⟹ REP = the sign-character D_h.
+  The T36-orientation ε: c-invariant (a rotation does not change ε) · w₀ ε→−ε [T36-i citation] ⟹ a sign-character.
+  The sign-character D_h = 1-DIMENSIONAL (the unique irreducible with c→+1,w₀→−1) ⟹ both bits = ONE REP.
+  ⟹ THE SAME REP ✓ (a unique sign-character, not two different ℤ/2)
+
+──────────────────────────────────────────────────────────────────────────
+ANCESTOR-CHECK 3: is sign⟨σ_z⟩ = the orientation ε CANONICALLY (does σ_z REALIZE the bit, not a coincidence of role)?
+──────────────────────────────────────────────────────────────────────────
+  σ_z is ε-ODD (proved in (a)/S1032) ⟹ the sign of ⟨σ_z⟩ transforms AS the sign-character = ε.
+  m₀ = the order-parameter = ⟨σ_z⟩ (S1034) ⟹ sign(m₀) = ε = the T36-orientation. CANONICALLY:
+  the map φ: sign(m₀) ↦ ε — is NOT a free identification, but an IDENTITY (σ_z itself IS an ε-odd object;
+  its sign IS ε). Both — a SINGLE ℤ/2 of the sign-character, S1034 gives it a MECHANISM (a double-well),
+  which T36-(v) proclaimed («a spontaneous mark») but did NOT have. ⟹ a canonical map, a genuine bridge.
+
+──────────────────────────────────────────────────────────────────────────
+HOMONYM-CONTROL (the S1027-lesson): is this a genuine bridge, or two different ℤ/2 under one role?
+──────────────────────────────────────────────────────────────────────────
+  The S1027-lesson: the same role (both «bit») ≠ the same object. The ANCESTOR is needed.
+  A CHECK of objects (not roles):
+   • the flip generator: SSB=B=σ_x∘w₀ · T36=B=σ_x∘w₀ [T36-ii] — THE SAME (check 1).
+   • REP: both = the sign-character D_h (1-dim, unique) — THE SAME (check 2).
+   • the realizer: σ_z ε-odd IS the orientation (sign=ε) — CANONICALLY (check 3).
+  ★CONTRAST with the S1027-minus (a homonym): there so(2)_α (geometric) ≠ the center-dual (arithmetic) — DIFFERENT objects.
+   HERE both bits = ONE sign-character, ONE flip B, σ_z the realizer — NOT two objects.
+  ★A RHYME with the S1027-MARK (a genuine bridge): there the mark = the choice of the root α by a shared ancestor.
+   HERE the bit = the choice in the sign-character by a shared ancestor (B/D_h) — the same CLASS of bridge.
+  ⟹ a GENUINE BRIDGE (not a homonym): the SSB-bit = the T36-bit = a SINGLE spontaneous ℤ/2 of the sign-character.
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (a false carrier σ_x ε-even): σ_x·σ_x·σ_x=σ_x (even) ⟹ REJECTED ✓ (an even carrier does NOT realize a bit)
+  M2 (the flip is through B, not a bare w₀): the σ_x-part of B negates σ_z ⟹ REJECTED false-bare-w₀ ✓ (T36-ii: the rotator=B)
+  M3 (the sign-character is unique, 1-dim): D_h has EXACTLY one c→+1,w₀→−1 REP ⟹ REJECTED false-two-different-ℤ/2 ✓
+  M4 (role≠ancestor, S1027): many ℤ/2 have the role «bit», only the ancestor (B+sign-character) pins it down
+     ⟹ REJECTED false-any-ℤ/2 ✓ (the bridge is precisely on the ancestor, not the role)
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict; I do NOT do (c)):
+──────────────────────────────────────────────────────────────────────────
+  ANCESTOR-CHECK (3/3):
+   1. the flip generator: both = B=σ_x∘w₀ (T36-ii = S1034/S1031) — THE SAME. ✓
+   2. REP: both = the sign-character D_h (c→+1,w₀→−1, 1-dim unique) — THE SAME. ✓
+   3. the realizer: sign⟨σ_z⟩ = ε CANONICALLY (σ_z ε-odd IS the orientation). ✓
+──────────────────────────────────────────────────────────────────────────
+  ★PASS (iv): the SSB-bit = the T36-bit — a GENUINE BRIDGE by ancestor (not a homonym). A canonical map
+   φ: sign(m₀) ↦ ε. Both = a SINGLE spontaneous ℤ/2 of the sign-character D_h; the S1034-SSB GAVE
+   the MECHANISM of spontaneity, which T36-(v) proclaimed without it. The bridge class = the S1027-MARK
+   (genuine), NOT the S1027-minus (a homonym). ⟹ the mirror is assembled: the SSB-choice ±m₀ = the T36-arrow.
+   ⟹ the sign-chain (c) m₀→shov.2→Ϸ-sign OPENS as the next probe — by YOUR verdict.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: check-1(flip)=YES · check-2(REP)=YES · check-3(realizer)=YES · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

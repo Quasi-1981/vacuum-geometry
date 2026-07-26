@@ -18,7 +18,7 @@ Shows that the combination of a marked bond and an orientation forms a single or
 
 ## OUTPUT
 
-Grounds the cell/orientation orbit structure reused in the Coxeter-action seam shov.6.
+Grounds the cell/orientation orbit structure reused in the Coxeter-action seam seam.6.
 
 **Consumed by:** nothing in this graph — a terminal node.
 

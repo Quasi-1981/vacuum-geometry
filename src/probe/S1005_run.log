@@ -1,0 +1,60 @@
+==========================================================================
+W42 probe-1 (layer −2, ultrahyperbolic): a discrete ultrahyperbolic Box
+signatures (3,1)/(2,2)/(3,3) [Ш1-control]; exact integer eigenvalues; a kill-test of the seed.
+==========================================================================
+
+T1 (spectrum near zero, L=4): density on both sides + the λ↔−λ symmetry
+signature | n0 (λ=0) | npos | nneg | near-zero ±2 (0/+/−) | λ↔−λ symmetric | one-sided?
+----------------------------------------------------------------------------------------------------
+(3,1) | 28 | 219 | 9 | 0:28 +:56 −:8 | no | no (two-sided)
+(2,2) | 70 | 93 | 93 | 0:70 +:56 −:56 | yes | no (two-sided)
+(3,3) | 924 | 1586 | 1586 | 0:924 +:792 −:792 | yes | no (two-sided)
+  ★MEASUREMENT: (2,2)/(3,3) p=q ⟹ the spectrum is EXACTLY SYMMETRIC λ↔−λ (dense on BOTH sides,
+  npos=nneg). (3,1) p≠q ⟹ STRONG ASYMMETRY (leaning to the + side: npos≫nneg), BUT
+  HONESTLY: nneg≠0 (not a hard exclusion-zone/one-sidedness) — the distinction = symmetry⊥asymmetry,
+  not exclusion-zone⊥density. Refinement of stake-1: the qualitative difference holds, «exclusion-zone» does not.
+
+T2 (the ln det branch when encircling zero, L=4): null modes with ≥2 active time-axes
+signature | # null modes | max active time-axes | # split modes (≥2) | branch
+--------------------------------------------------------------------------------------------
+(3,1) | 28 | 1 | 0 | SINGLE (q=1: 1 iε-traversal)
+(2,2) | 70 | 2 | 24 | SPLIT (24 split-modes, ≥2 iε-directions)
+(3,3) | 924 | 3 | 520 | SPLIT (520 split-modes, ≥2 iε-directions)
+  ★MEASUREMENT: q=1 (3,1) → 0 split-modes (a single iε-traversal, the ln det branch is unambiguous);
+  q≥2 (2,2)/(3,3) → >0 split-modes (≥2 independent traversal time-directions ⟹ the branch
+  SPLITS). The seed's stake-2 (q=1 single ⊥ q≥2 splitting) — measured exactly.
+
+T3 (the measure-leg, separately): the √−g phase (real ⟺ q odd) vs the T1/T2 pathology
+signature | q | √−g | pathology (T1 symmetric-both / T2 split) | measure=selector?
+------------------------------------------------------------------------------------------------
+(3,1) | 1 | real | none | possible
+(2,2) | 2 | imaginary | alive | —
+(3,3) | 3 | real | alive | NO (real measure + pathology)
+  ★MEASUREMENT (Ш1 CONFIRMED): (3,3) — the measure √−g is REAL (q=3 odd, same as (3,1)), BUT
+  the ultrahyperbolic pathology is ALIVE (split-modes exist) ⟹ the measure-leg does NOT select q=1 alone (it is real for q=3 too);
+  the SELECTOR = the iε-leg (the branch), not the measure. The measure⊥iε separation — done.
+
+T4 (an honest table over the three signatures):
+signature | min(p,q) | spectrum-symmetric | ln det branch | √−g | verdict
+------------------------------------------------------------------------------------------------
+(3,1) | 1 | no | single | real | HEALTHY: a single branch + a real measure (canonical time)
+(2,2) | 2 | yes | split(24) | imaginary | ultrahyperbolic+imaginary measure (a double break)
+(3,3) | 3 | yes | split(520) | real | ultrahyperbolic+real measure (Ш1: pathology with no measure-signal)
+  ★SUMMARY: (3,1) — the ONLY one with a healthy branch (q=1); (2,2)/(3,3) ultrahyperbolic (split>0);
+  the measure separates (2,2) imaginary vs (3,3) real, but the branch catches BOTH ⟹ the iε-leg =
+  the true selector of q=1; the measure is only a reinforcement (imaginary) at q=2 (Ш1).
+
+MUTANTS:
+  MUTANT M1 (size): CAUGHT (the hypothesis «the conclusion changes at box+1» is REFUTED — symmetry+split-sign are IDENTICAL for L=3 and L=4 across all signatures; not a lattice-artifact)
+  MUTANT M2: CAUGHT (broken signature (4,0) Euclidean q=0: the spectrum is one-sided λ≥0, split=0 — qualitatively DIFFERENT from ultrahyperbolic (no two-sidedness/splitting))
+  MUTANT M3: CAUGHT (false claim «√−g is imaginary at q=3»: it is actually REAL (q=3 is odd); imaginary only for even q)
+  MUTANT M4: CAUGHT (false-branch «q=1 splits»: (3,1) split=0 — a single iε-traversal, the branch is unambiguous)
+
+NEGATIVE CONTROL (seeded): Euclidean (n,0) — a non-ultrahyperbolic reference
+  (3,0): nneg=0 (no negatives), split-modes=0 — purely one-sided, no ultrahyperbolic signal; the measurement is sensitive (signature q governs two-sidedness and splitting)
+
+SUMMARY: asserts_passed=10 | FAIL=0
+FORBIDDEN-SCAN: hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

@@ -1,0 +1,24 @@
+--- radical pin of the perfect-non-semisimple cores ---
+CORE (3,2) rank0 | core dim=6 Levi=so(2,1) | RADICAL=h3 (dim=3,dimZ=1,[rad,rad]=1,allmove=True)
+     adapted bracket table (Z first, 1 central | 2 non-central): [1,2]->[-1, 0, 0](inZ) | rad/Z(dim2) under Levi: irreducible-2 commutant-dim=1 min-cyclic=2 weights={1: 1, -1: 1}
+CORE (5,1) rank1 | core dim=6 Levi=so(3) | RADICAL=R3 (dim=3,dimZ=3,[rad,rad]=0,allmove=True)
+     adapted bracket table (Z first, 3 central | 0 non-central): (all zero: abelian)
+CORE (4,2) rank1 | core dim=6 Levi=so(2,1) | RADICAL=R3 (dim=3,dimZ=3,[rad,rad]=0,allmove=True)
+     adapted bracket table (Z first, 3 central | 0 non-central): (all zero: abelian)
+CORE (3,3) rank1 | core dim=6 Levi=so(2,1) | RADICAL=R3 (dim=3,dimZ=3,[rad,rad]=0,allmove=True)
+     adapted bracket table (Z first, 3 central | 0 non-central): (all zero: abelian)
+CORE (4,2) rank0 | core dim=8 Levi=so(2,1) | RADICAL=h5 (dim=5,dimZ=1,[rad,rad]=1,allmove=True)
+     adapted bracket table (Z first, 1 central | 4 non-central): [1,3]->[-1, 0, 0, 0, 0](inZ); [2,4]->[-1, 0, 0, 0, 0](inZ) | rad/Z(dim4) under Levi: reducible commutant-dim=4 min-cyclic=2 weights={1: 2, -1: 2}
+CORE (3,3) rank0 | core dim=8 Levi=so(2,1) | RADICAL=h5 (dim=5,dimZ=1,[rad,rad]=1,allmove=True)
+     adapted bracket table (Z first, 1 central | 4 non-central): [1,3]->[-1, 0, 0, 0, 0](inZ); [2,4]->[1, 0, 0, 0, 0](inZ) | rad/Z(dim4) under Levi: reducible commutant-dim=4 min-cyclic=2 weights={1: 2, -1: 2}
+--- mutants (one per classification branch) ---
+MUTANT br-A (abelian): CAUGHT (R3 -> R3)
+MUTANT br-B (Heisenberg): CAUGHT (h5->h5, h3->h3)
+MUTANT br-C (factor split): CAUGHT (R2(+)h3 -> R2+h3, dimZ=3)
+MUTANT br-mod-irred (the j=3/2 irrep): CAUGHT (commutant-dim=1)
+MUTANT br-mod-red (2+2): CAUGHT (commutant-dim=4, min-cyclic=2)
+MUTANT guard-bt: CAUGHT (bracket-table MISMATCH reported)
+SUMMARY: cores_pinned=6
+SUMMARY: asserts_passed=39 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

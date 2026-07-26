@@ -1,0 +1,82 @@
+==========================================================================
+RELIEF-SELECTOR v2 (PARENT) · S1038 — a correction of S1037 per the assignment+2 additions
+(A) B on the column-direction (the deciding factor) (B) decomposition (C) circularity. The fork I/II/III.
+★I do NOT claim the T36-demotion myself — it goes to the court. COMPUTING. FS=STONE. Court — to Omega; I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+(A) ★THE DECIDING FACTOR (the assignment): the action of B on the COLUMN-DIRECTION in the field = the ε-parity of the relief
+──────────────────────────────────────────────────────────────────────────
+  ★The column-direction is CANONICALLY = the ORIENTATION OF THE CLOCK (the direction c, prime→child «down», S1016/T36-ii),
+   NOT the difference-vector of the bond (the first attempt was wrong: w₀ maps e₀−e₁→e₀−e_{h−1}, it does not negate).
+  B on the orientation = CONJUGATION: B·c·B⁻¹ (B|center=w₀, S1031). A flip ⟺ B c B⁻¹=c⁻¹ (=T36-ii).
+   h | c (tick +1) | w₀·c·w₀⁻¹ | = c⁻¹ (a flip of the orientation)? ⟹ the parity of the relief
+   3 | (1, 2, 0) | (2, 0, 1) | YES a flip ⟹ ε-ODD
+   4 | (1, 2, 3, 0) | (3, 0, 1, 2) | YES a flip ⟹ ε-ODD
+   5 | (+1) | (−1) | YES a flip ⟹ ε-ODD
+   6 | (+1) | (−1) | YES a flip ⟹ ε-ODD
+  ⟹ B·c·B⁻¹ = c⁻¹ ∀h (=my S1030 field result) ⟹ B FLIPS the orientation of the clock (the column-direction)
+    ⟹ ★by the letter of the assignment: the relief is ε-ODD. A DIRECT touch of T36-(ii). Formally ⟹ the fork (I).
+
+──────────────────────────────────────────────────────────────────────────
+(B) DECOMPOSITION of the ε-oddness: from the CONVEXITY (2nd order) or the ORIENTATION (the down-direction)?
+──────────────────────────────────────────────────────────────────────────
+  BARE CONVEXITY (the Hessian of the parent |f|² at the node): |f|²(k)=|f|²(−k) ⟹ ε-EVEN (S1037 confirmed — inversion preserves convexity)
+  THE «DOWN» ORIENTATION (the column-direction): B·v=−v (from (A)) ⟹ ε-ODD.
+  «CONVEX-DOWN» = CONVEXITY(ε-even) ⊗ ORIENTATION(ε-odd) = ε-ODD,
+   BUT the ε-oddness COMES EXCLUSIVELY FROM THE ORIENTATION (the down-direction), NOT from convexity itself.
+  ⟹ the third force is ε-odd ONLY through the column-direction; the bare geometry (convexity) is even.
+
+──────────────────────────────────────────────────────────────────────────
+(C) ★CIRCULARITY (load-bearing): is the «down»-orientation an EXTERNAL canon-frame or the ARROW ITSELF?
+──────────────────────────────────────────────────────────────────────────
+  T36-(iv) [S1016 citation]: (a marked bond ⊗ ORIENTATION) = ONE D_h orbit ∀d — «where the mark is»
+   and «which way it turns» = ONE freedom. ⟹ the down-orientation of the column ∈ THE SAME orbit as the arrow.
+  T36-(v) [S1016 citation]: the remainder = 1 bit, «a discrete SPONTANEOUS mark, NOT canonical».
+  ⟹ ★the «down»-orientation (which makes the relief ε-odd) = the ARROW ITSELF (the spontaneous bit),
+    NOT an external canon-frame. The parent gives the BOND (the mark, canon S1027), but NOT its orientation
+    (T36-iv: bond⊗orient=one freedom; T36-v: spontaneous).
+  ⟹ ★THE THIRD FORCE IS CIRCULAR: «convex-down» is ε-odd ONLY because we oriented it with the ARROW.
+    Remove the arrow — the relief is ε-EVEN (S1037, bare convexity). That is, the relief PRESUPPOSES the sign,
+    it does not determine it EXTERNALLY. A selector that requires an already-chosen sign = not a selector.
+  ★BUT (a reading in favor of the wager, honestly): IF the parent's «down» is canonical OUTSIDE the child B
+    (the parent is on a HIGHER floor, the child's B does not touch it) — then the frame is external ⟹ (I). T36-(v)
+    says NO (spontaneous), but T36 judged the CHILD level; the parent's canonicity of «down» —
+    is NOT measured here (it would require proof that prime↔child is fixed on the parent's floor).
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (B flips the orientation: B c B⁻¹=c⁻¹): ⟹ REJECTED false-even-relief ✓ (the orientation is ε-odd)
+  M2 (bare convexity is ε-even): |f|²(k)=|f|²(−k) ⟹ REJECTED false-odd-convexity ✓ (ε-oddness comes only from orientation)
+  M3 (a false-ε-odd-relief added by hand smuggles in an orientation): bare convexity is even ⟹ REJECTED ✓ (any oddness = orientation=the arrow, circular)
+  M4 (T36-iv: bond⊗orient=one orbit): the orientation is NOT independent ⟹ REJECTED false-independent-orientation ✓ (=the arrow, circular)
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; ★I do NOT claim the T36-demotion myself):
+──────────────────────────────────────────────────────────────────────────
+  (A) ★B FLIPS the column-direction (B·v=−v ∀h) ⟹ by the letter of the assignment the relief is ε-ODD ⟹
+      formally the fork (I). A direct touch of T36-(ii) «B flips prime↔child, descending».
+  (B) BUT the decomposition: bare CONVEXITY is ε-EVEN (|f|² even, S1037); the ε-oddness of «convex-
+      down» comes EXCLUSIVELY from the ORIENTATION (the column-direction), not from geometry.
+  (C) ★CIRCULARITY: the «down»-orientation = the ARROW ITSELF (T36-iv bond⊗orient=one orbit; T36-v
+      spontaneous), NOT an external frame. ⟹ the relief is ε-odd ONLY because it is oriented by the arrow =
+      it PRESUPPOSES the sign, it does not determine it externally.
+──────────────────────────────────────────────────────────────────────────
+  ★THE HONEST STATE (two readings, Omega's verdict — I do NOT claim the T36-demotion myself):
+   READING-A (the letter of the assignment): B flips the column ⟹ ε-odd ⟹ (I) formally ⟹ the wager wins.
+   READING-B (decomposition+T36-iv): ε-oddness = orientation = the arrow ⟹ CIRCULAR ⟹
+     the third force presupposes the sign ⟹ it does not select ⟹ (II)-in-substance, spontaneity holds.
+   ★THE DISCRIMINATOR (to Omega's court): is the parent's «down» CANONICAL OUTSIDE the child B (the parent a floor
+     above, the frame external ⟹ I) or T36-(v)-spontaneous (⟹ B circular). T36 judged the CHILD
+     level; the parent's canonicity of «down» is NOT measured HERE — a named debt, it requires a probe
+     «whether prime↔child is fixed on the parent's floor». This IS the true fork of the wager.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: (A)B-flips-column=YES(ε-odd) · (B)bare-convexity-even=YES · (C)circular(T36-iv)=YES · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

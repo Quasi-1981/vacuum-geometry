@@ -1,0 +1,64 @@
+================================================================================
+S1066 B2b — (b1) axes · (b2) the provenance of non-degeneracy · (b3) the «scale» channel
+================================================================================
+
+(b1) THE IDENTIFICATION OF AXES — does the B2 verdict survive replacing the orthonormal vectors with the AXES OF THE CELL
+     d=2: axes 3 · the off-diag Gram = -1/2 (T19: −1/2) · Σδ = Matrix([[0, 0, 0]]) · the dimension of the span = 2 (= d)  [b1 · dimensionless · Gram, sum, rank]
+     d=3: axes 4 · the off-diag Gram = -1/3 (T19: −1/3) · Σδ = Matrix([[0, 0, 0, 0]]) · the dimension of the span = 3 (= d)  [b1 · dimensionless · Gram, sum, rank]
+  ✓ ★★THE DEMOCRACY ACTS ON THE AXES OF THE CELL BY ISOMETRIES: every transposition of axes is realized by an orthogonal R (RᵀR=I and R·δ_i=δ_j checked exactly), d=3  [b1 · dimensionless · the existence of an orthogonal realization of transpositions]
+       (tooth: said NO on «★A DIFFERENT LAW: a cell with a BROKEN democracy (axis-0 scaled ×2) — a transposition ceases to be an isometry» ⟹ able to fail)
+  ✓ ★★THE B2 VERDICT SURVIVES THE REPLACEMENT OF OBJECTS: on the GENUINE axes of the cell (unit, a Gram −1/d, linearly dependent) the mark is likewise A LABEL — the conclusion was not an artifact of coordinate orthonormal vectors  [b1 · dimensionless · the existence of an isometry δ₀↦δ_j]
+       (tooth: said NO on «★a cell with a broken democracy (axis-0 ×2) — the mark IS READABLE» ⟹ able to fail)
+     ⟹ ★(b1) CLOSED: the objects are the same — d+1 axes that the democracy permutes
+       by isometries, and on them the B2 verdict holds verbatim.  Replacing the orthonormal vectors with the
+       cell's axes did NOT change the conclusion, while the negative world (a broken democracy) overturns
+       it ⟹ the detector reads PRECISELY the democracy, not the form of the writing.
+
+(b2) THE PROVENANCE OF NON-DEGENERACY — derive it from the machinery or leave it a premise
+     definite (3,0): the dim of the isometry algebra = 3 (non-degenerate would give n(n−1)/2 = 3)  [b2 · dimensionless · the dimension of the solution of XᵀG+GX=0]
+     indefinite (2,1): the dim of the isometry algebra = 3 (non-degenerate would give n(n−1)/2 = 3)  [b2 · dimensionless · the dimension of the solution of XᵀG+GX=0]
+     DEGENERATE (a radical): the dim of the isometry algebra = 4 (non-degenerate would give n(n−1)/2 = 3)  [b2 · dimensionless · the dimension of the solution of XᵀG+GX=0]
+  ✓ ★★★NON-DEGENERACY IS NOT A FREE PREMISE — IT IS FORCED BY T1: in a DEGENERATE form a 2-dimensional CLOSED NON-ABELIAN subalgebra EXISTS ⟹ precisely what T1 forbids («there is no 2-dim non-abelian one»)  [b2 · dimensionless · a search for a closed non-abelian pair]
+       (tooth: said NO on «definite (3,0) — there is NO such subalgebra there (T1 holds)» ⟹ able to fail)
+     ⟹ ★(b2) CLOSED BY DERIVATION, not by a premise: a degenerate form BREAKS T1 —
+       the minimal carrier of the closure ceases to be what it was measured to be.
+       So non-degeneracy need not be postulated: it is demanded by the CLOSURE machinery
+       itself, and this is the very same T1 that is already accepted.  ★My B2-line «a third
+       world = an EXPLICIT premise» is thereby WEAKENED to «a consequence of T1» — I say this against
+       my own formulation.
+
+(b3) THE «SCALE» CHANNEL — verifying the prime directive, not postulating it
+  ✓ ★★THE «SCALE» CHANNEL IS A CONTINUUM-HANDLE: readability holds over the WHOLE probe grid of values (1/3, 1/2, 7/5, 11/7, 2, 3) ⟹ there is no forced value  [b3 · dimensionless · a count of the values giving readability]
+       (tooth: said NO on «the «sign» channel — exactly ONE alternative (ℤ/2), not a continuum» ⟹ able to fail)
+     channel scale: continuum, readable values in the probe = 6  [b3 · dimensionless · the type of the set of values]
+     channel sign: discrete, readable values in the probe = 1  [b3 · dimensionless · the type of the set of values]
+     channel degenerate: discrete, readable values in the probe = 1  [b3 · dimensionless · the type of the set of values]
+     ⟹ ★(b3) VERIFIED (not postulated): «scale» requires a CONTINUOUS
+       parameter without a forced value ⟹ this IS A HANDLE (the prime directive:
+       do not multiply handles).  «Sign» — a discrete ℤ/2, zero handles.
+     ★A BOUNDARY I state MYSELF: the prime directive — is OUR methodological norm, not
+       a theorem about the world.  It REJECTS the «scale» channel as inadmissible FOR
+       OUR construction, not proving its impossibility.  These are different forces, and
+       I will not substitute one for the other.
+
+
+SCORE [S1066 B2b]: 4 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+================================================================================
+★RAW OUTPUTS OF B2b (no verdict rendered)
+  (b1) CLOSED: the democracy acts on the axes of the cell by ISOMETRIES (built explicitly);
+     the B2 verdict holds verbatim on the GENUINE axes, not only on the orthonormal vectors; the negative world
+     (a broken democracy) overturns it ⟹ the detector reads the democracy.
+  (b2) CLOSED BY DERIVATION: in a degenerate form a 2-dim closed NON-ABELIAN
+     subalgebra EXISTS ⟹ T1 breaks ⟹ non-degeneracy is FORCED by the machinery,
+     it is not a free premise.  ★This is a weakening of MY OWN B2-line.
+  (b3) VERIFIED: «scale» = a continuum of values without a forced one ⟹ a handle;
+     «sign» = ℤ/2, zero handles.  ★A boundary: the prime directive rejects the channel for
+     OUR construction, not proving its impossibility in the world.
+  ⟹ WHAT THIS MEANS FOR THE ROOT-COUNT (stated conditionally, because Ω judges):
+     if the court accepts (b1)+(b2) and counts (b3) as sufficient for the «scale» channel,
+     then {AX-alphabet · AX-dimer · readability} ⟹ q≥1 WITHOUT new inputs,
+     and AX-indef is demoted to a theorem ⟹ roots 5 → 4.
+     If (b3) is considered merely methodological — ONE open
+     channel remains (scale), and the demotion is conditional.  I do NOT resolve this fork.
+================================================================================

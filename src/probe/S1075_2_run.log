@@ -1,0 +1,100 @@
+==============================================================================
+S1075 · AX-dimer · D2 (FORM): does «dimer» follow from what is already accepted?
+==============================================================================
+
+[GATE-0] the coordinate realization ⟹ the ancestor's Gram (1 / −1/d)
+   d=2: Gram = 1 diag / -1/2 off — ✓
+   d=3: Gram = 1 diag / -1/3 off — ✓
+   d=4: Gram = 1 diag / -1/4 off — ✓
+   d=5: Gram = 1 diag / -1/5 off — ✓
+   d=6: Gram = 1 diag / -1/6 off — ✓
+   d=7: Gram = 1 diag / -1/7 off — ✓
+
+[GATE-T19] the count of bonds per node (z): our world = d+1 · «columns» = 2(d+1)
+   d=2: our z=3 = d+1 ✓ (T19)   ·   «columns» z=6 ✗ — NOT the T19 cell, eliminated by the ancestor
+   d=3: our z=4 = d+1 ✓ (T19)   ·   «columns» z=8 ✗ — NOT the T19 cell, eliminated by the ancestor
+   d=4: our z=5 = d+1 ✓ (T19)   ·   «columns» z=10 ✗ — NOT the T19 cell, eliminated by the ancestor
+   d=5: our z=6 = d+1 ✓ (T19)   ·   «columns» z=12 ✗ — NOT the T19 cell, eliminated by the ancestor
+
+[T1] a marked class of bonds = a PERFECT MATCHING (1 time-bond per node)
+  ✓ d=2: the marked bonds of class u_0 form a perfect matching A–B
+       (tooth: said NO on «columns (the S597 rival)» ⟹ able to fail)
+  ✓ d=3: the marked bonds of class u_0 form a perfect matching A–B
+       (tooth: said NO on «columns (the S597 rival)» ⟹ able to fail)
+  ✓ d=4: the marked bonds of class u_0 form a perfect matching A–B
+       (tooth: said NO on «columns (the S597 rival)» ⟹ able to fail)
+  ✓ d=5: the marked bonds of class u_0 form a perfect matching A–B
+       (tooth: said NO on «columns (the S597 rival)» ⟹ able to fail)
+
+[T2] a purely-time-like path does NOT EXIST (a component of the marked subgraph = 1 edge)
+  ✓ d=2: the marked subgraph has no path of length ≥2 ⟹ duration = a zigzag
+       (tooth: said NO on «columns (time = a chain)» ⟹ able to fail)
+  ✓ d=3: the marked subgraph has no path of length ≥2 ⟹ duration = a zigzag
+       (tooth: said NO on «columns (time = a chain)» ⟹ able to fail)
+  ✓ d=4: the marked subgraph has no path of length ≥2 ⟹ duration = a zigzag
+       (tooth: said NO on «columns (time = a chain)» ⟹ able to fail)
+  ✓ d=5: the marked subgraph has no path of length ≥2 ⟹ duration = a zigzag
+       (tooth: said NO on «columns (time = a chain)» ⟹ able to fail)
+
+[T3] the zigzag ∀d from the Gram: TIME = 1+1/d · LATERAL = √(1−1/d²)
+  ✓ d=2: TIME=3/2 · LATERAL=sqrt(3)/2 · LATERAL/TIME=sqrt(3)/3 = √((d−1)/(d+1))
+       (tooth: said NO on «a factorized lattice (Gram = 1)» ⟹ able to fail)
+  ✓ d=3: TIME=4/3 · LATERAL=2*sqrt(2)/3 · LATERAL/TIME=sqrt(2)/2 = √((d−1)/(d+1))
+       (tooth: said NO on «a factorized lattice (Gram = 1)» ⟹ able to fail)
+  ✓ d=4: TIME=5/4 · LATERAL=sqrt(15)/4 · LATERAL/TIME=sqrt(15)/5 = √((d−1)/(d+1))
+       (tooth: said NO on «a factorized lattice (Gram = 1)» ⟹ able to fail)
+  ✓ d=5: TIME=6/5 · LATERAL=2*sqrt(6)/5 · LATERAL/TIME=sqrt(6)/3 = √((d−1)/(d+1))
+       (tooth: said NO on «a factorized lattice (Gram = 1)» ⟹ able to fail)
+
+   ★AN ANCHOR IN THE PRIMARY SOURCE S597 (a diamond in a cube a=1, a bond = √3/4):
+     TIME·bond = sqrt(3)/3 = 0.57735   (S597 prints 0.5774)
+     LATERAL·bond = sqrt(6)/6 = 0.40825   (S597 prints 0.4082)
+
+[T4] ABLATION over q (the count of marked classes): a matching ⟺ q=1 ?
+   d=2: q with a matching = (1,)
+  ✓ d=2: a perfect matching exists EXACTLY at q=1 ⟹ «dimer» ≡ «one class marked»
+       (tooth: said NO on «a scan in the world of columns» ⟹ able to fail)
+   d=3: q with a matching = (1,)
+  ✓ d=3: a perfect matching exists EXACTLY at q=1 ⟹ «dimer» ≡ «one class marked»
+       (tooth: said NO on «a scan in the world of columns» ⟹ able to fail)
+   d=4: q with a matching = (1,)
+  ✓ d=4: a perfect matching exists EXACTLY at q=1 ⟹ «dimer» ≡ «one class marked»
+       (tooth: said NO on «a scan in the world of columns» ⟹ able to fail)
+   d=5: q with a matching = (1,)
+  ✓ d=5: a perfect matching exists EXACTLY at q=1 ⟹ «dimer» ≡ «one class marked»
+       (tooth: said NO on «a scan in the world of columns» ⟹ able to fail)
+
+[T5] a contrast: the combinatorial form stands ∀d, the zigzag number moves
+  ✓ the form (a matching + no purely-time-like path) is invariant in d, while TIME=1+1/d moves with d
+       invariant ['(True, True)', '(True, True)', '(True, True)', '(True, True)'] ⊥ control ['3/2', '4/3', '5/4', '6/5'] — the same machinery MOVES the control,
+       so 'the invariant stands' is a measurement, not blindness
+
+SCORE [S1075 · D2-form of AX-dimer]: 17 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS FOR D2 (a measurement, not a verdict — Ω's verdict after Beta's visa):
+
+  (1) «1 time-bond per node» and «no purely-time-like path» — are NOT separate content:
+      both fall ∀d from ONE ancestor (the marked cover of the cell: exactly one edge of
+      each class per node), as soon as ONE class is marked.  Multiplicity by ancestor = 1.
+  (2) S597 MEASURED these two lines (a code-visa, the d=3 diamond), but it measured a
+      CONSEQUENCE: the CHOICE itself, «the time-bond = the global (1,1,1)», was an INPUT of
+      its visualization — the primary source, verbatim: «the time-bond = a global choice of
+      (1,1,1)» and «the time-bond is singled out ONLY by a global choice of 1 out of 4
+      equivalent directions».
+      ⟹ S597 postulated the CHOICE (D3), measured the FORM (D2).
+  (3) T4: a matching exists EXACTLY at q=1 ⟹ the entire D2 form = a function of the COUNT of
+      marked classes.  It carries no content of its own beyond «q=1».
+  ★HONESTLY ABOUT THE PROBE'S STRENGTH: T1/T2 follow almost directly from the definition of
+      the marked cover (T19: z=d+1, bipartite, one edge of each class per node).  This is
+      NOT a defect of the probe, it IS the D2 measurement: «dimer» lies one step away from
+      the cell, that is, it is not an independent statement.  The probe's value is not its
+      strength but its NEGATIVE WORLDS: the rival «columns» (S597 fact 2) is eliminated by
+      the T19 ANCESTOR (z=2(d+1)≠d+1), not by taste.
+
+  (4) A REMAINDER this probe does NOT close (and does not claim to): the identification
+      «time-axis ↔ the bond class u_0».  T1/T2 live in the language of BOND CLASSES; the
+      world «merged marks» shows that the language of AXES would give a different verdict.
+      This already stands in the graph as the candidate edge A-axis⇢AX-dimer (S1027) — the
+      address is known, not new.
+────────────────────────────────────────────────────────────────────────────────

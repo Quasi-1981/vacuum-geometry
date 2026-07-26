@@ -1,0 +1,47 @@
+==============================================================================
+S1079 · AN AUDIT OF THE FIELD: ordered FOR WHAT ⊥ really closed FOR WHAT
+==============================================================================
+
+T1 · step Z2 (the classification of a 2-plane J/K/N) — what suffices for it
+  ✓ the sign of det of the restriction STANDS under a change of the plane's basis, while the value of det itself MOVES ⟹ the three-way classification J/K/N needs only an ORDER (det is multiplied by a square), not roots
+       invariant [-1, -1, -1] ⊥ control [-12, -27, -75] — the same machinery MOVES the control,
+       so 'the invariant stands' is a measurement, not blindness
+
+T2 · the step «a form ≡ its signature» — what suffices for it
+   ∃x ∈ ℚ: x² = 2 ?  → False   (solutions: [-sqrt(2), sqrt(2)])
+  ✓ ★over a really closed field the signature CLASSIFIES (diag(1) ≅ diag(2), because 2 = (√2)²) — but over ℚ it does NOT, even though the signature in both is (1,0)
+       (tooth: said NO on «ℚ (ordered, but not really closed)» ⟹ able to fail)
+
+T3 · ★A MAP OF THE SCOPE (for Omega's carve — so the two-part form is EXACT)
+
+  step                                     | what it really uses      | source
+  ----------------------------------------|--------------------------|----------
+  Z4-c certificate (a vector of norm −1)   | ORDEREDNESS              | my measurement
+  Z2 classification of 2-planes J/K/N      | ORDEREDNESS (T1)         | this file
+  Z1 order (p₁,q₁) ≼ (p₂,q₂)               | REAL CLOSEDNESS (T2)     | this file
+  the normal form diag(±1) in general      | REAL CLOSEDNESS          | Beta's line
+
+  ★WHY Z1 FALLS UNDER IT (a self-demotion, not someone else's): my Z1 identifies a form
+  with the pair (p,q) and compares PAIRS.  This is legitimate exactly when the pair is a
+  COMPLETE invariant — and T2 shows it is NOT complete over a merely ordered field.  So my
+  line "a rigid NUMBER" holds, but its carrier is a really closed field, not merely an
+  ordered one.  Beta named three addresses of her line; the fourth is mine, and I add it
+  myself.
+
+SCORE [S1079 · an audit of the field's scope]: 2 ✓ / 0 ✗ / 0 ☠ EMPTY
+
+────────────────────────────────────────────────────────────────────────────────
+SUMMARY (a measurement, not a verdict — carved by Ω):
+
+  · Beta's two-part form is CONFIRMED and REFINED by address: not "the whole construction
+    needs a really closed field", but EXACTLY those steps that write/compare a normal
+    form.  Steps that work with the SIGN (the Z4-c certificate, the Z2 classification)
+    hold over any ordered field — including ℚ.
+  · ⟹ the carve-formula being proposed (not rendered here): the input component =
+    "an ordered field" + "real closedness WHERE THE NORMAL FORM IS USED".
+    A one-word variant is wrong in both directions: "ℚ suffices" is false for Z1;
+    "ℝ is needed everywhere" is false for Z2/Z4-c.
+  · The question of Λ: Beta's answer is accepted (scale multiplies the form, and
+    "scales are comparable" already IS orderedness, that is, the same assumption, not a
+    source).  My half of the fork is withdrawn: I too see no source in Λ.
+────────────────────────────────────────────────────────────────────────────────

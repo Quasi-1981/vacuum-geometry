@@ -1,0 +1,92 @@
+==========================================================================
+PLAN-1D PROBE S1026 — (d,1) FROM A PARABOLIC (CLOSING the form of the axis, «close it»)
+BINARY: is (d,1) = κ(the S1025-unique) on the MINIMAL parabolic p_α(one α), NOT the full n±?
+★KILL-FIRST: null = «the parabolic does NOT give (d,1)». The three laws of S1024. FS=STONE. Court — to Omega.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+ANTI-REUSE AUDIT (law-1): used ∩ FORBIDDEN(S1023 outputs) = ∅ ?
+──────────────────────────────────────────────────────────────────────────
+   used     = ['Lambda', 'bare_set_Omega', 'lie_bracket_AXclosure_ROOT', 'minimal_parabolic', 'root_choice_MARK', 'trace_form_kappa_native']
+   ★κ is computed via tr NATIVELY (uniqueness — S1025 citation), NOT from the S1023-Gram.
+   leak = [] ⟹ CLEAN ✓
+
+──────────────────────────────────────────────────────────────────────────
+★BINARY QUESTION (closing): κ on the MINIMAL parabolic p_α — is q=EXACTLY 1 (one axis)?
+──────────────────────────────────────────────────────────────────────────
+α = the simple root e_0−e_1 (mark=the choice of α). κ = the trace tr-form (unique, S1025 citation).
+   d | n | (A) p_α=h⊕E_α⊕F_α | (B) h⊕ℝ(E_α−F_α) | sl(2)_α triplet | q EXACTLY 1 (A/B)?
+   1 | 2 | (2, 1, 0)         | (1, 1, 0)         | (2, 1, 0)       | A:q=1 B:q=1 B=(d,1)?YES
+   2 | 3 | (3, 1, 0)         | (2, 1, 0)         | (2, 1, 0)       | A:q=1 B:q=1 B=(d,1)?YES
+   3 | 4 | (4, 1, 0)         | (3, 1, 0)         | (2, 1, 0)       | A:q=1 B:q=1 B=(d,1)?YES
+   4 | 5 | (5, 1, 0)         | (4, 1, 0)         | (2, 1, 0)       | A:q=1 B:q=1 B=(d,1)?YES
+   5 | 6 | (6, 1, 0)         | (5, 1, 0)         | (2, 1, 0)       | A:q=1 B:q=1 B=(d,1)?YES
+
+  READING (raw facts):
+   • (A) the parabolic p_α (the exante object) = (d+1,1): q=EXACTLY 1 ✓, but p=d+1 (the hyperbolic pair {E_α,F_α}
+     gives a NULL-CONE 2-plane: 1 time ⊥ 1 spatial-partner). The exante-label «(d,1)» is off by +1 in p.
+   • (B) the clean axis h⊕ℝ(E_α−F_α) = EXACTLY (d,1): d definite (space) + 1 negative (time).
+     This is precisely the AX-indef-form (d,1), q=1, without a null-cone-partner.
+   • BOTH: q = EXACTLY 1 ∀d — ONE time-axis, chosen by the root α. A robust invariant of the closing.
+   • the sl(2)_α triplet = (2,1): a 2-dim null-cone + H_α — the core of both constructions.
+
+──────────────────────────────────────────────────────────────────────────
+MARK↔AXIS (the lock of the two remaining roots): «which α» = the choice of the UNIQUE time-axis
+──────────────────────────────────────────────────────────────────────────
+   d | q(p_α) ∀ choice of α among the simple roots | axis = the chosen root?
+   2 | [1, 1]                           | YES — every α gives q=1, the choice=THE MARK
+   3 | [1, 1, 1]                        | YES — every α gives q=1, the choice=THE MARK
+   4 | [1, 1, 1, 1]                     | YES — every α gives q=1, the choice=THE MARK
+   5 | [1, 1, 1, 1, 1]                  | YES — every α gives q=1, the choice=THE MARK
+  ⟹ EVERY simple root α gives EXACTLY ONE axis (q=1); «WHICH α» = the MARK(AX-dimer). ⟹ ★THE LOCK:
+    the mark and the axis = ONE datum (which root = time). The two roots remaining from the S1023-review are MERGED:
+    axis-TYPE = the Schur-κ split [S1025] · axis-FORM (·,1) = the parabolic · UNIQUENESS = the mark [this one].
+
+──────────────────────────────────────────────────────────────────────────
+HOMONYM-AUDIT ((·,1)-parabolic vs AX-indef/T32-(d,1))
+──────────────────────────────────────────────────────────────────────────
+  TYPE: both = an indefinite real-quad-form, q=1 (one axis) — a TYPE MATCH (≠ the sgn character, S1024).
+  FORM: (B) h⊕ℝ(E_α−F_α) = EXACTLY (d,1) = the AX-indef form ((3,1) for d=3 — the S918/S923 families).
+  ANCESTOR: the parabolic-(d,1) from {κ=the S1025-unique · the α-mark}; the T32-(d,1) from participation/Pontryagin.
+   ★IS it the same object: both = ONE negative direction on a definite Cartan-background, chosen by
+    ONE root. The bridge-candidate is GENUINE (the same α-sl(2), one κ) — BUT checking the ancestor
+    T32-mechanism (participation) against the α-choice is left to the COURT (T32 is not re-derived). I do not render a verdict.
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (two roots α,β d=4): sig=(6, 2, 0) ⟹ q=2 REJECTED false-one ✓ (q grows with #roots, the mark=EXACTLY 1)
+  M2 (H_α alone): sig=(1, 0, 0) ⟹ REJECTED false-indef ✓ (H_α is definite +)
+  M3 (d→d+1 stability): q(p_α) over d=[2, 3, 4, 5] = [1, 1, 1, 1] ⟹ REJECTED false-unstable ✓ (q=1 stable)
+  M4 (false-κ not invariant d=4): sig=(3, 3, 0) ⟹ REJECTED ✓ (q≠1 — it is precisely the invariance of κ that gives q=1, not the subspace's form)
+
+  NEGATIVE CONTROL (seed): random 6×6 forms with q=1: 0/300=0.000 — q=1 is NOT automatic
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS + STRUCTURAL CONCLUSION (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  ★CLOSING (the author's binary question):
+   • q = EXACTLY 1 ∀d from the MINIMAL parabolic of one root α (both constructions) —
+     ONE time-axis is FORCED by one root. This is the form of the axis, not a separate uniqueness postulate.
+   • (A) the parabolic p_α = (d+1,1) [a null-cone-pair]; (B) h⊕ℝ(E_α−F_α) = EXACTLY (d,1) [a clean axis].
+     Both q=1; which one = AX-indef — Omega's call (the exante-label «(d,1)» is exact for (B), off by +1 for (A)).
+   • ★MARK↔AXIS MERGED: «which α» = the choice of axis = the MARK(AX-dimer). The two remaining roots = ONE datum.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY OF THE ARC S1023→S1026 (raw, not a verdict):
+   space=a Schur-form on h [S1023] · axis-TYPE=the nilpotent-half of the same κ [S1025] ·
+   axis-FORM (·,1)+UNIQUENESS=the mark on the parabolic [S1026] ⟹ AX-indef+AX-dimer SPLIT
+   into {a UNIQUE κ (a simple algebra) · the choice of ONE root}. «Not many cards»: {Ω,order,closure,Λ}.
+──────────────────────────────────────────────────────────────────────────
+  anti-reuse               : YES/PASS
+  q=EXACTLY-1(parabolic)   : YES/PASS
+  (B)=EXACTLY-(d,1)        : YES/PASS
+  mark↔axis-lock           : YES/PASS
+  homonym-audit            : YES/PASS
+  mutants                  : YES/PASS
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

@@ -1,0 +1,68 @@
+==========================================================================
+STIK STEP 2 (a) KINEMATICS · S1032 — an ε-odd c-invariant m + UNIQUENESS
+Field = D_h center+two-component (S1029/S1031). The action of w₀/c on m is COMPUTED (not postulated). Primitives+2×2.
+★STOP-negative if m does not exist/is not unique. ONLY (a). FS=STONE. Court — to Omega; I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+LEVEL (a): an ε-odd c-invariant m — construction + UNIQUENESS (Schur-style). COMPUTED in the field.
+──────────────────────────────────────────────────────────────────────────
+  Step 0 (computed): c-inv. functions on ℤ/h = CONSTANTS ⟹ m is uniform ⊗ a two-component operator.
+  The action of the D_h-flip in the field = conjugation by σ_x (B=σ_x∘w₀, w₀ trivial on uniform ones). ε-odd ⟺
+  σ_x O σ_x = −O. The SPLIT-tooth (the SPLIT, from the real T33): {O, H}=0 (anticommutes with the kinetic term).
+
+   operator | c-inv? | σ_x O σ_x     | ε-odd? | {O,H} (anticommutes with kinetic?) | SPLIT?
+   I        | yes    | +I           | no         | ≠0                              | no
+   σ_x      | yes    | +σ_x         | no         | ≠0                              | no
+   σ_y      | yes    | −σ_y         | YES        | ≠0                              | no
+   σ_z      | yes    | −σ_z         | YES        | =0 (anticommutes)               | YES
+
+  (i) ε-odd c-invariants under the BARE D_h-flip: ['σ_y', 'σ_z'] ⟹ dim 2
+  (ii) + the SPLIT-tooth (anticommutes with the kinetic H, from the real T33): ['σ_z'] ⟹ dim 1
+
+  ★PASS: m = σ_z = diag(1,−1) — EXPLICIT, UNIQUE (dim 1). Of the TRACE type (diagonal traceless)
+    = the prediction «an ε-contraction of the trace type» HIT. Action (computed): c·m=m (inv.),
+    B·m = σ_x·σ_z·σ_x = −σ_z = −m (ε-odd). Schur-style uniqueness: the 1-dim sign-isotype
+    of D_h ∩ the SPLIT-sector = {σ_z}.
+
+──────────────────────────────────────────────────────────────────────────
+UNIQUENESS (Schur-style): dim of the space of ε-odd c-inv. SPLITTERS = 1 — an independent check
+──────────────────────────────────────────────────────────────────────────
+  m = a·σ_x + b·σ_y + c·σ_z (a general Hermitian traceless operator).
+  ε-oddness σ_x·m·σ_x=−m ⟹ a=0 (σ_x is even), b,c free
+  the SPLITTER condition (anticommutator with H)=0 ⟹ an equation on b,c:
+    anticomm(σ_y,H) = ≠0  ⟹ σ_y is NOT a SPLITTER (b must=0)
+    anticomm(σ_z,H) = 0  ⟹ σ_z IS a SPLITTER (c free)
+  ⟹ SOLUTION: a=0 (σ_x even) · b=0 (σ_y odd, but NOT a splitter) · c free (σ_z odd AND a splitter)
+    ⟹ the space = {c·σ_z} = 1-DIMENSIONAL ⟹ m = σ_z UNIQUE up to scale. dim=1
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (σ_x ε-even, not m): σ_x σ_x σ_x = σ_x ⟹ REJECTED false-m=σ_x ✓
+  M2 (σ_y odd, but {σ_y,H}≠0 not a splitter): ⟹ REJECTED false-unique-without-tooth ✓ (without the split dim=2)
+  M3 (σ_z odd AND a splitter): σ_x σ_z σ_x=−σ_z and {σ_z,H}=0 ⟹ REJECTED false-not-unique ✓ (σ_z is both)
+  M4 (m=σ_z nontrivial, c-inv automatic): ⟹ REJECTED false-empty ✓
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  ★PASS at level (a): m = σ_z = diag(1,−1) — EXPLICIT · c-invariant (computed) · ε-odd
+   (B·σ_z=−σ_z computed) · UNIQUE up to scale (1-dim, the split-tooth from the real T33 pins it).
+   The prediction «an ε-contraction of the trace type» HIT (σ_z diagonal traceless = of the trace type).
+   ⟹ D_h→⟨c⟩ HAS a canonical break-channel; the freezing picture is ALIVE for level (b).
+──────────────────────────────────────────────────────────────────────────
+  ★BOTH READINGS (discipline): under the BARE D_h-flip the ε-odd ones = {σ_y,σ_z} dim 2 (NOT unique
+   by itself). Uniqueness comes from the split-tooth (a splitter=anticommutes with the kinetic H, from the real T33 chirality):
+   σ_y is odd but NOT a splitter ({σ_y,H}≠0) ⟹ drops out; σ_z is odd AND a splitter ⟹ UNIQUE.
+   ★OMEGA'S CALL: uniqueness rests on the split-tooth (canonical, from the T33 H). If you accept only the D_h-
+   symmetry without the chiral H — dim=2, a STOP-negative. I computed both, the tooth from the real T33.
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: PASS(a)=YES · Schur-uniqueness=YES · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

@@ -1,0 +1,13 @@
+--- COURT P4: image of c(A) per block == centralizer of N|block inside factor(=image of c(S)|block) ---
+J1 f=x^2-1 d=4 sig=(2, 2) | dim F=4 | dim cF(N)=2 | dim im c(A)=2 | span-EQUAL=YES
+J2 f=x d=4 sig=(2, 2) | dim F=6 | dim cF(N)=4 | dim im c(A)=4 | span-EQUAL=YES
+J2 f=x^2+1 d=2 sig=(2, 0) | dim F=1 | dim cF(N)=1 | dim im c(A)=1 | span-EQUAL=YES
+J3 f=x d=4 sig=(3, 1) | dim F=6 | dim cF(N)=2 | dim im c(A)=2 | span-EQUAL=YES
+J3 f=x^2+1 d=2 sig=(2, 0) | dim F=1 | dim cF(N)=1 | dim im c(A)=1 | span-EQUAL=YES
+J4 f=x d=4 sig=(2, 2) | dim F=6 | dim cF(N)=4 | dim im c(A)=4 | span-EQUAL=YES
+J4 f=x^2-1 d=2 sig=(1, 1) | dim F=1 | dim cF(N)=1 | dim im c(A)=1 | span-EQUAL=YES
+COURT P4: 7/7 span-equal
+--- COURT: gl(2)-liveness on kernel (2,2) blocks of J2/J4 (dim-vs-bracket discriminant) ---
+J2 kernel(2,2): gl(2)-model constructible=True | dim gl=4 vs dim im=4 -> dim-equal=True | span-equal=False
+J4 kernel(2,2): gl(2)-model constructible=True | dim gl=4 vs dim im=4 -> dim-equal=True | span-equal=False
+SUMMARY: asserts=231 FAIL=0

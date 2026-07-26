@@ -1,0 +1,27 @@
+--- part 1: nilpotent-row centralizers (FIXED classification + Levi) ---
+ROW N SIG=(3,1) rank1 | dimc=2 | ABELIAN | derived=[2, 0]
+ROW N SIG=(2,2) rank0 | dimc=4 | NON-ABELIAN semisimple-core | derived=[4, 3] | CORE-ID=match=so(2,1)&sp(2,R):dim3
+ROW N SIG=(2,2) rank1 | dimc=2 | ABELIAN | derived=[2, 0]
+ROW N SIG=(4,1) rank1 | dimc=4 | SOLVABLE | derived=[4, 2, 0]
+ROW N SIG=(3,2) rank0 | dimc=6 | CORE perfect-non-ss dim6 Killing(2, 1, 3) ninv1 | Levi=so(2,1) lfp=(3, (2, 1, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=3 [rad,rad]=1 [core,rad]=3 [Levi,rad]=2 rad^Levi-inv=1 | rad-filtration=[1,2]
+ROW N SIG=(3,2) rank1 | dimc=4 | SOLVABLE | derived=[4, 2, 0]
+ROW N SIG=(5,1) rank1 | dimc=7 | CORE perfect-non-ss dim6 Killing(0, 3, 3) ninv2 | Levi=so(3) lfp=(3, (0, 3, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=3 [rad,rad]=0 [core,rad]=3 [Levi,rad]=3 rad^Levi-inv=0 | rad-filtration=[0,3]
+ROW N SIG=(4,2) rank0 | dimc=9 | CORE perfect-non-ss dim8 Killing(2, 1, 5) ninv1 | Levi=so(2,1) lfp=(3, (2, 1, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=5 [rad,rad]=1 [core,rad]=5 [Levi,rad]=4 rad^Levi-inv=1 | rad-filtration=[1,4]
+ROW N SIG=(4,2) rank1 | dimc=7 | CORE perfect-non-ss dim6 Killing(2, 1, 3) ninv2 | Levi=so(2,1) lfp=(3, (2, 1, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=3 [rad,rad]=0 [core,rad]=3 [Levi,rad]=3 rad^Levi-inv=0 | rad-filtration=[0,3]
+ROW N SIG=(3,3) rank0 | dimc=9 | CORE perfect-non-ss dim8 Killing(2, 1, 5) ninv1 | Levi=so(2,1) lfp=(3, (2, 1, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=5 [rad,rad]=1 [core,rad]=5 [Levi,rad]=4 rad^Levi-inv=1 | rad-filtration=[1,4]
+ROW N SIG=(3,3) rank1 | dimc=7 | CORE perfect-non-ss dim6 Killing(2, 1, 3) ninv2 | Levi=so(2,1) lfp=(3, (2, 1, 0), 1) | Levi-realize=explicit(dim3,closed) | rad: dim=3 [rad,rad]=0 [core,rad]=3 [Levi,rad]=3 rad^Levi-inv=0 | rad-filtration=[0,3]
+--- part 2: mixed-row centralizers ---
+ROW J1 SIG=(2,2) mixed | dimc=2 | ABELIAN | derived=[2, 0]
+ROW J2 SIG=(4,2) mixed | dimc=5 | NON-ABELIAN semisimple-core | derived=[5, 3] | CORE-ID=match=so(2,1)&sp(2,R):dim3
+ROW J3 SIG=(5,1) mixed | dimc=3 | ABELIAN | derived=[3, 0]
+ROW J4 SIG=(3,3) mixed | dimc=5 | NON-ABELIAN semisimple-core | derived=[5, 3] | CORE-ID=match=so(2,1)&sp(2,R):dim3
+--- mutants ---
+MUTANT mu1: CAUGHT (perfect-whole so(2,1) tagged NON-ABELIAN; abelian tagged ABELIAN)
+MUTANT mu2: CAUGHT (killing_radical: core6 -> rad3 + semisimple quotient dim3 Levi=so(3))
+MUTANT mu3: CAUGHT (Levi quotient: (5,1)r1=Levi=so(3) vs (4,2)r1=Levi=so(2,1))
+MUTANT mu4: CAUGHT (explicit Levi closes; radical-perturbed complement does NOT)
+MUTANT mu5: CAUGHT (bracket-table MISMATCH reported)
+SUMMARY: rows=15 | perfect-non-ss-Levi-rows=6
+SUMMARY: asserts_passed=65 | FAIL=0
+FORBIDDEN-SCAN: hits=0
+EXIT=0

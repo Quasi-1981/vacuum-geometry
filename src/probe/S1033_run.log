@@ -1,0 +1,95 @@
+==========================================================================
+STIK STEP 2 (b) DYNAMICS · S1033 — does T29 contain an ε-odd σ_z-bifurcation? (the most risky)
+Q1 filled-band trace double-well? · Q2 channel σ_z? · ★load-bearing №1 the crux (T29-channel or added?) · the fork
+The T29-mechanism is COMPUTED. ONLY (b). FS=STONE. Court — to Omega; I do NOT render a verdict.
+==========================================================================
+
+──────────────────────────────────────────────────────────────────────────
+Q1: the filled-band trace over the T33-band + a σ_z-splitter ⟹ a GL-double-well? (does the S637-mechanism work here?)
+──────────────────────────────────────────────────────────────────────────
+  V(m) = −(1/N)Σ√(|f|²+m²) = const − a·m² + b·m⁴ (expansion). a>0 (m=0 unstable), b>0 (stabilizing).
+   d | GL-coeff a (of −m²) | GL-coeff b (of +m⁴) | m₀²=a/(2b) | double-well?
+   2 |              0.4445 |              1.5596 |     0.1425 | YES ✓ (m=0 unstable, ±m₀ stable)
+   3 |              0.4192 |              0.5659 |     0.3704 | YES ✓ (m=0 unstable, ±m₀ stable)
+
+  Profile of V(m) − V(0), d=2 (the shape of the double-well):
+    m=0.00: V−V0 = +0.00000
+    m=0.10: V−V0 = -0.00436
+    m=0.20: V−V0 = -0.01695
+    m=0.30: V−V0 = -0.03705
+    m=0.50: V−V0 = -0.09703
+    m=0.80: V−V0 = -0.22742
+  ⟹ V decreases from m=0 (unstable) to a minimum m₀, then grows (m⁴) ⟹ a DOUBLE-WELL (S637 works).
+    ★The sign of m⁴ = POSITIVE = «the sign from the filled-band trace» (S637) — stabilizes ±m₀. COMPUTED.
+
+──────────────────────────────────────────────────────────────────────────
+Q2 (LOAD-BEARING №2): is the bifurcation split-channel = σ_z (anticommutes with H), not a σ_y-shift?
+──────────────────────────────────────────────────────────────────────────
+   anticomm(σ_z,H) = 0 ? True ⟹ σ_z OPENS a split (a splitter, eigenvalues ±√(|f|²+m²))
+   anticomm(σ_y,H) = 0 ? False ⟹ σ_y is NOT a splitter (only shifts f, does not open a split)
+  ⟹ the filled-band trace splits PRECISELY through σ_z (the only anticommuting one) ⟹ load-bearing №2 HOLDS:
+    the bifurcation channel = the chiral splitter σ_z (not σ_y). The splitter-selection of (a) does NOT roll back.
+
+──────────────────────────────────────────────────────────────────────────
+★LOAD-BEARING №1 (THE CRUX, the step-1 trap): is the σ_z-bifurcation = the T29-channel, or an ADDED filled-band trace?
+──────────────────────────────────────────────────────────────────────────
+  T29 [S1008, cited] asserts TWO facts that CONFLICT with the σ_z-channel:
+   (T29-i) the mechanism = axis MUTENESS (weight-detuning ℚ⁺), the order-parameter = C̃ (a CLOCK COUNT);
+   (T29-ii) ★«THE SPLIT DOES NOT OCCUR» (the null-mode family holds ∀w) — the collapse is UNSPLIT.
+  The σ_z-channel (from (a)+Q1) = SPLIT-opening (anticommutes with H), ε-ODD. C̃ = a COUNT, ε-EVEN.
+  ⟹ a COMPUTED MISMATCH:
+     • the T29-parameter (C̃) is ε-EVEN (w₀ does not negate a count) ⊥ the (a)-parameter (σ_z) is ε-ODD;
+     • T29 is UNSPLIT ⊥ the σ_z-bifurcation is SPLIT-opening (Q2).
+  ⟹ ★THE σ_z-BIFURCATION (Q1) — a SEPARATE filled-band-trace mechanism, NOT the T29-channel. T29 as FORMULATED
+    (muteness/unsplit/C̃) does NOT contain an ε-odd σ_z-term. To get the σ_z-double-well, I INTRODUCED
+    a filled-band trace (S637-style) — this is ADDING dynamics that T29 does not have = the STEP-1 TRAP.
+  ⟹ by the letter of load-bearing №1: (b) does NOT pass on T29 — the ε-odd term is added, not in T29.
+    ★OMEGA'S CALL: IF the filled-band trace over the T33-band is recognized as «T29-dynamics» (because the band
+    is native, the trace is DERIVED not added) — then (b) PASSES (Q1 double-well + Q2 σ_z-channel).
+    This is a verdict of LEVEL, not mine: whether T29-as-is (unsplit C̃) = sufficient, or a native ε-odd
+    term is needed IN T29. I computed both sides; the tension is REAL, not silenced.
+
+──────────────────────────────────────────────────────────────────────────
+★THE FORK (mandatory): 2 ground states ±m₀ ⟹ a domain WALL or a T37-GLOBAL correlation?
+──────────────────────────────────────────────────────────────────────────
+  If the σ_z-double-well holds (Q1), the sign of m₀ ∈ {+,−} = the choice of orientation = 2 ground states.
+  T37 [S1018, cited]: the capacity of a connected A_d-lattice = 1 ⟹ ONE center = ONE clock
+    GLOBALLY; domains/walls are IMPOSSIBLE in the native machinery (the synchronization is STRUCTURAL).
+  ⟹ RESOLVING THE FORK: the sign of m₀ is CORRELATED across the WHOLE connected lattice (T37-globality,
+    shov.7) — a domain wall as a native object DOES NOT EXIST; the choice is ONE per connectivity component.
+    (A wall would appear only at a break in connectivity — named, behind the fence.) ⟹ GLOBALITY,
+    not a wall. The fork is resolved EXPLICITLY (not silenced): T37 carries the correlation of the choice.
+
+──────────────────────────────────────────────────────────────────────────
+MUTANTS (≥4)
+──────────────────────────────────────────────────────────────────────────
+  M1 (m⁴-coeff b>0 stabilizes): b=1.5596 ⟹ REJECTED false-runaway ✓ (the filled-band-trace sign is +)
+  M2 (m²-coeff −a<0, m=0 unstable): a=0.4445 ⟹ REJECTED false-stable-zero ✓
+  M3 (σ_z anticomm=0, σ_y not): ⟹ REJECTED false-any-splitter ✓ (the channel is precisely σ_z)
+  M4 (the T29-parameter C̃ is ε-EVEN ≠ σ_z ε-odd): a w₀-inv count ⟹ REJECTED false-same ✓ (the channels differ, load-bearing №1 bites)
+
+  mutants caught: 4/4
+
+==========================================================================
+RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+──────────────────────────────────────────────────────────────────────────
+  Q1 (the S637-mechanism): a filled-band trace over the T33-band + σ_z ⟹ a GL-DOUBLE-WELL (m²coeff<0, m⁴coeff>0,
+     m₀ finite) — COMPUTED, the S637 «sign from the filled-band trace» WORKS HERE. ✓
+  Q2 (load-bearing №2): the split-channel = σ_z (anticommutes with H), not σ_y ⟹ the (a)-splitter-selection holds. ✓
+  ★LOAD-BEARING №1 (the crux): T29-as-formulated = MUTENESS/unsplit/C̃(ε-EVEN) ⊥ σ_z(split/ε-ODD)
+     ⟹ the σ_z-double-well = a SEPARATE filled-band trace, NOT the T29-channel. By the letter of load-bearing №1 — ADDED.
+  ★THE FORK: 2 ground states ±m₀ ⟹ a T37-GLOBAL correlation (capacity=1), a domain wall DOES NOT EXIST.
+──────────────────────────────────────────────────────────────────────────
+  ★★THE HONEST STATE of (b) — the TENSION is REAL, not silenced:
+   • IF the filled-band trace over the native T33-band = «T29-dynamics» (the trace is DERIVED, not added):
+     (b) PASSES — a double-well (Q1) through σ_z (Q2), the fork→T37-globality.
+   • IF an ε-odd term is needed IN T29 ITSELF (T29-as-is, unsplit/C̃, does not contain it):
+     (b) FAIL/STOP — freezing-as-a-σ_z-break is not from T29; a fallback to dim2 ((a)'s safeguard fires).
+   ★This is a verdict of LEVEL — Omega's. I computed both sides honestly (the step-1 trap was NOT slipped past).
+──────────────────────────────────────────────────────────────────────────
+  SUMMARY: Q1-double-well=YES · Q2-σ_z-channel=YES · fork=T37-globality · load-bearing№1=TENSION(Omega) · mutants=4/4
+==========================================================================
+FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
+EXIT=0
+PROC_EXIT=0
+STOP

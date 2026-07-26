@@ -1,0 +1,316 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared fence_scan helper; case-insensitive — S909)
+================================================================================================
+  [PASS] fence: forbidden words (list = GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] handles 0 (pure Lie algebra: Ad_S · sign-swap · Cartan involution · closure)
+
+================================================================================================
+SECTION 1 — THE THREE FAMILIES φ: symbolic lemmas (generic) + construction on every signature
+================================================================================================
+    symbolic line (X generic 4×4, η = diag(h₀..h₃) symbolic):
+      X(−η) + (−η)Xᵀ = −(Xη + ηXᵀ)  ⟹  Xη+ηXᵀ=0 ⟺ X(−η)+(−η)Xᵀ=0  ⟹  so(η) = so(−η)
+  [PASS] swap-lemma: expand( (X(−η)+(−η)Xᵀ) + (Xη+ηXᵀ) ) = 0 — symbolic, generic
+    symbolic line (X,Y generic 4×4): [−Xᵀ,−Yᵀ] = XᵀYᵀ−YᵀXᵀ = (YX−XY)ᵀ = −[X,Y]ᵀ = θ[X,Y]
+  [PASS] θ-lemma: expand( [θX,θY] − θ[X,Y] ) = 0 — symbolic, generic (32 symbols)
+
+  so(2,2) — n = 4 · dim so = 6:
+  [PASS] so(2,2): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(2,2): generator count = n(n−1)/2 and linear independence — J-moves: 2 · K-moves: 4
+    sign-swap P: 0↔2 · 1↔3 · det P = 1 · Pᵀ = P = P⁻¹
+  [PASS] so(2,2): PᵀηP = −η (explicit)
+    Ad[rotation(0,1; 3/5,4/5)] det=+1              membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[rotation(2,3; 5/13,12/13)] det=+1           membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[boost(0,2; 5/3,4/3)] det=+1                 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[boost(1,3; 13/5,12/5)] det=+1               membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 0] det=−1                membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 2] det=−1                membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 0 · boost(0,2;5/3,4/3)] det=−1 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    swap P                                         membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    θ(X) = −Xᵀ                                     membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+  [PASS] so(2,2): all 10 φ — membership of images in so(η) basis-by-basis complete — 10/10
+  [PASS] so(2,2): all 10 φ — bracket-equivariance basis-by-basis complete — 10/10
+
+  so(3,1) — n = 4 · dim so = 6:
+  [PASS] so(3,1): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(3,1): generator count = n(n−1)/2 and linear independence — J-moves: 3 · K-moves: 3
+    sign-swap P for (3,1): does NOT exist — p ≠ q: a permutation of axes would have to
+      hit the set of +axes (count 3) bijectively onto the set of −axes (count 1);
+      3 ≠ 1 ⟹ no bijection exists, PᵀηP = −η is unreachable by a permutation.
+  [PASS] so(3,1): the stamp on the non-existence of the swap is printed (p ≠ q)
+    Ad[rotation(0,1; 3/5,4/5)] det=+1              membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[rotation(1,2; 5/13,12/13)] det=+1           membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[boost(0,3; 5/3,4/3)] det=+1                 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[boost(2,3; 13/5,12/5)] det=+1               membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 0] det=−1                membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 3] det=−1                membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    Ad[reflection of axis 1 · boost(0,3;5/3,4/3)] det=−1 membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+    θ(X) = −Xᵀ                                     membership φ(basis) in so(η): 6/6 · [φX,φY]=φ[X,Y]: 15/15
+  [PASS] so(3,1): all 9 φ — membership of images in so(η) basis-by-basis complete — 9/9
+  [PASS] so(3,1): all 9 φ — bracket-equivariance basis-by-basis complete — 9/9
+
+  so(3,3) — n = 6 · dim so = 15:
+  [PASS] so(3,3): Xη + ηXᵀ = 0 for all 15 generators (sympy-exact)
+  [PASS] so(3,3): generator count = n(n−1)/2 and linear independence — J-moves: 6 · K-moves: 9
+    sign-swap P: 0↔3 · 1↔4 · 2↔5 · det P = -1 · Pᵀ = P = P⁻¹
+  [PASS] so(3,3): PᵀηP = −η (explicit)
+    Ad[rotation(0,1; 3/5,4/5)] det=+1              membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[rotation(3,4; 5/13,12/13)] det=+1           membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[boost(0,3; 5/3,4/3)] det=+1                 membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[boost(2,5; 13/5,12/5)] det=+1               membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[reflection of axis 0] det=−1                membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[reflection of axis 3] det=−1                membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[reflection of axis 1 · rotation(0,2;3/5,4/5)] det=−1 membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    Ad[reflection of axis 4 · boost(1,4;5/3,4/3)] det=−1 membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    swap P                                         membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+    θ(X) = −Xᵀ                                     membership φ(basis) in so(η): 15/15 · [φX,φY]=φ[X,Y]: 105/105
+  [PASS] so(3,3): all 10 φ — membership of images in so(η) basis-by-basis complete — 10/10
+  [PASS] so(3,3): all 10 φ — bracket-equivariance basis-by-basis complete — 10/10
+
+================================================================================================
+O9a — EQUIVARIANCE OF CLOSURE: closure(φV) =?= φ(closure(V)) — RREF bit-comparison
+================================================================================================
+
+  so(2,2): O9a so(2,2): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+    V#01 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#02 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#03 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#04 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#05 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#06 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#07 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#08 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#09 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    V#10 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 10/10
+    COUNTER by φ (PASS out of 10 V):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              10/10
+      Ad[rotation(2,3; 5/13,12/13)] det=+1           10/10
+      Ad[boost(0,2; 5/3,4/3)] det=+1                 10/10
+      Ad[boost(1,3; 13/5,12/5)] det=+1               10/10
+      Ad[reflection of axis 0] det=−1                10/10
+      Ad[reflection of axis 2] det=−1                10/10
+      Ad[reflection of axis 0 · boost(0,2;5/3,4/3)] det=−1 10/10
+      Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 10/10
+      swap P                                         10/10
+      θ(X) = −Xᵀ                                     10/10
+  [PASS] O9a so(2,2): closure(φV) = φ(closure(V)) on all 100 comparisons (10 V × 10 φ) — 100/100
+
+  so(3,1): O9a so(3,1): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+    V#01 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#02 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#03 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#04 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#05 k=2 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#06 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#07 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#08 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#09 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    V#10 k=3 (draws until rank=k: 1) · dim closure(V) = 6 · matches closure(φV) = φ(closure(V)): 9/9
+    COUNTER by φ (PASS out of 10 V):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              10/10
+      Ad[rotation(1,2; 5/13,12/13)] det=+1           10/10
+      Ad[boost(0,3; 5/3,4/3)] det=+1                 10/10
+      Ad[boost(2,3; 13/5,12/5)] det=+1               10/10
+      Ad[reflection of axis 0] det=−1                10/10
+      Ad[reflection of axis 3] det=−1                10/10
+      Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 10/10
+      Ad[reflection of axis 1 · boost(0,3;5/3,4/3)] det=−1 10/10
+      θ(X) = −Xᵀ                                     10/10
+  [PASS] O9a so(3,1): closure(φV) = φ(closure(V)) on all 90 comparisons (10 V × 9 φ) — 90/90
+
+  so(3,3): O9a so(3,3): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+    V#01 k=2 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#02 k=2 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#03 k=2 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#04 k=2 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#05 k=2 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#06 k=3 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#07 k=3 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#08 k=3 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#09 k=3 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    V#10 k=3 (draws until rank=k: 1) · dim closure(V) = 15 · matches closure(φV) = φ(closure(V)): 10/10
+    COUNTER by φ (PASS out of 10 V):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              10/10
+      Ad[rotation(3,4; 5/13,12/13)] det=+1           10/10
+      Ad[boost(0,3; 5/3,4/3)] det=+1                 10/10
+      Ad[boost(2,5; 13/5,12/5)] det=+1               10/10
+      Ad[reflection of axis 0] det=−1                10/10
+      Ad[reflection of axis 3] det=−1                10/10
+      Ad[reflection of axis 1 · rotation(0,2;3/5,4/5)] det=−1 10/10
+      Ad[reflection of axis 4 · boost(1,4;5/3,4/3)] det=−1 10/10
+      swap P                                         10/10
+      θ(X) = −Xᵀ                                     10/10
+  [PASS] O9a so(3,3): closure(φV) = φ(closure(V)) on all 100 comparisons (10 V × 10 φ) — 100/100
+
+================================================================================================
+O9b — ORBITS WITHIN CLASSES: the (3,3) class {dim 3 · Killing (0,3,0)} + O7c "no"-lines
+================================================================================================
+
+  (3,3): two unique subspaces of the class {dim 3 · Killing (0,3,0)} (from the S901 list):
+    V⁺ (J-sector of the +block) = span{J(0,1), J(0,2), J(1,2)}: dim span = 3 · dim closure = 3 · closure = span: yes · Killing (0,3,0)
+  [PASS] O9b (3,3) V⁺ (J-sector of the +block): closure-fixedness (dim 3) and Killing = (0,3,0)
+    V⁻ (J-sector of the −block) = span{J(3,4), J(3,5), J(4,5)}: dim span = 3 · dim closure = 3 · closure = span: yes · Killing (0,3,0)
+  [PASS] O9b (3,3) V⁻ (J-sector of the −block): closure-fixedness (dim 3) and Killing = (0,3,0)
+  [PASS] O9b (3,3): the sign-swap P maps V⁺ → V⁻ (bit-check of RREF keys)
+  [PASS] O9b (3,3): the sign-swap P maps V⁻ → V⁺ (bit-check of RREF keys)
+    θ on V⁺: img = V⁺? yes · img = V⁻? no
+    8 Ad_S on V⁺: img = V⁺: 5 · img = V⁻: 0 · another subspace: 3
+
+  O7c (S906) "no"-lines — the sign-swap P and the composite T = P·reflection:
+    so(3,3) X-level: P⁻¹·J(0,1)·P = J(3,4)? yes — by what: swap P
+    so(3,3) Ω-level: Pᵀ(η·J(0,1))P = η·J(3,4)? no · = −η·J(3,4)? yes
+    so(3,3) composite T = P·reflection(axis 3): Tᵀ(η·J(0,1))T = η·J(3,4)? yes — by what: T; det T = 1 · TᵀηT = −η: yes (T is not an η-isometry, but an (η→−η)-congruence)
+  [PASS] O9b so(3,3) O7c "no"-line: the connection is printed as raw lines (X-level: swap; Ω-level: swap∘reflection)
+    so(2,2) X-level: P⁻¹·J(0,1)·P = J(2,3)? yes — by what: swap P
+    so(2,2) Ω-level: Pᵀ(η·J(0,1))P = η·J(2,3)? no · = −η·J(2,3)? yes
+    so(2,2) composite T = P·reflection(axis 2): Tᵀ(η·J(0,1))T = η·J(2,3)? yes — by what: T; det T = -1 · TᵀηT = −η: yes (T is not an η-isometry, but an (η→−η)-congruence)
+  [PASS] O9b so(2,2) O7c "no"-line: the connection is printed as raw lines (X-level: swap; Ω-level: swap∘reflection)
+
+================================================================================================
+O9c — ACTION OF φ ON THE LIST OF UNIQUE CLOSURE-SUBSPACES OF COORDINATE SUBSETS
+================================================================================================
+
+  so(2,2): O9c so(2,2): full enumeration — all 2^6−1 = 63 nonempty coordinate subsets
+  [PASS] O9c so(2,2): 63 subset-starts processed (expected 63) + 0 sector sets — lie_closure calls (memo) = 38
+    unique closure-subspaces: 14 · classes {dim·Killing}: 4
+     dim L      Killing      uniq.subspaces
+         1      (0,0,1)                   6
+         2      (0,0,2)                   3
+         3      (2,1,0)                   4
+         6      (4,2,0)                   1
+
+    action of φ on the list (14 keys):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[rotation(2,3; 5/13,12/13)] det=+1           fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[boost(0,2; 5/3,4/3)] det=+1                 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[boost(1,3; 13/5,12/5)] det=+1               fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 0] det=−1                fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 2] det=−1                fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 0 · boost(0,2;5/3,4/3)] det=−1 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      swap P                                         fixed   6 · moved   8 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+      θ(X) = −Xᵀ                                     fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+
+    classes with >1 unique subspace (3): movement of keys under swap/θ:
+      swap P     class [dim 1 · Killing (0,0,1)]: subspaces 6 · moved 4 · image in the same class: 6/6
+      swap P     class [dim 2 · Killing (0,0,2)]: subspaces 3 · moved 0 · image in the same class: 3/3
+      swap P     class [dim 3 · Killing (2,1,0)]: subspaces 4 · moved 4 · image in the same class: 4/4
+      θ(X) = −Xᵀ class [dim 1 · Killing (0,0,1)]: subspaces 6 · moved 0 · image in the same class: 6/6
+      θ(X) = −Xᵀ class [dim 2 · Killing (0,0,2)]: subspaces 3 · moved 0 · image in the same class: 3/3
+      θ(X) = −Xᵀ class [dim 3 · Killing (2,1,0)]: subspaces 4 · moved 0 · image in the same class: 4/4
+
+  so(3,1): O9c so(3,1): full enumeration — all 2^6−1 = 63 nonempty coordinate subsets
+  [PASS] O9c so(3,1): 63 subset-starts processed (expected 63) + 0 sector sets — lie_closure calls (memo) = 35
+    unique closure-subspaces: 14 · classes {dim·Killing}: 5
+     dim L      Killing      uniq.subspaces
+         1      (0,0,1)                   6
+         2      (0,0,2)                   3
+         3      (0,3,0)                   1
+         3      (2,1,0)                   3
+         6      (3,3,0)                   1
+
+    action of φ on the list (14 keys):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[rotation(1,2; 5/13,12/13)] det=+1           fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[boost(0,3; 5/3,4/3)] det=+1                 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[boost(2,3; 13/5,12/5)] det=+1               fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 0] det=−1                fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 3] det=−1                fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 2 · rotation(0,1;3/5,4/5)] det=−1 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      Ad[reflection of axis 1 · boost(0,3;5/3,4/3)] det=−1 fixed   6 · moved   8 · new outside the list   8 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 14/14
+      θ(X) = −Xᵀ                                     fixed  14 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 14/14
+
+    classes with >1 unique subspace (3): movement of keys under swap/θ:
+      θ(X) = −Xᵀ class [dim 1 · Killing (0,0,1)]: subspaces 6 · moved 0 · image in the same class: 6/6
+      θ(X) = −Xᵀ class [dim 2 · Killing (0,0,2)]: subspaces 3 · moved 0 · image in the same class: 3/3
+      θ(X) = −Xᵀ class [dim 3 · Killing (2,1,0)]: subspaces 3 · moved 0 · image in the same class: 3/3
+
+  so(3,3): O9c so(3,3): BOUNDARY (stamp): subsets of size ≤2 (15 + 105 = 120 starts) + whole sectors {all J}/{all K}; the full 2^15−1 = 32767 is not run here
+  [PASS] O9c so(3,3): 120 subset-starts processed (expected 120) + 2 sector sets — lie_closure calls (memo) = 122
+    unique closure-subspaces: 82 · classes {dim·Killing}: 6
+     dim L      Killing      uniq.subspaces
+         1      (0,0,1)                  15
+         2      (0,0,2)                  45
+         3      (0,3,0)                   2
+         3      (2,1,0)                  18
+         6      (0,6,0)                   1
+        15      (9,6,0)                   1
+
+    action of φ on the list (82 keys):
+      Ad[rotation(0,1; 3/5,4/5)] det=+1              fixed  26 · moved  56 · new outside the list  56 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[rotation(3,4; 5/13,12/13)] det=+1           fixed  26 · moved  56 · new outside the list  56 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[boost(0,3; 5/3,4/3)] det=+1                 fixed  25 · moved  57 · new outside the list  57 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[boost(2,5; 13/5,12/5)] det=+1               fixed  25 · moved  57 · new outside the list  57 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[reflection of axis 0] det=−1                fixed  82 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[reflection of axis 3] det=−1                fixed  82 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[reflection of axis 1 · rotation(0,2;3/5,4/5)] det=−1 fixed  26 · moved  56 · new outside the list  56 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      Ad[reflection of axis 4 · boost(1,4;5/3,4/3)] det=−1 fixed  25 · moved  57 · new outside the list  57 · bijection of the list: no · class counts before=after: yes · class(img)=class(source): 82/82
+      swap P                                         fixed  14 · moved  68 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 82/82
+      θ(X) = −Xᵀ                                     fixed  82 · moved   0 · new outside the list   0 · bijection of the list: yes · class counts before=after: yes · class(img)=class(source): 82/82
+
+    classes with >1 unique subspace (4): movement of keys under swap/θ:
+      swap P     class [dim 1 · Killing (0,0,1)]: subspaces 15 · moved 12 · image in the same class: 15/15
+      swap P     class [dim 2 · Killing (0,0,2)]: subspaces 45 · moved 36 · image in the same class: 45/45
+      swap P     class [dim 3 · Killing (0,3,0)]: subspaces 2 · moved 2 · image in the same class: 2/2
+      swap P     class [dim 3 · Killing (2,1,0)]: subspaces 18 · moved 18 · image in the same class: 18/18
+      θ(X) = −Xᵀ class [dim 1 · Killing (0,0,1)]: subspaces 15 · moved 0 · image in the same class: 15/15
+      θ(X) = −Xᵀ class [dim 2 · Killing (0,0,2)]: subspaces 45 · moved 0 · image in the same class: 45/45
+      θ(X) = −Xᵀ class [dim 3 · Killing (0,3,0)]: subspaces 2 · moved 0 · image in the same class: 2/2
+      θ(X) = −Xᵀ class [dim 3 · Killing (2,1,0)]: subspaces 18 · moved 0 · image in the same class: 18/18
+
+================================================================================================
+O9d — ROLLUP: class-level counters vs the split into subspaces (raw numbers)
+================================================================================================
+
+  signature  family   #φbijection yes class counts yes     new (min..max)         moved (min..max)
+  (2,2)     Ad        8          2/8              8/8               0..8                     0..8
+  (2,2)     swap      1          1/1              1/1               0..0                     8..8
+  (2,2)     θ         1          1/1              1/1               0..0                     0..0
+  (3,1)     Ad        8          2/8              8/8               0..8                     0..8
+  (3,1)     swap      —            —                —                  —                        —
+  (3,1)     θ         1          1/1              1/1               0..0                     0..0
+  (3,3)     Ad        8          2/8              8/8              0..57                    0..57
+  (3,3)     swap      1          1/1              1/1               0..0                   68..68
+  (3,3)     θ         1          1/1              1/1               0..0                     0..0
+
+  RAW ROLLUP LINES (counters, no readings):
+   · class-level counters (#classes {dim·Killing} · subspace count per class ·
+     class(img)=class(source)): equal before/after in 29/29 φ-rows
+     of all three families on all three signatures — numbers in the O9c tables above;
+   · split into concrete subspaces (RREF keys of the list): under θ, moved is 0
+     on all signatures; under swap P — permuted by a bijection (moved counts in O9c);
+     under Ad_S — the set of keys differs (new outside the list > 0 in O9c rows) while
+     the class counters remain equal. Raw min..max — in the table above.
+  [PASS] O9d: the rollup table is printed for all signatures × families
+
+================================================================================================
+SUMMARY S910 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 32/32 PASS
+
+  BOUND STAMPS:
+   · O9a so(2,2): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+   · O9a so(3,1): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+   · O9a so(3,3): BOUNDARY (stamp): 10 random V (5 × dim 2 + 5 × dim 3), integer coeffs {−3..3}, seed 910 (Random(910) per signature), rank<k discarded by retry
+   · O9c so(2,2): full enumeration — all 2^6−1 = 63 nonempty coordinate subsets
+   · O9c so(3,1): full enumeration — all 2^6−1 = 63 nonempty coordinate subsets
+   · O9c so(3,3): BOUNDARY (stamp): subsets of size ≤2 (15 + 105 = 120 starts) + whole sectors {all J}/{all K}; the full 2^15−1 = 32767 is not run here
+
+  RAW LINES (no readings):
+   (1) three families φ: Ad_S (4 examples per type det=±1, S⁻¹ = ηSᵀη exact) ·
+       sign-swap P (PᵀηP = −η explicit; for (3,1) a stamp of non-existence: p ≠ q) ·
+       Cartan involution θ(X) = −Xᵀ; membership of images in so(η) and
+       [φX,φY] = φ[X,Y] — basis-by-basis exact + symbolic generic 4×4 lemmas;
+   (2) O9a: closure(φV) =?= φ(closure(V)) — 10 random V × every φ ×
+       3 signatures, RREF bit-comparison — counters above;
+   (3) O9b: swap-action on the pair of subspaces of the class {dim 3 · Killing (0,3,0)} on
+       (3,3) — bit-checks; O7c "no"-lines — connection by swap/swap∘reflection with
+       TᵀηT = −η as a raw line;
+   (4) O9c: action of φ on the list of unique closure-subspaces — fixed/
+       moved/new/bijection/class counters — tables above;
+   (5) O9d: rollup table class-level vs presentational counters — above.
+  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+

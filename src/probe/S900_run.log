@@ -1,0 +1,215 @@
+
+================================================================================================
+SECTION 0 — FENCE (shared helper fence_scan)
+================================================================================================
+  [PASS] fence: forbidden words (list = the GUARDLINE line) = 0 occurrences outside the declaration — 0
+  [PASS] downstream-content 0 · handles 0 (pure Lie algebra)
+
+================================================================================================
+SECTION so(3,0) — n=3, η=diag(+1,+1,+1,) · dim so = n(n−1)/2 = 3
+================================================================================================
+  [PASS] so(3,0): Xη + ηXᵀ = 0 for all 3 generators (sympy-exact)
+  [PASS] so(3,0): generator count = n(n−1)/2 — J-entries: 3 · K-entries: 0 · total: 3
+  [PASS] so(3,0): linear independence of the generators (sympy-exact rank) — rank = 3
+
+  SET 1 — {all J} (3 entries):
+    dim span(start) = 3 → dim Lie(closure) = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(3,0): yes
+  SET 2 — {all K} (0 entries):
+    the set is empty (0 K-entries)
+
+  SET 3 — pairs {J,J} — 3 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 3 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(3,0): yes · pairs: 3
+
+  SET 4 — pairs {K,K} — 0 pairs:
+    0 pairs (the set is empty)
+
+  SET 5 — pairs {J,K} — 0 pairs:
+    0 pairs (the set is empty)
+  [PASS] so(3,0): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 1
+
+================================================================================================
+SECTION so(2,1) — n=3, η=diag(+1,+1,−1,) · dim so = n(n−1)/2 = 3
+================================================================================================
+  [PASS] so(2,1): Xη + ηXᵀ = 0 for all 3 generators (sympy-exact)
+  [PASS] so(2,1): generator count = n(n−1)/2 — J-entries: 1 · K-entries: 2 · total: 3
+  [PASS] so(2,1): linear independence of the generators (sympy-exact rank) — rank = 3
+
+  SET 1 — {all J} (1 entries):
+    dim span(start) = 1 → dim Lie(closure) = 1 · Killing (0,0,1) · L ⊆ span{all J}: yes · L = so(2,1): no
+  SET 2 — {all K} (2 entries):
+    dim span(start) = 2 → dim Lie(closure) = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(2,1): yes
+
+  SET 3 — pairs {J,J} — 0 pairs:
+    0 pairs (the set is empty)
+
+  SET 4 — pairs {K,K} — 1 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 1 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(2,1): yes · pairs: 1
+
+  SET 5 — pairs {J,K} — 2 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 2 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(2,1): yes · pairs: 2
+  [PASS] so(2,1): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 2
+
+================================================================================================
+SECTION so(2,2) — n=4, η=diag(+1,+1,−1,−1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(2,2): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(2,2): generator count = n(n−1)/2 — J-entries: 2 · K-entries: 4 · total: 6
+  [PASS] so(2,2): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  SET 1 — {all J} (2 entries):
+    dim span(start) = 2 → dim Lie(closure) = 2 · Killing (0,0,2) · L ⊆ span{all J}: yes · L = so(2,2): no
+  SET 2 — {all K} (4 entries):
+    dim span(start) = 4 → dim Lie(closure) = 6 · Killing (4,2,0) · L ⊆ span{all J}: no · L = so(2,2): yes
+
+  SET 3 — pairs {J,J} — 1 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 1 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: yes · L = so(2,2): no · pairs: 1
+
+  SET 4 — pairs {K,K} — 6 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 2 pairs
+      2 → 3 : 4 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: no · L = so(2,2): no · pairs: 2
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(2,2): no · pairs: 4
+
+  SET 5 — pairs {J,K} — 8 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 8 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(2,2): no · pairs: 8
+  [PASS] so(2,2): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 8
+
+================================================================================================
+SECTION so(3,1) — n=4, η=diag(+1,+1,+1,−1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(3,1): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(3,1): generator count = n(n−1)/2 — J-entries: 3 · K-entries: 3 · total: 6
+  [PASS] so(3,1): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  SET 1 — {all J} (3 entries):
+    dim span(start) = 3 → dim Lie(closure) = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(3,1): no
+  SET 2 — {all K} (3 entries):
+    dim span(start) = 3 → dim Lie(closure) = 6 · Killing (3,3,0) · L ⊆ span{all J}: no · L = so(3,1): yes
+
+  SET 3 — pairs {J,J} — 3 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 3 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(3,1): no · pairs: 3
+
+  SET 4 — pairs {K,K} — 3 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 3 : 3 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(3,1): no · pairs: 3
+
+  SET 5 — pairs {J,K} — 9 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 3 pairs
+      2 → 3 : 6 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: no · L = so(3,1): no · pairs: 3
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(3,1): no · pairs: 6
+  [PASS] so(3,1): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 8
+
+================================================================================================
+SECTION so(4,0) — n=4, η=diag(+1,+1,+1,+1,) · dim so = n(n−1)/2 = 6
+================================================================================================
+  [PASS] so(4,0): Xη + ηXᵀ = 0 for all 6 generators (sympy-exact)
+  [PASS] so(4,0): generator count = n(n−1)/2 — J-entries: 6 · K-entries: 0 · total: 6
+  [PASS] so(4,0): linear independence of the generators (sympy-exact rank) — rank = 6
+
+  SET 1 — {all J} (6 entries):
+    dim span(start) = 6 → dim Lie(closure) = 6 · Killing (0,6,0) · L ⊆ span{all J}: yes · L = so(4,0): yes
+  SET 2 — {all K} (0 entries):
+    the set is empty (0 K-entries)
+
+  SET 3 — pairs {J,J} — 15 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 3 pairs
+      2 → 3 : 12 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: yes · L = so(4,0): no · pairs: 3
+      dim L = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(4,0): no · pairs: 12
+
+  SET 4 — pairs {K,K} — 0 pairs:
+    0 pairs (the set is empty)
+
+  SET 5 — pairs {J,K} — 0 pairs:
+    0 pairs (the set is empty)
+  [PASS] so(4,0): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 8
+
+================================================================================================
+SECTION so(3,3) — n=6, η=diag(+1,+1,+1,−1,−1,−1,) · dim so = n(n−1)/2 = 15
+================================================================================================
+  [PASS] so(3,3): Xη + ηXᵀ = 0 for all 15 generators (sympy-exact)
+  [PASS] so(3,3): generator count = n(n−1)/2 — J-entries: 6 · K-entries: 9 · total: 15
+  [PASS] so(3,3): linear independence of the generators (sympy-exact rank) — rank = 15
+
+  SET 1 — {all J} (6 entries):
+    dim span(start) = 6 → dim Lie(closure) = 6 · Killing (0,6,0) · L ⊆ span{all J}: yes · L = so(3,3): no
+  SET 2 — {all K} (9 entries):
+    dim span(start) = 9 → dim Lie(closure) = 15 · Killing (9,6,0) · L ⊆ span{all J}: no · L = so(3,3): yes
+
+  SET 3 — pairs {J,J} — 15 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 9 pairs
+      2 → 3 : 6 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: yes · L = so(3,3): no · pairs: 9
+      dim L = 3 · Killing (0,3,0) · L ⊆ span{all J}: yes · L = so(3,3): no · pairs: 6
+
+  SET 4 — pairs {K,K} — 36 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 18 pairs
+      2 → 3 : 18 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: no · L = so(3,3): no · pairs: 18
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(3,3): no · pairs: 18
+
+  SET 5 — pairs {J,K} — 54 pairs:
+    HISTOGRAM dim span(start) → dim Lie(closure):
+      2 → 2 : 18 pairs
+      2 → 3 : 36 pairs
+    CLOSURE CLASSES (unique dim + Killing signature):
+      dim L = 2 · Killing (0,0,2) · L ⊆ span{all J}: no · L = so(3,3): no · pairs: 18
+      dim L = 3 · Killing (2,1,0) · L ⊆ span{all J}: no · L = so(3,3): no · pairs: 36
+  [PASS] so(3,3): all closures counted to completion (no truncation) — unique closure subspaces in the cache: 67
+
+================================================================================================
+FINAL SECTION — table: signature → #J · #K · dim so(p,q) · dim span{all J} · Killing span{all J}
+================================================================================================
+  signature     #J  #K  dim so  dim spanJ     bracket-closed   Killing spanJ
+  (3,0)         3   0       3          3               yes         (0,3,0)
+  (2,1)         1   2       3          1               yes         (0,0,1)
+  (2,2)         2   4       6          2               yes         (0,0,2)
+  (3,1)         3   3       6          3               yes         (0,3,0)
+  (4,0)         6   0       6          6               yes         (0,6,0)
+  (3,3)         6   9      15          6               yes         (0,6,0)
+  [PASS] span{all J} is bracket-closed in all six signatures (yes/no printed as a table) — [True, True, True, True, True, True]
+
+================================================================================================
+SUMMARY S900 (raw lines; reading = an act of the court)
+================================================================================================
+
+  Checks: 27/27 PASS
+
+  RAW LINES (no readings):
+   (1) six signatures so(p,q): basis-hood (count n(n−1)/2 + independence) — sympy-exact;
+   (2) closure of the sets {all J} · {all K} · pairs {J,J}/{K,K}/{J,K} — histograms above;
+   (3) Killing signatures of the closure classes — congruent diagonalization over Q, exact;
+   (4) table of span{all J} across signatures — above.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+

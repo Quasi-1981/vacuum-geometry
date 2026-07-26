@@ -1,0 +1,169 @@
+==============================================================================
+S1055 (Beta) — a VISA on S1054: an INDEPENDENT RE-DERIVATION OF THE ON-SHELL SLOPE OF THE CONE
+==============================================================================
+
+[T0] THE LATTICE FROM SCRATCH: the Gram = I on the diagonal, -1/d off, Σδ=0
+  [OK]   d=2: |δ|^2=1 ∀j and <δ_i,δ_j>=-1/d ∀i≠j (the K-V/A_d Gram)
+  [OK]   d=2: Σ_j δ_j = 0 (closure of the cell)
+  [OK]   d=2: G·1 = 0 ⟹ k exists ⟺ Σθ_j=0 (a compatibility condition, not a choice)
+  [OK]   d=3: |δ|^2=1 ∀j and <δ_i,δ_j>=-1/d ∀i≠j (the K-V/A_d Gram)
+  [OK]   d=3: Σ_j δ_j = 0 (closure of the cell)
+  [OK]   d=3: G·1 = 0 ⟹ k exists ⟺ Σθ_j=0 (a compatibility condition, not a choice)
+  [OK]   d=4: |δ|^2=1 ∀j and <δ_i,δ_j>=-1/d ∀i≠j (the K-V/A_d Gram)
+  [OK]   d=4: Σ_j δ_j = 0 (closure of the cell)
+  [OK]   d=4: G·1 = 0 ⟹ k exists ⟺ Σθ_j=0 (a compatibility condition, not a choice)
+  [OK]   d=5: |δ|^2=1 ∀j and <δ_i,δ_j>=-1/d ∀i≠j (the K-V/A_d Gram)
+  [OK]   d=5: Σ_j δ_j = 0 (closure of the cell)
+  [OK]   d=5: G·1 = 0 ⟹ k exists ⟺ Σθ_j=0 (a compatibility condition, not a choice)
+
+[T1] THE NODE: f(k0)=0 and k0 is genuinely recovered from the phases
+  [OK]   d=2: f(k0) = Σ_j e^{iθ_j} = 0 (the node)
+  [OK]   d=2: Σ_j θ_j = 0 ⟹ k0 exists
+  [OK]   d=2: k0·δ_j = θ_j reproduced ∀j (k0 is NOT fitted)
+  [OK]   d=3: f(k0) = Σ_j e^{iθ_j} = 0 (the node)
+  [OK]   d=3: Σ_j θ_j = 0 ⟹ k0 exists
+  [OK]   d=3: k0·δ_j = θ_j reproduced ∀j (k0 is NOT fitted)
+  [OK]   d=4: f(k0) = Σ_j e^{iθ_j} = 0 (the node)
+  [OK]   d=4: Σ_j θ_j = 0 ⟹ k0 exists
+  [OK]   d=4: k0·δ_j = θ_j reproduced ∀j (k0 is NOT fitted)
+  [OK]   d=5: f(k0) = Σ_j e^{iθ_j} = 0 (the node)
+  [OK]   d=5: Σ_j θ_j = 0 ⟹ k0 exists
+  [OK]   d=5: k0·δ_j = θ_j reproduced ∀j (k0 is NOT fitted)
+
+[T2] THE EXPANSION OF |f|^2: λ^0=λ^1=0, the coeff of λ^2 = u^T M u (EXACTLY, without 1/2)
+  [OK]   d=2: the coeff λ^0 = 0
+  [OK]   d=2: the coeff λ^1 = 0
+  [OK]   d=2: the coeff λ^2 = u^T M u EXACTLY (no 1/2 appears)
+  [OK]   d=2: d^2|f|^2/dλ^2 = 2·(coeff λ^2) ⟹ coeff ⊥ 2nd-derivative are DIFFERENT objects (×2)
+  [OK]   d=3: the coeff λ^0 = 0
+  [OK]   d=3: the coeff λ^1 = 0
+  [OK]   d=3: the coeff λ^2 = u^T M u EXACTLY (no 1/2 appears)
+  [OK]   d=3: d^2|f|^2/dλ^2 = 2·(coeff λ^2) ⟹ coeff ⊥ 2nd-derivative are DIFFERENT objects (×2)
+
+[T3] tr M AT THE NODE = (d+1)^2/d — an identity, checked with SYMBOLIC phases
+  [OK]   d=2: tr M = n(1+1/d) - |f|^2/d — an IDENTITY ∀θ (polynomial in z, |z_j|=1)
+  [OK]   d=3: tr M = n(1+1/d) - |f|^2/d — an IDENTITY ∀θ (polynomial in z, |z_j|=1)
+  [OK]   d=4: tr M = n(1+1/d) - |f|^2/d — an IDENTITY ∀θ (polynomial in z, |z_j|=1)
+  [OK]   d=5: tr M = n(1+1/d) - |f|^2/d — an IDENTITY ∀θ (polynomial in z, |z_j|=1)
+  [OK]   d=6: tr M = n(1+1/d) - |f|^2/d — an IDENTITY ∀θ (polynomial in z, |z_j|=1)
+  [OK]   d=2: THE SAME verdict by the matrix route (tr(aa^T+bb^T), trigonometrically)
+  [OK]   d=3: THE SAME verdict by the matrix route (tr(aa^T+bb^T), trigonometrically)
+  [OK]   d=2: at the node tr M = (d+1)^2/d = 9/2
+  [OK]   d=2: rank M = 2 (M=aa^T+bb^T) ⟹ 2 transverse directions, the kernel = tangent to the nodal set
+  [OK]   d=3: at the node tr M = (d+1)^2/d = 16/3
+  [OK]   d=3: rank M = 2 (M=aa^T+bb^T) ⟹ 2 transverse directions, the kernel = tangent to the nodal set
+  [OK]   d=4: at the node tr M = (d+1)^2/d = 25/4
+  [OK]   d=4: rank M = 2 (M=aa^T+bb^T) ⟹ 2 transverse directions, the kernel = tangent to the nodal set
+  [OK]   d=3: f=0 ∀t ⟹ a nodal LINE (dim = d-2 = 1), not a point
+  [OK]   d=3: tr M = 16/3 CONSTANT along the whole nodal line (symbolic t)
+
+[T4] ★ON-SHELL: solve 2-2cos(x) = λ^2·s FOR x — is there a 1/2?
+  [OK]   on-shell: the leading slope A1 = sqrt(s) (the positive branch)
+  [OK]   ★THE ON-SHELL SLOPE = sqrt(u^T M u) — there is NO factor of 1/2 (or 2)
+  [OK]   the next order A3 = s^(3/2)/24 ≠ 0 ⟹ the leading order is IDENTIFIED (not guessed)
+
+[T5] THE DICTIONARY OF THE DENOMINATOR: 2/h^2 — this is the SECOND DERIVATIVE in the PERIOD-variable
+  [OK]   d=2: the coeff of ν^2 = (2π/h)^2  [h=3]
+  [OK]   d=2: T''(0) over ν = 2(2π/h)^2 ⟹ with the (2π)-drop = 2/h^2 = the REGISTERED DENOMINATOR
+  [OK]   d=2: in the HOP-variable x: coeff=1, T''(0)=2 — no h at all ⟹ h comes ONLY from ν
+  [OK]   d=3: the coeff of ν^2 = (2π/h)^2  [h=4]
+  [OK]   d=3: T''(0) over ν = 2(2π/h)^2 ⟹ with the (2π)-drop = 2/h^2 = the REGISTERED DENOMINATOR
+  [OK]   d=3: in the HOP-variable x: coeff=1, T''(0)=2 — no h at all ⟹ h comes ONLY from ν
+  [OK]   d=4: the coeff of ν^2 = (2π/h)^2  [h=5]
+  [OK]   d=4: T''(0) over ν = 2(2π/h)^2 ⟹ with the (2π)-drop = 2/h^2 = the REGISTERED DENOMINATOR
+  [OK]   d=4: in the HOP-variable x: coeff=1, T''(0)=2 — no h at all ⟹ h comes ONLY from ν
+  [OK]   d=5: the coeff of ν^2 = (2π/h)^2  [h=6]
+  [OK]   d=5: T''(0) over ν = 2(2π/h)^2 ⟹ with the (2π)-drop = 2/h^2 = the REGISTERED DENOMINATOR
+  [OK]   d=5: in the HOP-variable x: coeff=1, T''(0)=2 — no h at all ⟹ h comes ONLY from ν
+  ⟹ 1/h^2 in the denominator = exactly the chain rule dx/dν = 2π/h,
+    and h = the number of BONDS in the period of the column (S1001: P=order(u_0)=d+1).
+    ⟹ the denominator is measured PER PERIOD, the numerator (the Gram, |δ|=1) — PER BOND. CONFIRMED.
+
+[T6] THE FOUR PAIRINGS — with my own hand, in ONE (period-) unit
+  pairing numerator/denominator      d=2            ∀d            
+  [OK]   d=2: both CONSISTENT pairings give one number 81/4
+  [OK]   d=2: the consistent one = h^4/(2d) = 81/4
+  [OK]   d=2: the REGISTERED h^4/(4d)=81/8 is reproduced EXACTLY by the mixed one (coeff/2nd-derivative)
+  [OK]   d=2: the other mixed one = h^4/d = 81/2 (not the registered one)
+  [OK]   d=2: registered/consistent = 1/2 EXACTLY (a constant, not f(d))
+  [OK]   d=3: both CONSISTENT pairings give one number 128/3
+  [OK]   d=3: the consistent one = h^4/(2d) = 128/3
+  [OK]   d=3: the REGISTERED h^4/(4d)=64/3 is reproduced EXACTLY by the mixed one (coeff/2nd-derivative)
+  [OK]   d=3: the other mixed one = h^4/d = 256/3 (not the registered one)
+  [OK]   d=3: registered/consistent = 1/2 EXACTLY (a constant, not f(d))
+  [OK]   d=4: both CONSISTENT pairings give one number 625/8
+  [OK]   d=4: the consistent one = h^4/(2d) = 625/8
+  [OK]   d=4: the REGISTERED h^4/(4d)=625/16 is reproduced EXACTLY by the mixed one (coeff/2nd-derivative)
+  [OK]   d=4: the other mixed one = h^4/d = 625/4 (not the registered one)
+  [OK]   d=4: registered/consistent = 1/2 EXACTLY (a constant, not f(d))
+  [OK]   d=5: both CONSISTENT pairings give one number 648/5
+  [OK]   d=5: the consistent one = h^4/(2d) = 648/5
+  [OK]   d=5: the REGISTERED h^4/(4d)=324/5 is reproduced EXACTLY by the mixed one (coeff/2nd-derivative)
+  [OK]   d=5: the other mixed one = h^4/d = 1296/5 (not the registered one)
+  [OK]   d=5: registered/consistent = 1/2 EXACTLY (a constant, not f(d))
+
+[T7] ★THE NUMBER IN THE CONSISTENT HOP-DICTIONARY (what the on-shell derivation T4 gives)
+  [OK]   d=2: registered/hop-dictionary = h^2/2 = 9/2  (= length h^2 × pairing 1/2)
+       d=2: v^2(hop) = 9/4   ⊥   registered = 81/8
+  [OK]   d=3: registered/hop-dictionary = h^2/2 = 8  (= length h^2 × pairing 1/2)
+       d=3: v^2(hop) = 8/3   ⊥   registered = 64/3
+  [OK]   d=4: registered/hop-dictionary = h^2/2 = 25/2  (= length h^2 × pairing 1/2)
+       d=4: v^2(hop) = 25/8   ⊥   registered = 625/16
+  [OK]   d=5: registered/hop-dictionary = h^2/2 = 18  (= length h^2 × pairing 1/2)
+       d=5: v^2(hop) = 18/5   ⊥   registered = 324/5
+
+[T8] ★AN EXTERNAL ANCHOR d=2 — RE-DERIVED FROM THEIR DEFINITION, WITH MY OWN HAND
+  [OK]   the anchor: the honeycomb Gram = our A_2 Gram (-1/d = -1/2) ⟹ the same object
+  [OK]   the anchor: f(K)=0 at the point K, found by solving (not by citation)
+  [OK]   ★the anchor: the coeff λ^2 in |f|^2 = 9/4 INDEPENDENT of the direction ang ⟹ v_F = 3/2 (t=a=1)
+  [OK]   ★the anchor AGREES with the hop-dictionary (d+1)^2/(2d)=9/4 — it COULD have failed to match
+  [OK]   ★the anchor DISAGREES with the registered 81/8 (=h^4/(4d) at d=2) by a factor of 9/2
+
+[T9] ★AN AUDIT OF THE STANDING GREEN TEST test/test_2_velocity_three_ways.py
+  [OK]   T9a: in test_2 `transverse` and `v_F^2` — are ONE AND THE SAME expression (d+1)^2/(2d) symbolically
+  [OK]   T9b: ★conv = ratio/v_F^2 ≡ 1/C IDENTICALLY ∀C ⟹ the assert «the factor = 1/column-curvature» CANNOT FAIL — this is (T/C)/T, not a measurement
+       ⟹ the green of this assert is empty: it does NOT show that the factor is «named»,
+         because the same assert would pass for ANY denominator C.
+       ⟹ the load-bearing SUBSTANTIVE part of test_2 — is precisely T9a: the external v_F^2 EQUALS
+         our numerator. And that IS the S1055 verdict: v^2 = ½trM, without h^2/2.
+  [OK]   T9c: a negative control — the assert «ratio == v_F^2» FAILS at C=2/9 ⟹ resolving power exists, it is precisely the T9b-variety that is vacuous, not any comparison
+
+[M] MUTANTS / NEGATIVE CONTROLS (a test that cannot fail is not a witness)
+  [OK]   M1: a broken Gram ⟹ the tr M identity BREAKS (resolving power exists)
+  [OK]   M2 d=2: a hop=2 bonds moves v^2 (9/4→9/16) ⟹ the length question is NOT empty
+  [OK]   M2 d=3: a hop=2 bonds moves v^2 (8/3→2/3) ⟹ the length question is NOT empty
+
+  M3 (an attempt to RESCUE the registered number — kill-first against my own verdict):
+  [OK]   M3 d=2: among 4 readings × 2 denominators there is NO CONSISTENT pair giving the registered 81/8 ⟹ there is NO rescue by reading
+  [OK]   M3+ d=2: the registered number is reproduced by EXACTLY ONE pair, and it IS MIXED: mean coeff = ½trM / T''(0) = 2/h^2
+  [OK]   M3t d=2: ½trM ≠ the mean 2nd-derivative (=trM) ⟹ the type of the numerator is UNAMBIGUOUSLY = coeff
+  [OK]   M3 d=3: among 4 readings × 2 denominators there is NO CONSISTENT pair giving the registered 64/3 ⟹ there is NO rescue by reading
+  [OK]   M3+ d=3: the registered number is reproduced by EXACTLY ONE pair, and it IS MIXED: mean coeff = ½trM / T''(0) = 2/h^2
+  [OK]   M3t d=3: ½trM ≠ the mean 2nd-derivative (=trM) ⟹ the type of the numerator is UNAMBIGUOUSLY = coeff
+  [OK]   M3 d=4: among 4 readings × 2 denominators there is NO CONSISTENT pair giving the registered 625/16 ⟹ there is NO rescue by reading
+  [OK]   M3+ d=4: the registered number is reproduced by EXACTLY ONE pair, and it IS MIXED: mean coeff = ½trM / T''(0) = 2/h^2
+  [OK]   M3t d=4: ½trM ≠ the mean 2nd-derivative (=trM) ⟹ the type of the numerator is UNAMBIGUOUSLY = coeff
+  [OK]   M4: registered/consistent = 1/2 for d=2..6 ⟹ a CONSTANT (bookkeeping), not d-geometry
+  [OK]   M5: h^2/2 is DIFFERENT ∀d ⟹ the length (h^2) and the pairing (1/2) — are SEPARATE defects, not one
+
+==============================================================================
+SUMMARY S1055: PASS=108  FAIL=0
+==============================================================================
+
+ANSWER TO QUESTION 1 (the factor of 1/2): I CONFIRM ALPHA'S KILL.
+  The on-shell solution 2-2cos(x)=λ^2 s gives a slope of EXACTLY sqrt(s), without 1/2 and without 2 [T4].
+  The coeff of λ^2 in |f|^2 = u^T M u EXACTLY [T2]; the second derivative = 2·coeff — a different object.
+  The registered h^4/(4d) is reproduced by EXACTLY one, MIXED pairing [T6];
+  both consistent pairings give ONE number h^4/(2d). The ratio = 1/2 ∀d [M4].
+
+ANSWER TO QUESTION 2 (two lengths): I CONFIRM.
+  1/h^2 in the denominator = ONLY the chain rule dx/dν=2π/h [T5]; h = the number of bonds
+  in the period (S1001). The numerator carries a length through the diagonal of the Gram |δ|^2=1 = a BOND.
+
+★MY OWN ADDITION (not in S1054): THE EXTERNAL ANCHOR IS PROMOTED TO A KILL [T8].
+  The honeycomb Gram = our A_2 Gram; f(K)=0 is SOLVED, not cited; the coeff λ^2 = 9/4
+  INDEPENDENT of the direction ⟹ v=3/2. This agrees with the hop-dictionary and disagrees with
+  the registered 81/8 by a factor of 9/2 = h^2/2. That is, the question is NOT internally-conventional:
+  the registered number contradicts an EXTERNAL ruler, re-derived by my own hand from their
+  definition. This raises the verdict from «the dictionary is ambiguous» to «the number is wrong».
+
