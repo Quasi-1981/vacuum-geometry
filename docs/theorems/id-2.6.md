@@ -22,6 +22,23 @@ Provides the 1-bit residual (FORK II) that underlies T36's arrow-as-single-bit c
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1017**
+
+??? note "Probe code (`S1017.py`)"
+    ```python
+    --8<-- "src/probe/S1017.py"
+    ```
+
+**Result:** asserts_passed=28 · FAIL=0
+
+??? note "Full run log (`S1017_run.log`)"
+    ```text
+    --8<-- "src/probe/S1017_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

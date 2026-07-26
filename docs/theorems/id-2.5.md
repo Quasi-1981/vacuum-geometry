@@ -22,6 +22,23 @@ Grounds the cell/orientation orbit structure reused in the Coxeter-action seam s
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1016**
+
+??? note "Probe code (`S1016.py`)"
+    ```python
+    --8<-- "src/probe/S1016.py"
+    ```
+
+**Result:** asserts_passed=20 · FAIL=0
+
+??? note "Full run log (`S1016_run.log`)"
+    ```text
+    --8<-- "src/probe/S1016_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

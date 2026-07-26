@@ -3,13 +3,13 @@
 # DIM: PRIME LAYER (atemporal; downstream-content 0). W21-A0 — ANALYTIC FLOOR OF RUNG n=3.
 #      Signatures (3,0) ⊥ (2,1) (p≥q: (p,q)↔(q,p) = global sign, not new information).
 #      ★BLINDNESS: the target is publicly known ⟹ the probe does NOT print «signature X chosen». Raw lines only.
-#      Reading the selection = EXCLUSIVELY an act of Omega.
+#      Reading the selection = EXCLUSIVELY an act of the project's adjudication.
 """
 S886 (lane A, ed.2; reservation S886) — W21-A0: analytic floor of the ladder, rung n=3.
 
-Task: hub/prime/W21_PRIME_ABOVO_LADDER_EXANTE.md (Omega-39a88bdb) with VER-NOTE-1 (ladder
+Task: hub/prime/W21_PRIME_ABOVO_LADDER_EXANTE.md (per an internal project directive) with VER-NOTE-1 (ladder
 n∈{3,6,9,12}; A0 moved to n=3) and VER-NOTE-2 (definition of the lattice, downstream-content-free) +
-Rider C1 of the Omega-67a4264b act: (a) E-charge-column — operationalization = the FIRST question
+Rider C1 of an internal project act: (a) E-charge-column — operationalization = the FIRST question
 of the probe, the choice recorded EXPLICITLY; (b) a machine cross-check of leg-Z ≟ the FL-004 mechanism.
 
 ★PRE-REG (on the bus BEFORE the run; a habit from M1′ — registering the awkward):
@@ -20,13 +20,13 @@ of the probe, the choice recorded EXPLICITLY; (b) a machine cross-check of leg-Z
      = q=0. That is, the criterion matches EUCLID — the opposite of the ladder's goal.
   Q2 ⟹ IF Q1 holds: the author's O1 and O2 do NOT SURVIVE this operationalization TOGETHER —
      because (2,2) (p=q, O1 expects the «Euclid class») contains mixed planes just like (3,1),
-     ⟹ the planar criterion cuts them THE SAME WAY. This is exactly the fork that Omega
+     ⟹ the planar criterion cuts them THE SAME WAY. This is exactly the fork that a project ruling
      pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
   Q3 Leg-G: I expect the CLOSED FORM Δ_iε = 2πi·N₋ (N₋ = the count of negative eigenvalues).
      Then Δ_iε=0 ⟺ N₋=0 ⟺ q=0 — and NOT q=1 ⟹ the seed hypothesis «D=0 ⟺ q=1» on THIS
      functional does not hold under the Δ-reading; under the arg-reading (arg I = π·N₋ mod 2π)
      it becomes a question of the PARITY of N₋. I count both readings RAW; the ruling belongs
-     to Omega.
+     to the project's adjudication.
   Q4 C1(b): I expect that leg-Z ≠ the FL-004 mechanism (DIFFERENT objects under the shared
      WORD «closes»): FL-004 = the planarity of a SPECIFIC bond set (tetrahedron 4-leaf),
      leg-Z = sign-definiteness of the plane's METRIC. Kill-test below: FL-004 non-closure
@@ -97,7 +97,7 @@ whether the simplest flat figure is created, and whether traversing the allowed
 configurations of dimensions gives a natural number». There are EXACTLY TWO operationalizations,
 and they are NOT equivalent:
 
-  OP-A «PLANAR» (Omega's form in VER-NOTE-1): in every class of 2-planes {(+,+)·(−,−)·(+,−)}
+  OP-A «PLANAR» (the project's form in VER-NOTE-1): in every class of 2-planes {(+,+)·(−,−)·(+,−)}
         a traversal = a rotation; it closes ⟺ 2π/θ = k ∈ ℕ. Compact SO(2) ⟹ yes;
         non-compact SO(1,1)-boost ⟹ the traversal is aperiodic ⟹ no.
   OP-B «AXIAL» (C1(a), E-charge-column): what closes is not the PLANE but the TRANSLATION CHARGE
@@ -170,7 +170,7 @@ print("""
     ln det = Σ ln λ;  ln(λ ± iε) = ln|λ| ± iπ  for λ<0, and = ln λ for λ>0
     ⟹ Δ_iε ≡ Σ ln(λ+iε) − Σ ln(λ−iε) = 2πi · N₋   (N₋ = the count of NEGATIVE eigenvalues)
     ⟹ Δ_iε = 0 ⟺ N₋ = 0.        arg I = π·N₋ (mod 2π) ⟹ arg I = 0 ⟺ N₋ is EVEN.
-    ⟹ TWO DIFFERENT READINGS of the seed hypothesis D(p,q)=arg I. I count BOTH RAW; the ruling belongs to Omega.
+    ⟹ TWO DIFFERENT READINGS of the seed hypothesis D(p,q)=arg I. I count BOTH RAW; the ruling belongs to the project's adjudication.
 """)
 for L in (6, 9):  # two lattice sizes (L ⊥ 1.5L) — an ex-ante tooth for A1
     k = 2 * np.pi * np.arange(L) / L
@@ -224,7 +224,7 @@ check("★answers are OPPOSITE on ONE object (the Euclidean 2-plane): leg-Z=«cl
       verdict_nogaZ_on_euclid_plane != verdict_FL004_on_euclid_plane,
       "⟹ this is NOT the same criterion")
 print("""
-  ★CANDIDATE VERDICT C1(b) (my finding; the ruling belongs to Omega): TWO DIFFERENT CRITERIA UNDER A SHARED WORD.
+  ★CANDIDATE VERDICT C1(b) (my finding; the ruling belongs to the project's adjudication): TWO DIFFERENT CRITERIA UNDER A SHARED WORD.
     · leg-Z (OP-A) = a property of the plane's METRIC (sign-definiteness) — independent of
       the bond set entirely;
     · FL-004 = a property of a SPECIFIC BOND SET (tetrahedron 4-leaf): its composition does not
@@ -243,14 +243,14 @@ rule("SUMMARY A0")
 print(f"""
   Checks: {N_CHECKS - len(FAIL)}/{N_CHECKS} PASS{'' if not FAIL else ' — FAILURES: ' + str(FAIL)}
 
-  CANDIDATE VERDICT A0 (my finding; the RULING is an act of Omega; raw lines above, 0 words of selection):
+  CANDIDATE VERDICT A0 (my finding; the RULING is an act of the project's adjudication; raw lines above, 0 words of selection):
    (1) ★OP-A (planar leg-Z) IS DEGENERATE — PROVEN, not declared: «the plane closes»
        ⟺ «the plane is sign-definite» (closed form: the isometry's eigenvalues = roots of unity
        ⟺ the group is compact). ⟹ the criterion = A FUNCTION OF THE SIGNATURE, a tautology;
        it cannot select a signature with q≥1 BY CONSTRUCTION. Q1 was confirmed.
    (2) ★THE AUTHOR'S O1 AND O2 DO NOT SURVIVE OP-A TOGETHER: (2,2) and (3,1) get THE SAME
        verdict (both have mixed planes) ⟹ OP-A does not separate them. This is EXACTLY the fork
-       that Omega pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
+       that a project ruling pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
        ⟹ OP-A as an existential filter for the lattice (VER-NOTE-2) gives: the lattice exists
        ONLY at q=0. This contradicts the hierarchy of VER-NOTE-2 (E → closure → lattice → fertility),
        because it removes the lattice from ALL signatures with time. ⟹ either OP-A is wrong, or
@@ -265,6 +265,6 @@ print(f"""
        No kratn-credit; no «two witnesses» either.
   HONEST TALLY: handles 0 · downstream-content 0 · words of selection 0 · closed forms flagged as
   AWAITING independent re-derivation at review · no new witnesses claimed.
-  STOP (A0 = a separate STOP per §3 ex-ante). Review = B's watch. Court = Omega. A1 NOT started.
+  STOP (A0 = a separate STOP per §3 ex-ante). Review = B's watch. Court = the project's adjudication. A1 NOT started.
 """)
 sys.exit(0 if not FAIL else 1)

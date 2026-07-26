@@ -30,6 +30,23 @@ Supplies the single free bit consumed downstream by the stabilization result (A-
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1035**
+
+??? note "Probe code (`S1035.py`)"
+    ```python
+    --8<-- "src/probe/S1035.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1035_run.log`)"
+    ```text
+    --8<-- "src/probe/S1035_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

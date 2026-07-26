@@ -143,7 +143,7 @@ def main():
         nm = wnull_modes(2, 2, L, tab, [Rational(1), w2])
         qeff, split = q_eff_and_split(nm, 2, 2, ss)
         ct = ctilde(nm, 2, 2, ss)
-        # label from ACTUAL ct (three phases; C̃ NOT hardcoded — Omega gate S1008):
+        # label from ACTUAL ct (three phases; C̃ NOT hardcoded — a project gate, S1008):
         if qeff >= 2:
             st = "bistable (q_eff={0}, C̃={1})".format(qeff, ct)
         elif qeff == 1 and ct == 1:
@@ -218,7 +218,7 @@ def main():
         nm = wnull_modes(3, 3, L, tab, [Rational(1), Rational(1), w3])
         qeff, split = q_eff_and_split(nm, 3, 3, ss)
         ct = ctilde(nm, 3, 3, ss)
-        # label from ACTUAL ct (three phases; C̃ NOT hardcoded — Omega gate):
+        # label from ACTUAL ct (three phases; C̃ NOT hardcoded — a project gate):
         if qeff >= 2:
             st = "bistable (q_eff={0}, C̃={1})".format(qeff, ct)
         elif qeff == 1 and ct == 1:

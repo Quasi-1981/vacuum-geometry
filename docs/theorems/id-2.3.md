@@ -22,6 +22,37 @@ Grounds the two-component reflector structure reused in id-2.4's Z_2 classificat
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1012**
+
+??? note "Probe code (`S1012.py`)"
+    ```python
+    --8<-- "src/probe/S1012.py"
+    ```
+
+**Result:** asserts_passed=13 · FAIL=0
+
+??? note "Full run log (`S1012_run.log`)"
+    ```text
+    --8<-- "src/probe/S1012_run.log"
+    ```
+
+**S1016**
+
+??? note "Probe code (`S1016.py`)"
+    ```python
+    --8<-- "src/probe/S1016.py"
+    ```
+
+**Result:** asserts_passed=20 · FAIL=0
+
+??? note "Full run log (`S1016_run.log`)"
+    ```text
+    --8<-- "src/probe/S1016_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

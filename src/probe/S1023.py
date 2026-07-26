@@ -3,7 +3,7 @@
 #          {alphabet d+1 · democracy S_{d+1} · scale Λ} ⟹ the cell A_d is forced ENTIRELY
 #          (points + metric + the very fact of the simplex). ∀d SYMBOLICALLY, not instances.
 #          Exante: active-v10.2/delirium/PLAN_1_GEOMETRY_FROM_INFORMATION.md §EXANTE.
-#          Contamination DECLARED: Omega's Lite-4 = a seed; honesty is carried by symbolics+mutants,
+#          Contamination DECLARED: a project seed (Lite-4) — honesty is carried by symbolics+mutants,
 #          not blindness. ★LINEAR ALGEBRA/REPRESENTATION THEORY, not physics. FS=STONE.)
 #
 # ============================================================================
@@ -54,8 +54,8 @@
 #   K2 any step asks for a NEW constant ⟹ STOP, report (Λ = the only one; the scale of the form is not a new handle).
 #   K3 (fence): physics readings stay BEHIND THE FENCE; FS {the physics-vocabulary classes below, unquoted Minkowski-mentions=STONE, # GUARDLINE
 #   universe, anthropic, Tegmark} hits=0.  Mutants ≥4: M1(C3)·M2(C5)·M3(C6)·M4(C4) + a seeded negctrl(C7). # GUARDLINE
-# Ancestors (citation, not re-derivation): T19 the Gram∝Cartan dictionary · Omega's Lite-4 (a seed, declared) ·
-#   Chentsov/Schur (📖 class of the move, multiplicity 0).  Discipline: exact ℚ-arithmetic; raw tables — to Omega.
+# Ancestors (citation, not re-derivation): T19 the Gram∝Cartan dictionary · a project seed (Lite-4, declared) ·
+#   Chentsov/Schur (📖 class of the move, multiplicity 0).  Discipline: exact ℚ-arithmetic; raw tables — to the project's adjudication.
 # ============================================================================
 
 import sys
@@ -636,9 +636,9 @@ def main():
     print("  (alphabet+democracy)», NOT «vanished». Why there are distinguishable states — falls on existing roots.")
     print("─" * 74); print()
 
-    # ===== summary of raw tables (the court — to Omega, NOT self-assessment) =====
+    # ===== summary of raw tables (the court — to the project's adjudication, NOT self-assessment) =====
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     order = ['C0(anti-circ)', 'C1', 'C2', 'C3(M1)', 'C4a', 'C4b(M4)', 'C5(M2)', 'C6(M3)', 'C7(negctrl)']
     all_pass = True
     for kk in order:

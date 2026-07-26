@@ -56,7 +56,7 @@ THE CANDIDATE MAP, which must be checked (not accepted):
 SCORE [S1063 T2 — a homonym-court]: 6 ✓ / 0 ✗ / 0 ☠ EMPTY
 
 ================================================================================
-★RAW OUTPUTS OF T2 (no verdict rendered — Ω judges)
+★RAW OUTPUTS OF T2 (no verdict rendered — the project's court judges)
   (2a) THE MAP IS COMPUTED AND IT DOES NOT EXIST — three independent divergences:
      · THE VALUE: at the node |f|² = 0, while T_A = 2h ≠ 0 (the maximal divergence
        precisely at the point for which the seam is built);
@@ -72,5 +72,5 @@ SCORE [S1063 T2 — a homonym-court]: 6 ✓ / 0 ✗ / 0 ☠ EMPTY
      («the minus of N3 = minus_arith») is FALSE by computation ⟹ a second independent
      input for the T32→AX-indef dotted line DOES NOT exist from this.  I report it loudly, as
      befits a negative (the same class as Λ_min in S1061).
-  ⟹ N1↔N3: two ROOTS, not two witnesses.  Ω judges the multiplicity — not me.
+  ⟹ N1↔N3: two ROOTS, not two witnesses.  the project's court judges the multiplicity — not me.
 ================================================================================

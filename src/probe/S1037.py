@@ -8,7 +8,7 @@
 #          the ε-parity of the relief. THE FORK: (I) ≠0 AND ε-odd ⟹ the wager WINS (the sign=geometry, the T36-bit
 #          is demoted) · (II) ≠0 but ε-EVEN ⟹ bumps exist, they do not select the sign, the wager LOSES honestly ·
 #          (III) ≡0 flat ⟹ there is no third force. ★KILL-FIRST: the null=(II)/(III) — kill it first.
-#          S1028 discipline: COMPUTE, do not postulate. FS=STONE. Court — Omega.)
+#          S1028 discipline: COMPUTE, do not postulate. FS=STONE. Court — the project's adjudication.)
 #
 # ============================================================================
 # ★WHAT IS COMPUTED (kill-first: try (II)/(III) first):
@@ -18,7 +18,7 @@
 #       + a direct check: the curvature of the band |f| at the nodes ±K — Hessian(K) =? Hessian(−K)? (|f| even ⟹ equal).
 #   (C) the fork I/II/III from (A)+(B).
 # KILLS: FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
-#   Mutants ≥4. Ancestors S1023(the prime-metric=Cartan) · S1034/S1036(V even, the sign spontaneous) · T36. Court—Omega.
+#   Mutants ≥4. Ancestors S1023(the prime-metric=Cartan) · S1034/S1036(V even, the sign spontaneous) · T36. Court — the project's adjudication.
 # ============================================================================
 
 import sys
@@ -184,7 +184,7 @@ def main():
     print("=" * 74)
     print("THE THIRD FORCE · S1037 — the relief of the prime-metric = a sign-selector? (the author's wager, kill-first)")
     print("(A) deficit ≠0? (B) the ε-parity of the relief (the CORE) (C) the fork I/II/III. The null=(II)/(III).")
-    print("Legal through the S1036 eye of the needle (only ε-even is forbidden). COMPUTING. FS=STONE. Court — to Omega.")
+    print("Legal through the S1036 eye of the needle (only ε-even is forbidden). COMPUTING. FS=STONE. Court — to the project's adjudication.")
     print("=" * 74)
     print()
 
@@ -194,7 +194,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  (A) the relief EXISTS: the angular deficit ≠0 for d≥3 (a regular simplex does NOT tessellate flat);")
     print("      d=2 is flat (2π/60°=6). ⟹ the bumps are real, (III) only at d=2.")

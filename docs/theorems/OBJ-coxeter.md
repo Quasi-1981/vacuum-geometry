@@ -22,6 +22,23 @@ Provides the eigenvalue ladder used elsewhere in the A_d structure analysis.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1004**
+
+??? note "Probe code (`S1004.py`)"
+    ```python
+    --8<-- "src/probe/S1004.py"
+    ```
+
+**Result:** asserts_passed=30 · FAIL=0
+
+??? note "Full run log (`S1004_run.log`)"
+    ```text
+    --8<-- "src/probe/S1004_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

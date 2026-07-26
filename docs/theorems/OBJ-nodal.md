@@ -31,6 +31,23 @@ Provides the nodal-set structure used in constructing the two-component object H
 | `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer | the letter T denotes something else on another floor |
 | `T_col` | the same lattice form on the column | the same |
 
+## Measurements
+
+**S1011**
+
+??? note "Probe code (`S1011.py`)"
+    ```python
+    --8<-- "src/probe/S1011.py"
+    ```
+
+**Result:** asserts_passed=17 · FAIL=0
+
+??? note "Full run log (`S1011_run.log`)"
+    ```text
+    --8<-- "src/probe/S1011_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

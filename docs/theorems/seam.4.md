@@ -23,6 +23,23 @@ Establishes the column class split reused in the center identification of id-2.1
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1012**
+
+??? note "Probe code (`S1012.py`)"
+    ```python
+    --8<-- "src/probe/S1012.py"
+    ```
+
+**Result:** asserts_passed=13 · FAIL=0
+
+??? note "Full run log (`S1012_run.log`)"
+    ```text
+    --8<-- "src/probe/S1012_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

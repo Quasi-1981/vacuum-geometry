@@ -20,6 +20,21 @@ Supplies the ordering/closure input that forces the rigid signature results (3,0
 
 **Consumed by:** [Minimal closure carrier is the sign-definite (3,0)](T1.md)
 
+## Measurements
+
+**S899**
+
+??? note "Probe code (`S899.py`)"
+    ```python
+    --8<-- "src/probe/S899.py"
+    ```
+
+??? note "Full run log (`S899_run.log`)"
+    ```text
+    --8<-- "src/probe/S899_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

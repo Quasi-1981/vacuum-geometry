@@ -2,7 +2,7 @@
 ================================================================================================
 SECTION 0 — FENCE AUDIT (first)
 ================================================================================================
-  [PASS] declaration-guard is mounted (fence block excluded from the scan — otherwise the fence catches itself) — cut 209 bytes
+  [PASS] declaration-guard is mounted (fence block excluded from the scan — otherwise the fence catches itself) — cut 223 bytes
   [PASS] blindness: the probe carries NO selection words and does NOT cite the ancestor lineage as an argument — 0 occurrences outside the declaration
   [PASS] layer fence (prime = atemporal): forbidden layer-words = 0 — «time» is used ONLY as a COUNT of minus signs q — not as a physical premise
   [PASS] downstream-content 0 (prime layer) · handles 0
@@ -16,7 +16,7 @@ whether the simplest flat figure is created, and whether traversing the allowed
 configurations of dimensions gives a natural number». There are EXACTLY TWO operationalizations,
 and they are NOT equivalent:
 
-  OP-A «PLANAR» (Omega's form in VER-NOTE-1): in every class of 2-planes {(+,+)·(−,−)·(+,−)}
+  OP-A «PLANAR» (the project's form in VER-NOTE-1): in every class of 2-planes {(+,+)·(−,−)·(+,−)}
         a traversal = a rotation; it closes ⟺ 2π/θ = k ∈ ℕ. Compact SO(2) ⟹ yes;
         non-compact SO(1,1)-boost ⟹ the traversal is aperiodic ⟹ no.
   OP-B «AXIAL» (C1(a), E-charge-column): what closes is not the PLANE but the TRANSLATION CHARGE
@@ -68,7 +68,7 @@ LEG-M and LEG-G (rung n=3, RAW numbers) ⟨closed forms — AWAIT RE-DERIVATION 
     ln det = Σ ln λ;  ln(λ ± iε) = ln|λ| ± iπ  for λ<0, and = ln λ for λ>0
     ⟹ Δ_iε ≡ Σ ln(λ+iε) − Σ ln(λ−iε) = 2πi · N₋   (N₋ = the count of NEGATIVE eigenvalues)
     ⟹ Δ_iε = 0 ⟺ N₋ = 0.        arg I = π·N₋ (mod 2π) ⟹ arg I = 0 ⟺ N₋ is EVEN.
-    ⟹ TWO DIFFERENT READINGS of the seed hypothesis D(p,q)=arg I. I count BOTH RAW; the ruling belongs to Omega.
+    ⟹ TWO DIFFERENT READINGS of the seed hypothesis D(p,q)=arg I. I count BOTH RAW; the ruling belongs to the project's adjudication.
 
   L=6 (3, 0): N₋=    0 · N₀=   1 · N₊=  215 · Δ_iε/2πi = 0 · arg I/π mod 2 = 0 · N₋ even? True
   L=6 (2, 1): N₋=   33 · N₀=  27 · N₊=  156 · Δ_iε/2πi = 33 · arg I/π mod 2 = 1 · N₋ even? False
@@ -94,7 +94,7 @@ LEG-Z (OP-A), proven above: «a 2-plane closes ⟺ it is SIGN-DEFINITE».
 
   [PASS] ★answers are OPPOSITE on ONE object (the Euclidean 2-plane): leg-Z=«closes» ⊥ FL-004=«does not close» — ⟹ this is NOT the same criterion
 
-  ★CANDIDATE VERDICT C1(b) (my finding; the ruling belongs to Omega): TWO DIFFERENT CRITERIA UNDER A SHARED WORD.
+  ★CANDIDATE VERDICT C1(b) (my finding; the ruling belongs to the project's adjudication): TWO DIFFERENT CRITERIA UNDER A SHARED WORD.
     · leg-Z (OP-A) = a property of the plane's METRIC (sign-definiteness) — independent of
       the bond set entirely;
     · FL-004 = a property of a SPECIFIC BOND SET (tetrahedron 4-leaf): its composition does not
@@ -114,14 +114,14 @@ SUMMARY A0
 
   Checks: 17/17 PASS
 
-  CANDIDATE VERDICT A0 (my finding; the RULING is an act of Omega; raw lines above, 0 words of selection):
+  CANDIDATE VERDICT A0 (my finding; the RULING is an act of the project's adjudication; raw lines above, 0 words of selection):
    (1) ★OP-A (planar leg-Z) IS DEGENERATE — PROVEN, not declared: «the plane closes»
        ⟺ «the plane is sign-definite» (closed form: the isometry's eigenvalues = roots of unity
        ⟺ the group is compact). ⟹ the criterion = A FUNCTION OF THE SIGNATURE, a tautology;
        it cannot select a signature with q≥1 BY CONSTRUCTION. Q1 was confirmed.
    (2) ★THE AUTHOR'S O1 AND O2 DO NOT SURVIVE OP-A TOGETHER: (2,2) and (3,1) get THE SAME
        verdict (both have mixed planes) ⟹ OP-A does not separate them. This is EXACTLY the fork
-       that Omega pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
+       that a project ruling pre-named as A0's legal way out («otherwise (3,1) would fall together with (2,2)»).
        ⟹ OP-A as an existential filter for the lattice (VER-NOTE-2) gives: the lattice exists
        ONLY at q=0. This contradicts the hierarchy of VER-NOTE-2 (E → closure → lattice → fertility),
        because it removes the lattice from ALL signatures with time. ⟹ either OP-A is wrong, or
@@ -136,5 +136,5 @@ SUMMARY A0
        No kratn-credit; no «two witnesses» either.
   HONEST TALLY: handles 0 · downstream-content 0 · words of selection 0 · closed forms flagged as
   AWAITING independent re-derivation at review · no new witnesses claimed.
-  STOP (A0 = a separate STOP per §3 ex-ante). Review = B's watch. Court = Omega. A1 NOT started.
+  STOP (A0 = a separate STOP per §3 ex-ante). Review = B's watch. Court = the project's adjudication. A1 NOT started.
 

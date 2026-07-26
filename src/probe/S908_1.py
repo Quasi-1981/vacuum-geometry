@@ -5,7 +5,7 @@
 S908 — VISA W28, phase (a): INDEPENDENT REDERIVATION OF CLOSED FORMS.
 ================================================================================
 ROLE: independent rederivation — a different hand, a different rig, BEFORE reading the row's probes.
-TASK: visa package W28 (Omega-9a693093) — kratn-2 requires rederiving the closed
+TASK: visa package W28 (per an internal project directive) — kratn-2 requires rederiving the closed
 forms BEFORE reading probes S899-S907 (otherwise the probe is an anchor, not a witness).
 
 ★PROCEDURAL STAMP (kratn-2 honesty):

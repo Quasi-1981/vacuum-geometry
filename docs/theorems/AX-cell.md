@@ -22,6 +22,37 @@ Provides the derived A_d cell object used throughout the object layer (OBJ-cell)
 
 **Consumed by:** [A_d cell as weights of the fundamental su(d+1) representation](OBJ-cell.md) · [Minimality implies (3,1): p>=3 and q>=1 implies n>=4; the minimum is uniquely (3,1); (2,2) fails](T5.md)
 
+## Measurements
+
+**S1023**
+
+??? note "Probe code (`S1023.py`)"
+    ```python
+    --8<-- "src/probe/S1023.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1023_run.log`)"
+    ```text
+    --8<-- "src/probe/S1023_run.log"
+    ```
+
+**S1026**
+
+??? note "Probe code (`S1026.py`)"
+    ```python
+    --8<-- "src/probe/S1026.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1026_run.log`)"
+    ```text
+    --8<-- "src/probe/S1026_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

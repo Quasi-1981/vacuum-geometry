@@ -2,9 +2,9 @@
 # DIM: symbolic-d  (the Gram and the zigzag — symbolic in d; the coordinate realization
 #                   checked for d=2..7.  The d=3 numbers enter ONLY as an anchor to the
 #                   S597 primary source, not as a carrier of the form.)
-"""S1075 · SIEGE OF AX-dimer · component **D2 (FORM)** — a lane-A probe.
+"""S1075 · SIEGE OF AX-dimer · component **D2 (FORM)** — an independent probe.
 
-EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by Ω, S1074).
+EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by a project ruling, S1074).
 The D2 question verbatim: «the mark = a DIMER (exactly 1 time-bond/node; q=1) — does the form
 follow from what is already accepted?»; the candidate for the ONE new piece of content is
 «1 bond per NODE»; step 0 — pull up the S597 primary source and separate what it MEASURED
@@ -321,7 +321,7 @@ def main():
 
     print("""
 ────────────────────────────────────────────────────────────────────────────────
-WHAT THIS MEANS FOR D2 (a measurement, not a verdict — Ω's verdict after Beta's visa):
+WHAT THIS MEANS FOR D2 (a measurement, not a verdict — the project's verdict after Beta's visa):
 
   (1) «1 time-bond per node» and «no purely-time-like path» — are NOT separate content:
       both fall ∀d from ONE ancestor (the marked cover of the cell: exactly one edge of

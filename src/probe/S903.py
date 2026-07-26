@@ -730,7 +730,7 @@ print(f"""
        signatures of η/−η; A found with its c(A), those not found — raw bound lines — above;
    (5) block D: nilpotent A (rank-2 + Witt block) with degrees — above;
    (6) block E: sets of keys against S901/S902 — above.
-  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+  HONEST TALLY: handles 0 · verdicts 0. Court = the project's adjudication.
 """)
 _logf.flush()
 sys.exit(0 if not FAIL else 1)

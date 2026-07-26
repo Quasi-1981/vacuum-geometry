@@ -26,7 +26,7 @@
 #   (3) MARK: α (the S1026 selector) = the marked bond-column (AX-dimer, T34)? the same choice?
 # KILLS: K2 a new constant ⟹ STOP. K3(fence): FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
 #   Mutants ≥4: M1 false «so(2)_α=center» · M2 false «α=fund.weight» · M3 (d,1)=cheap(count≠ancestor) ·
-#   M4 d→d+1 the difference is stable + a seeded negctrl. Ancestors by citation. ★COURT — to Omega; I do NOT render a verdict.
+#   M4 d→d+1 the difference is stable + a seeded negctrl. Ancestors by citation. ★COURT — to the project's adjudication; I do NOT render a verdict.
 # ============================================================================
 
 import sys
@@ -309,7 +309,7 @@ def main():
     print("=" * 74)
     print("DELIRIUM-2 PROBE S1027 — T32-RECONCILIATION (a homonym-court: does the new minus =? the canonical T32-minus)")
     print("★KILL-FIRST: null = DIFFERENT ancestors (a homonym). T32=an ANCESTOR-CITATION. The three laws of S1024. FS=STONE.")
-    print("★COURT — to Omega; I check BY ANCESTOR and lay it out raw, I do NOT render a verdict.")
+    print("★COURT — to the project's adjudication; I check BY ANCESTOR and lay it out raw, I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -320,7 +320,7 @@ def main():
     r['mutants'] = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS + HOMONYM-AUDIT BY ANCESTOR (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS + HOMONYM-AUDIT BY ANCESTOR (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("   aspect            | canon T32 [cited]                | arc S1025-6             | ancestor")
     print("   MARK (AX-dimer)   | which bond-column (T34)          | which α (root)          | ★SHARED (root/bond)")
@@ -336,11 +336,11 @@ def main():
     print("     (any root gives (d,1)). ★A HOMONYM on the MINUS-object — despite a strong rhyme (both")
     print("     «a compact circle», both (d,1), both at the mark) and a shared mark.")
     print("─" * 74)
-    print("  ⟹ PART 2 closes PARTIALLY (raw, Omega's call): the MARK is sewn together (arc=canon); the MINUS —")
+    print("  ⟹ PART 2 closes PARTIALLY (raw, the project's call): the MARK is sewn together (arc=canon); the MINUS —")
     print("    two PARALLEL objects (geometric so(2)_α ⊥ arithmetic center-dual) under one role. «One machinery»")
     print("    is HONESTLY chipped at the minus-object level; the debt is named. ★OR (a residue for the court): is the rhyme «compact")
     print("    circle» a deeper identity (does a complexification/real-form bridge so(2)_α↔the center-rotation)?")
-    print("    — I could NOT either kill it or force it, this deeper link; I leave it to Omega.")
+    print("    — I could NOT either kill it or force it, this deeper link; I leave it to the project's adjudication.")
     print("─" * 74)
     order = ['(3)mark-shared', '(2)so2≠center(key)', '(1)form-(d,1)-cheap', 'mutants']
     all_ok = True

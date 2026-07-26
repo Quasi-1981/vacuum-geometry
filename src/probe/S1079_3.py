@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-d  (the count of invariant forms — symbolic in d, a run over d=2..5;
 #                   the field ablation does not depend on dimension, run on the carrier (d,1).)
-"""S1079 · SIEGE OF AX-closure · component **Z4 (THE CARRIER)** — a lane-A probe.
+"""S1079 · SIEGE OF AX-closure · component **Z4 (THE CARRIER)** — an independent probe.
 
-EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by Ω, S1078).
+EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by a project ruling, S1078).
 The Z4 question verbatim: the carrier «real quadratic spaces» — «is this a separate handle,
-or is it consumed by the roots {AX-alphabet · Λ}?»  Ω's wager: **CONSUMED**; «if not — name
+or is it consumed by the roots {AX-alphabet · Λ}?»  the project's wager: **CONSUMED**; «if not — name
 it honestly as an input component, do NOT hide it».
 
 ★DISSECTING THE CARRIER into three components (otherwise "consumed/not consumed" is a
@@ -206,7 +206,7 @@ WHAT THIS MEANS FOR Z4 (a measurement, not a verdict):
       carrier needs the field's **ORDEREDNESS**, not "realness" (the completeness of ℝ is
       not used anywhere in this step).  The honest name of the component = "a formally real
       (ordered) field", and this is a WEAKER premise than stands in the prose.
-  (d) ⟹ the form of the verdict handed to Ω (not rendered here): Z4 = {a,b consumed} + {c —
+  (d) ⟹ the form of the verdict handed to the project's adjudication (not rendered here): Z4 = {a,b consumed} + {c —
       a named input component that SHOULD BE NARROWED to orderedness}.  Whether
       orderedness already carries Λ (a ruler = an ordered quantity by type) — a question for
       the court, not decided here: this is the difference between "consumed" and "named".

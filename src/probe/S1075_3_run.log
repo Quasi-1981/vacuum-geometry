@@ -61,7 +61,7 @@ SCORE [S1075 · D3-choice of AX-dimer]: 3 ✓ / 0 ✗ / 0 ☠ EMPTY
 ────────────────────────────────────────────────────────────────────────────────
 WHAT THIS MEANS FOR D3 (a measurement, not a verdict):
 
-  (1) THE IRREDUCIBILITY THEOREM OF THE CHOICE HOLDS, and the mechanism is exactly the one Ω
+  (1) THE IRREDUCIBILITY THEOREM OF THE CHOICE HOLDS, and the mechanism is exactly the one the project's adjudication
       wagered on: the transitivity of S_{d+1} on d+1 axes ⟹ the invariant subsets are only
       {∅, all} ⟹ no equivariant construction can hand back a single axis.
       ★This is STRONGER than «4 failures = a theorem» (a rhyme to A-nonderiv): this is not a
@@ -85,7 +85,7 @@ WHAT THIS MEANS FOR D3 (a measurement, not a verdict):
       broken down to the stabilizer — a subgroup of INDEX exactly d+1.  That is, one must
       pay exactly the information one wants to obtain.  This is not "hard", it is circular.
 
-  (5) ⟹ the choice = SPONTANEITY, the same class as ±m₀ and the 1-bit of T36-(v) (as Ω
+  (5) ⟹ the choice = SPONTANEITY, the same class as ±m₀ and the 1-bit of T36-(v) (as the project's adjudication
       wagered).  But with the correction of (2): what is spontaneous is not only WHICH, but
       also WHETHER.
 ────────────────────────────────────────────────────────────────────────────────

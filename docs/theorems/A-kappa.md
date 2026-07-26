@@ -23,6 +23,37 @@ Yields the space-versus-axis orthogonal splitting used to build the space object
 
 **Consumed by:** [κ: minimal parabolic p_α=(d,1), q=1, variant B; time=so(2)_α](A-axis.md)
 
+## Measurements
+
+**S1023**
+
+??? note "Probe code (`S1023.py`)"
+    ```python
+    --8<-- "src/probe/S1023.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1023_run.log`)"
+    ```text
+    --8<-- "src/probe/S1023_run.log"
+    ```
+
+**S1026**
+
+??? note "Probe code (`S1026.py`)"
+    ```python
+    --8<-- "src/probe/S1026.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1026_run.log`)"
+    ```text
+    --8<-- "src/probe/S1026_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

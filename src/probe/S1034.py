@@ -16,7 +16,7 @@
 #   The difference = the collapse removes the degeneracy = a PRECONDITION of the assembly (a new measured fact).
 # KILLS: K2 a new constant ⟹ STOP. FS {the physics-vocabulary classes below=STONE; heat-bath language/β behind the fence — # GUARDLINE
 #   the trace=a SPECTRAL sum, not statistical mechanics}. Mutants ≥4. Ancestors T27/T29/T33/T36/T37/S1032/S1033/S637
-#   BY CITATION. Executor Alpha; court Omega. I do NOT do (iv).
+#   BY CITATION. Executor Alpha; adjudication is the project's. I do NOT do (iv).
 # ============================================================================
 
 import sys
@@ -236,7 +236,7 @@ def main():
     print("THE MIRROR-ASSEMBLY LAW · S1034 — the SSB-bypass of the ε-barrier (a two-stage law)")
     print("(SSB = spontaneous symmetry breaking)")
     print("(i) V even → (ii) nativeness → (iii)★HEART kill-first: collapse=precondition. I do NOT do (iv).")
-    print("SSB: the law respects the mirror (V even), the ground state ±m₀ breaks it. FS=STONE. Court — to Omega.")
+    print("SSB: the law respects the mirror (V even), the ground state ±m₀ breaks it. FS=STONE. Court — to the project's adjudication.")
     print("=" * 74)
     print()
 
@@ -246,7 +246,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict; I do NOT do (iv) without your (iii) verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict; I do NOT do (iv) without your (iii) verdict):")
     print("─" * 74)
     print("  (i) LEGALITY: V(m) is ε-EVEN (only m²) — the (b) selection rule is respected. {0}".format("✓" if i_ok else "✗"))
     print("  (ii) NATIVENESS: a,b — a spectral sum over the native |f|, 0 handles (K2 clean). {0}".format("✓" if ii_ok else "✗"))

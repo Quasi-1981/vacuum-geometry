@@ -23,6 +23,37 @@ Identifies space with the A_d Cartan algebra, providing the candidate reduction 
 
 **Consumed by:** [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) · [A_d cell derived from alphabet (∀d, three independent routes)](AX-cell.md)
 
+## Measurements
+
+**S1023**
+
+??? note "Probe code (`S1023.py`)"
+    ```python
+    --8<-- "src/probe/S1023.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1023_run.log`)"
+    ```text
+    --8<-- "src/probe/S1023_run.log"
+    ```
+
+**S1026**
+
+??? note "Probe code (`S1026.py`)"
+    ```python
+    --8<-- "src/probe/S1026.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1026_run.log`)"
+    ```text
+    --8<-- "src/probe/S1026_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

@@ -197,7 +197,7 @@ def main():
     code = report("S1066 B2 — the implication {a mark} ⟹ q≥1")
     print()
     print("=" * 80)
-    print("★RAW OUTPUTS OF B2 (no verdict rendered — a B-visa, then the Ω court)")
+    print("★RAW OUTPUTS OF B2 (no verdict rendered — a B-visa, then the project's court)")
     print("  (2a) the definition carved BEFORE the count: readable ⟺ there is no isometry u₀↦another axis.")
     print("  (2b) THE CORE:")
     print("     · a definite arena + EQUAL norms ⟹ the mark = A LABEL (an isometry is built explicitly);")

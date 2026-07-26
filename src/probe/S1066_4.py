@@ -2,7 +2,7 @@
 # DIM: symbolic-exact (an exhaustive search over integers; no approximations).  Brackets [address · unit · type].
 """S1066 B3 — AN AUDIT OF THE CONSUMER T5: is the FULL `q≥1` needed, or is `q=1` enough.
 
-ASSIGNMENT: Omega, the B2b verdict + `AX_INDEF_SIEGE_EXANTE.md` B3 — the final step of the siege.
+ASSIGNMENT: project ruling, the B2b verdict + `AX_INDEF_SIEGE_EXANTE.md` B3 — the final step of the siege.
 Discipline: **REMOVE-AND-LOOK** (S1060-C).  A negative world of a DIFFERENT LAW —
 mandatory (my own carved pattern `negative-world-is-a-different-law`).
 
@@ -178,7 +178,7 @@ def main():
     print("      and has exactly one time-axis) ⟹ `q=1` IS AN OUTPUT, not an input.")
     print("      The negative worlds — OTHER LAWS (|p−q|, p·q): there q=1 does not fall out ⟹ this line is")
     print("      a property of the T5 LAW, not of arithmetic in general.")
-    print("  ⟹ ★FOR THE SIEGE (conditionally, Ω judges): the demotion is clean ALSO ON THE CONSUMER SIDE —")
+    print("  ⟹ ★FOR THE SIEGE (conditionally, the project's court judges): the demotion is clean ALSO ON THE CONSUMER SIDE —")
     print("      B2/B2b deliver exactly «q≠0», and this is EXACTLY what, and no more than, what")
     print("      T5 consumes.  There is no split «delivered ⊥ consumed».")
     print("=" * 80)

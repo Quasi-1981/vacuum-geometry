@@ -445,7 +445,7 @@ def main():
     print()
 
     # ---------------- H: the S597 form, verified against the SOURCE's own numbers ----------
-    print("H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (Omega's brake: do not change until checked)")
+    print("H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (the project's brake: do not change until checked)")
     print("   The primary source: viz/SIMPLEX_LATTICE_MEMBRANES_omega_analysis.md, a table row:")
     print("   «the forced lateral per time-period | lat/time = 1/√2 (0.4082/0.5774) | exactly».")
     print("   ★It prints TWO numbers separately — so I check not the ratio, but EACH of the two.")
@@ -502,7 +502,7 @@ def main():
         ok(sp.simplify(ax_t / ax_s - dv) == 0,
            "d={0}: the stacking = d:1 = {1}:1 (that is, «3:1» — is ALSO a d-instance, not a constant)".format(dv, dv))
     print()
-    print("   ★WHY A CHECK ON A SINGLE NUMBER WOULD BE EMPTY (Omega's brake is structurally right):")
+    print("   ★WHY A CHECK ON A SINGLE NUMBER WOULD BE EMPTY (the project's brake is structurally right):")
     rivals = [("sqrt((d−1)/(d+1))  [this one]", sp.sqrt((d - 1) / (d + 1))),
               ("1/sqrt(d−1)", 1 / sp.sqrt(d - 1)),
               ("sqrt(2/(d+1))", sp.sqrt(2 / (d + 1))),

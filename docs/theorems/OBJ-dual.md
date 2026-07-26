@@ -22,6 +22,23 @@ Provides the dual-group structure used to index the nodal set (OBJ-nodal) by cha
 
 **Consumed by:** [Nodal set f=0 corresponds to d characters of ℤ/h](OBJ-nodal.md)
 
+## Measurements
+
+**S1001**
+
+??? note "Probe code (`S1001.py`)"
+    ```python
+    --8<-- "src/probe/S1001.py"
+    ```
+
+**Result:** asserts_passed=48 · FAIL=0
+
+??? note "Full run log (`S1001_run.log`)"
+    ```text
+    --8<-- "src/probe/S1001_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

@@ -25,15 +25,15 @@
 # ============================================================================
 #
 # ============================================================================
-# PROVENANCE / EPISTEMIC CLASS  (self-report, carved per Omega's request 2026-07-18)
+# PROVENANCE / EPISTEMIC CLASS  (self-report, carved per the project's request 2026-07-18)
 # ----------------------------------------------------------------------------
 # CLASS = DECLARED-CONTAMINATED CORROBORATION (NOT a blind witness).
 #   The "blind" token in this filename is INACCURATE for this run (kept for the
 #   committed reference; see below).  Load-bearing blind witness for W39-leg2 =
-#   S991 (fresh zero-context subagent, Omega route-(A), commit 86d6efe3).
+#   S991 (fresh zero-context subagent, an independent routing decision, commit 86d6efe3).
 # Timeline (UTC 2026-07-18):
-#   08:55:48  Omega "gate resolved -- do it" -> lane-A (route decision).
-#   09:11:53  Alpha (321d3b67) DECLARED contamination to Omega (fork xmsg).
+#   08:55:48  a project ruling: "gate resolved -- do it" -> an independent lane (route decision).
+#   09:11:53  Alpha (321d3b67) DECLARED contamination to the project's adjudication (an internal message).
 #   09:13:01  Alpha reserved S990 and ran this probe  <-- count STARTED AFTER the
 #             contamination declaration (~68 s later): declared-before-count.
 #   09:13:27  fresh hand reserved S991 (parallel, 26 s later).
@@ -41,8 +41,8 @@
 #   W39_LEG2_* ex-ante / leg-2 stakes = NO (leg-2 blindness held).
 # Outcome: conclusions IDENTICAL to blind S991 (T23 refuted by empty residual;
 #   (5,5) Lambda^2 cocycle) -- reported AGAINST Alpha's own T23 expectation, so
-#   the contamination did not bias the sign.  Accepted by Omega as corroboration
-#   (visa J-0446); S991 remains the load-bearing witness.
+#   the contamination did not bias the sign.  Accepted as corroboration by the
+#   project's adjudication (visa J-0446); S991 remains the load-bearing witness.
 # ============================================================================
 
 import sys

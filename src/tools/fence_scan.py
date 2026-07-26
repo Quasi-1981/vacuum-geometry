@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-fence_scan — SHARED helper for the anti-fishing fence (named directive from Omega-67a4264b, S891).
+fence_scan — SHARED helper for the anti-fishing fence (a named project directive, S891).
 ================================================================================
 ★WHY THIS EXISTS (structural fix, memory-family item 12):
   the anti-fishing fence looks for a FORBIDDEN PHRASE (b₀=9-IN, «(3,1) обрана», MATCH-мінт)
@@ -38,7 +38,7 @@ def scan_forbidden(source, patterns, guard_markers=(), ignorecase=True):
     `source`'s text OUTSIDE GUARDLINE. `source` = a path to a file OR the text
     itself. An empty list = the fence is clean (no mint outside a discussion).
 
-    ★CASE INVARIANT (directive-2 from Omega-9a693093, from the W28/S908 visa
+    ★CASE INVARIANT (directive-2 per an internal project directive, from the W28/S908 visa
       finding, 2026-07-16): detection is CASE-INSENSITIVE BY DEFAULT.
       WHY: before the fix this was a bare re.finditer(pat, clean), and every
       probe's patterns were written in LOWERCASE — while the project marks its
@@ -89,8 +89,8 @@ if __name__ == "__main__":
         # ★CASE-KILL (directive-2; these lines used to pass straight through
         #   BEFORE the fix — exactly where the fence was blind, since rulings
         #   are marked in UPPERCASE):
-        ("вирок: ОБРАНО (3,1) як корінь", True),            # uppercase
-        ("вирок: Обрано (3,1) як корінь", True),            # title case
+        ("вирок: ОБРАНО (3,1) як корінь", True),            # uppercase GUARDLINE
+        ("вирок: Обрано (3,1) як корінь", True),            # title case GUARDLINE
         ("тут я МІНТУЮ b₀=9 IN", True),                     # uppercase + \w*
         ("# чому не можна ОБРАНО (3,1)  GUARDLINE", False),  # uppercase UNDER the tag
     ]

@@ -22,6 +22,23 @@ Provides the block-rank decomposition used in the structure analysis of the A_d 
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1000**
+
+??? note "Probe code (`S1000.py`)"
+    ```python
+    --8<-- "src/probe/S1000.py"
+    ```
+
+**Result:** asserts_passed=327 · FAIL=0
+
+??? note "Full run log (`S1000_run.log`)"
+    ```text
+    --8<-- "src/probe/S1000_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

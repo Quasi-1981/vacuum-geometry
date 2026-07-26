@@ -20,6 +20,10 @@ Supplies the 1-bit time-bond input used to build the column/dimer object (OBJ-co
 
 **Consumed by:** [Indefiniteness (q≥1) demoted from input to theorem](AX-indef.md) · [Column/dimer: time-bond u₀ with translation symmetry P=d+1](OBJ-column.md) · [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md)
 
+## Measurements
+
+*Measurement lives in an internal record (this node has no probe in the public port yet).*
+
 ---
 
 [← all nodes](index.md)

@@ -25,6 +25,51 @@ Establishes a reusable three-way identification (center = column dual = Z/h) und
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1001**
+
+??? note "Probe code (`S1001.py`)"
+    ```python
+    --8<-- "src/probe/S1001.py"
+    ```
+
+**Result:** asserts_passed=48 · FAIL=0
+
+??? note "Full run log (`S1001_run.log`)"
+    ```text
+    --8<-- "src/probe/S1001_run.log"
+    ```
+
+**S1011**
+
+??? note "Probe code (`S1011.py`)"
+    ```python
+    --8<-- "src/probe/S1011.py"
+    ```
+
+**Result:** asserts_passed=17 · FAIL=0
+
+??? note "Full run log (`S1011_run.log`)"
+    ```text
+    --8<-- "src/probe/S1011_run.log"
+    ```
+
+**S1013**
+
+??? note "Probe code (`S1013.py`)"
+    ```python
+    --8<-- "src/probe/S1013.py"
+    ```
+
+**Result:** asserts_passed=23 · FAIL=0
+
+??? note "Full run log (`S1013_run.log`)"
+    ```text
+    --8<-- "src/probe/S1013_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

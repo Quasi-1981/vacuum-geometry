@@ -12,7 +12,7 @@ argument, it is correct):
 
 ★WHY THIS FILE (and why this is not resonance): Beta named three carriers of the line — my
 Z4-c, her D1 (S1076), and the ancestor S908.  I ran her line across the REST of my own acts
-— and **Z1 also falls under it**, while Z2 does NOT.  Omega must carve the two-part form;
+— and **Z1 also falls under it**, while Z2 does NOT.  the project's adjudication must carve the two-part form;
 the carve will be exact only if it is known WHICH part bites WHICH step.  This is not a
 correction of a correction, it is a MAP of the scope.
 
@@ -94,7 +94,7 @@ def main():
     assert got is False
 
     print("""
-T3 · ★A MAP OF THE SCOPE (for Omega's carve — so the two-part form is EXACT)
+T3 · ★A MAP OF THE SCOPE (for the project's carve — so the two-part form is EXACT)
 
   step                                     | what it really uses      | source
   ----------------------------------------|--------------------------|----------
@@ -114,7 +114,7 @@ T3 · ★A MAP OF THE SCOPE (for Omega's carve — so the two-part form is EXACT
 
     print("""
 ────────────────────────────────────────────────────────────────────────────────
-SUMMARY (a measurement, not a verdict — carved by Ω):
+SUMMARY (a measurement, not a verdict — carved by a project ruling):
 
   · Beta's two-part form is CONFIRMED and REFINED by address: not "the whole construction
     needs a really closed field", but EXACTLY those steps that write/compare a normal

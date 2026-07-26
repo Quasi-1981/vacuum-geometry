@@ -23,6 +23,57 @@ Reclassifies indefiniteness as derived rather than assumed, tightening the quali
 
 **Consumed by:** [Minimality implies (3,1): p>=3 and q>=1 implies n>=4; the minimum is uniquely (3,1); (2,2) fails](T5.md)
 
+## Measurements
+
+**S1066_1**
+
+??? note "Probe code (`S1066_1.py`)"
+    ```python
+    --8<-- "src/probe/S1066_1.py"
+    ```
+
+??? note "Full run log (`S1066_1_run.log`)"
+    ```text
+    --8<-- "src/probe/S1066_1_run.log"
+    ```
+
+**S1066_2**
+
+??? note "Probe code (`S1066_2.py`)"
+    ```python
+    --8<-- "src/probe/S1066_2.py"
+    ```
+
+??? note "Full run log (`S1066_2_run.log`)"
+    ```text
+    --8<-- "src/probe/S1066_2_run.log"
+    ```
+
+**S1066_3**
+
+??? note "Probe code (`S1066_3.py`)"
+    ```python
+    --8<-- "src/probe/S1066_3.py"
+    ```
+
+??? note "Full run log (`S1066_3_run.log`)"
+    ```text
+    --8<-- "src/probe/S1066_3_run.log"
+    ```
+
+**S1066_4**
+
+??? note "Probe code (`S1066_4.py`)"
+    ```python
+    --8<-- "src/probe/S1066_4.py"
+    ```
+
+??? note "Full run log (`S1066_4_run.log`)"
+    ```text
+    --8<-- "src/probe/S1066_4_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

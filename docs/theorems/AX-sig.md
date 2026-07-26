@@ -23,6 +23,10 @@ Fixes the signature (3,1) as a downstream consequence rather than an assumed inp
 
 **Consumed by:** [The carrier is three-layered (combinatorial closure equals Lie closure)](T12.md)
 
+## Measurements
+
+*Measurement lives in an internal record (this node has no probe in the public port yet).*
+
 ---
 
 [← all nodes](index.md)

@@ -573,7 +573,7 @@ print(f"""
        histograms and factorization of charpoly(η⁻¹B) by class — above;
    (4) block C: three sets against the S901 list — above;
    (5) block D: off-diagonal Jordan examples n=2 — above.
-  HONEST TALLY: handles 0 · downstream-content 0 · verdicts 0. Court = Omega.
+  HONEST TALLY: handles 0 · downstream-content 0 · verdicts 0. Court = the project's adjudication.
 """)
 _logf.flush()
 sys.exit(0 if not FAIL else 1)

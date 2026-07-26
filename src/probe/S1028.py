@@ -22,7 +22,7 @@
 #   Pure-center seams (2,3,5,7): φₖ=c (the identity on the center) ⟹ commutes ∀d.
 # KILLS: K2 a new constant ⟹ STOP. K3(fence): FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
 #   Mutants ≥4 + a seeded negctrl. Ancestors by citation (T32/T26.7/T35/T37/T33/T28/T36). BOTH EVEN AND ODD d
-#   are mandatory (2,3,4,5). Every φₖ is EXPLICIT. ★COURT — to Omega; I do NOT render a verdict.
+#   are mandatory (2,3,4,5). Every φₖ is EXPLICIT. ★COURT — to the project's adjudication; I do NOT render a verdict.
 # ============================================================================
 
 import sys
@@ -254,7 +254,7 @@ def main():
     print("=" * 74)
     print("STIK −2→−1 STEP 1 · PROBE S1028 — FACTORIZATION of the 6 seams through the canonical c=ℤ/(d+1)")
     print("The NULL-HYPOTHESIS DISTINGUISHES {cyclic} vs {dihedral}. P1: commutativity (not iso). Layer: ONLY the stik.")
-    print("★shov.1/freezing — NOT this step. FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("★shov.1/freezing — NOT this step. FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -263,7 +263,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  • Pure-center shov.2/3/5/7: factor through c ∀d (φₖ=the identity of the center).")
     print("  • ℤ/2-seams shov.4/6: factor ONLY at d ODD (∃ an order-2 in ℤ/(d+1)); d EVEN —")

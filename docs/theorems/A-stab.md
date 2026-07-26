@@ -31,6 +31,23 @@ Provides the stabilization mechanism and the criterion m₀>0 ⟺ Λ<a, resolvin
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1039**
+
+??? note "Probe code (`S1039.py`)"
+    ```python
+    --8<-- "src/probe/S1039.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1039_run.log`)"
+    ```text
+    --8<-- "src/probe/S1039_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

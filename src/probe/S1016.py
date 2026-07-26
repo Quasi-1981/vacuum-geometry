@@ -244,7 +244,7 @@ def main():
        "★STAVKA-ANZATS: every measured realization of k→−k flips A↔B; 0 hierarchy-neutral rotators")
     ok(len(clock_inverters) == 1 and clock_inverters[0]["a"] == 1 and clock_inverters[0]["b"] == 1,
        "the single measured clock-rotation = B=σ_x∘(k→−k) [a=1,b=1] — flips A↔B (not bare k→−k)")
-    # ★NATIVE d∈{2,3} check (gate-style, Omega's word): for the ACTUAL native
+    # ★NATIVE d∈{2,3} check (gate-style, the project's word): for the ACTUAL native
     # f(k)=1+Σ_{i=1..d}exp(2πi ψ_i/h) the key identity H(−k)=σ_x H σ_x reduces to
     # f(−k)=conj(f(k)) — checked EXACTLY on the grid of native momenta (roots of unity).
     from sympy import cos as _cos, sin as _sin, pi as _pi, Rational as _R, simplify as _sm
@@ -288,7 +288,7 @@ def main():
                   d, n, wc, abs_chiral, inc_c, inc_ci, rel_blind))
         ok(abs_chiral == (n >= 3), "d={0}: the ABS-row is chiral ⟺ n>=3".format(d))
         ok(rel_blind, "d={0}: the REL-increment c⁻¹ = negation(c) — blind without an absolute zero".format(d))
-    print("  ★HONEST FORK (both readings raw, the verdict — Omega):")
+    print("  ★HONEST FORK (both readings raw, the verdict — the project's):")
     print("   ABS (there is an absolute azimuth-zero): the row is ORIENTED ∀d≥2 — the arrow reads from inside.")
     print("   REL (increments only): c⁻¹=negation(c) ⟹ BLIND — distinguishing needs an already-fixed")
     print("   azimuth sign = the ARROW ITSELF (circularly) ⟹ a D_net=0 rhyme, reinforcing road R.")

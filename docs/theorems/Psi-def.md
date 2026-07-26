@@ -22,6 +22,65 @@ Supplies the time/dual-quantity Pontryagin pair definition used downstream where
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1000**
+
+??? note "Probe code (`S1000.py`)"
+    ```python
+    --8<-- "src/probe/S1000.py"
+    ```
+
+**Result:** asserts_passed=327 · FAIL=0
+
+??? note "Full run log (`S1000_run.log`)"
+    ```text
+    --8<-- "src/probe/S1000_run.log"
+    ```
+
+**S1001**
+
+??? note "Probe code (`S1001.py`)"
+    ```python
+    --8<-- "src/probe/S1001.py"
+    ```
+
+**Result:** asserts_passed=48 · FAIL=0
+
+??? note "Full run log (`S1001_run.log`)"
+    ```text
+    --8<-- "src/probe/S1001_run.log"
+    ```
+
+**S1002**
+
+??? note "Probe code (`S1002.py`)"
+    ```python
+    --8<-- "src/probe/S1002.py"
+    ```
+
+**Result:** asserts_passed=36 · FAIL=0
+
+??? note "Full run log (`S1002_run.log`)"
+    ```text
+    --8<-- "src/probe/S1002_run.log"
+    ```
+
+**S998**
+
+??? note "Probe code (`S998.py`)"
+    ```python
+    --8<-- "src/probe/S998.py"
+    ```
+
+**Result:** asserts_passed=253 · FAIL=0
+
+??? note "Full run log (`S998_run.log`)"
+    ```text
+    --8<-- "src/probe/S998_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

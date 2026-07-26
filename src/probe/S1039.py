@@ -7,7 +7,7 @@
 #          Levels: (α) derive κ~Λ (not by hand) · (β) the V_tot minimum + ★A REFINEMENT-TEST L→2L→4L IS MANDATORY
 #          (every number must converge — the J-0486 lesson) · (γ) K2 zero constants, m₀/Λ dimensionless.
 #          Kill-first null: the cost is not quadratic OR κ≥a ∀refinement ⟹ there is no native stabilization (an honest negative).
-#          S1028 discipline. FS=STONE. Court — Omega.)
+#          S1028 discipline. FS=STONE. Court — the project's adjudication.)
 #
 # ============================================================================
 # ★WHAT IS COMPUTED:
@@ -19,7 +19,7 @@
 #       J(0) and m₀(κ) must CONVERGE. If 2κ<J(0) ⟹ m₀>0 is finite; otherwise m=0 is stable (kill).
 #   (γ) K2: κ=Λ (zero new constants), m₀ in Λ-units is dimensionless; V_tot→+∞ as m→∞ (a genuine well).
 # KILLS: FS {the physics-vocabulary classes below=STONE; heat-bath language behind the fence — the trace=a spectral sum}. # GUARDLINE
-#   Mutants ≥4 (M2 refinement convergence · M3★ the cost is ε-EVEN). Ancestors T26.1/T26.2/T33/J-0486/S1034. Court—Omega.
+#   Mutants ≥4 (M2 refinement convergence · M3★ the cost is ε-EVEN). Ancestors T26.1/T26.2/T33/J-0486/S1034. Court — the project's adjudication.
 # ============================================================================
 
 import sys
@@ -207,7 +207,7 @@ def main():
     print("=" * 74)
     print("THE STABILIZATION PROBE · S1039 — does a native elastic cost κ=Λ stop the runaway? (the J-0486 debt)")
     print("(α) κ=Λ derived (β) the V_tot minimum + ★REFINEMENT L→2L→4L (γ) K2. Kill-first null=no stabilization.")
-    print("★THE REFINEMENT-TEST IS MANDATORY (the J-0486 lesson). FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("★THE REFINEMENT-TEST IS MANDATORY (the J-0486 lesson). FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -217,7 +217,7 @@ def main():
     mut_ok = mutants(a, kappa); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  (α) THE COST: the elastic cost of detuning = +κm², κ=Λ (the single handle, derived structurally), ε-EVEN. {0}".format("✓" if a_ok else "✗"))
     print("  (β) BALANCE+REFINEMENT: J(0) {0} (the a-scale is finite); m₀ {1} under L→2L→4L; the well is genuine {2}.".format(

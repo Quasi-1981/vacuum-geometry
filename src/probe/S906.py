@@ -584,7 +584,7 @@ print(f"""
        to connect pairs of one centralizer class by det=−1 isometries — raw lines above;
    (4) O7d: det A = Pf(ηA)²/det g — per-object bit-check PASS/FAIL on all
        O7b objects — above.
-  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+  HONEST TALLY: handles 0 · verdicts 0. Court = the project's adjudication.
 """)
 _logf.flush()
 sys.exit(0 if not FAIL else 1)

@@ -21,11 +21,11 @@
 #   ★HONEST ARITHMETIC of this same construction: p(+)=1+1+(d−1)=d+1, q(−)=1 ⟹ (d+1,1), NOT (d,1):
 #   the exante-label «(d,1)» is off by +1 in space. I measure BOTH: (A) the parabolic p_α → (d+1,1) ·
 #   (B) the clean axis h⊕ℝ(E_α−F_α) [Cartan + ONE negative direction] → (d,1) EXACTLY. The robust
-#   invariant of BOTH = q EXACTLY 1 (one time-axis). Which form = AX-indef — a homonym-court question for Omega.
+#   invariant of BOTH = q EXACTLY 1 (one time-axis). Which form = AX-indef — an open homonym question for the project's adjudication.
 # KILLS: K2 a new constant ⟹ STOP (κ=tr, no constants at all). K3(fence): FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
 #   Mutants ≥4: M1 two roots⟹q=2(the mark=EXACTLY one) · M2 H_α definite(control) · M3 d→d+1
 #   q=1 stable · M4 false-κ(not invariant)⟹the signature breaks + a seeded negctrl.
-#   Ancestors by citation: S1023(space) · S1025(κ unique, the split) · T32/S918((d,1)-families). COURT — to Omega.
+#   Ancestors by citation: S1023(space) · S1025(κ unique, the split) · T32/S918((d,1)-families). COURT — to the project's adjudication.
 # ============================================================================
 
 import sys
@@ -341,7 +341,7 @@ def main():
     print("=" * 74)
     print("PLAN-1D PROBE S1026 — (d,1) FROM A PARABOLIC (CLOSING the form of the axis, «close it»)")
     print("BINARY: is (d,1) = κ(the S1025-unique) on the MINIMAL parabolic p_α(one α), NOT the full n±?")
-    print("★KILL-FIRST: null = «the parabolic does NOT give (d,1)». The three laws of S1024. FS=STONE. Court — to Omega.")
+    print("★KILL-FIRST: null = «the parabolic does NOT give (d,1)». The three laws of S1024. FS=STONE. Court — to the project's adjudication.")
     print("=" * 74)
     print()
 
@@ -355,13 +355,13 @@ def main():
     results['mutants'] = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS + STRUCTURAL CONCLUSION (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS + STRUCTURAL CONCLUSION (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  ★CLOSING (the author's binary question):")
     print("   • q = EXACTLY 1 ∀d from the MINIMAL parabolic of one root α (both constructions) —")
     print("     ONE time-axis is FORCED by one root. This is the form of the axis, not a separate uniqueness postulate.")
     print("   • (A) the parabolic p_α = (d+1,1) [a null-cone-pair]; (B) h⊕ℝ(E_α−F_α) = EXACTLY (d,1) [a clean axis].")
-    print("     Both q=1; which one = AX-indef — Omega's call (the exante-label «(d,1)» is exact for (B), off by +1 for (A)).")
+    print("     Both q=1; which one = AX-indef — the project's call (the exante-label «(d,1)» is exact for (B), off by +1 for (A)).")
     print("   • ★MARK↔AXIS MERGED: «which α» = the choice of axis = the MARK(AX-dimer). The two remaining roots = ONE datum.")
     print("─" * 74)
     print("  SUMMARY OF THE ARC S1023→S1026 (raw, not a verdict):")

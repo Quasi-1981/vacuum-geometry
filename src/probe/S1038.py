@@ -10,7 +10,7 @@
 #          of the COLUMN» (a direct touch of T36-ii «B flips prime↔child»). COMPUTE the action of B on the column-direction in the field.
 #          THE FORK: (I) ≠0 AND ε-odd ⟹ h·m, the sign is determined (the T36-bit is demoted — a BIG DEAL,
 #          I do NOT claim it myself) · (II) ≠0 ε-even ⟹ the wager loses · (III) ≡0. kill-first null=(II)/(III).
-#          S1028 discipline: COMPUTE; both readings. FS=STONE. Court — Omega.)
+#          S1028 discipline: COMPUTE; both readings. FS=STONE. Court — the project's adjudication.)
 #
 # ============================================================================
 # ★THE AUTHOR'S PRE-REGISTRATION (carved): «the break is convex DOWN; a rotation of roles does not change it» ⟹ prediction: the relief≠0,
@@ -24,7 +24,7 @@
 #       T36-(iv): (bond⊗orientation)=ONE D_h orbit; T36-(v): spontaneous. ⟹ orientation=the arrow?
 # KILLS: FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
 #   Mutants ≥4 (incl. a false-relief added by hand → the parity-detector bites). Ancestors T36(iv,v)/S1016/S1031/
-#   S1023/S1037. ★I do NOT claim the T36-demotion myself — it goes to the court. Court — Omega; I do NOT render a verdict.
+#   S1023/S1037. ★I do NOT claim the T36-demotion myself — it goes to the court. Court — the project's adjudication; I do NOT render a verdict.
 # ============================================================================
 
 import sys
@@ -185,7 +185,7 @@ def main():
     print("=" * 74)
     print("RELIEF-SELECTOR v2 (PARENT) · S1038 — a correction of S1037 per the assignment+2 additions")
     print("(A) B on the column-direction (the deciding factor) (B) decomposition (C) circularity. The fork I/II/III.")
-    print("★I do NOT claim the T36-demotion myself — it goes to the court. COMPUTING. FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("★I do NOT claim the T36-demotion myself — it goes to the court. COMPUTING. FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -195,7 +195,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; ★I do NOT claim the T36-demotion myself):")
+    print("RAW RESULTS (the court — to the project's adjudication; ★I do NOT claim the T36-demotion myself):")
     print("─" * 74)
     print("  (A) ★B FLIPS the column-direction (B·v=−v ∀h) ⟹ by the letter of the assignment the relief is ε-ODD ⟹")
     print("      formally the fork (I). A direct touch of T36-(ii) «B flips prime↔child, descending».")
@@ -205,11 +205,11 @@ def main():
     print("      spontaneous), NOT an external frame. ⟹ the relief is ε-odd ONLY because it is oriented by the arrow =")
     print("      it PRESUPPOSES the sign, it does not determine it externally.")
     print("─" * 74)
-    print("  ★THE HONEST STATE (two readings, Omega's verdict — I do NOT claim the T36-demotion myself):")
+    print("  ★THE HONEST STATE (two readings, the project's verdict — I do NOT claim the T36-demotion myself):")
     print("   READING-A (the letter of the assignment): B flips the column ⟹ ε-odd ⟹ (I) formally ⟹ the wager wins.")
     print("   READING-B (decomposition+T36-iv): ε-oddness = orientation = the arrow ⟹ CIRCULAR ⟹")
     print("     the third force presupposes the sign ⟹ it does not select ⟹ (II)-in-substance, spontaneity holds.")
-    print("   ★THE DISCRIMINATOR (to Omega's court): is the parent's «down» CANONICAL OUTSIDE the child B (the parent a floor")
+    print("   ★THE DISCRIMINATOR (to the project's court): is the parent's «down» CANONICAL OUTSIDE the child B (the parent a floor")
     print("     above, the frame external ⟹ I) or T36-(v)-spontaneous (⟹ B circular). T36 judged the CHILD")
     print("     level; the parent's canonicity of «down» is NOT measured HERE — a named debt, it requires a probe")
     print("     «whether prime↔child is fixed on the parent's floor». This IS the true fork of the wager.")

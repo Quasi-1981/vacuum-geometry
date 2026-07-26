@@ -34,7 +34,7 @@
 #      does the h-component of the bracket span h? ⟹ the connector = AX-closure(an existing root), not a 4th card.
 # KILLS: K2 a new constant ⟹ STOP. K3(fence): FS {the physics-vocabulary classes below=STONE,universe,anthropic} hits=0. # GUARDLINE
 #   Mutants ≥4 + a seeded negctrl. Ancestors by citation (S1023 h=space · S1024 Weyl-channel · T32-participation).
-#   ★COURT — to Omega; I do NOT render a verdict.
+#   ★COURT — to the project's adjudication; I do NOT render a verdict.
 # ============================================================================
 
 import sys
@@ -605,7 +605,7 @@ def main():
     print("=" * 74)
     print("PLAN-1C PROBE S1025 — FLAG/NILPOTENT (the siege of AXIS[AX-indef] + MARK[AX-dimer])")
     print("The triangular decomposition sl(n)=n₋⊕h⊕n₊. CENTRAL: H2(two,directly) vs H3(three,connector=closure).")
-    print("★KILL-FIRST: null = «axis+mark are NOT from the flag». The three laws of S1024. FS=STONE. Court — to Omega.")
+    print("★KILL-FIRST: null = «axis+mark are NOT from the flag». The three laws of S1024. FS=STONE. Court — to the project's adjudication.")
     print("=" * 74)
     print()
 
@@ -624,7 +624,7 @@ def main():
     results['B1-theta(-1)eigenspace-definite'] = p_definite_all
 
     print("=" * 74)
-    print("RAW RESULTS + STRUCTURAL CONCLUSION (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS + STRUCTURAL CONCLUSION (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  ★★MECHANISM (the author's question «is it one and the same?», more important than H2/H3):")
     print("   • dim of ad-inv. forms on sl(n) = 1 (Schur, EXACTLY the S1023 move, K2 clean) ⟹ the form is UNIQUE; its")

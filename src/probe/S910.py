@@ -788,7 +788,7 @@ print(f"""
    (4) O9c: action of φ on the list of unique closure-subspaces — fixed/
        moved/new/bijection/class counters — tables above;
    (5) O9d: rollup table class-level vs presentational counters — above.
-  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+  HONEST TALLY: handles 0 · verdicts 0. Court = the project's adjudication.
 """)
 _logf.flush()
 sys.exit(0 if not FAIL else 1)

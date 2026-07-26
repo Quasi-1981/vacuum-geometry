@@ -352,6 +352,6 @@ print(f"""
    (2) closure of the sets {{all J}} · {{all K}} · pairs {{J,J}}/{{K,K}}/{{J,K}} — histograms above;
    (3) Killing signatures of the closure classes — congruent diagonalization over Q, exact;
    (4) table of span{{all J}} across signatures — above.
-  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = the project's adjudication.
 """)
 sys.exit(0 if not FAIL else 1)

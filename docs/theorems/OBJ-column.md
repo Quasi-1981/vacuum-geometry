@@ -31,6 +31,23 @@ Supplies the dual circle object (OBJ-dual) via Pontryagin duality of the transla
 | `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer | the letter T denotes something else on another floor |
 | `T_col` | the same lattice form on the column | the same |
 
+## Measurements
+
+**S1001**
+
+??? note "Probe code (`S1001.py`)"
+    ```python
+    --8<-- "src/probe/S1001.py"
+    ```
+
+**Result:** asserts_passed=48 · FAIL=0
+
+??? note "Full run log (`S1001_run.log`)"
+    ```text
+    --8<-- "src/probe/S1001_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

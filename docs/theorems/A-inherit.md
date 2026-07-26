@@ -30,6 +30,37 @@ Establishes that all downstream local choices are inherited readings of the sing
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1037**
+
+??? note "Probe code (`S1037.py`)"
+    ```python
+    --8<-- "src/probe/S1037.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1037_run.log`)"
+    ```text
+    --8<-- "src/probe/S1037_run.log"
+    ```
+
+**S1038**
+
+??? note "Probe code (`S1038.py`)"
+    ```python
+    --8<-- "src/probe/S1038.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1038_run.log`)"
+    ```text
+    --8<-- "src/probe/S1038_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

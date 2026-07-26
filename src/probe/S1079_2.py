@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-d  (the classification of 2-planes — symbolic ∀(p,q); a run over
 #                   (2,1)·(3,1)·(2,2)·(3,0)·(4,0).  No d=3 instances on the load-bearing path.)
-"""S1079 · SIEGE OF AX-closure · component **Z2 (THE CLASS OF MOVES)** — a lane-A probe.
+"""S1079 · SIEGE OF AX-closure · component **Z2 (THE CLASS OF MOVES)** — an independent probe.
 
-EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by Ω, S1078).
+EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by a project ruling, S1078).
 The Z2 question verbatim: «does the verdict hold under a variation of the class of moves, or
-is the class a hidden switch?»  Ω's wager: the INHERITANCE of direction; «this is the ONE
+is the class a hidden switch?»  the project's wager: the INHERITANCE of direction; «this is the ONE
 place where I expect possible new content».
 
 ★THE CARVED CLASS OF MOVES being twisted (W28 §1, verbatim):
@@ -246,7 +246,7 @@ WHAT THIS MEANS FOR Z2 (a measurement, not a verdict):
       coordinate list.  ⟹ the source of those "extra" classes is NOT a scan accident, but a
       SYSTEMATICALLY omitted type of move.
 
-  (4) ⟹ the form of the verdict handed to Ω (not rendered here): on Z2 the wager
+  (4) ⟹ the form of the verdict handed to the project's adjudication (not rendered here): on Z2 the wager
       "inheritance of direction" is NOT refuted by this probe (the J/K direction was not
       touched), but the CARVED phrase itself, «coordinate 2-planes», is measured to be
       BASIS-DEPENDENT and incomplete on an indefinite carrier.  This is either (i) a

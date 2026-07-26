@@ -49,7 +49,7 @@ W42 probe-10 (layer −2): ARROW, road K. Is the orientation of the clock couple
   d=2,n=3: ABS row c=(0, 1, 2) — chiral(oriented)=True · REL increment c=(1, 1, 1),c⁻¹=(2, 2, 2) — blind-under-negation=True
   d=3,n=4: ABS row c=(0, 1, 2, 3) — chiral(oriented)=True · REL increment c=(1, 1, 1, 1),c⁻¹=(3, 3, 3, 3) — blind-under-negation=True
   d=4,n=5: ABS row c=(0, 1, 2, 3, 4) — chiral(oriented)=True · REL increment c=(1, 1, 1, 1, 1),c⁻¹=(4, 4, 4, 4, 4) — blind-under-negation=True
-  ★HONEST FORK (both readings raw, the verdict — Omega):
+  ★HONEST FORK (both readings raw, the verdict — the project's):
    ABS (there is an absolute azimuth-zero): the row is ORIENTED ∀d≥2 — the arrow reads from inside.
    REL (increments only): c⁻¹=negation(c) ⟹ BLIND — distinguishing needs an already-fixed
    azimuth sign = the ARROW ITSELF (circularly) ⟹ a D_net=0 rhyme, reinforcing road R.

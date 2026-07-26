@@ -23,6 +23,10 @@ Closes the action-front question at level -1, redirecting it to level 0.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+*Measurement lives in an internal record (this node has no probe in the public port yet).*
+
 ---
 
 [← all nodes](index.md)

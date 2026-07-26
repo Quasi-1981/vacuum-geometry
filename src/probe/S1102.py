@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 S1102 — THE PROBE «LADDER-ANCESTOR»: a shared ancestor of the d+1<=4 boundary + a WRITE FENCE.
-Exante: active-v10.2/hub/prime/LADDER_ANCESTOR_EXANTE.md (Ω, S1101).
+Exante: active-v10.2/hub/prime/LADDER_ANCESTOR_EXANTE.md (a project ruling, S1101).
 Seed:   active-v10.2/hub/prime/AUTHOR_SEED_quintic_solvability_d4_limit.md
 
-Executor: lane-A.  Order: A(probe) -> J-row B -> Ω's verdict.  STOP for the visa.
+Executor: an independent hand.  Order: A(probe) -> J-row B -> the project's verdict.  STOP for the visa.
 
 THE KILL-TEST PRINCIPLE:
   * Galois/Abel-Ruffini = a REFERENCE (multiplicity 0).  The derived series, its steps, and
@@ -344,7 +344,7 @@ def run_T3():
 
 # ==================================================================== MAIN
 if __name__ == "__main__":
-    print("S1102 — THE PROBE LADDER-ANCESTOR (exante S1101, Ω).  Executor lane-A.")
+    print("S1102 — THE PROBE LADDER-ANCESTOR (exante S1101, project ruling).  Executor: an independent hand.")
     print("Solvability/steps = our own hand (the commutant by full enumeration); Galois = a reference.")
     run_T1()
     run_T2()

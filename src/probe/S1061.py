@@ -2,7 +2,7 @@
 # DIM: symbolic-exact.  Numbers with a bracket [address · unit · type/operation].
 """S1061 — T38-PRODUCTIVITY: does a split need to exist so the TACT DOES NOT LOSE DISTINCTION.
 
-ASSIGNMENT: Omega, exante `hub/prime/T38_PRODUCTIVITY_EXANTE.md` (carved BEFORE the count).
+ASSIGNMENT: project ruling, exante `hub/prime/T38_PRODUCTIVITY_EXANTE.md` (carved BEFORE the count).
 The gate — an open line of S1060 («BOUNDARIES» item 3): T38 is measured for EXISTENCE, not for PRODUCTIVITY.
 The author's word: «the conserved quantity of the break becomes productive only under a STABLE one-vector
 splitting in time».
@@ -30,7 +30,7 @@ form `U = e^{−iϸ}`, which T4-B precisely refused to derive. Both worlds are r
 
 FENCE: Layer-1. There is no bare «E» (ϸ = a spectral parameter, an E-base with a hyphen).
 {Schrödinger, Matsubara, ħ, discretization-talk} — behind the fence. `m₀` = a representative of the regime `kappa_stab<a`,
-not a canon-number (J-0486). Bond=1 [codex/lexicon.yaml].
+not a canon-number (J-0486). Bond=1 [an internal record].
 """
 import os
 import sys

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-d  (the orbit count is exact ∀d as a statement; the run d=2..4 is exhaustive
 #                   over (d+1)! permutations and 2^(d+1) subsets — no instances.)
-"""S1075 · SIEGE OF AX-dimer · component **D3 (CHOICE)** — a lane-A probe.
+"""S1075 · SIEGE OF AX-dimer · component **D3 (CHOICE)** — an independent probe.
 
-EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by Ω, S1074).
+EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by a project ruling, S1074).
 The D3 question verbatim: «WHICH bond is marked (out of d+1 equal-rights ones) — is there an
-irreducibility theorem for the choice?»  Ω's wager: **AN IRREDUCIBILITY THEOREM**, the
+irreducibility theorem for the choice?»  the project's wager: **AN IRREDUCIBILITY THEOREM**, the
 candidate mechanism — the democracy `S_{d+1}` (verify with a FIELD, do not just believe it).
 
 ★THE CYCLE GUARD: `AX-indef` and its descendants do not appear here at all — the whole probe
@@ -155,7 +155,7 @@ def main():
 ────────────────────────────────────────────────────────────────────────────────
 WHAT THIS MEANS FOR D3 (a measurement, not a verdict):
 
-  (1) THE IRREDUCIBILITY THEOREM OF THE CHOICE HOLDS, and the mechanism is exactly the one Ω
+  (1) THE IRREDUCIBILITY THEOREM OF THE CHOICE HOLDS, and the mechanism is exactly the one the project's adjudication
       wagered on: the transitivity of S_{d+1} on d+1 axes ⟹ the invariant subsets are only
       {∅, all} ⟹ no equivariant construction can hand back a single axis.
       ★This is STRONGER than «4 failures = a theorem» (a rhyme to A-nonderiv): this is not a
@@ -179,7 +179,7 @@ WHAT THIS MEANS FOR D3 (a measurement, not a verdict):
       broken down to the stabilizer — a subgroup of INDEX exactly d+1.  That is, one must
       pay exactly the information one wants to obtain.  This is not "hard", it is circular.
 
-  (5) ⟹ the choice = SPONTANEITY, the same class as ±m₀ and the 1-bit of T36-(v) (as Ω
+  (5) ⟹ the choice = SPONTANEITY, the same class as ±m₀ and the 1-bit of T36-(v) (as the project's adjudication
       wagered).  But with the correction of (2): what is spontaneous is not only WHICH, but
       also WHETHER.
 ────────────────────────────────────────────────────────────────────────────────""")

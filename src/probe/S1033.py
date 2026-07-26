@@ -18,7 +18,7 @@
 #     Q1: does the filled-band trace over the T33-band with a σ_z-splitter give a GL-DOUBLE-WELL (does the S637-mechanism work here?).
 #     Q2 (★LOAD-BEARING №1, the crux): is this σ_z-bifurcation = the T29-channel, or a SEPARATE filled-band trace (am I adding it in?).
 # KILLS: K2 a new constant (a coupling g to stabilize m₀?) ⟹ STOP/report. FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
-#   Mutants ≥4. Ancestors: T29(S1008) · S637(filled-band trace) · S1032(m=σ_z) · T37(globality). COURT — to Omega.
+#   Mutants ≥4. Ancestors: T29(S1008) · S637(filled-band trace) · S1032(m=σ_z) · T37(globality). COURT — to the project's adjudication.
 # ============================================================================
 
 import sys
@@ -170,7 +170,7 @@ def carrying1_crux():
     print("    is native, the trace is DERIVED not added) — then (b) PASSES (Q1 double-well + Q2 σ_z-channel).")
     print("    This is a verdict of LEVEL, not mine: whether T29-as-is (unsplit C̃) = sufficient, or a native ε-odd")
     print("    term is needed IN T29. I computed both sides; the tension is REAL, not silenced.")
-    return False  # by the letter of load-bearing №1 — T29-as-formulated does not contain σ_z; Omega's call
+    return False  # by the letter of load-bearing №1 — T29-as-formulated does not contain σ_z; the project's call
 
 
 # ==================== THE FORK (silencing it is FORBIDDEN): wall vs T37-globality ====================
@@ -258,7 +258,7 @@ def main():
     print("=" * 74)
     print("STIK STEP 2 (b) DYNAMICS · S1033 — does T29 contain an ε-odd σ_z-bifurcation? (the most risky)")
     print("Q1 filled-band trace double-well? · Q2 channel σ_z? · ★load-bearing №1 the crux (T29-channel or added?) · the fork")
-    print("The T29-mechanism is COMPUTED. ONLY (b). FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("The T29-mechanism is COMPUTED. ONLY (b). FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -269,7 +269,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  Q1 (the S637-mechanism): a filled-band trace over the T33-band + σ_z ⟹ a GL-DOUBLE-WELL (m²coeff<0, m⁴coeff>0,")
     print("     m₀ finite) — COMPUTED, the S637 «sign from the filled-band trace» WORKS HERE. {0}".format(
@@ -285,10 +285,10 @@ def main():
     print("     (b) PASSES — a double-well (Q1) through σ_z (Q2), the fork→T37-globality.")
     print("   • IF an ε-odd term is needed IN T29 ITSELF (T29-as-is, unsplit/C̃, does not contain it):")
     print("     (b) FAIL/STOP — freezing-as-a-σ_z-break is not from T29; a fallback to dim2 ((a)'s safeguard fires).")
-    print("   ★This is a verdict of LEVEL — Omega's. I computed both sides honestly (the step-1 trap was NOT slipped past).")
+    print("   ★This is a verdict of LEVEL — the project's. I computed both sides honestly (the step-1 trap was NOT slipped past).")
     print("─" * 74)
-    all_ok = q1 and q2 and (fork == "global") and mut_ok  # the computational part; the (b)-verdict — Omega's
-    print("  SUMMARY: Q1-double-well={0} · Q2-σ_z-channel={1} · fork=T37-globality · load-bearing№1=TENSION(Omega) · mutants={2}".format(
+    all_ok = q1 and q2 and (fork == "global") and mut_ok  # the computational part; the (b)-verdict — the project's
+    print("  SUMMARY: Q1-double-well={0} · Q2-σ_z-channel={1} · fork=T37-globality · load-bearing№1=TENSION(project-ruling) · mutants={2}".format(
         "YES" if q1 else "NO", "YES" if q2 else "NO", "4/4" if mut_ok else "NO"))
     print("=" * 74)
 

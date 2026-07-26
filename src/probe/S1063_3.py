@@ -2,7 +2,7 @@
 # DIM: symbolic-exact.  Numbers with a bracket [address · unit · type/operation].
 """S1063 T3 — 2↔4-COMPONENT STITCHING: is the 4-component-ness NATIVE, or an effective splice. KILL-FIRST.
 
-ASSIGNMENT: Omega, exante `SEAM_D1_SIGNATURE_EXANTE.md` step T3 + the T2 verdict («GO on T3; it does NOT
+ASSIGNMENT: project ruling, exante `SEAM_D1_SIGNATURE_EXANTE.md` step T3 + the T2 verdict («GO on T3; it does NOT
 depend on the fate of the bridge»).  The Dirac-remainder (2) from S1060.
 
 ★THE NULL HYPOTHESIS, CARVED IN THE EXANTE (I strike precisely at it, not build up the 4-component case):
@@ -27,7 +27,7 @@ So I print ALL THREE and say WHICH ANCESTOR selects each; if 4 comes out only af
 selections — I say so, and do not present it as «forced».
 
 FENCE: Layer-1.  The physics-vocabulary classes named in the project's fence do not enter the code
-(K-stone).  Zero-tests via (Σcos, Σsin) — a requirement of the Ω court after a recurrence of the writing-defect.
+(K-stone).  Zero-tests via (Σcos, Σsin) — a requirement of the project's court after a recurrence of the writing-defect.
 """
 import itertools
 import os
@@ -55,7 +55,7 @@ class Tee:
 
 
 def f_is_zero(psi, h):
-    """A zero-test via (Σcos, Σsin) — WITHOUT exp (an order of the Ω court: an sympy-simplification is not
+    """A zero-test via (Σcos, Σsin) — WITHOUT exp (an order of the project's court: an sympy-simplification is not
     the definition of zero; this class was caught twice this session)."""
     re_ = 1 + sum(sp.cos(2 * sp.pi * sp.Rational(m % h, h)) for m in psi)
     im_ = sum(sp.sin(2 * sp.pi * sp.Rational(m % h, h)) for m in psi)
@@ -231,7 +231,7 @@ def main():
     print("     ⟹ ★I NAME THE COINCIDENCE AND NO MORE: the same boundary `d+1 ≤ 4` already stood in S1059B")
     print("       (the forcing of the decomposition).  Whether this is ONE ancestor, or two different mechanisms with")
     print("       the same boundary — I did NOT measure.  I do not declare a multiplicity: this is a named-question")
-    print("       for the Ω court, and presenting it as a witness would be exactly the inflation that")
+    print("       for the project's court, and presenting it as a witness would be exactly the inflation that")
     print("       our own registry forbids.")
     print()
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DIM: na (exact sympy linear algebra on so(p,q) blocks, n≤6; the court's P4 measurement — handles 0).
-# COURT HAND W32 (Omega-db8afffb): P4 measurement + a liveness check of the gl-candidate
+# COURT HAND W32 (per an internal project directive): P4 measurement + a liveness check of the gl-candidate
 # on the kernel blocks J2/J4. Primitives are pulled by a SLICE from the source of hand S929
 # (exec of the definitions segment) — the court measures ITS constructions, not a retelling.
 import sys, os

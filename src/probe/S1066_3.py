@@ -2,7 +2,7 @@
 # DIM: symbolic-exact.  Numbers with a bracket [address · unit · type/operation].
 """S1066 B2b — CLOSING THE DESCENT: (b1) axes · (b2) the provenance of non-degeneracy · (b3) the «scale» channel.
 
-ASSIGNMENT: Omega, `AX_INDEF_SIEGE_EXANTE.md` §THE B2 VERDICT + ASSIGNMENT B2b (after J-0516).
+ASSIGNMENT: project ruling, `AX_INDEF_SIEGE_EXANTE.md` §THE B2 VERDICT + ASSIGNMENT B2b (after J-0516).
 The chain that must be closed by ACCEPTED edges (NOT a cross-level map — two corpses
 were arena↔lattice; here it is a descent root→arena):
         AX-alphabet → OBJ-sln → A-space → AX-cell → T5
@@ -262,7 +262,7 @@ def main():
     print("  (b3) VERIFIED: «scale» = a continuum of values without a forced one ⟹ a handle;")
     print("     «sign» = ℤ/2, zero handles.  ★A boundary: the prime directive rejects the channel for")
     print("     OUR construction, not proving its impossibility in the world.")
-    print("  ⟹ WHAT THIS MEANS FOR THE ROOT-COUNT (stated conditionally, because Ω judges):")
+    print("  ⟹ WHAT THIS MEANS FOR THE ROOT-COUNT (stated conditionally, because the project's court judges):")
     print("     if the court accepts (b1)+(b2) and counts (b3) as sufficient for the «scale» channel,")
     print("     then {AX-alphabet · AX-dimer · readability} ⟹ q≥1 WITHOUT new inputs,")
     print("     and AX-indef is demoted to a theorem ⟹ roots 5 → 4.")

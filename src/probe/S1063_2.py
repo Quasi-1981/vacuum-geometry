@@ -2,7 +2,7 @@
 # DIM: symbolic-exact.  Numbers with a bracket [address · unit · type/operation].
 """S1063 T2 — THE SEAM (d,1), step 2: A HOMONYM-COURT N1↔N3 BY ANCESTOR.
 
-ASSIGNMENT: Omega, exante `hub/prime/SEAM_D1_SIGNATURE_EXANTE.md`, step T2 (T1 delivered, 11/0/0).
+ASSIGNMENT: project ruling, exante `hub/prime/SEAM_D1_SIGNATURE_EXANTE.md`, step T2 (T1 delivered, 11/0/0).
 The gate of this step (2a): is the minus of N3 = **minus_arith** [T32] BY ANCESTOR — with a COMPUTED map,
 not a postulated one (S1028 discipline: compute the action IN THE FIELD).
 
@@ -277,7 +277,7 @@ def main():
     code = report("S1063 T2 — a homonym-court")
     print()
     print("=" * 80)
-    print("★RAW OUTPUTS OF T2 (no verdict rendered — Ω judges)")
+    print("★RAW OUTPUTS OF T2 (no verdict rendered — the project's court judges)")
     print("  (2a) THE MAP IS COMPUTED AND IT DOES NOT EXIST — three independent divergences:")
     print("     · THE VALUE: at the node |f|² = 0, while T_A = 2h ≠ 0 (the maximal divergence")
     print("       precisely at the point for which the seam is built);")
@@ -293,7 +293,7 @@ def main():
     print("     («the minus of N3 = minus_arith») is FALSE by computation ⟹ a second independent")
     print("     input for the T32→AX-indef dotted line DOES NOT exist from this.  I report it loudly, as")
     print("     befits a negative (the same class as Λ_min in S1061).")
-    print("  ⟹ N1↔N3: two ROOTS, not two witnesses.  Ω judges the multiplicity — not me.")
+    print("  ⟹ N1↔N3: two ROOTS, not two witnesses.  the project's court judges the multiplicity — not me.")
     print("=" * 80)
     sys.stdout = tee.real
     logf.close()

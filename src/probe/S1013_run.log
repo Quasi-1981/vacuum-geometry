@@ -1,7 +1,7 @@
 ==========================================================================
 W42 probe-8 (layer −2): HOLE №1 — the source of weight detuning. Two NATIVE columns
 Λ=T_A(ψ)−T_col(ν1)−T_col(ν2) at EQUAL weights: q_eff/C̃/split.
-The fork (a)bistable / (b)geometry-self / K2-capacity — raw tables, Omega's court.
+The fork (a)bistable / (b)geometry-self / K2-capacity — raw tables, the project's court.
 KINEMATICS strictly; ancestors cited; 0 handles; exact arithmetic.
 ==========================================================================
 
@@ -23,7 +23,7 @@ KINEMATICS strictly; ancestors cited; 0 handles; exact arithmetic.
   (I) NAIVE  ν1,ν2 independent ∈(Z/h)² — 2 independent column-duals
   (II) DIAGONAL ν1=ν2 (momenta locked, axes still 2) — does locking the momenta save it?
   (III) NATIVE-COLLAPSE ncol=1, ×2 (two bonds of a SHARED center merged into ONE dual, K2)
-  the interpretation (a)/(b)/K2 — Omega's court; the probe gives RAW numbers for all three.
+  the interpretation (a)/(b)/K2 — the project's court; the probe gives RAW numbers for all three.
 
   --- d=2, h=3: (I)  NAIVE (h²=9 states) [2 independent duals] ---
     npos:nneg=24:24, λ↔−λ=True; zeros=33, both-act=16; q_eff=2, split=16, C=4, C̃=2
@@ -43,7 +43,7 @@ KINEMATICS strictly; ancestors cited; 0 handles; exact arithmetic.
   d | (I)naive | (II)diagonal | (III)native-collapse | what K2 says
   2 | (2,16,2) | (2,8,2) | (1,0,1) | center Z/3 rank1 ⟹ (III) — the only native construction
   3 | (2,60,2) | (2,30,2) | (1,0,1) | center Z/4 rank1 ⟹ (III) — the only native construction
-  ★RAW PICTURE (Omega's court): (I)/(II) bistable q_eff=2 — the resonance trap is ALIVE if
+  ★RAW PICTURE (the project's court): (I)/(II) bistable q_eff=2 — the resonance trap is ALIVE if
     the columns are independent OR only momentum-locked; ONE clock (III, q_eff=1) occurs
     ONLY under a structural collapse to a single column. K2-test: the cell has ONE center
     (rank1) ⟹ two bonds do NOT give independent duals ⟹ the native construction = (III).

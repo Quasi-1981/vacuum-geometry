@@ -35,7 +35,7 @@ from sympy import cos, sin, pi, exp, I, Rational, Integer, simplify, expand, Add
 _HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-# ⟨★ERRATUM-FORWARD S1063 (Beta's finding J-0513, Ω's task 2026-07-22) — non-gating,
+# ⟨★ERRATUM-FORWARD S1063 (Beta's finding J-0513, the project's task 2026-07-22) — non-gating,
 #   an erratum of class T33: the arithmetic IN-DOMAIN is correct, the line below STAYS as it was.
 #   DEFECT: `int(...)` — SILENT TRUNCATION, neither rounding nor a domain error.
 #   `2−2cos(2πm/h)` is an INTEGER ∀m EXACTLY when h ∈ {1,2,3,4,6} (the crystallographic orders;

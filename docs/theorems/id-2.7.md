@@ -22,6 +22,10 @@ Provides an unmeasured grounding seed for the tower structure established in T35
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+*Measurement lives in an internal record (this node has no probe in the public port yet).*
+
 ---
 
 [← all nodes](index.md)

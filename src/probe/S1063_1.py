@@ -2,7 +2,7 @@
 # DIM: symbolic-exact.  Numbers with a bracket [address · unit · type/operation].
 """S1063 T1 — THE SEAM (d,1), step 1: BUILD N3 and read its signature.
 
-ASSIGNMENT: Omega, exante `hub/prime/SEAM_D1_SIGNATURE_EXANTE.md` (carved BEFORE the count), T1.
+ASSIGNMENT: project ruling, exante `hub/prime/SEAM_D1_SIGNATURE_EXANTE.md` (carved BEFORE the count), T1.
 The order of the assignment: T1 → STOP.  No verdict is rendered.
 
 ANCESTORS (addresses, not paraphrases):

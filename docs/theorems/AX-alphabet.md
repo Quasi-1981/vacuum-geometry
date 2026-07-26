@@ -20,6 +20,37 @@ Serves as the new root premise of the program, from which the cell geometry (AX-
 
 **Consumed by:** [Indefiniteness (q≥1) demoted from input to theorem](AX-indef.md) · [Simple algebra sl(n), n=d+1, with unique invariant form κ](OBJ-sln.md)
 
+## Measurements
+
+**S1023**
+
+??? note "Probe code (`S1023.py`)"
+    ```python
+    --8<-- "src/probe/S1023.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1023_run.log`)"
+    ```text
+    --8<-- "src/probe/S1023_run.log"
+    ```
+
+**S1026**
+
+??? note "Probe code (`S1026.py`)"
+    ```python
+    --8<-- "src/probe/S1026.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1026_run.log`)"
+    ```text
+    --8<-- "src/probe/S1026_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

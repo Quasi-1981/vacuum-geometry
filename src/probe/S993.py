@@ -3,7 +3,7 @@
 #
 # ============================================================================
 # DERIVATIONAL (own TZ, no gate; closes stake-2 of leg-3 that S992 left as an
-# instance-fact -- Omega's honest catch).  Stamped BEFORE.
+# instance-fact -- the project's honest catch).  Stamped BEFORE.
 # ----------------------------------------------------------------------------
 # Levi = sp(2k,R) (+) so(eta|G) on the module M = W (x) G  (W=2k fundamental of
 # sp ; G=g fundamental of so).  The Lambda^2 cocycle is an ANTISYMMETRIC invariant

@@ -22,6 +22,23 @@ Marks the opening event of the -2/-1 arc that the later seams (seam.2 through se
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1008**
+
+??? note "Probe code (`S1008.py`)"
+    ```python
+    --8<-- "src/probe/S1008.py"
+    ```
+
+**Result:** asserts_passed=8 · FAIL=0
+
+??? note "Full run log (`S1008_run.log`)"
+    ```text
+    --8<-- "src/probe/S1008_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

@@ -1,7 +1,7 @@
 ==========================================================================
 STIK STEP 2 (b) DYNAMICS · S1033 — does T29 contain an ε-odd σ_z-bifurcation? (the most risky)
 Q1 filled-band trace double-well? · Q2 channel σ_z? · ★load-bearing №1 the crux (T29-channel or added?) · the fork
-The T29-mechanism is COMPUTED. ONLY (b). FS=STONE. Court — to Omega; I do NOT render a verdict.
+The T29-mechanism is COMPUTED. ONLY (b). FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.
 ==========================================================================
 
 ──────────────────────────────────────────────────────────────────────────
@@ -71,7 +71,7 @@ MUTANTS (≥4)
   mutants caught: 4/4
 
 ==========================================================================
-RAW RESULTS (the court — to Omega; I do NOT render a verdict):
+RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):
 ──────────────────────────────────────────────────────────────────────────
   Q1 (the S637-mechanism): a filled-band trace over the T33-band + σ_z ⟹ a GL-DOUBLE-WELL (m²coeff<0, m⁴coeff>0,
      m₀ finite) — COMPUTED, the S637 «sign from the filled-band trace» WORKS HERE. ✓
@@ -85,9 +85,9 @@ RAW RESULTS (the court — to Omega; I do NOT render a verdict):
      (b) PASSES — a double-well (Q1) through σ_z (Q2), the fork→T37-globality.
    • IF an ε-odd term is needed IN T29 ITSELF (T29-as-is, unsplit/C̃, does not contain it):
      (b) FAIL/STOP — freezing-as-a-σ_z-break is not from T29; a fallback to dim2 ((a)'s safeguard fires).
-   ★This is a verdict of LEVEL — Omega's. I computed both sides honestly (the step-1 trap was NOT slipped past).
+   ★This is a verdict of LEVEL — the project's. I computed both sides honestly (the step-1 trap was NOT slipped past).
 ──────────────────────────────────────────────────────────────────────────
-  SUMMARY: Q1-double-well=YES · Q2-σ_z-channel=YES · fork=T37-globality · load-bearing№1=TENSION(Omega) · mutants=4/4
+  SUMMARY: Q1-double-well=YES · Q2-σ_z-channel=YES · fork=T37-globality · load-bearing№1=TENSION(project-ruling) · mutants=4/4
 ==========================================================================
 FORBIDDEN-SCAN (STONE): hits=0 (src=0, log=0)
 EXIT=0

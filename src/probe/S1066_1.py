@@ -3,7 +3,7 @@
 #      [address · unit · type/operation].
 """S1066 B1 — THE AX-indef SIEGE, step 1: KILL-FIRST «EUCLID IS SELF-SUFFICIENT».
 
-ASSIGNMENT: Omega, exante `hub/prime/AX_INDEF_SIEGE_EXANTE.md`, task B1 (order B1 → STOP).
+ASSIGNMENT: project ruling, exante `hub/prime/AX_INDEF_SIEGE_EXANTE.md`, task B1 (order B1 → STOP).
 THE NULL HYPOTHESIS (I strike precisely at it): «the full Euclidean (q=0) version of the closure/socket
 machinery T1–T4 exists WITHOUT an internal contradiction».  Binary: does something break STRUCTURALLY (to be named
 a theorem) — or does everything hold.
@@ -18,7 +18,7 @@ ANCESTORS (by citation, not re-derived; addresses from `codex/graph.json`):
   · T5 — minimality → (3,1): `p≥3 ∧ q≥1 ⟹ n≥4`; deps = {T4, AX-cell, **AX-indef**};
   · AX-indef — the POSTULATE q≥1 (a yellow root), consumed by — T5.
 
-★Ω's WAGER, CARVED BEFORE THE COUNT (I strike at it, I do not confirm it): «Euclid is ALIVE as
+★The project's WAGER, CARVED BEFORE THE COUNT (I strike at it, I do not confirm it): «Euclid is ALIVE as
 existence — time in the program is an OUTPUT, not a precondition; a system without a minus is not contradictory, it
 is simply CLOCK-LESS».
 
@@ -299,7 +299,7 @@ def main():
     code = report("S1066 B1 — is Euclid self-sufficient?")
     print()
     print("=" * 80)
-    print("★RAW OUTPUTS OF B1 (no verdict rendered — a B-visa, then the Ω court)")
+    print("★RAW OUTPUTS OF B1 (no verdict rendered — a B-visa, then the project's court)")
     print("  PART 1 (a graph audit): AX-indef is ABSENT from the closure of ancestors of T1–T4 and")
     print("     PRESENT in T5/T7 ⟹ q≥1 enters the arc EXACTLY ONCE, at T5.")
     print("  PART 2 (the machinery at q=0): nothing breaks —")
@@ -313,7 +313,7 @@ def main():
     print("  ⟹ ★THE NULL HYPOTHESIS B1 WITHSTOOD: there is no contradiction, there is a DEGENERACY.")
     print("     «Empty» ≠ «breaks» — and I do NOT present the former as the latter.")
     print("     ⟹ there is NO unconditional forcing of q≥1 from this stretch; the siege must go")
-    print("       into B2 (an implication between roots), just as Ω's wager carved.")
+    print("       into B2 (an implication between roots), just as the project's wager carved.")
     print("=" * 80)
     sys.stdout = tee.real
     logf.close()

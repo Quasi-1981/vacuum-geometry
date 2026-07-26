@@ -29,6 +29,23 @@ Establishes that the sign of m₀ must be introduced as a free choice rather tha
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1036**
+
+??? note "Probe code (`S1036.py`)"
+    ```python
+    --8<-- "src/probe/S1036.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1036_run.log`)"
+    ```text
+    --8<-- "src/probe/S1036_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

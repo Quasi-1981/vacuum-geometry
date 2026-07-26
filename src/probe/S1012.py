@@ -178,7 +178,7 @@ def main():
         col_curv_2pidrop = Rational(2, h ** 2)
         v2 = simplify(tc / col_curv_2pidrop)  # (2π)^2 cancels in ratio
         v2_closed = Rational(h ** 4, 4 * d)
-        # ⟨★ERRATUM-FORWARD (Ω's verdict, 2026-07-21): the assert below checks the ARITHMETIC of the HISTORICAL
+        # ⟨★ERRATUM-FORWARD (the project's verdict, 2026-07-21): the assert below checks the ARITHMETIC of the HISTORICAL
         #   construction with the mixed vocabulary (§12-T33 erratum · J-0468). The arithmetic IS CORRECT —
         #   the construction genuinely gives 81/8 (d=2) and 64/3 (d=3); what was wrong was READING it as v².
         #   THIS IS NOT THE CANON v². Canon: v² = ½·trM = (d+1)²/(2d) [bond = 1 hop; coefficient].

@@ -24,7 +24,7 @@
 #   (ii) + the SPLIT-tooth (anticommutes with H) ⟹ ? (expect {σ_z}, dim 1 — UNIQUE, m=σ_z of the trace type)
 #   PASS ⟺ (ii) gives dim 1. STOP-negative ⟺ dim 0 (none) or dim≥2 without a canonical tooth.
 # KILLS: K2 a new constant ⟹ STOP. FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
-#   Mutants ≥4. Ancestors: S1029/S1031 (D_h,B) · T33 (H,σ) · id-2.4 (σ_x/σ_z/B). COURT — to Omega.
+#   Mutants ≥4. Ancestors: S1029/S1031 (D_h,B) · T33 (H,σ) · id-2.4 (σ_x/σ_z/B). COURT — to the project's adjudication.
 # ============================================================================
 
 import sys
@@ -202,7 +202,7 @@ def main():
     print("=" * 74)
     print("STIK STEP 2 (a) KINEMATICS · S1032 — an ε-odd c-invariant m + UNIQUENESS")
     print("Field = D_h center+two-component (S1029/S1031). The action of w₀/c on m is COMPUTED (not postulated). Primitives+2×2.")
-    print("★STOP-negative if m does not exist/is not unique. ONLY (a). FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("★STOP-negative if m does not exist/is not unique. ONLY (a). FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -211,7 +211,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     if unique and schur_ok:
         print("  ★PASS at level (a): m = σ_z = diag(1,−1) — EXPLICIT · c-invariant (computed) · ε-odd")

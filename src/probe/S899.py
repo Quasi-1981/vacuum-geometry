@@ -231,6 +231,6 @@ print(f"""
    (3) dim so(p,q) = n(n−1)/2: n=2 → 1 · n=3 → 3.
    (4) Killing signatures (n₊,n₋,n₀): so(3) → {sig3} · so(2,1) → {sig21};
        the so(2,1) signature is unchanged under 5 random changes of basis.
-  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = the project's adjudication.
 """)
 sys.exit(0 if not FAIL else 1)

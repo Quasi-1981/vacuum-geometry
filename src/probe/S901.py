@@ -414,6 +414,6 @@ print(f"""
    (3) block B: random k-dimensional subspaces (seed 901) — class histograms and a raw
        intersection of the sets of classes A/B above;
    (4) block C: the table of growth with n — above.
-  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = Omega.
+  HONEST TALLY: handles 0 · downstream-content 0 · rulings 0. Court = the project's adjudication.
 """)
 sys.exit(0 if not FAIL else 1)

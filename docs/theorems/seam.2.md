@@ -23,6 +23,23 @@ Feeds the center/dual identification recorded in id-2.1.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1011**
+
+??? note "Probe code (`S1011.py`)"
+    ```python
+    --8<-- "src/probe/S1011.py"
+    ```
+
+**Result:** asserts_passed=17 · FAIL=0
+
+??? note "Full run log (`S1011_run.log`)"
+    ```text
+    --8<-- "src/probe/S1011_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

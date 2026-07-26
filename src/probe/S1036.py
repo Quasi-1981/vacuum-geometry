@@ -18,7 +18,7 @@
 #   there IS NO canonical map (like the S1027-minus homonym). DEEPER: sign(m₀) is SPONTANEOUS (SSB) — it CANNOT
 #   be derived from the ε-even T32-minus, otherwise it would NOT be spontaneous (T36-v «spontaneous, not canonical»).
 # KILLS: FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
-#   Mutants ≥4. Ancestors T26.5/T32/T36/S1027/S1029/S1032/S1035 by citation. Court — Omega; I do NOT render a verdict.
+#   Mutants ≥4. Ancestors T26.5/T32/T36/S1027/S1029/S1032/S1035 by citation. Court — the project's adjudication; I do NOT render a verdict.
 # ============================================================================
 
 import sys
@@ -100,10 +100,10 @@ def verdict_readings():
     print("  READING B (the chain as a READING of an already-chosen sign):")
     print("   PASS — link (3): once spontaneously chosen, sign(m₀) IS READ at −1 as the orientation")
     print("   of the dial (ε-odd=ε-odd, a sign-character, S1035). The circle (a structure) = T32/shov.2 (ε-even).")
-    print("  ★SYNTHESIS (not a verdict — Omega's): −2 supplies the ARENA (the Ϸ-circle, ε-even, T32/shov.2), −1 SPONTANEOUSLY")
+    print("  ★SYNTHESIS (not a verdict — the project's): −2 supplies the ARENA (the Ϸ-circle, ε-even, T32/shov.2), −1 SPONTANEOUSLY")
     print("   chooses the SIGN (ε-odd, SSB), and that sign IS READ as the orientation of the arena. The chain links up")
     print("   as ARENA+ORIENTATION, BUT NOT as a DERIVATION-of-the-sign-from-−2 (that is spontaneous). shov.1 = a spontaneous")
-    print("   −1-bit-of-orientation over the T32-arena, NOT a derivation from the T32-minus. FAIL(A)/PASS(B) — Omega's call.")
+    print("   −1-bit-of-orientation over the T32-arena, NOT a derivation from the T32-minus. FAIL(A)/PASS(B) — the project's call.")
 
 
 def mutants():
@@ -164,7 +164,7 @@ def main():
     print("=" * 74)
     print("THE ASSEMBLY LAW (c) · S1036 — the SIGN-CHAIN m₀→shov.2→the Ϸ-sign (is every link canonical?)")
     print("★THE TOOTH: a canonical map by ancestor, not «both signs». A legal FAIL. Computing parities.")
-    print("PRIMITIVES+symbol. FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("PRIMITIVES+symbol. FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -173,7 +173,7 @@ def main():
     mut_ok = mutants(); print()
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict):")
     print("─" * 74)
     print("  ★COMPUTED PARITIES: sign(m₀)=ε-ODD · the T32-minus=ε-EVEN · the orientation=ε-ODD.")
     print("  LINK (1) sign(m₀)→the T32-minus: a CROSSING of ε-parity ⟹ there is NO canonical map (a homonym).")
@@ -183,7 +183,7 @@ def main():
     print("  ⟹ −2 supplies the ARENA (the Ϸ-circle ε-even, T32/shov.2=⟨c⟩), −1 SPONTANEOUSLY chooses the SIGN; the sign")
     print("   IS READ as the orientation of the arena. The chain links up as ARENA+ORIENTATION, NOT a DERIVATION-from-−2.")
     print("─" * 74)
-    print("  ★THE HONEST VERDICT (Omega's call): FAIL(legal) on the chain-as-DERIVATION (link 1, parity+")
+    print("  ★THE HONEST VERDICT (the project's call): FAIL(legal) on the chain-as-DERIVATION (link 1, parity+")
     print("   spontaneity) ⊥ PASS on the chain-as-READING (link 3). The arrow-sign = a NEW spontaneous −1-bit")
     print("   over the T32-arena, NOT a derivative of −2 (a rhyme with S1033 «the arrow is not a −2-phenomenon» + S1027 «the T32-minus")
     print("   is a separate object»). This is NOT a failure of the assembly — it is a CONFIRMATION that the sign is free (SSB), as it should be.")
@@ -201,7 +201,7 @@ def main():
     _n = len(_hs) + len(_hl)
     print("FORBIDDEN-SCAN (STONE): hits={0} (src={1}, log={2})".format(_n, len(_hs), len(_hl)))
 
-    # EXIT=0 = the probe is clean (parities computed, mutants); the FAIL/PASS verdict of the chain — Omega's
+    # EXIT=0 = the probe is clean (parities computed, mutants); the FAIL/PASS verdict of the chain — the project's
     _exit = 1 if (_n > 0 or not mut_ok) else 0
     print("EXIT={0}".format(_exit)); print("PROC_EXIT={0}".format(_exit)); print("STOP")
     sys.exit(_exit)

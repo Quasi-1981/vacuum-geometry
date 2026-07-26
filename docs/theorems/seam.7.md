@@ -22,6 +22,23 @@ Feeds the global-clock conclusion used in T39's inheritance clause.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1018**
+
+??? note "Probe code (`S1018.py`)"
+    ```python
+    --8<-- "src/probe/S1018.py"
+    ```
+
+**Result:** asserts_passed=15 · FAIL=0
+
+??? note "Full run log (`S1018_run.log`)"
+    ```text
+    --8<-- "src/probe/S1018_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

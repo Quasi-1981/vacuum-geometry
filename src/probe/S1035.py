@@ -21,7 +21,7 @@
 #   c→+1, w₀→−1)? (3) does σ_z REALIZE the orientation (sign⟨σ_z⟩=ε, because σ_z is ε-odd)? If ALL 3 —
 #   a CANONICAL map, a genuine bridge (not a homonym). If the REP differs / the flip differs — a homonym, flag it.
 # KILLS: FS {the physics-vocabulary classes below=STONE}. # GUARDLINE
-#   Mutants ≥4. Ancestors T28/T33/T36(S1016-17)/S1032/S1034 by citation. I do NOT do (c). Court — Omega.
+#   Mutants ≥4. Ancestors T28/T33/T36(S1016-17)/S1032/S1034 by citation. I do NOT do (c). Court — the project's adjudication.
 # ============================================================================
 
 import sys
@@ -177,7 +177,7 @@ def main():
     print("THE ASSEMBLY LAW (iv) · S1035 — the SSB-bit =? the T36-bit BY ANCESTOR (a homonym-audit, S1027)")
     print("(SSB = spontaneous symmetry breaking)")
     print("T36-(v) proclaimed «a spontaneous mark» WITHOUT a mechanism; the S1034-SSB = the mechanism. A canonical map?")
-    print("PRIMITIVES+2×2. I do NOT do (c). FS=STONE. Court — to Omega; I do NOT render a verdict.")
+    print("PRIMITIVES+2×2. I do NOT do (c). FS=STONE. Court — to the project's adjudication; I do NOT render a verdict.")
     print("=" * 74)
     print()
 
@@ -190,7 +190,7 @@ def main():
     bridge = z1 and z2 and z3 and ctrl
 
     print("=" * 74)
-    print("RAW RESULTS (the court — to Omega; I do NOT render a verdict; I do NOT do (c)):")
+    print("RAW RESULTS (the court — to the project's adjudication; I do NOT render a verdict; I do NOT do (c)):")
     print("─" * 74)
     print("  ANCESTOR-CHECK (3/3):")
     print("   1. the flip generator: both = B=σ_x∘w₀ (T36-ii = S1034/S1031) — THE SAME. {0}".format("✓" if z1 else "✗"))

@@ -177,7 +177,7 @@ def main():
     print("=" * 74)
     print("W42 probe-8 (layer −2): HOLE №1 — the source of weight detuning. Two NATIVE columns")
     print("Λ=T_A(ψ)−T_col(ν1)−T_col(ν2) at EQUAL weights: q_eff/C̃/split.")
-    print("The fork (a)bistable / (b)geometry-self / K2-capacity — raw tables, Omega's court.")
+    print("The fork (a)bistable / (b)geometry-self / K2-capacity — raw tables, the project's court.")
     print("KINEMATICS strictly; ancestors cited; 0 handles; exact arithmetic.")
     print("=" * 74)
     print()
@@ -250,7 +250,7 @@ def main():
     print("  (I) NAIVE  ν1,ν2 independent ∈(Z/h)² — 2 independent column-duals")
     print("  (II) DIAGONAL ν1=ν2 (momenta locked, axes still 2) — does locking the momenta save it?")
     print("  (III) NATIVE-COLLAPSE ncol=1, ×2 (two bonds of a SHARED center merged into ONE dual, K2)")
-    print("  the interpretation (a)/(b)/K2 — Omega's court; the probe gives RAW numbers for all three.")
+    print("  the interpretation (a)/(b)/K2 — the project's court; the probe gives RAW numbers for all three.")
     print()
     two_col = {}
     for d in (2, 3):
@@ -289,7 +289,7 @@ def main():
               "(III) — the only native construction".format(
                   d, nv["qeff"], nv["split"], nv["Ct"], dg["qeff"], dg["split"], dg["Ct"],
                   cl["qeff"], cl["split"], cl["Ct"], d + 1))
-    print("  ★RAW PICTURE (Omega's court): (I)/(II) bistable q_eff=2 — the resonance trap is ALIVE if")
+    print("  ★RAW PICTURE (the project's court): (I)/(II) bistable q_eff=2 — the resonance trap is ALIVE if")
     print("    the columns are independent OR only momentum-locked; ONE clock (III, q_eff=1) occurs")
     print("    ONLY under a structural collapse to a single column. K2-test: the cell has ONE center")
     print("    (rank1) ⟹ two bonds do NOT give independent duals ⟹ the native construction = (III).")

@@ -23,6 +23,23 @@ Establishes the commutant-ladder count (N_iso) used by T35.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1015**
+
+??? note "Probe code (`S1015.py`)"
+    ```python
+    --8<-- "src/probe/S1015.py"
+    ```
+
+**Result:** asserts_passed=10 · FAIL=0
+
+??? note "Full run log (`S1015_run.log`)"
+    ```text
+    --8<-- "src/probe/S1015_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

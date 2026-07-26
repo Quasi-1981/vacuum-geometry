@@ -192,9 +192,9 @@ def main():
         ok(not contradiction, "d={0}: the D-count is NOT >2 ⟹ the S1016 lock is consistent (tooth K2 does not bite)".format(d))
     print()
 
-    # ================= VERDICT (raw, Omega's court) =================
+    # ================= VERDICT (raw, the project's court) =================
     print("#" * 70)
-    print("# RAW VERDICT (Omega/author's court):")
+    print("# RAW VERDICT (the project's/author's court):")
     print("#" * 70)
     print("  ★OUTCOME (II) — EXACTLY ONE BIT: the native structure does NOT distinguish A/B internally")
     print("   (distinguishers (a),(b) are origin-choice-dependent — the origin-shift-mutant swaps the phys.class; (c) is origin-")

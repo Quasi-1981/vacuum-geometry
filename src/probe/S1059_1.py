@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-exact (ℚ / algebraic).  Every number below is printed with a bracket
-#      [address · unit · type/operation] — a requirement of Omega's assignment ef1dd6ad (2026-07-22).
+#      [address · unit · type/operation] — a requirement of the project's assignment ef1dd6ad (2026-07-22).
 """S1059 — is the chain step INDIVISIBLE.  Layer-1, exact symbolic.  A binary output.
 
 ASSIGNMENT: step 3 of `UNITS_LADDER_EXANTE.md` (the kill `K-action` — the kill's name as quoted), the exante of the probe —  # GUARDLINE

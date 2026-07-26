@@ -26,6 +26,10 @@ Supplies the one dimensional handle used throughout, e.g. in the reachability cr
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+*Measurement lives in an internal record (this node has no probe in the public port yet).*
+
 ---
 
 [← all nodes](index.md)

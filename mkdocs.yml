@@ -42,6 +42,11 @@ markdown_extensions:
   - pymdownx.arithmatex: {generic: true}
   - pymdownx.details
   - pymdownx.superfences
+  # Embeds probe code and run logs straight into theorem pages at build time
+  # (not by copying text into the page): the page can never drift from the
+  # probe, because there is no copy to drift. base_path = repo root, where
+  # src/probe/ and test/ live alongside docs/.
+  - pymdownx.snippets: {base_path: ["."], check_paths: true}
 
 # KaTeX rather than MathJax: faster, and the formulas here are dense but simple.
 extra_javascript:

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# DIM: symbolic-d (a lane-B VISA on S1054: re-deriving the on-shell slope of the cone WITH MY OWN HAND.
+# DIM: symbolic-d (an independent VISA on S1054: re-deriving the on-shell slope of the cone WITH MY OWN HAND.
 #          The A_d lattice is built ∀d from scratch, the node is solved, the series |f|² is expanded,
 #          the on-shell 2-2cos(x)=λ²s is solved for x. The ∀d statements carry symbolic
 #          d (the tr M identity — polynomial in z=e^{iθ}); d=2 additionally carries an EXTERNAL
 #          anchor (honeycomb), re-derived here, not cited.)
-"""S1055 (Beta, lane-B) — a VISA on S1054: an INDEPENDENT re-derivation of the on-shell slope of the cone.
+"""S1055 — a VISA on S1054: an INDEPENDENT re-derivation of the on-shell slope of the cone.
 
 Alpha's request (verbatim): «re-derive the on-shell slope of the cone from scratch — 2-2cos(x)=|f|^2
 near the node — and say whether it carries a factor of 1/2 relative to the registered h^4/(4d)».

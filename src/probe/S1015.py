@@ -236,9 +236,9 @@ def main():
           "real activity ✓".format(r_true["n_iso"], r_flat["n_iso"]))
     print()
 
-    # ================= RAW COUNTING VERDICT (Omega's court) =================
+    # ================= RAW COUNTING VERDICT (the project's court) =================
     print("#" * 70)
-    print("# RAW COUNTING VERDICT (court/fantasy-verdict — Omega/author):")
+    print("# RAW COUNTING VERDICT (court/fantasy-verdict — the project/author):")
     print("#" * 70)
     if iso_hits_interior and sl_rejected and boundary_zero:
         print("  ★N_iso follows the T26.3 commutant ladder EXACTLY on the INTERIOR (1<=m<=d — the whole")
@@ -248,7 +248,7 @@ def main():
         print("   ⟹ no time — CONSISTENT, not a miss: the commutant there counts a pure-space isotype,")
         print("   which is NOT a +/− pair). K2: the match COULD have failed — it tracks the COMMUTANT (not #modes,")
         print("   not the dimension), and drops under killed activity. sl-rank(=d) REJECTED (not constant).")
-        print("   ⟹ RAW (Omega/author's verdict): the fantasy «tower of commutants» PREDICTED A NUMBER —")
+        print("   ⟹ RAW (the project's/author's verdict): the fantasy «tower of commutants» PREDICTED A NUMBER —")
         print("   +/− activity on the null modes realizes EXACTLY the isotypes of the stabilizer Sym(m)×Sym(d+1−m).")
         print("   NOT physics: a count of isotypes; the B1-reading («+/−=an atom of …») — BEHIND THE FENCE, court/author.")
     else:
@@ -256,7 +256,7 @@ def main():
         print("  carve into ATTEMPTS, reopens-if a new counter with independent justification BEFORE the numbers.")
     print("  HONEST BOUNDARY: 'tower' = the NAME of the N_iso↔commutant match; a physics reading (of the fenced kind) —")
     print("  behind the fence. N_pair (cross-check): m=0→0 ✓, but the form is NOT clean (d=3 [1,2,1], d=4 [2,3,3,2])")
-    print("  — it is precisely N_iso (the isotype-count), not the raw-pair-count, that carries the match. The anchor/kill verdict — Omega.")
+    print("  — it is precisely N_iso (the isotype-count), not the raw-pair-count, that carries the match. The anchor/kill verdict — the project's.")
     print()
 
     # ================= MUTANTS (>=4) =================

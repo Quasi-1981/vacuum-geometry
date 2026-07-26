@@ -31,6 +31,23 @@ Provides the base cell object used to build the commutant ladder, the Coxeter la
 | `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer | the letter T denotes something else on another floor |
 | `T_col` | the same lattice form on the column | the same |
 
+## Measurements
+
+**S956**
+
+??? note "Probe code (`S956.py`)"
+    ```python
+    --8<-- "src/probe/S956.py"
+    ```
+
+**Result:** asserts_passed=168 · FAIL=0
+
+??? note "Full run log (`S956_run.log`)"
+    ```text
+    --8<-- "src/probe/S956_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

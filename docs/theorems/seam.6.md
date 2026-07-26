@@ -24,6 +24,51 @@ Feeds the epsilon-flip identity id-2.2 and the orbit identity id-2.5.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1004**
+
+??? note "Probe code (`S1004.py`)"
+    ```python
+    --8<-- "src/probe/S1004.py"
+    ```
+
+**Result:** asserts_passed=30 · FAIL=0
+
+??? note "Full run log (`S1004_run.log`)"
+    ```text
+    --8<-- "src/probe/S1004_run.log"
+    ```
+
+**S1016**
+
+??? note "Probe code (`S1016.py`)"
+    ```python
+    --8<-- "src/probe/S1016.py"
+    ```
+
+**Result:** asserts_passed=20 · FAIL=0
+
+??? note "Full run log (`S1016_run.log`)"
+    ```text
+    --8<-- "src/probe/S1016_run.log"
+    ```
+
+**S1017**
+
+??? note "Probe code (`S1017.py`)"
+    ```python
+    --8<-- "src/probe/S1017.py"
+    ```
+
+**Result:** asserts_passed=28 · FAIL=0
+
+??? note "Full run log (`S1017_run.log`)"
+    ```text
+    --8<-- "src/probe/S1017_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

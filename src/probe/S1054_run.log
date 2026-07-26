@@ -146,7 +146,7 @@ G. THE GEOMETRY OF THE COLUMN (S597: a 3:1 stacking, «lateral 1/√2») — doe
      in A_d*/A_d (=h, S1001), while the zigzag-step — a root, is already in the lattice (order 1).
      The zigzag describes the REALIZED PATH between endpoints, not the coset-shift that carries the dual.
 
-H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (Omega's brake: do not change until checked)
+H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (the project's brake: do not change until checked)
    The primary source: viz/SIMPLEX_LATTICE_MEMBRANES_omega_analysis.md, a table row:
    «the forced lateral per time-period | lat/time = 1/√2 (0.4082/0.5774) | exactly».
    ★It prints TWO numbers separately — so I check not the ratio, but EACH of the two.
@@ -184,7 +184,7 @@ H. THE S597 FORM «lat/time» — A CHECK FROM THE DEFINITION (Omega's brake: do
   ✓ d=6: lat/time = sqrt((d−1)/(d+1)) = sqrt(35)/7
   ✓ d=6: the stacking = d:1 = 6:1 (that is, «3:1» — is ALSO a d-instance, not a constant)
 
-   ★WHY A CHECK ON A SINGLE NUMBER WOULD BE EMPTY (Omega's brake is structurally right):
+   ★WHY A CHECK ON A SINGLE NUMBER WOULD BE EMPTY (the project's brake is structurally right):
      form | d=2 | d=3 | d=4 | d=5
      sqrt((d−1)/(d+1))  [this one] | sqrt(3)/3 | sqrt(2)/2 | sqrt(15)/5 | sqrt(6)/3
      1/sqrt(d−1)              | 1 | sqrt(2)/2 | sqrt(3)/3 | 1/2

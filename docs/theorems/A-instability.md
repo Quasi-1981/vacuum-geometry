@@ -29,6 +29,23 @@ Establishes a negative result — instability without producing a numeric value 
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1033**
+
+??? note "Probe code (`S1033.py`)"
+    ```python
+    --8<-- "src/probe/S1033.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1033_run.log`)"
+    ```text
+    --8<-- "src/probe/S1033_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

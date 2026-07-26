@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-d  (an order on signatures — combinatorial, a scan p,q ≤ N without instances;
 #                   no d=3 numbers on the load-bearing path.)
-"""S1079 · SIEGE OF AX-closure · component **Z1 (DEFINITION)** — a lane-A probe.
+"""S1079 · SIEGE OF AX-closure · component **Z1 (DEFINITION)** — an independent probe.
 
-EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by Ω, S1078).
+EXANTE: `hub/prime/AX_CLOSURE_SIEGE_EXANTE.md` (carved by a project ruling, S1078).
 The Z1 question verbatim: «does **(a)** give the SAME verdict {a (3,0)-minimum · (3,1) after
-the break}?»  Ω's wager: INVARIANCE; the named candidate for the wager's failure — «(a),
+the break}?»  the project's wager: INVARIANCE; the named candidate for the wager's failure — «(a),
 without coercion, may NOT have a notion of a forced successor ⟹ then (a) is not an
 alternative, but a WEAKER order — and this too is a verdict about rigidity (the alternative
 is eliminated BY TYPE, not by taste)».
@@ -19,7 +19,7 @@ is eliminated BY TYPE, not by taste)».
        premises;
   §2 · does (a) have a notion of a FORCED SUCCESSOR — a count of the minimal strict upper
        bounds (in (b) the successor is the VALUE of the closure function, that is, one);
-  §3 · A RE-MEASUREMENT CHECK: P1 («in (a) there are no maximal elements») was carved by Ω
+  §3 · A RE-MEASUREMENT CHECK: P1 («in (a) there are no maximal elements») was carved by a project ruling
        back on 2026-07-16 — NOT re-measured, quoted and its multiplicity handed to the
        ancestor.
 
@@ -138,13 +138,13 @@ def main():
    DEFINED in (a).  In (b) the successor is the value of the closure function, that
    is, one.
    ⟹ (a) is not an alternative definition of THE SAME object: it is STRUCTURALLY
-   weaker.  This is exactly the branch that Ω named BEFORE the probes («eliminated
+   weaker.  This is exactly the branch that a project ruling named BEFORE the probes («eliminated
    by TYPE»).""")
 
     # ── §3 · a re-measurement check ──────────────────────────────────────────────────
     print("""
 §3 · A RE-MEASUREMENT CHECK (not spending the count on what is already carved)
-   P1 (Omega, W28 §4, carved on 2026-07-16 BEFORE the numbers, verbatim):
+   P1 (a project ruling, W28 §4, carved on 2026-07-16 BEFORE the numbers, verbatim):
      «in pure (a) at level-1 there are NO maximal elements (the ℕ²-lattice is infinite
       upward) ⟹ (a) itself cannot be a selector — its role = a skeleton of the order
       for Z2.  Carved so that this is not later "discovered" as a result.»
@@ -159,7 +159,7 @@ def main():
 WHAT THIS MEANS FOR Z1 (a measurement, not a verdict):
 
   (1) ★THE VERDICT-NUMBER IS INVARIANT: (a) hands back {(3,0)} and {(3,1)} under the same
-      premises — exactly, and independent of the scan ceiling.  Ω's wager on the number
+      premises — exactly, and independent of the scan ceiling.  the project's wager on the number
       holds.
 
   (2) ★BUT THE INVARIANCE IS NOT WHAT IT SEEMS: the number agrees not because the two
@@ -173,10 +173,10 @@ WHAT THIS MEANS FOR Z1 (a measurement, not a verdict):
       the FORCING DISAPPEARS.  In (a) every element has TWO minimal strict successors
       ⟹ the notion of a "coerced successor" is not defined; in (b) it is the value of a
       function.  ⟹ (a) is not an alternative, but a STRUCTURALLY WEAKER order:
-      the alternative is eliminated BY TYPE, not by taste — exactly the branch Ω carved
+      the alternative is eliminated BY TYPE, not by taste — exactly the branch a project ruling carved
       BEFORE the probes.
 
-  (4) ⟹ the form of the verdict handed to Ω (not rendered here): on Z1 — RIGIDITY, but with
+  (4) ⟹ the form of the verdict handed to the project's adjudication (not rendered here): on Z1 — RIGIDITY, but with
       a precise qualifier: a rigid NUMBER (it does not move under a legal twist) ⊥ a
       NON-rigid PROVENANCE (the strength of the claim moves: without (b) the verdict
       becomes a consequence of two premises, not a partly-forced one).  To the reader of a

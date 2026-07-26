@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # DIM: symbolic-d  (forms (d,1)/(d+1,0)/degenerate — symbolic in d, a run over d=2..5;
 #                   no d=3 instance on the load-bearing path.)
-"""S1075 · SIEGE OF AX-dimer · component **D1 (EXISTENCE)** — a lane-A probe.
+"""S1075 · SIEGE OF AX-dimer · component **D1 (EXISTENCE)** — an independent probe.
 
-EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by Ω, S1074).
+EXANTE: `hub/prime/AX_DIMER_SIEGE_EXANTE.md` (carved by a project ruling, S1074).
 The D1 question verbatim: «there is ≥1 marked axis (q≥1) — does even one native law FORCE it?»
-Ω's wager: **IT IS NOT FORCED** ⟹ an irreducibility theorem ⟹ AX-dimer collapses to a single
+the project's wager: **IT IS NOT FORCED** ⟹ an irreducibility theorem ⟹ AX-dimer collapses to a single
 existential bit, «time exists».
 
 ★THE CYCLE GUARD (§3 of the exante) — and exactly how it is upheld here:
@@ -14,7 +14,7 @@ existential bit, «time exists».
   In §2 of this probe `AX-indef` IS USED — but **as a REINFORCEMENT OF THE NEGATIVE (a
   fortiori)**: we freely GIFT the siege the forbidden root and show that the axis is **still
   not forced**.  A cycle needs FORCING; a negative reinforced by a gift does not create a
-  cycle (it makes the verdict stronger, not weaker).  This is stated EXPLICITLY — for Beta/Ω
+  cycle (it makes the verdict stronger, not weaker).  This is stated EXPLICITLY — for Beta/the project's adjudication
   to judge.
 
 ★A HOMONYM this probe is obliged to resolve (otherwise the verdict is spurious):
@@ -283,7 +283,7 @@ WHAT THIS MEANS FOR D1 (a measurement, not a verdict):
       duplicates (important: if D1 ≡ AX-indef, the demotion of S1066 would be a cycle);
       the letter `q` in each denotes DIFFERENT quantities (marked axes ⊥ minus signs of
       the signature).
-  (4) The form of the verdict handed to Ω (not rendered here): the existence of the mark =
+  (4) The form of the verdict handed to the project's adjudication (not rendered here): the existence of the mark =
       a SINGLE existential bit, not derivable from what is accepted — an irreducibility
       theorem, a rhyme to T39 (there the undeliverable was the SIGN, here it is the
       EXISTENCE).

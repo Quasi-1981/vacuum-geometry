@@ -22,6 +22,37 @@ Grounds the scalar/Weyl-level (S_{d+1}) structure used in T28 and reused in the 
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## Measurements
+
+**S1007**
+
+??? note "Probe code (`S1007.py`)"
+    ```python
+    --8<-- "src/probe/S1007.py"
+    ```
+
+**Result:** asserts_passed=13 · FAIL=0
+
+??? note "Full run log (`S1007_run.log`)"
+    ```text
+    --8<-- "src/probe/S1007_run.log"
+    ```
+
+**S1016**
+
+??? note "Probe code (`S1016.py`)"
+    ```python
+    --8<-- "src/probe/S1016.py"
+    ```
+
+**Result:** asserts_passed=20 · FAIL=0
+
+??? note "Full run log (`S1016_run.log`)"
+    ```text
+    --8<-- "src/probe/S1016_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

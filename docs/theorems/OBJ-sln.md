@@ -22,6 +22,51 @@ Serves as the arena algebra from which A-kappa and A-space are built.
 
 **Consumed by:** [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) · [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) · [Time not derivable from order: Weyl channel gives only an arrow](A-time-neg.md)
 
+## Measurements
+
+**S1023**
+
+??? note "Probe code (`S1023.py`)"
+    ```python
+    --8<-- "src/probe/S1023.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1023_run.log`)"
+    ```text
+    --8<-- "src/probe/S1023_run.log"
+    ```
+
+**S1025**
+
+??? note "Probe code (`S1025.py`)"
+    ```python
+    --8<-- "src/probe/S1025.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1025_run.log`)"
+    ```text
+    --8<-- "src/probe/S1025_run.log"
+    ```
+
+**S1026**
+
+??? note "Probe code (`S1026.py`)"
+    ```python
+    --8<-- "src/probe/S1026.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1026_run.log`)"
+    ```text
+    --8<-- "src/probe/S1026_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # DIM: na (court cross-check of the S933 probe's numbers — dimensionless linear algebra; handles 0).
-# Omega's court hand on S933 (W33-leg-1): an independent recomputation of three load-bearing
+# The project's court hand on S933 (W33-leg-1): an independent recomputation of three load-bearing
 # rows of the table. NOT a probe — an act of the court (class S929_court_p4_omega).
 import sys
 sys.stdout.reconfigure(encoding='utf-8')

@@ -480,7 +480,7 @@ print(f"""
        5 examples per type — above;
    (5) O6e: det A by the numbers for three S903 examples A² = ±𝟙 + formula line
        det(A²) = (±1)ⁿ — above.
-  HONEST TALLY: handles 0 · verdicts 0. Court = Omega.
+  HONEST TALLY: handles 0 · verdicts 0. Court = the project's adjudication.
 """)
 _logf.flush()
 sys.exit(0 if not FAIL else 1)

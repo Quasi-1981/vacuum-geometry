@@ -29,6 +29,37 @@ Supplies the pair-generator ⟨c,w₀⟩ used to build the sign-character map in
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
 
+## Measurements
+
+**S1028**
+
+??? note "Probe code (`S1028.py`)"
+    ```python
+    --8<-- "src/probe/S1028.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1028_run.log`)"
+    ```text
+    --8<-- "src/probe/S1028_run.log"
+    ```
+
+**S1032**
+
+??? note "Probe code (`S1032.py`)"
+    ```python
+    --8<-- "src/probe/S1032.py"
+    ```
+
+**Result:** exit=0
+
+??? note "Full run log (`S1032_run.log`)"
+    ```text
+    --8<-- "src/probe/S1032_run.log"
+    ```
+
+
 ---
 
 [← all nodes](index.md)
