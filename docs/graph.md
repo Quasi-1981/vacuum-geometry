@@ -17,12 +17,16 @@ dependency is a link between pages, so the structure is walked rather than viewe
 | node field | meaning |
 |:--|:--|
 | `kind` | input · theorem · object · identity · seam · conclusion · fence |
-| `status` | `axiom` (declared premise) · `measured` (probe + verification) · `candidate` (a cast fitted to data) · `measured-negative` (**proved absence**) |
+| `status` | `axiom` (declared premise) · `measured` (probe + verification) · `candidate` (a cast fitted to data) · `measured-negative` (**proved absence**) · `named` (identified, not yet derived) · `author-word` (the author's own addition, carried as data) |
 | `address` | where the primary act lies: section · probe `S…` · verification `J-…` · seal |
 | `deps` | ancestors — witness multiplicity is counted along these |
 
 **Read `measured-negative` carefully:** it does not say "it did not work out", it says the object was
 **proved not to exist**. Such a node carries as much weight as a positive one.
+
+**`∀d-symbolic` is not a seventh status:** it is a qualifier used in verdict prose to say a
+`measured` node was derived for symbolic $d$ rather than enumerated; no node carries it in the
+status field.
 
 ---
 
@@ -303,9 +307,9 @@ dependency is a link between pages, so the structure is walked rather than viewe
 <title>A-ssb-bit — Stage 2: the free ±m₀ choice is the single free bit (T36-bit)</title>
 <text class="gm-label" x="572.0" y="237.0">Stage 2: the free ±m₀ choice …</text>
 </a>
-<a href="../theorems/A-stab/" class="gm-node" data-id="A-stab" data-label="stabilization intrinsic: κ=λ drives m₀&gt;0 ⟺ λ&lt;a">
+<a href="../theorems/A-stab/" class="gm-node" data-id="A-stab" data-label="stabilization intrinsic: κ=λ implies m₀&gt;0 ⟺ λ&lt;a">
 <rect x="550.0" y="248.0" width="18" height="18" rx="3" fill="#c98a2c" stroke="#8a5c16" stroke-width="1.2" />
-<title>A-stab — Stabilization intrinsic: κ=Λ drives m₀&gt;0 ⟺ Λ&lt;a</title>
+<title>A-stab — Stabilization intrinsic: κ=Λ implies m₀&gt;0 ⟺ Λ&lt;a</title>
 <text class="gm-label" x="572.0" y="261.0">Stabilization intrinsic: κ=Λ …</text>
 </a>
 <a href="../theorems/A-time-neg/" class="gm-node" data-id="A-time-neg" data-label="time not derivable from order: weyl channel gives only an arrow">
@@ -428,9 +432,9 @@ dependency is a link between pages, so the structure is walked rather than viewe
 <title>T26.2 — Two-weight discriminant law: t=s+(d-1) (symbolic for all d); Z2 symmetry exchanges s and t</title>
 <text class="gm-label" x="572.0" y="837.0">Two-weight discriminant law: …</text>
 </a>
-<a href="../theorems/T26.3/" class="gm-node" data-id="T26.3" data-label="commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/3/3">
+<a href="../theorems/T26.3/" class="gm-node" data-id="T26.3" data-label="commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d&gt;=4)">
 <rect x="550.0" y="848.0" width="18" height="18" rx="3" fill="#c98a2c" stroke="#8a5c16" stroke-width="1.2" />
-<title>T26.3 — Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/3/3</title>
+<title>T26.3 — Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d&gt;=4)</title>
 <text class="gm-label" x="572.0" y="861.0">Commutant ladder of labels: b…</text>
 </a>
 <a href="../theorems/T26.4/" class="gm-node" data-id="T26.4" data-label="nodal threads plus forced transversality (schur argument, isotropic cone)">
@@ -463,10 +467,10 @@ dependency is a link between pages, so the structure is walked rather than viewe
 <title>T28 — Count of ie classes: C(q)=2^q, Ctilde=0/1/2/4; q=1 gives a unique class up to the arrow</title>
 <text class="gm-label" x="572.0" y="1005.0">Count of ie classes: C(q)=2^q…</text>
 </a>
-<a href="../theorems/T29/" class="gm-node" data-id="T29" data-label="collapse and three phases: generic detuning yields 1 clock; criterion is ctilde=1">
+<a href="../theorems/T29/" class="gm-node" data-id="T29" data-label="collapse and three regimes: generic detuning yields 1 clock; criterion is ctilde=1">
 <rect x="550.0" y="1016.0" width="18" height="18" rx="3" fill="#c98a2c" stroke="#8a5c16" stroke-width="1.2" />
-<title>T29 — Collapse and three phases: generic detuning yields 1 clock; criterion is Ctilde=1</title>
-<text class="gm-label" x="572.0" y="1029.0">Collapse and three phases: ge…</text>
+<title>T29 — Collapse and three regimes: generic detuning yields 1 clock; criterion is Ctilde=1</title>
+<text class="gm-label" x="572.0" y="1029.0">Collapse and three regimes: g…</text>
 </a>
 <a href="../theorems/T3/" class="gm-node" data-id="T3" data-label="antisymmetry of the preorder (idempotency of closure, no cycles)">
 <rect x="550.0" y="1040.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
@@ -593,10 +597,10 @@ dependency is a link between pages, so the structure is walked rather than viewe
 <title>id-2.7 — B1 '+/- as the elementary unit of the two-point structural link', a seed, not a measurement</title>
 <text class="gm-label" x="832.0" y="213.0">B1 '+/- as the elementary uni…</text>
 </a>
-<a href="../theorems/seam.1/" class="gm-node" data-id="seam.1" data-label="seam event of the -2 -&gt; -1 break (t29 collapse) leads to loss of column-tick equality">
+<a href="../theorems/seam.1/" class="gm-node" data-id="seam.1" data-label="seam joint of the -2 -&gt; -1 break (t29 collapse) leads to loss of column-tick equality">
 <rect x="1070.0" y="56.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>seam.1 — Seam event of the -2 -&gt; -1 break (T29 collapse) leads to loss of column-tick equality</title>
-<text class="gm-label" x="1092.0" y="69.0">Seam event of the -2 -&gt; -1 br…</text>
+<title>seam.1 — Seam joint of the -2 -&gt; -1 break (T29 collapse) leads to loss of column-tick equality</title>
+<text class="gm-label" x="1092.0" y="69.0">Seam joint of the -2 -&gt; -1 br…</text>
 </a>
 <a href="../theorems/seam.2/" class="gm-node" data-id="seam.2" data-label="the sign of the first minus (t32) leads to the sign of the circle dual (pontryagin dual)">
 <rect x="1070.0" y="80.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
@@ -691,7 +695,7 @@ a.gm-node, a.gm-node:visited{text-decoration:none;color:inherit;}
 ### Notation
 
 - `Box` — the difference of two lattice forms, Lambda(psi,nu) = T_A(psi) - T_col(nu)
-- `T_A` — the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer
+- `T_A` — the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer only for h in {1,2,3,4,6} (measured window d in {2,3})
 - `T_col` — the same lattice form on the column
 - `m_0` — the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here
 

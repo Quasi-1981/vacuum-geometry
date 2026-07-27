@@ -1,4 +1,4 @@
-# Stabilization intrinsic: κ=Λ drives m₀>0 ⟺ Λ<a
+# Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a
 
 **Kind:** theorem · **Status:** candidate · **Address:** §3.seam · MIRROR_ASSEMBLY_LAW.md · S1039 · J-0492
 

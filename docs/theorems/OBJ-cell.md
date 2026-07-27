@@ -13,7 +13,7 @@
 
 ## FUNCTION
 
-The A_d cell consists of the weights of the fundamental representation of su(d+1), with Gram matrix proportional to SC(I+11ᵀ).
+The A_d cell consists of the weights of the fundamental representation of su(d+1), with Gram matrix = SC·(I − 11ᵀ/(d+1)), SC=(d+1)/d (unit diagonal, off-diagonal −1/d).
 
 > **Boundary:** Holds for A_d, symbolically for all d.
 
@@ -28,7 +28,7 @@ Provides the base cell object used to build the commutant ladder, the Coxeter la
 | short | expansion | why the short name is dangerous |
 |:--|:--|:--|
 | `Box` | the difference of two lattice forms, Lambda(psi,nu) = T_A(psi) - T_col(nu) | the same symbol on another floor denotes an operator, not a difference of forms |
-| `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer | the letter T denotes something else on another floor |
+| `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer only for h in {1,2,3,4,6} (measured window d in {2,3}) | the letter T denotes something else on another floor |
 | `T_col` | the same lattice form on the column | the same |
 
 ## Measurements

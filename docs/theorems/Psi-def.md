@@ -33,7 +33,7 @@ Supplies the time/dual-quantity Pontryagin pair definition used downstream where
 
 **Result:** asserts_passed=327 · FAIL=0
 
-??? note "Full run log (`S1000_run.log`)"
+??? note "Run log (paraphrased under the word fence — see provenance) (`S1000_run.log`)"
     ```text
     --8<-- "src/probe/S1000_run.log"
     ```

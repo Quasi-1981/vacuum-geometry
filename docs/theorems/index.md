@@ -60,7 +60,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 
 | node | status |
 |:--|:--|
-| [Seam event of the -2 -> -1 break (T29 collapse) leads to loss of column-tick equality](seam.1.md) | measured |
+| [Seam joint of the -2 -> -1 break (T29 collapse) leads to loss of column-tick equality](seam.1.md) | measured |
 | [The sign of the first minus (T32) leads to the sign of the circle dual (Pontryagin dual)](seam.2.md) | measured |
 | [Center Z/(d+1) (T32 nodes + T34 locality) leads to nodes = center = barycenters of T26.7](seam.3.md) | measured |
 | [Two-component structure (T33) leads to classes 1A+1B of the T26.5 column](seam.4.md) | measured |
@@ -80,7 +80,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Crown result: spontaneity ⟺ non-derivability of sign(m₀)](A-nonderiv.md) | candidate |
 | [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) | measured |
 | [Stage 2: the free ±m₀ choice is the single free bit (T36-bit)](A-ssb-bit.md) | candidate |
-| [Stabilization intrinsic: κ=Λ drives m₀>0 ⟺ Λ<a](A-stab.md) | candidate |
+| [Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a](A-stab.md) | candidate |
 | [Time not derivable from order: Weyl channel gives only an arrow](A-time-neg.md) | measured-negative |
 | [A_d cell derived from alphabet (∀d, three independent routes)](AX-cell.md) | measured |
 | [Indefiniteness (q≥1) demoted from input to theorem](AX-indef.md) | measured |
@@ -105,14 +105,14 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [W40 re-reading of the cell's time axis: umbrella of 7 laws (see T26.1-T26.7)](T26.md) | candidate |
 | [Threshold-weight law: t*=d (symbolic for all d); the Dirac case is live iff 0<t<d](T26.1.md) | candidate |
 | [Two-weight discriminant law: t=s+(d-1) (symbolic for all d); Z2 symmetry exchanges s and t](T26.2.md) | candidate |
-| [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/3/3](T26.3.md) | candidate |
+| [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d>=4)](T26.3.md) | candidate |
 | [Nodal threads plus forced transversality (Schur argument, isotropic cone)](T26.4.md) | candidate |
 | [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | candidate |
 | [Reading-B: time equals a labeled coordinate (invariant at q=1; branches at q>=2)](T26.6.md) | candidate |
 | [Cartan torus: nodes equal the center Z/(d+1), the barycenters of the alcoves (symbolic for all d)](T26.7.md) | candidate |
 | [Clock-ness scale: none at q=0; canonical time at q=1; split at min(p,q)>=2](T27.md) | candidate |
 | [Count of ie classes: C(q)=2^q, Ctilde=0/1/2/4; q=1 gives a unique class up to the arrow](T28.md) | candidate |
-| [Collapse and three phases: generic detuning yields 1 clock; criterion is Ctilde=1](T29.md) | candidate |
+| [Collapse and three regimes: generic detuning yields 1 clock; criterion is Ctilde=1](T29.md) | candidate |
 | [Antisymmetry of the preorder (idempotency of closure, no cycles)](T3.md) | measured |
 | [Participation law: an axis participates iff there is Diophantine resonance; blind to the axis sign](T30.md) | candidate |
 | [Rotation-holder: the time-column is fixed, orthogonal to the space that moves in orbit](T31.md) | candidate |
@@ -138,6 +138,6 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | short | expansion | why the short name is dangerous |
 |:--|:--|:--|
 | `Box` | the difference of two lattice forms, Lambda(psi,nu) = T_A(psi) - T_col(nu) | the same symbol on another floor denotes an operator, not a difference of forms |
-| `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer | the letter T denotes something else on another floor |
+| `T_A` | the lattice form on the cell, T(k) = 2 - 2cos(2 pi k / h), an integer only for h in {1,2,3,4,6} (measured window d in {2,3}) | the letter T denotes something else on another floor |
 | `T_col` | the same lattice form on the column | the same |
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |

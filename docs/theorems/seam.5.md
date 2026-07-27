@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/3/3](T26.3.md) | theorem | candidate |
+| [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d>=4)](T26.3.md) | theorem | candidate |
 | [Tower of commutatives, anchored sl-gl ladder: N_iso is the ladder of the T26.3 commutant](T35.md) | theorem | candidate |
 
 ## FUNCTION

@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Stabilization intrinsic: κ=Λ drives m₀>0 ⟺ Λ<a](A-stab.md) | theorem | candidate |
+| [Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a](A-stab.md) | theorem | candidate |
 | [Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint](OBJ-Dh.md) | object | measured |
 | [The arrow is a single bit of realization (5 legs + wedge witness ver:2): no A/B discriminator exists](T36.md) | theorem | candidate |
 

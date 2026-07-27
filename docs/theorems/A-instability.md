@@ -21,7 +21,7 @@ For a>0 the m=0 state is unstable because the trace favors a nonzero lowest valu
 
 Establishes a negative result — instability without producing a numeric value — and rules out any m₀² contribution, to be kept separate from the A-stab result.
 
-**Consumed by:** [Stabilization intrinsic: κ=Λ drives m₀>0 ⟺ Λ<a](A-stab.md)
+**Consumed by:** [Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a](A-stab.md)
 
 ### 8.3 Notation — short carriers used above
 

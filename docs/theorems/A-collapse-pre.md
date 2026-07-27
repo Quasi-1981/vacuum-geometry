@@ -9,7 +9,7 @@
 | premise | kind | status |
 |:--|:--|:--|
 | [Clock-ness scale: none at q=0; canonical time at q=1; split at min(p,q)>=2](T27.md) | theorem | candidate |
-| [Collapse and three phases: generic detuning yields 1 clock; criterion is Ctilde=1](T29.md) | theorem | candidate |
+| [Collapse and three regimes: generic detuning yields 1 clock; criterion is Ctilde=1](T29.md) | theorem | candidate |
 | [Two-component structure forced (0 free parameters) {I,H}; v^2=(1/2)*trM=(d+1)^2/(2d) (d=2->9/4, d=3->8/3); sub-bridge #3(a) sealed](T33.md) | theorem | candidate |
 
 ## FUNCTION

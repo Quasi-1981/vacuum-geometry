@@ -54,10 +54,15 @@ may be wrong, and verify every step.
 
 Six boundaries, stated before the body. An unwritten boundary works as a cancelled negative.
 
-1. **Three grades, and they are not equal.** `⚓ measured` (probe plus independent visa) ·
-   `∀d-symbolic` (proved for symbolic $d$) · `candidate/cast` (a form fitted to data — neither a
-   derivation nor a test). Most of floor −2, T26–T39, is `candidate`. Calling a row a theorem does
-   not raise its grade; the status column does.
+1. **Six status words, and they are not equal.** The graph's `status` field takes exactly six
+   values: `axiom` (declared premise) · `⚓ measured` (probe plus independent visa) · `candidate`
+   (a form fitted to data — neither a derivation nor a test; rendered `candidate/cast` in this tome
+   where the fit is a constant) · `measured-negative` (proved absence) · `named` (identified, not
+   yet derived) · `author-word` (the author's own addition, carried as data). Most of floor −2,
+   T26–T39, is `candidate`. **`∀d-symbolic` is not a status** — it is a qualifier in verdict prose
+   saying a `measured` node was derived for symbolic $d$ rather than enumerated; it never stands
+   alone in the status column. Calling a row a theorem does not raise its grade; the status column
+   does.
 2. **Enumeration is not ∀d.** Symbolic derivations say so (`∀d-symb`). Enumerations state their
    range: $d\in\{2,3\}$, $n\le 6$, $n\le 7$, up to $n=10$. A $d=2$ instance is never a witness on its
    own, since the discriminants vanish identically there; the norm is symbolic $d$, or the pair
@@ -122,7 +127,7 @@ Layer `alg` takes a simple algebra from the alphabet of §1.2-1.
 | **`A-space`** | the arena is a Cartan subalgebra; Gram $\propto \mathrm{Cartan}(A_d)$, **∀d** | ⚓ measured | **J-0476** |
 | **`A-kappa`** | arena and axis split by one mechanism, Jordan–Chevalley | ⚓ measured | **J-0478** |
 | **`A-axis`** | signature $(d,1)$; axis $=\mathfrak{so}(2)_\alpha$; the marker selects a root | ⚓ measured | **J-0479** |
-| **`A-time-neg`** | **⚓✗ measured negative:** the axis does not follow from the order. The Weyl channel yields the arrow [T28] and nothing more | ⚓✗ negative | arc S1023–S1026 |
+| **`A-time-neg`** | **⚓✗ measured negative:** the axis does not follow from the order. The Weyl channel yields the arrow (the $\mathbb{Z}/2$ orientation bit; no temporal content is claimed) [T28] and nothing more | ⚓✗ negative | arc S1023–S1026 |
 
 > **Boundary (carved homonym):** the minus of the arc, geometric $\mathfrak{so}(2)_\alpha$, and the
 > minus of T32, the arithmetic centre dual, share the arena and nothing else. There is no bridge.
@@ -174,23 +179,24 @@ $\pi$ and the transcendentals fall outside it; (b) the verdict rests on reading 
 
 ### 4.1 The cell
 
-$d+1$ unit axes, pairwise Gram $-1/d$; Gram $= SC\cdot(I + \mathbf{1}\mathbf{1}^\mathsf{T})$ with
-$SC = (d+1)/d$. These are the weights of the fundamental representation of $\mathfrak{su}(d+1)$.
+$d+1$ unit axes, pairwise Gram $-1/d$; Gram $= SC\cdot\left(I - \dfrac{\mathbf{1}\mathbf{1}^\mathsf{T}}{d+1}\right)$ with
+$SC = (d+1)/d$ (unit diagonal, off-diagonal $-1/d$). These are the weights of the fundamental representation of $\mathfrak{su}(d+1)$.
 `OBJ-cell` · T26/T19 · S956.
 
 ### 4.2 T19 — the cell generates a lattice
 
 Under translational closure the cell generates the root lattice $A_d$:
 
-- Gram of differences $= \dfrac{d+1}{d}\,\mathrm{Cartan}(A_d)$, $\det = d+1$, by the recursion
-  $D_d = 2D_{d-1}-D_{d-2}$;
+- Gram of differences $= \dfrac{d+1}{d}\,\mathrm{Cartan}(A_d)$, with $\det\mathrm{Cartan}(A_d) = d+1$ by the
+  recursion $D_d = 2D_{d-1}-D_{d-2}$ (so $\det(\text{Gram of differences}) = SC^d\cdot(d+1)$, not $d+1$ itself);
 - the two-sublattice construction gives a bipartite lattice with $z = d+1$, by the integer lemma
   $\sum z^2 \ge \sum|z| \ge |\sum z| = 1$ with equality iff one-hot; bond angles are $\arccos(-1/d)$;
 - the nearest-neighbour operator has exactly $d$ zero modes at the symmetric points, the phases
   being the full $(d+1)$-th roots of unity; the Gauss sum telescopes,
   $(w-1)\sum w^i = w^{d+1}-1 = 0$;
-- finiteness of the rotational circuit is exclusive to $d=2$ — by Niven,
-  $d^2 = 2/(\cos 2\theta + 1)$ is an integer for $d\ge2$ only at $d=2$.
+- finiteness of the rotational circuit is exclusive to $d=2$ — by Niven's theorem, with
+  $\cos\theta = -1/d$, finiteness requires $\cos 2\theta \in \{0,\pm1/2,\pm1\}$, which among
+  integers $d\ge2$ holds only at $d=2$ (giving $\cos2\theta=-1/2$).
 
 **Status: ⚓ measured; mechanism derived ∀d symbolically** [ver:2, leg 2].
 Address: S956 + **S960** · **J-0425** / **J-0430**.
@@ -223,8 +229,9 @@ S1045 · **J-0498** → correction S1047 · **J-0500**.
 
 The Gauss zeros are the non-trivial characters of the centre $\mathbb{Z}/(d+1)$ (∀d symbolically),
 and they sit exactly at the barycentres of the Weyl alcoves, with no tuning. The torus cuts into
-$(d+1)!$ congruent alcoves. Cell and alcove are dual, and for $d\ge3$ not congruent — a
-pre-registered expectation died here, an honest kill.
+$(d+1)!$ congruent alcoves. Cell and alcove are dual, and not congruent at any measured $d$: at
+$d=2$ the alcove is similar to the cell (ratio $9/2$) but still not congruent; at $d\ge3$ the alcove
+is cyclically symmetric but not even similar — a pre-registered expectation died here, an honest kill.
 T26-(7) · S1002 · **J-0457**. Status: **candidate/cast**.
 
 ### 4.5 Two ladders
@@ -232,7 +239,7 @@ T26-(7) · S1002 · **J-0457**. Status: **candidate/cast**.
 | ladder | content | status | address |
 |:--|:--|:--|:--|
 | Coxeter | eigenvalues $\mathrm{Cartan}(A_d) = 2-2\cos(\pi j/h)$, azimuth $2\pi/h$ | candidate | T26 · S1004 |
-| commutant | $\dim$ of the stabiliser's invariant symmetric operators $= 1/2/3/3$; block ranks $(1, m-1, d-m)$, independent of $d$ | candidate/cast | T26.3 · S1000-T2 · **Lean S1090/J-0526** |
+| commutant | $\dim$ of the stabiliser's invariant symmetric operators (ladder over $m$) $= 1/2/2/1$ ($d=2$) $\cdot\ 1/2/3/2$ ($d=3$) $\cdot\ 1/2/3/3$ ($d\ge4$, Lean debt above); block ranks $(1, m-1, d-m)$ for $1\le m\le d$ | candidate/cast | T26.3 · S1000-T2 · **Lean S1090/J-0526** |
 
 > **Boundary on the Lean stamp:** machine checking hardens the verification; it does not raise the
 > status, and a cast stays a cast. Scope $d\in\{2,3\}$ — $d\ge4$ is a debt, Mathlib having no
@@ -351,10 +358,12 @@ is written out by sides.)*
 ### 6.3 T32 — the first minus comes from participation
 
 The native Box of the cell is $\Lambda(\psi,\nu) = T_A(\psi) - T_{\text{col}}(\nu)$, where
-$T(k) = 2 - 2\cos(2\pi k/h) \in \mathbb{Z}$ is the lattice form — $T_A$ on the cell, $T_{\text{col}}$
+$T(k) = 2 - 2\cos(2\pi k/h) \in \mathbb{Z}$ (only for $h\in\{1,2,3,4,6\}$, i.e. the measured window
+$d\in\{2,3\}$) is the lattice form — $T_A$ on the cell, $T_{\text{col}}$
 on the column — and **`Box`** is the source's name for **their difference of two forms** (§8.3).
 The minus is the sign of the Pontryagin dual of the column [T26], not a hand. The spectrum is strongly
-asymmetric — $16{:}2$ at $d=2$, $219{:}9$ at $d=3$, with no $\lambda \leftrightarrow -\lambda$
+asymmetric — mode count over the full space, $n_{\text{pos}}{:}n_{\text{neg}}{:}n_{\text{zero}} =
+16{:}2{:}9$ at $d=2$, $219{:}9{:}28$ at $d=3$, with no $\lambda \leftrightarrow -\lambda$
 symmetry. The derivation came out stronger than the expectation: with "+" the column does not
 participate at all, since no zero has it active — both summands of the Box are $\ge 0$ and nothing
 balances. So the minus is the only sign under which the cell's own column satisfies the law of
@@ -475,7 +484,7 @@ exists here.
 | dual circle $2\pi/(d+1)$ | [T26.5 · angular · period of the compact dual] |
 | Gram $-1/d$; angle $\arccos(-1/d)$ | [T19 · dimensionless / angle · pairwise form] |
 | $\mathrm{split} = 96\,(d{=}2)\,/\,264\,(d{=}3)$ | [T37 · dimensionless · count of the **counterfactual** rupture, not a quantity of the native state] |
-| spectral asymmetry $16{:}2$; $219{:}9$ | [T32 · dimensionless · mode count] |
+| spectral asymmetry (mode count over full space, npos:nneg:nzero) $16{:}2{:}9$; $219{:}9{:}28$ | [T32 · dimensionless · mode count] |
 
 ### 8.3 Short carriers — expansions
 
@@ -487,7 +496,7 @@ ruling, not by an exposition.
 | short | expansion in this tome | why the short name is dangerous | addr |
 |:--|:--|:--|:--|
 | `Box` | the **difference of two lattice forms** $\Lambda(\psi,\nu) = T_A(\psi) - T_{\text{col}}(\nu)$ [§6.3] | the same symbol on another floor denotes an operator, not a difference of forms | T32 · S1011 |
-| $T_A$ | the lattice form **on the cell**: $T(k) = 2 - 2\cos(2\pi k/h) \in \mathbb{Z}$ | the letter $T$ denotes something else on another floor | T32 · S1011 |
+| $T_A$ | the lattice form **on the cell**: $T(k) = 2 - 2\cos(2\pi k/h) \in \mathbb{Z}$, only for $h\in\{1,2,3,4,6\}$ (measured window $d\in\{2,3\}$) | the letter $T$ denotes something else on another floor | T32 · S1011 |
 | $T_{\text{col}}$ | the same form **on the column** | the same | T32 · S1011 |
 | $m_0$ | the quantity of the §12 arc whose **sign** is the subject [T39]; the value $m_0$ is a representative of the regime, **not canon**, and is not derived here | the letter $m$ denotes something else on another floor | `A-stab` · T39 · §6.4 |
 
@@ -536,5 +545,12 @@ No status moved; no new numbers; every link carries an address.
 The text stands under a machine fence: the **floor fence** (word stems, with separate UA and EN
 rules) · **abbreviations** (exact token, case-sensitive — a word stem cannot see this class) ·
 **expansions** of short carriers (§8.3) · carved terms and register homonyms (the register is read
-as data) · the form in which numbers are written (a solvable tower over $\mathbb{Q}$). Every layer
-carries a negative control: a check that cannot fail is not a witness.
+as data) · the form in which numbers are written (a solvable tower over $\mathbb{Q}$). A check that
+cannot fail is not a witness.
+
+**Scope of the `_teeth` harness (honest, not universal):** the shared negative-control harness
+covers the 15 probes at S1061 and later, from the 2026-07-22 carving onward. Earlier probes —
+including every `measured` node of §4/§5/§6.1 — carry their own bespoke negative controls, built
+before the harness existed, and are **not retrofitted**: a probe is the record of an act and is not
+edited after the fact. The harness is a forward-looking policy, not a blanket guarantee over the
+whole corpus; migrating an older probe under it requires its own ed.2 re-verification.

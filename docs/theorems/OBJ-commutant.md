@@ -12,9 +12,9 @@
 
 ## FUNCTION
 
-The commutant ladder has block ranks (1,m−1,d−m), with dimensions 1,2,3,3.
+The commutant ladder has block ranks (1,m−1,d−m) for 1≤m≤d, with dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d≥4) — read off S1000_run.log.
 
-> **Boundary:** Restricted to the A_d lattice.
+> **Boundary:** Restricted to the A_d lattice; dimension sequence is d-dependent (not a single constant across d).
 
 ## OUTPUT
 
@@ -33,7 +33,7 @@ Provides the block-rank decomposition used in the structure analysis of the A_d 
 
 **Result:** asserts_passed=327 · FAIL=0
 
-??? note "Full run log (`S1000_run.log`)"
+??? note "Run log (paraphrased under the word fence — see provenance) (`S1000_run.log`)"
     ```text
     --8<-- "src/probe/S1000_run.log"
     ```
