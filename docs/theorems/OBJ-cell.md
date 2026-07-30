@@ -21,7 +21,7 @@ The A_d cell consists of the weights of the fundamental representation of su(d+1
 
 Provides the base cell object used to build the commutant ladder, the Coxeter ladder, the column/dimer, and the Box object.
 
-**Consumed by:** [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) · [Column/dimer: time-bond u₀ with translation symmetry P=d+1](OBJ-column.md) · [Commutant ladder with block ranks (1,m−1,d−m)](OBJ-commutant.md) · [Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h)](OBJ-coxeter.md)
+**Consumed by:** [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) · [Column/dimer: time-bond u₀ with translation symmetry P_col=d+1](OBJ-column.md) · [Commutant ladder with block ranks (1,m−1,d−m)](OBJ-commutant.md) · [Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h_cox)](OBJ-coxeter.md)
 
 ### 8.3 Notation — short carriers used above
 

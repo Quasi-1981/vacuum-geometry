@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
+| [Period P_col=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
 | [First minus from participation + character bridge: minus equals the sign of the Pontryagin dual; hole #2 closed kinematically](T32.md) | theorem | candidate |
 
 ## FUNCTION
@@ -22,6 +22,10 @@ Traces how the sign established in T32 determines the sign of the circle dual, t
 Feeds the center/dual identification recorded in id-2.1.
 
 **Consumed by:** nothing in this graph — a terminal node.
+
+## FACTORIZATION
+
+A part of [Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint](OBJ-Dh.md) — component ⟨c⟩ (measured).
 
 ## Measurements
 

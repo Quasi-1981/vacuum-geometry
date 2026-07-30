@@ -23,6 +23,10 @@ Establishes the commutant-ladder count (N_iso) used by T35.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## FACTORIZATION
+
+A part of [Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint](OBJ-Dh.md) — component w0-trivial (measured).
+
 ## Measurements
 
 **S1015**

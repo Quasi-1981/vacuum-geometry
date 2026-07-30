@@ -18,7 +18,7 @@ None. This node is a **root** of the graph: it is assumed, not derived.
 
 Supplies the one dimensional handle used throughout, e.g. in the reachability criterion of A-stab and the reduction A-space.
 
-**Consumed by:** [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) · [Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a](A-stab.md) · [Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda=-eta'; contraction unity of branches](T22.md)
+**Consumed by:** [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) · [Stabilization intrinsic: κ=Λ implies m₀>0 ⟺ Λ<a](A-stab.md) · [Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda_ext=-eta'; contraction unity of branches](T22.md)
 
 ### 8.3 Notation — short carriers used above
 

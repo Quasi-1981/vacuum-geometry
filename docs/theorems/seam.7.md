@@ -22,6 +22,10 @@ Feeds the global-clock conclusion used in T39's inheritance clause.
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## FACTORIZATION
+
+A part of [Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint](OBJ-Dh.md) — component ⟨c⟩ (measured).
+
 ## Measurements
 
 **S1018**

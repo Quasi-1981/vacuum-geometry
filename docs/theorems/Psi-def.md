@@ -9,6 +9,7 @@
 | premise | kind | status |
 |:--|:--|:--|
 | [W40 re-reading of the cell's time axis: umbrella of 7 laws (see T26.1-T26.7)](T26.md) | theorem | candidate |
+| [Period P_col=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | theorem | candidate |
 
 ## FUNCTION
 
@@ -21,6 +22,14 @@
 Supplies the time/dual-quantity Pontryagin pair definition used downstream wherever q=0 forces both to vanish.
 
 **Consumed by:** nothing in this graph — a terminal node.
+
+## PROOF COMPOSITION
+
+The proof consumes one group of premises:
+
+- [Period P_col=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md)
+
+**Independent witness groups:** 1
 
 ## Measurements
 

@@ -20,7 +20,7 @@ The A_d cell is derived from the alphabet via the Schur form of κ (J-0476, vali
 
 Provides the derived A_d cell object used throughout the object layer (OBJ-cell) as a consequence rather than an input.
 
-**Consumed by:** [A_d cell as weights of the fundamental su(d+1) representation](OBJ-cell.md) · [Minimality implies (3,1): p>=3 and q>=1 implies n>=4; the minimum is uniquely (3,1); (2,2) fails](T5.md)
+**Consumed by:** [A_d cell as weights of the fundamental su(d+1) representation](OBJ-cell.md) · [Cell to A_d native map (Gram proportional to Cartan, z=d+1, d nodes); symbolic for all d (ver:2)](T19.md) · [Minimality implies (3,1): p>=3 and q>=1 implies n>=4; the minimum is uniquely (3,1); (2,2) fails](T5.md)
 
 ## Measurements
 

@@ -1,4 +1,4 @@
-# Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h)
+# Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h_cox)
 
 **Kind:** object · **Status:** measured · **Address:** §1 · T26 · S1004
 
@@ -12,7 +12,7 @@
 
 ## FUNCTION
 
-The Coxeter ladder consists of the eigenvalues of Cartan(A_d), given by 2−2cos(πj/h).
+The Coxeter ladder consists of the eigenvalues of Cartan(A_d), given by 2−2cos(πj/h_cox).
 
 > **Boundary:** Restricted to the A_d lattice.
 

@@ -87,6 +87,14 @@ Six boundaries, stated before the body. An unwritten boundary works as a cancell
 $\Lambda$ is the ruler: a unit of length, and the only dimensional handle. It enters the central
 coefficient exactly once. The debt "the slot $|\lambda| = 1/R^2$ is unmeasured" (S922) closes by
 identification — the weight $\mu^2/\nu$ *is* the ruler, not a handle.
+> **The convention without which this step cannot be read** (carried over from preprint-3 §4,
+> takt F-8, finding W2-06): normalising the coefficient to 1 ⟺ $\nu = -\mu^2$ is a **unit**
+> **condition** with a **one-parameter continuous** residual freedom ($\mu \in \mathbb{R}^*$).
+> After normalisation $\mu^2/\nu = -1$ **identically in $\mu$**: no dimensionless remainder
+> survives, and the freedom in $\mu$ is pure rescaling — a **choice of the unit of length**.
+> That is what "a ruler, not a knob" means; without the convention the step reads as "set
+> to one by hand", which is the difference between **one handle and two**.
+
 `AX-lambda` · **T22** · S983 · **J-0442**.
 
 > **Boundary:** in the prime graph $\Lambda$ is `AX-lambda`; in the conveyor graph the same quantity
@@ -253,7 +261,7 @@ T26-(7) · S1002 · **J-0457**. Status: **candidate/cast**.
 ### 5.1 Column, period, dual
 
 The dimer marker $u_0$ of §1.2-2 generates the column. Translating the column is an exact symmetry
-of period $P = d+1 = |\mathrm{disc}(A_d)|$ — the naive $P=2$ fails, since $2u_0$ is not in the
+of period $P_{\text{col}} = d+1 = |\mathrm{disc}(A_d)|$ — the naive $P_{\text{col}}=2$ fails, since $2u_0$ is not in the
 lattice. The dual is a compact circle $2\pi/(d+1)$ (Pontryagin), and the $\mathfrak{sl}$ axis runs
 parallel to the column, at angle 0. One period holds $1A + 1B + (d-1)$ holes, with $\mathbb{Z}_2$
 even. **0 new handles.**
@@ -331,6 +339,11 @@ All under ruling, visa **J-0410** (core VALID) with S912. Status: **⚓ measured
 > not an independent witness.
 > **T6** without its qualifier is drift from act to register. It reads: class by class, up to the
 > trivial class, the stabiliser minus terminal being 1.
+> **T11** — the number $290/290$ carries a **grid**: $10$ random $V$ per signature
+> ($5\times\dim 2 + 5\times\dim 3$), seed $910$, integer coefficients $\{-3..3\}$, signatures
+> $\{(2,2)\cdot(3,1)\cdot(3,3)\}$; $290 = 100+90+100$ — on $(3,1)$ there is no swap, so nine families
+> $\varphi$ there, not ten. The number $290$ itself is **not printed** by the probe: it is the carver's
+> sum. Coverage on $(3,3)$: $120$ starts $\to$ $82$ subspaces, $6$ of the $14$ classes of T4.
 
 ### 6.2 The signature is an output
 
@@ -342,8 +355,17 @@ this as a "3:1 ratio"; a bare "3:1" is forbidden by the homonym register, §8.1,
 is written out by sides.)*
 §0 · §3.arc-0 · a finding of the author, 2026-07-19, tightened by a project ruling.
 
-> **Boundary:** the break axis does not come from closure. The minimal carrier of closure is the
-> definite $(3,0)$ [T1]. It comes from `AX-indef` (§1.2), itself a theorem at 0 handles.
+> **Boundary (sharpened by measurement, 2026-07-28):** the break axis does not come from closure —
+> and this is now said in its honest form rather than through "the minimal carrier is definite":
+> **closure PRESERVES the definiteness of the start; it does NOT generate indefiniteness — that
+> arrives WITH THE START.** Measured [S1176]: the carrier of the closure is definite $\iff$ the
+> carrier of the **start** is a definite block (zero disagreements over 211 rows; the surrogates
+> "non-commuting start", "trace form", "definite ambient" all fail on the same data). The qualifier
+> is **two-part**: to the condition on the start one must add the **named carrier convention** —
+> reading R-B (carrier $=$ the signature of $\eta$ on $\mathrm{Supp}(L)$); under the abstract reading
+> R-B$'$ the verdicts part exactly on abelian closures, so a bare "minimal" without a named reading
+> is forbidden. This agrees with a separate road [S1164]: the canon contains no operation that adds
+> a minus. The break itself comes from `AX-indef` (§1.2), a theorem at 0 handles.
 >
 > There is no circularity, and the check is named [ruling, addendum to J-0549]. Closure does not
 > presuppose $(3,1)$: T2 closes brackets in every signature, T4 passes $(3,3)$ in full, T7 states its
@@ -523,7 +545,17 @@ Tome I does not use them, and any appearance fails the check.
 |:-:|:--|:--|:--|
 | 1 | *Order from closure on real quadratic spaces: terminal, minimality, orientation* | `10.5281/zenodo.21412389` | **T1–T11** — §6.1 |
 | 2 | *Centralizers of nilpotent wedges in real orthogonal Lie algebras $\mathfrak{so}(p,q)$: a signature-resolved Levi-radical map* | `10.5281/zenodo.21429542` | T17–T19 — support for §4.2 |
-| 3 | *The central charge of nilpotent-wedge strata in real $\mathfrak{so}(p,q)$* | `10.5281/zenodo.21437068` | T20–T25 — support for §1.1 |
+| 3 | *The central charge of nilpotent-wedge strata in real $\mathfrak{so}(p,q)$* | `10.5281/zenodo.21437068` | T20–T22 — support for §1.1 |
+
+> **★Coverage and the word "symbolic" (takt F-8, findings W2-11 and W2-13).** Row 3 previously
+> read "T20–T25": preprint-3 carries **T20, T21, T22**; T23 and T25 are not mentioned in it,
+> and T24 appears twice — **both times in the §5 disclaimer** "out of scope". Corrected to
+> "T20–T22". Separately: the §5 boundary reads "the rank law $k=n-4$ **and the $\omega$-structure
+> are symbolic**" — a **conjunction of two claims with DIFFERENT carriers**: the rank law is
+> carried by T18 (the symbolic derivation genuinely runs), the ω-structure by T21, where there
+> is **no carrier** (the block form is an identity of its own construction); the real ∀-carrier
+> of the ω-structure is **T24**, which the same §5 places out of scope. The preprint is
+> DOI-frozen — the erratum stands on our side, not in it.
 
 > **DOI verification, closed 2026-07-25.** Opus 2 sat for a while in the memory index marked "concept DOI not
 > yet verified", so it could not be cited as the address of the work. Two hands closed it: the

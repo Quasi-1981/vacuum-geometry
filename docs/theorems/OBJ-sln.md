@@ -20,7 +20,7 @@ The simple algebra sl(n), with n=d+1, carries a single invariant form κ (by the
 
 Serves as the arena algebra from which A-kappa and A-space are built.
 
-**Consumed by:** [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) · [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) · [Time not derivable from order: Weyl channel gives only an arrow](A-time-neg.md)
+**Consumed by:** [κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)](A-kappa.md) · [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) · [Time not derivable from order: Weyl channel gives only an arrow](A-time-neg.md)
 
 ## Measurements
 

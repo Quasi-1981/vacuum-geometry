@@ -22,6 +22,10 @@ Marks the opening event of the -2/-1 arc that the later seams (seam.2 through se
 
 **Consumed by:** nothing in this graph — a terminal node.
 
+## FACTORIZATION
+
+A part of [Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint](OBJ-Dh.md) — component event (assigned).
+
 ## Measurements
 
 **S1008**

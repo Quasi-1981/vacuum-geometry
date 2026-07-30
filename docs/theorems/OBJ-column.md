@@ -1,4 +1,4 @@
-# Column/dimer: time-bond u₀ with translation symmetry P=d+1
+# Column/dimer: time-bond u₀ with translation symmetry P_col=d+1
 
 **Kind:** object · **Status:** measured · **Address:** §1 · T26.5 · S1001
 
@@ -13,7 +13,7 @@
 
 ## FUNCTION
 
-The column (dimer) object is defined by the time-bond u₀, with translation as an exact symmetry of period P=d+1.
+The column (dimer) object is defined by the time-bond u₀, with translation as an exact symmetry of period P_col=d+1.
 
 > **Boundary:** Restricted to the A_d lattice.
 
@@ -21,7 +21,7 @@ The column (dimer) object is defined by the time-bond u₀, with translation as 
 
 Supplies the dual circle object (OBJ-dual) via Pontryagin duality of the translation.
 
-**Consumed by:** [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) · [Dual circle ℤ/h, Pontryagin dual of the column translation](OBJ-dual.md)
+**Consumed by:** [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) · [Dual circle ℤ/P_col, Pontryagin dual of the column translation](OBJ-dual.md)
 
 ### 8.3 Notation — short carriers used above
 

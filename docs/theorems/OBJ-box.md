@@ -9,11 +9,11 @@
 | premise | kind | status |
 |:--|:--|:--|
 | [A_d cell as weights of the fundamental su(d+1) representation](OBJ-cell.md) | object | measured |
-| [Column/dimer: time-bond u₀ with translation symmetry P=d+1](OBJ-column.md) | object | measured |
+| [Column/dimer: time-bond u₀ with translation symmetry P_col=d+1](OBJ-column.md) | object | measured |
 
 ## FUNCTION
 
-The scalar Box function is Λ(ψ,ν)=T_A(ψ)−T_col(ν), with T(k)=2−2cos(2πk/h) an integer.
+The scalar Box function is Λ(ψ,ν)=T_A(ψ)−T_col(ν), with T(k)=2−2cos(2πk/P_col) an integer.
 
 > **Boundary:** Restricted to L∈{3,4}.
 
@@ -21,7 +21,7 @@ The scalar Box function is Λ(ψ,ν)=T_A(ψ)−T_col(ν), with T(k)=2−2cos(2π
 
 Feeds into the two-component H object (OBJ-H) and the nodal set (OBJ-nodal).
 
-**Consumed by:** [Two-component matrix H with invariants {I,H}](OBJ-H.md) · [Nodal set f=0 corresponds to d characters of ℤ/h](OBJ-nodal.md)
+**Consumed by:** [Two-component matrix H with invariants {I,H}](OBJ-H.md) · [Nodal set f=0 corresponds to d characters of ℤ/P_col](OBJ-nodal.md)
 
 ### 8.3 Notation — short carriers used above
 

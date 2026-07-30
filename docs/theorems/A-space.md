@@ -13,7 +13,7 @@
 
 ## FUNCTION
 
-From {Ω, the S_{d+1} democracy, Λ} via the Schur form of κ, space is identified with h = A_d, with the Gram matrix proportional to Cartan(A_d) for all d.
+From {Ω, the S_{d+1} democracy, Λ} via the Schur form of κ, space is identified with h_cart = A_d, with the Gram matrix proportional to Cartan(A_d) for all d.
 
 > **Boundary:** Space realized as the Cartan algebra A_d; stands as a candidate reduction for AX-cell pending the C2 Lean gate ∀d.
 
@@ -21,7 +21,7 @@ From {Ω, the S_{d+1} democracy, Λ} via the Schur form of κ, space is identifi
 
 Identifies space with the A_d Cartan algebra, providing the candidate reduction feeding AX-cell (pending the C2 Lean gate for all d).
 
-**Consumed by:** [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) · [A_d cell derived from alphabet (∀d, three independent routes)](AX-cell.md)
+**Consumed by:** [κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)](A-kappa.md) · [A_d cell derived from alphabet (∀d, three independent routes)](AX-cell.md)
 
 ## Measurements
 

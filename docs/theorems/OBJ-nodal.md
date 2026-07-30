@@ -1,4 +1,4 @@
-# Nodal set f=0 corresponds to d characters of ℤ/h
+# Nodal set f=0 corresponds to d characters of ℤ/P_col
 
 **Kind:** object · **Status:** measured · **Address:** §1 · T32 · S1011
 
@@ -9,11 +9,11 @@
 | premise | kind | status |
 |:--|:--|:--|
 | [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) | object | measured |
-| [Dual circle ℤ/h, Pontryagin dual of the column translation](OBJ-dual.md) | object | measured |
+| [Dual circle ℤ/P_col, Pontryagin dual of the column translation](OBJ-dual.md) | object | measured |
 
 ## FUNCTION
 
-The nodal set defined by f=0 corresponds bijectively to d characters of the dual group ℤ/h.
+The nodal set defined by f=0 corresponds bijectively to d characters of the dual group ℤ/P_col.
 
 > **Boundary:** Restricted to the A_d lattice.
 

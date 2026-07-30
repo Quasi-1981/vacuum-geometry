@@ -1,4 +1,4 @@
-# Dual circle ℤ/h, Pontryagin dual of the column translation
+# Dual circle ℤ/P_col, Pontryagin dual of the column translation
 
 **Kind:** object · **Status:** measured · **Address:** §1 · T26.5 · S1001
 
@@ -8,11 +8,11 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [Column/dimer: time-bond u₀ with translation symmetry P=d+1](OBJ-column.md) | object | measured |
+| [Column/dimer: time-bond u₀ with translation symmetry P_col=d+1](OBJ-column.md) | object | measured |
 
 ## FUNCTION
 
-The dual circle ℤ/h is the Pontryagin dual of the column translation, with step 2π/(d+1).
+The dual circle ℤ/P_col is the Pontryagin dual of the column translation, with step 2π/(d+1).
 
 > **Boundary:** Restricted to the A_d lattice.
 
@@ -20,7 +20,7 @@ The dual circle ℤ/h is the Pontryagin dual of the column translation, with ste
 
 Provides the dual-group structure used to index the nodal set (OBJ-nodal) by characters.
 
-**Consumed by:** [Nodal set f=0 corresponds to d characters of ℤ/h](OBJ-nodal.md)
+**Consumed by:** [Nodal set f=0 corresponds to d characters of ℤ/P_col](OBJ-nodal.md)
 
 ## Measurements
 

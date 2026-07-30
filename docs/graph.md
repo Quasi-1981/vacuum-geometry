@@ -45,17 +45,18 @@ status field.
 <line class="gm-edge" x1="250.0" y1="65.0" x2="550.0" y2="329.0" />
 <line class="gm-edge" x1="250.0" y1="113.0" x2="550.0" y2="329.0" />
 <line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="353.0" />
-<line class="gm-edge" x1="770.0" y1="353.0" x2="550.0" y2="617.0" />
-<line class="gm-edge" x1="770.0" y1="617.0" x2="550.0" y2="1049.0" />
-<line class="gm-edge" x1="770.0" y1="1049.0" x2="550.0" y2="1313.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="617.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="1049.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="1313.0" />
 <line class="gm-edge" x1="770.0" y1="1313.0" x2="550.0" y2="1337.0" />
 <line class="gm-edge" x1="770.0" y1="305.0" x2="550.0" y2="1337.0" />
 <line class="gm-edge" x1="770.0" y1="329.0" x2="550.0" y2="1337.0" />
+<line class="gm-edge" x1="250.0" y1="161.0" x2="550.0" y2="1337.0" />
 <line class="gm-edge" x1="770.0" y1="1313.0" x2="550.0" y2="1361.0" />
 <line class="gm-edge" x1="770.0" y1="1337.0" x2="550.0" y2="1385.0" />
-<line class="gm-edge" x1="770.0" y1="1337.0" x2="550.0" y2="1409.0" />
-<line class="gm-edge" x1="770.0" y1="1385.0" x2="550.0" y2="1433.0" />
-<line class="gm-edge" x1="770.0" y1="1433.0" x2="550.0" y2="377.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="1409.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="1433.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="377.0" />
 <line class="gm-edge" x1="770.0" y1="377.0" x2="550.0" y2="401.0" />
 <line class="gm-edge" x1="770.0" y1="1337.0" x2="1590.0" y2="65.0" />
 <line class="gm-edge" x1="770.0" y1="1385.0" x2="1590.0" y2="65.0" />
@@ -71,15 +72,17 @@ status field.
 <line class="gm-edge" x1="510.0" y1="233.0" x2="290.0" y2="257.0" />
 <line class="gm-edge" x1="510.0" y1="137.0" x2="290.0" y2="209.0" />
 <line class="gm-edge" x1="510.0" y1="137.0" x2="290.0" y2="185.0" />
-<line class="gm-edge" x1="1810.0" y1="65.0" x2="550.0" y2="425.0" />
+<line class="gm-edge" x1="250.0" y1="89.0" x2="550.0" y2="425.0" />
 <line class="gm-edge" x1="770.0" y1="425.0" x2="550.0" y2="449.0" />
 <line class="gm-edge" x1="770.0" y1="425.0" x2="550.0" y2="473.0" />
 <line class="gm-edge" x1="770.0" y1="425.0" x2="550.0" y2="497.0" />
 <line class="gm-edge" x1="770.0" y1="425.0" x2="550.0" y2="521.0" />
 <line class="gm-edge" x1="770.0" y1="449.0" x2="550.0" y2="545.0" />
+<line class="gm-edge" x1="770.0" y1="473.0" x2="550.0" y2="545.0" />
 <line class="gm-edge" x1="770.0" y1="521.0" x2="550.0" y2="545.0" />
-<line class="gm-edge" x1="770.0" y1="545.0" x2="550.0" y2="569.0" />
-<line class="gm-edge" x1="770.0" y1="569.0" x2="550.0" y2="593.0" />
+<line class="gm-edge" x1="770.0" y1="473.0" x2="550.0" y2="569.0" />
+<line class="gm-edge" x1="770.0" y1="521.0" x2="550.0" y2="569.0" />
+<line class="gm-edge" x1="770.0" y1="305.0" x2="550.0" y2="593.0" />
 <line class="gm-edge" x1="770.0" y1="569.0" x2="550.0" y2="641.0" />
 <line class="gm-edge" x1="770.0" y1="521.0" x2="550.0" y2="665.0" />
 <line class="gm-edge" x1="770.0" y1="641.0" x2="550.0" y2="665.0" />
@@ -87,9 +90,16 @@ status field.
 <line class="gm-edge" x1="250.0" y1="137.0" x2="550.0" y2="689.0" />
 <line class="gm-edge" x1="770.0" y1="569.0" x2="550.0" y2="713.0" />
 <line class="gm-edge" x1="770.0" y1="737.0" x2="550.0" y2="713.0" />
-<line class="gm-edge" x1="770.0" y1="665.0" x2="550.0" y2="737.0" />
+<line class="gm-edge" x1="770.0" y1="641.0" x2="550.0" y2="737.0" />
 <line class="gm-edge" x1="770.0" y1="737.0" x2="550.0" y2="761.0" />
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="809.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="833.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="857.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="881.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="905.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="929.0" x2="550.0" y2="785.0" />
+<line class="gm-edge" x1="770.0" y1="953.0" x2="550.0" y2="785.0" />
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="809.0" />
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="833.0" />
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="857.0" />
@@ -99,14 +109,16 @@ status field.
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="929.0" />
 <line class="gm-edge" x1="770.0" y1="593.0" x2="550.0" y2="953.0" />
 <line class="gm-edge" x1="770.0" y1="785.0" x2="1330.0" y2="65.0" />
+<line class="gm-edge" x1="770.0" y1="905.0" x2="1330.0" y2="65.0" />
 <line class="gm-edge" x1="770.0" y1="785.0" x2="550.0" y2="1457.0" />
+<line class="gm-edge" x1="770.0" y1="953.0" x2="550.0" y2="1457.0" />
 <line class="gm-edge" x1="770.0" y1="1457.0" x2="1850.0" y2="65.0" />
 <line class="gm-edge" x1="770.0" y1="785.0" x2="1850.0" y2="65.0" />
 <line class="gm-edge" x1="770.0" y1="1433.0" x2="550.0" y2="977.0" />
 <line class="gm-edge" x1="770.0" y1="977.0" x2="550.0" y2="1001.0" />
 <line class="gm-edge" x1="770.0" y1="977.0" x2="550.0" y2="1025.0" />
 <line class="gm-edge" x1="770.0" y1="1025.0" x2="550.0" y2="1073.0" />
-<line class="gm-edge" x1="770.0" y1="377.0" x2="550.0" y2="1073.0" />
+<line class="gm-edge" x1="770.0" y1="1433.0" x2="550.0" y2="1073.0" />
 <line class="gm-edge" x1="770.0" y1="881.0" x2="550.0" y2="1097.0" />
 <line class="gm-edge" x1="770.0" y1="905.0" x2="550.0" y2="1097.0" />
 <line class="gm-edge" x1="770.0" y1="953.0" x2="550.0" y2="1097.0" />
@@ -217,6 +229,11 @@ status field.
 <title>AX-lambda — Λ-scale: the sole dimensional free handle</title>
 <text class="gm-label" x="52.0" y="141.0">Λ-scale: the sole dimensional…</text>
 </a>
+<a href="../theorems/IMP-d3/" class="gm-node" data-id="IMP-d3" data-label="import d≥3: spatial dimensionality is a declared boundary, not derived">
+<rect x="30.0" y="152.0" width="18" height="18" rx="3" fill="#8a8a8a" stroke="#5a5a5a" stroke-width="1.2" />
+<title>IMP-d3 — IMPORT d≥3: spatial dimensionality is a declared boundary, not derived</title>
+<text class="gm-label" x="52.0" y="165.0">IMPORT d≥3: spatial dimension…</text>
+</a>
 <a href="../theorems/OBJ-Dh/" class="gm-node" data-id="OBJ-Dh" data-label="dihedral hinge d_h=⟨c,w₀⟩ of the −2↔−1 joint">
 <rect x="290.0" y="56.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
 <title>OBJ-Dh — Dihedral hinge D_h=⟨c,w₀⟩ of the −2↔−1 joint</title>
@@ -237,9 +254,9 @@ status field.
 <title>OBJ-cell — A_d cell as weights of the fundamental su(d+1) representation</title>
 <text class="gm-label" x="312.0" y="141.0">A_d cell as weights of the fu…</text>
 </a>
-<a href="../theorems/OBJ-column/" class="gm-node" data-id="OBJ-column" data-label="column/dimer: time-bond u₀ with translation symmetry p=d+1">
+<a href="../theorems/OBJ-column/" class="gm-node" data-id="OBJ-column" data-label="column/dimer: time-bond u₀ with translation symmetry p_col=d+1">
 <rect x="290.0" y="152.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>OBJ-column — Column/dimer: time-bond u₀ with translation symmetry P=d+1</title>
+<title>OBJ-column — Column/dimer: time-bond u₀ with translation symmetry P_col=d+1</title>
 <text class="gm-label" x="312.0" y="165.0">Column/dimer: time-bond u₀ wi…</text>
 </a>
 <a href="../theorems/OBJ-commutant/" class="gm-node" data-id="OBJ-commutant" data-label="commutant ladder with block ranks (1,m−1,d−m)">
@@ -247,19 +264,19 @@ status field.
 <title>OBJ-commutant — Commutant ladder with block ranks (1,m−1,d−m)</title>
 <text class="gm-label" x="312.0" y="189.0">Commutant ladder with block r…</text>
 </a>
-<a href="../theorems/OBJ-coxeter/" class="gm-node" data-id="OBJ-coxeter" data-label="coxeter ladder: cartan(a_d) eigenvalues 2−2cos(πj/h)">
+<a href="../theorems/OBJ-coxeter/" class="gm-node" data-id="OBJ-coxeter" data-label="coxeter ladder: cartan(a_d) eigenvalues 2−2cos(πj/h_cox)">
 <rect x="290.0" y="200.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>OBJ-coxeter — Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h)</title>
+<title>OBJ-coxeter — Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h_cox)</title>
 <text class="gm-label" x="312.0" y="213.0">Coxeter ladder: Cartan(A_d) e…</text>
 </a>
-<a href="../theorems/OBJ-dual/" class="gm-node" data-id="OBJ-dual" data-label="dual circle ℤ/h, pontryagin dual of the column translation">
+<a href="../theorems/OBJ-dual/" class="gm-node" data-id="OBJ-dual" data-label="dual circle ℤ/p_col, pontryagin dual of the column translation">
 <rect x="290.0" y="224.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>OBJ-dual — Dual circle ℤ/h, Pontryagin dual of the column translation</title>
-<text class="gm-label" x="312.0" y="237.0">Dual circle ℤ/h, Pontryagin d…</text>
+<title>OBJ-dual — Dual circle ℤ/P_col, Pontryagin dual of the column translation</title>
+<text class="gm-label" x="312.0" y="237.0">Dual circle ℤ/P_col, Pontryag…</text>
 </a>
-<a href="../theorems/OBJ-nodal/" class="gm-node" data-id="OBJ-nodal" data-label="nodal set f=0 corresponds to d characters of ℤ/h">
+<a href="../theorems/OBJ-nodal/" class="gm-node" data-id="OBJ-nodal" data-label="nodal set f=0 corresponds to d characters of ℤ/p_col">
 <rect x="290.0" y="248.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>OBJ-nodal — Nodal set f=0 corresponds to d characters of ℤ/h</title>
+<title>OBJ-nodal — Nodal set f=0 corresponds to d characters of ℤ/P_col</title>
 <text class="gm-label" x="312.0" y="261.0">Nodal set f=0 corresponds to …</text>
 </a>
 <a href="../theorems/OBJ-sln/" class="gm-node" data-id="OBJ-sln" data-label="simple algebra sl(n), n=d+1, with unique invariant form κ">
@@ -287,9 +304,9 @@ status field.
 <title>A-inherit — Inheritance: arrow spontaneous exactly once per connected lattice</title>
 <text class="gm-label" x="572.0" y="141.0">Inheritance: arrow spontaneou…</text>
 </a>
-<a href="../theorems/A-kappa/" class="gm-node" data-id="A-kappa" data-label="κ unique: jordan-chevalley split — space (h) ⊥ axis (n±)">
+<a href="../theorems/A-kappa/" class="gm-node" data-id="A-kappa" data-label="κ unique: jordan-chevalley split — space (h_cart) ⊥ axis (n±)">
 <rect x="550.0" y="152.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>A-kappa — κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)</title>
+<title>A-kappa — κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)</title>
 <text class="gm-label" x="572.0" y="165.0">κ unique: Jordan-Chevalley sp…</text>
 </a>
 <a href="../theorems/A-nonderiv/" class="gm-node" data-id="A-nonderiv" data-label="crown result: spontaneity ⟺ non-derivability of sign(m₀)">
@@ -327,19 +344,19 @@ status field.
 <title>AX-indef — Indefiniteness (q≥1) demoted from input to theorem</title>
 <text class="gm-label" x="572.0" y="333.0">Indefiniteness (q≥1) demoted …</text>
 </a>
-<a href="../theorems/T1/" class="gm-node" data-id="T1" data-label="minimal closure carrier is the sign-definite (3,0)">
+<a href="../theorems/T1/" class="gm-node" data-id="T1" data-label="closure preserves definiteness: the carrier is definite exactly when the start's carrier is (r-b)">
 <rect x="550.0" y="344.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>T1 — Minimal closure carrier is the sign-definite (3,0)</title>
-<text class="gm-label" x="572.0" y="357.0">Minimal closure carrier is th…</text>
+<title>T1 — Closure preserves definiteness: the carrier is definite exactly when the start's carrier is (R-B)</title>
+<text class="gm-label" x="572.0" y="357.0">Closure preserves definitenes…</text>
 </a>
 <a href="../theorems/T10/" class="gm-node" data-id="T10" data-label="orientation identity pf(sᵀωs)=det(s)·pf(ω)">
 <rect x="550.0" y="368.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
 <title>T10 — Orientation identity Pf(SᵀΩS)=det(S)·Pf(Ω)</title>
 <text class="gm-label" x="572.0" y="381.0">Orientation identity Pf(SᵀΩS)…</text>
 </a>
-<a href="../theorems/T11/" class="gm-node" data-id="T11" data-label="aut-invariance of the preorder (290/290); no swap on (3,1) when p!=q">
+<a href="../theorems/T11/" class="gm-node" data-id="T11" data-label="aut-invariance of the preorder (290/290 on a carved grid); no swap on (3,1) when p!=q">
 <rect x="550.0" y="392.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>T11 — Aut-invariance of the preorder (290/290); no swap on (3,1) when p!=q</title>
+<title>T11 — Aut-invariance of the preorder (290/290 on a carved grid); no swap on (3,1) when p!=q</title>
 <text class="gm-label" x="572.0" y="405.0">Aut-invariance of the preorde…</text>
 </a>
 <a href="../theorems/T12/" class="gm-node" data-id="T12" data-label="the carrier is three-layered (combinatorial closure equals lie closure)">
@@ -372,9 +389,9 @@ status field.
 <title>T17 — The map of nonabelian kernels is closed: 4 classes; radical dichotomy abelian vs Heisenberg</title>
 <text class="gm-label" x="572.0" y="549.0">The map of nonabelian kernels…</text>
 </a>
-<a href="../theorems/T18/" class="gm-node" data-id="T18" data-label="universal mechanism derived for all n: c=(sp2+so(eta|g)) semidirect h; center from [module,module]">
+<a href="../theorems/T18/" class="gm-node" data-id="T18" data-label="universal mechanism derived for all n: c=(sp2+so(eta|g)) semidirect h_heis; center from [module,module]">
 <rect x="550.0" y="560.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>T18 — Universal mechanism derived for all n: c=(sp2+so(eta|G)) semidirect h; center from [module,module]</title>
+<title>T18 — Universal mechanism derived for all n: c=(sp2+so(eta|G)) semidirect h_heis; center from [module,module]</title>
 <text class="gm-label" x="572.0" y="573.0">Universal mechanism derived f…</text>
 </a>
 <a href="../theorems/T19/" class="gm-node" data-id="T19" data-label="cell to a_d native map (gram proportional to cartan, z=d+1, d nodes); symbolic for all d (ver:2)">
@@ -397,9 +414,9 @@ status field.
 <title>T21 — Junction of T16 and T20: the cocycle w=eps_W (x) eta'_core is forced; Heisenberg part required to be metric</title>
 <text class="gm-label" x="572.0" y="669.0">Junction of T16 and T20: the …</text>
 </a>
-<a href="../theorems/T22/" class="gm-node" data-id="T22" data-label="lambda-slot of the charge mu^2/nu equals the lambda ruler; lambda=-eta'; contraction unity of branches">
+<a href="../theorems/T22/" class="gm-node" data-id="T22" data-label="lambda-slot of the charge mu^2/nu equals the lambda ruler; lambda_ext=-eta'; contraction unity of branches">
 <rect x="550.0" y="680.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>T22 — Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda=-eta'; contraction unity of branches</title>
+<title>T22 — Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda_ext=-eta'; contraction unity of branches</title>
 <text class="gm-label" x="572.0" y="693.0">Lambda-slot of the charge mu^…</text>
 </a>
 <a href="../theorems/T23/" class="gm-node" data-id="T23" data-label="child-metric law (out-of-sample corrected): the layer is live iff g=(p-2,q-2)!=0; shell orthogonal to orbit">
@@ -442,10 +459,10 @@ status field.
 <title>T26.4 — Nodal threads plus forced transversality (Schur argument, isotropic cone)</title>
 <text class="gm-label" x="572.0" y="885.0">Nodal threads plus forced tra…</text>
 </a>
-<a href="../theorems/T26.5/" class="gm-node" data-id="T26.5" data-label="period p=d+1 plus dual column equals the circle 2π/(d+1) (pontryagin); 1a+1b+(d-1) holes">
+<a href="../theorems/T26.5/" class="gm-node" data-id="T26.5" data-label="period p_col=d+1 plus dual column equals the circle 2π/(d+1) (pontryagin); 1a+1b+(d-1) holes">
 <rect x="550.0" y="896.0" width="18" height="18" rx="3" fill="#c98a2c" stroke="#8a5c16" stroke-width="1.2" />
-<title>T26.5 — Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes</title>
-<text class="gm-label" x="572.0" y="909.0">Period P=d+1 plus dual column…</text>
+<title>T26.5 — Period P_col=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes</title>
+<text class="gm-label" x="572.0" y="909.0">Period P_col=d+1 plus dual co…</text>
 </a>
 <a href="../theorems/T26.6/" class="gm-node" data-id="T26.6" data-label="reading-b: time equals a labeled coordinate (invariant at q=1; branches at q&gt;=2)">
 <rect x="550.0" y="920.0" width="18" height="18" rx="3" fill="#c98a2c" stroke="#8a5c16" stroke-width="1.2" />
@@ -557,14 +574,14 @@ status field.
 <title>T9 — Mirror log-pair ln det A; sign law (-1)^q*det A&gt;=0, equivalent to Pf=0</title>
 <text class="gm-label" x="572.0" y="1437.0">Mirror log-pair ln det A; sig…</text>
 </a>
-<a href="../theorems/W41/" class="gm-node" data-id="W41" data-label="w41 coxeter-time axiom: time as the action of &lt;c&gt; of order h, won for all d; spectral monism refuted (3 closed forms)">
+<a href="../theorems/W41/" class="gm-node" data-id="W41" data-label="w41 coxeter-time axiom: time as the action of &lt;c&gt; of order h_cox, won for all d; spectral monism refuted (3 closed forms)">
 <rect x="550.0" y="1448.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>W41 — W41 Coxeter-time axiom: time as the action of &lt;c&gt; of order h, won for all d; spectral monism refuted (3 closed forms)</title>
+<title>W41 — W41 Coxeter-time axiom: time as the action of &lt;c&gt; of order h_cox, won for all d; spectral monism refuted (3 closed forms)</title>
 <text class="gm-label" x="572.0" y="1461.0">W41 Coxeter-time axiom: time …</text>
 </a>
-<a href="../theorems/id-2.1/" class="gm-node" data-id="id-2.1" data-label="center z/(d+1), the column dual, and z/h are identified">
+<a href="../theorems/id-2.1/" class="gm-node" data-id="id-2.1" data-label="center z/(d+1), the column dual, and z/p_col are identified">
 <rect x="810.0" y="56.0" width="18" height="18" rx="3" fill="#2f8f5b" stroke="#1b5c3a" stroke-width="1.2" />
-<title>id-2.1 — Center Z/(d+1), the column dual, and Z/h are identified</title>
+<title>id-2.1 — Center Z/(d+1), the column dual, and Z/P_col are identified</title>
 <text class="gm-label" x="832.0" y="69.0">Center Z/(d+1), the column du…</text>
 </a>
 <a href="../theorems/id-2.2/" class="gm-node" data-id="id-2.2" data-label="w_0, the map k &lt;-&gt; -k, and the epsilon-flip are identified">

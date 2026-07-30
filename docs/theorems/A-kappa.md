@@ -1,4 +1,4 @@
-# κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)
+# κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)
 
 **Kind:** theorem · **Status:** measured · **Address:** §3.arc · J-0478 · arc S1023–S1026 · heat MIGRATION_ARC_BITS S1
 
@@ -13,7 +13,7 @@
 
 ## FUNCTION
 
-The form κ is unique; the Jordan-Chevalley decomposition splits it into h (semisimple, definite, identified with space) orthogonal to n± (nilpotent, indefinite, identified as the axis type), both arising from a single mechanism.
+The form κ is unique; the Jordan-Chevalley decomposition splits it into h_cart (semisimple, definite, identified with space) orthogonal to n± (nilpotent, indefinite, identified as the axis type), both arising from a single mechanism.
 
 > **Boundary:** Single form κ; the space/axis split follows from one and the same mechanism only.
 

@@ -24,7 +24,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 
 | node | status |
 |:--|:--|
-| [Center Z/(d+1), the column dual, and Z/h are identified](id-2.1.md) | measured |
+| [Center Z/(d+1), the column dual, and Z/P_col are identified](id-2.1.md) | measured |
 | [w_0, the map k <-> -k, and the epsilon-flip are identified](id-2.2.md) | measured |
 | [B = sigma_x composed with (k <-> -k) is the unique reflector; bare k<->-k or sigma_x alone are not symmetries](id-2.3.md) | measured |
 | [sigma_x (bipartite), sigma_z (chirality), and B (mirror) are three distinct Z_2 involutions](id-2.4.md) | measured |
@@ -40,6 +40,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Closure axiom on real quadratic spaces forces (3,0)/(3,1)](AX-closure.md) | axiom |
 | [Dimer axiom: the time-bond marked axis is 1 bit of 'time exists'](AX-dimer.md) | axiom |
 | [Λ-scale: the sole dimensional free handle](AX-lambda.md) | axiom |
+| [IMPORT d≥3: spatial dimensionality is a declared boundary, not derived](IMP-d3.md) | named |
 
 ## object
 
@@ -49,11 +50,11 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Two-component matrix H with invariants {I,H}](OBJ-H.md) | measured |
 | [Scalar Box: Λ(ψ,ν)=T_A(ψ)−T_col(ν)](OBJ-box.md) | measured |
 | [A_d cell as weights of the fundamental su(d+1) representation](OBJ-cell.md) | measured |
-| [Column/dimer: time-bond u₀ with translation symmetry P=d+1](OBJ-column.md) | measured |
+| [Column/dimer: time-bond u₀ with translation symmetry P_col=d+1](OBJ-column.md) | measured |
 | [Commutant ladder with block ranks (1,m−1,d−m)](OBJ-commutant.md) | measured |
-| [Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h)](OBJ-coxeter.md) | measured |
-| [Dual circle ℤ/h, Pontryagin dual of the column translation](OBJ-dual.md) | measured |
-| [Nodal set f=0 corresponds to d characters of ℤ/h](OBJ-nodal.md) | measured |
+| [Coxeter ladder: Cartan(A_d) eigenvalues 2−2cos(πj/h_cox)](OBJ-coxeter.md) | measured |
+| [Dual circle ℤ/P_col, Pontryagin dual of the column translation](OBJ-dual.md) | measured |
+| [Nodal set f=0 corresponds to d characters of ℤ/P_col](OBJ-nodal.md) | measured |
 | [Simple algebra sl(n), n=d+1, with unique invariant form κ](OBJ-sln.md) | measured |
 
 ## seam
@@ -76,7 +77,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Stage 1: T29 collapse (ε-even, zero separation) as precondition](A-collapse-pre.md) | candidate |
 | [a>0 ⟹ m=0 unstable; monotonic trace forces runaway, no m₀² term](A-instability.md) | measured-negative |
 | [Inheritance: arrow spontaneous exactly once per connected lattice](A-inherit.md) | candidate |
-| [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) | measured |
+| [κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)](A-kappa.md) | measured |
 | [Crown result: spontaneity ⟺ non-derivability of sign(m₀)](A-nonderiv.md) | candidate |
 | [Space = Cartan algebra A_d via Schur-κ, for all d](A-space.md) | measured |
 | [Stage 2: the free ±m₀ choice is the single free bit (T36-bit)](A-ssb-bit.md) | candidate |
@@ -84,21 +85,21 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Time not derivable from order: Weyl channel gives only an arrow](A-time-neg.md) | measured-negative |
 | [A_d cell derived from alphabet (∀d, three independent routes)](AX-cell.md) | measured |
 | [Indefiniteness (q≥1) demoted from input to theorem](AX-indef.md) | measured |
-| [Minimal closure carrier is the sign-definite (3,0)](T1.md) | measured |
+| [Closure preserves definiteness: the carrier is definite exactly when the start's carrier is (R-B)](T1.md) | measured |
 | [Orientation identity Pf(SᵀΩS)=det(S)·Pf(Ω)](T10.md) | measured |
-| [Aut-invariance of the preorder (290/290); no swap on (3,1) when p!=q](T11.md) | measured |
+| [Aut-invariance of the preorder (290/290 on a carved grid); no swap on (3,1) when p!=q](T11.md) | measured |
 | [The carrier is three-layered (combinatorial closure equals Lie closure)](T12.md) | measured |
 | [The 'channel law' form is refuted; leg-1 measured across families, dim c=Sum m^2+k(k-1)/2](T13.md) | measured |
 | [Taxonomy of nilpotents; deep iff Witt index>=2; (3,1) immune beyond the imported Witt boundary](T14.md) | measured |
 | [Sector law (orientability): multiplicity 1 gives two cones; multiplicity>=2 non-orientable](T15.md) | measured |
 | [Shift: brackets forced within so(p,q) semidirect R^n; construct-class lineage measured (S943)](T16.md) | measured |
 | [The map of nonabelian kernels is closed: 4 classes; radical dichotomy abelian vs Heisenberg](T17.md) | measured |
-| [Universal mechanism derived for all n: c=(sp2+so(eta\|G)) semidirect h; center from [module,module]](T18.md) | measured |
+| [Universal mechanism derived for all n: c=(sp2+so(eta\|G)) semidirect h_heis; center from [module,module]](T18.md) | measured |
 | [Cell to A_d native map (Gram proportional to Cartan, z=d+1, d nodes); symbolic for all d (ver:2)](T19.md) | measured |
 | [Direction of order: the J-sector is bracket-closed; the full K forces so(p,q)](T2.md) | measured |
 | [Central-charge laws: k=n-4; density holds iff q>=2, zero on (3,1); type=(p-2,q-2)](T20.md) | measured |
 | [Junction of T16 and T20: the cocycle w=eps_W (x) eta'_core is forced; Heisenberg part required to be metric](T21.md) | measured |
-| [Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda=-eta'; contraction unity of branches](T22.md) | measured |
+| [Lambda-slot of the charge mu^2/nu equals the Lambda ruler; lambda_ext=-eta'; contraction unity of branches](T22.md) | measured |
 | [Child-metric law (out-of-sample corrected): the layer is live iff G=(p-2,q-2)!=0; shell orthogonal to orbit](T23.md) | measured |
 | [Lambda^2-valued cocycle proved for all cases: center=Lambda^2 W; T21 is the case dim W=2](T24.md) | measured |
 | [Depth discriminant N^2=0 vs N^2!=0 switches antisymmetric to symmetric; the T24 boundary is sharp](T25.md) | candidate |
@@ -107,7 +108,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Two-weight discriminant law: t=s+(d-1) (symbolic for all d); Z2 symmetry exchanges s and t](T26.2.md) | candidate |
 | [Commutant ladder of labels: block ranks (1,m-1,d-m), dimensions 1/2/2/1 (d=2), 1/2/3/2 (d=3), 1/2/3/3 (d>=4)](T26.3.md) | candidate |
 | [Nodal threads plus forced transversality (Schur argument, isotropic cone)](T26.4.md) | candidate |
-| [Period P=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | candidate |
+| [Period P_col=d+1 plus dual column equals the circle 2π/(d+1) (Pontryagin); 1A+1B+(d-1) holes](T26.5.md) | candidate |
 | [Reading-B: time equals a labeled coordinate (invariant at q=1; branches at q>=2)](T26.6.md) | candidate |
 | [Cartan torus: nodes equal the center Z/(d+1), the barycenters of the alcoves (symbolic for all d)](T26.7.md) | candidate |
 | [Clock-ness scale: none at q=0; canonical time at q=1; split at min(p,q)>=2](T27.md) | candidate |
@@ -130,7 +131,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 | [Square structures: A^2=+1 iff p=q; A^2=-1 iff p,q both even; implies (3,1) is rigid](T7.md) | measured |
 | [Three generic cases (full algebra, zero symmetry, Cartan centralizer)](T8.md) | measured |
 | [Mirror log-pair ln det A; sign law (-1)^q*det A>=0, equivalent to Pf=0](T9.md) | measured |
-| [W41 Coxeter-time axiom: time as the action of <c> of order h, won for all d; spectral monism refuted (3 closed forms)](W41.md) | measured |
+| [W41 Coxeter-time axiom: time as the action of <c> of order h_cox, won for all d; spectral monism refuted (3 closed forms)](W41.md) | measured |
 
 
 ### 8.3 Notation — short carriers used above

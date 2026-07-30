@@ -8,7 +8,7 @@
 
 | premise | kind | status |
 |:--|:--|:--|
-| [κ unique: Jordan-Chevalley split — space (h) ⊥ axis (n±)](A-kappa.md) | theorem | measured |
+| [κ unique: Jordan-Chevalley split — space (h_cart) ⊥ axis (n±)](A-kappa.md) | theorem | measured |
 
 ## FUNCTION
 
