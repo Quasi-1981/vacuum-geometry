@@ -6,7 +6,7 @@
 # frozen under the author's signature. Do not edit docs/ by hand.
 
 site_name: "Vacuum Geometry"
-site_description: "One deductive chain: four declared premises and one dimensional quantity → signature"
+site_description: "One deductive chain: four declared premises, one of them dimensional → signature"
 site_url: "https://quasi-1981.github.io/vacuum-geometry/"
 docs_dir: docs
 site_dir: site

@@ -28,6 +28,16 @@ dependency is a link between pages, so the structure is walked rather than viewe
 `measured` node was derived for symbolic $d$ rather than enumerated; no node carries it in the
 status field.
 
+**A `measured` node may stand on `candidate` ancestors, and this is not a contradiction.** The
+status grades *the act of measuring that node* — was its own claim probed and independently
+verified — and it does not grade the truth of what the node stands on. So `measured` reads as
+"this step was carried out and checked", not as "everything below it is settled". A chain is
+therefore only as load-bearing as its **weakest** link: to judge how much a result carries,
+follow `deps` and read the statuses along the way, rather than reading the status of the last
+node alone. The graph deliberately keeps the two questions apart instead of collapsing them
+into one number — a node whose own act is clean does not inherit certainty from below, and
+does not lose it either.
+
 ---
 
 ## The map

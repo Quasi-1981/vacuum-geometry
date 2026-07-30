@@ -1,6 +1,8 @@
 # Time not derivable from order: Weyl channel gives only an arrow
 
-**Kind:** theorem · **Status:** measured-negative · **Address:** §3.arc · J-0477 · arc S1023–S1026 · heat MIGRATION_ARC_BITS S1
+**Kind:** theorem · **Status:** measured-negative · **Address:** §3.arc · J-0477 · arc S1023–S1026 · heat MIGRATION_ARC_BITS S1†
+
+† the act behind this id is recorded internally; no probe is published under it, so the id is a reference, not a link.
 
 *A node of the prime graph. Status is carried by the graph and is not restated here.*
 

@@ -1,6 +1,8 @@
 # Dimer axiom: the time-bond marked axis is 1 bit of 'time exists'
 
-**Kind:** input · **Status:** axiom · **Address:** §0 · S597 (act-id, 2026-07-08: viz/SIMPLEX_LATTICE_MEMBRANES_omega_analysis.md — not a probe-id) · S1075-D1/D2/D3 · J-0519
+**Kind:** input · **Status:** axiom · **Address:** §0 · S597† (act-id, 2026-07-08: viz/SIMPLEX_LATTICE_MEMBRANES_omega_analysis.md — not a probe-id) · S1075-D1/D2/D3 · J-0519
+
+† the act behind this id is recorded internally; no probe is published under it, so the id is a reference, not a link.
 
 *A node of the prime graph. Status is carried by the graph and is not restated here.*
 

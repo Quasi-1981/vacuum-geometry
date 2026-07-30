@@ -54,6 +54,29 @@ system — drifts toward simpler solutions.
   fact of independent verification rather than the record number, since the internal journal is not
   published.
 
+**What `measured` asks you to take on trust — stated plainly, because the boundary is deliberate.**
+For an outside reader, `measured` means *probed* — the probe and its log are published, and you can
+re-run them — *plus a declared internal verification* whose record stays behind the fence. The
+verification journal is internal **by construction**, not by omission: it carries the working
+language of the project's own review, and publishing it was weighed and declined. So the honest reading is: the
+computation is yours to check, the review of that computation is ours to declare. We would rather
+name the exact thing you are asked to accept than let the word `measured` imply that nothing is.
+
+## A short glossary of the project's own words
+
+Some words below are house terms; they appear in probes, logs and rulings, and are given here so
+that the reader is not left to guess.
+
+| word | what it means here |
+|:--|:--|
+| **carve** (a grid, a case set) | to fix the finite set actually enumerated, and say so — as opposed to claiming an exhaustive sweep |
+| **takt** | one bounded unit of work with a declared deliverable, run by one hand |
+| **court / ruling** | the project's adjudication step: a decision recorded against measurements, binding on later work |
+| **seal** | a frozen document that records a completed line of work and is not edited afterwards |
+| **ed.2** | the second edition of the project's own acceptance rules; verdicts carry the edition they were judged under |
+| **floor −2 / −1 / 0** | layers of the construction: −2 the algebraic base, −1 the geometric/order layer published here, 0 the physical reading (not part of this publication) |
+| **probe** | an executable script whose run log is the primary record of a measurement |
+
 ## The obvious question
 
 Everyone is trying AI in research work, and mostly it does not hold up. In our experience it fails

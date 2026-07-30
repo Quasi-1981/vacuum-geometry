@@ -534,7 +534,7 @@ Tome I does not use them, and any appearance fails the check.
 | source | what is taken | coverage |
 |:--|:--|:--|
 | the structured codex view | §0 inputs and handles · §1 objects · §2 identities · §3.arc-0 / arc / −1 / −2 · §3.seam · §5 open items and fences | the § references above are its sections |
-| the machine graph | 90 nodes, 4 roots, `deps` — machine topology of layers 0–7 | §1–§6 |
+| the machine graph | 91 nodes, 4 roots, `deps` — machine topology of layers 0–7 | §1–§6 |
 | the homonym register | separations of homonyms, and the form for writing numbers | **§8.1, §8.2** |
 | seals of rulings | links absent from the graphs — hole **R-1**: cited directly | §3 (`LADDER_ANCESTOR_EXANTE.md`) · §6.4 (`MIRROR_ASSEMBLY_LAW.md`) |
 | the register of verdicts | primary rulings T1–T39 with qualifiers verbatim — a qualifier dies in paraphrase, so it is quoted, not retold | every boundary block |

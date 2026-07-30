@@ -1,7 +1,7 @@
 # Vacuum Geometry
 
-One deductive chain of pure mathematics: four declared premises and **one** dimensional
-quantity Λ → the symmetric group S(d+1) → the terminal step of the derived series → the
+One deductive chain of pure mathematics: four declared premises, **one of them dimensional**
+(Λ) → the symmetric group S(d+1) → the terminal step of the derived series → the
 root lattice A_d → the column and its compact dual → sign and signature.
 
 **Site:** https://quasi-1981.github.io/vacuum-geometry/

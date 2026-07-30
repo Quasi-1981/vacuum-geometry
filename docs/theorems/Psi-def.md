@@ -1,6 +1,8 @@
 # Ϸ-definition of time and its dual quantity via tact↔circle pair
 
-**Kind:** definition · **Status:** author-word · **Address:** §3.-1 · S998/S1000/S1000-T2/S597/S1001/S1002 · J-0453…J-0457
+**Kind:** definition · **Status:** author-word · **Address:** §3.-1 · S998/S1000/S1000-T2/S597†/S1001/S1002 · J-0453…J-0457
+
+† the act behind this id is recorded internally; no probe is published under it, so the id is a reference, not a link.
 
 *A node of the prime graph. Status is carried by the graph and is not restated here.*
 

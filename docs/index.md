@@ -1,15 +1,16 @@
 # Prime-floor derivation chain
 
-**One deductive chain of pure mathematics**: four declared premises and **one** dimensional quantity
-$\Lambda$ → the symmetric group $S_{d+1}$ → the terminal step of the derived series → the root lattice
+**One deductive chain of pure mathematics**: four declared premises, **one of them dimensional**
+($\Lambda$) → the symmetric group $S_{d+1}$ → the terminal step of the derived series → the root lattice
 $A_d$ → the column and its compact dual → sign and signature.
 
 Every link carries the **address of its primary act** (probe · independent verification · seal).
 The exposition is a **representation of what is already proved**, not a new derivation: no statement
 changes its status here.
 
-> **★This English text is derived.** The **Ukrainian version is the source of truth**; on any
-> discrepancy the Ukrainian wording rules. A mechanical check compares the two for preserved structure.
+> **★This English text is the original**, written directly from the project's canonical sources.
+> A Ukrainian mirror is kept alongside it, and a mechanical check compares the two for preserved
+> structure; neither is a translation of the other.
 
 ---
 
