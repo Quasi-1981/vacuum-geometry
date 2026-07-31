@@ -20,7 +20,7 @@ Time is not a subset of order: the Weyl channel (sgn/w₀) yields only an arrow 
 
 Establishes a negative result: order alone cannot produce time as an axis, only the directional arrow via T28.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

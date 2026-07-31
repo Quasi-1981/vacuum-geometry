@@ -21,7 +21,7 @@ The signature (3,1) is derived, forced by the closure combining T5 and T7; it is
 
 Fixes the signature (3,1) as a downstream consequence rather than an assumed input.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## PROOF COMPOSITION
 

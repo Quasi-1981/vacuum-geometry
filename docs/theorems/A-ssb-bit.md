@@ -20,7 +20,7 @@ The free choice of sign in ±m₀ is the single free bit (the T36-bit), given by
 
 ## OUTPUT
 
-Supplies the single free bit consumed downstream by the stabilization result (A-stab).
+Supplies the single free bit; it is consumed by the non-derivability record (A-nonderiv) and by T38. The stabilization result (A-stab) is a PREMISE of this node, not a consumer of it.
 
 **Consumed by:** [Crown result: spontaneity ⟺ non-derivability of sign(m₀)](A-nonderiv.md) · [Registry wrapper (Section 12) over the A-* arc, not a separate derivation: mirror-assembly law (two-stage freezing + kappa=Lambda stabilization)](T38.md)
 

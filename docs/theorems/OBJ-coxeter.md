@@ -20,7 +20,7 @@ The Coxeter ladder consists of the eigenvalues of Cartan(A_d), given by 2−2cos
 
 Provides the eigenvalue ladder used elsewhere in the A_d structure analysis.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

@@ -20,7 +20,7 @@ Shows that the combination of a marked bond and an orientation forms a single or
 
 Grounds the cell/orientation orbit structure reused in the Coxeter-action seam seam.6.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

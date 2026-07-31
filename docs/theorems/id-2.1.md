@@ -23,7 +23,7 @@ Establishes the three-way identity between the center Z/(d+1), the dual of the c
 
 Establishes a reusable three-way identification (center = column dual = Z/h) underlying the center-based reasoning in the seam analyses (seam.2, seam.3).
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

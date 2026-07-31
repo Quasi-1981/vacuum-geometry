@@ -10,7 +10,7 @@ None. This node is a **root** of the graph: it is assumed, not derived.
 
 ## FUNCTION
 
-Λ is the single dimensional free handle of the theory; the outstanding debt from S922 is closed by T22.
+Λ is the single dimensional free handle of the theory; the outstanding debt from S922† is closed by T22.
 
 > **Boundary:** Applies to the whole theory.
 
@@ -25,6 +25,14 @@ Supplies the one dimensional handle used throughout, e.g. in the reachability cr
 | short | expansion | why the short name is dangerous |
 |:--|:--|:--|
 | `m_0` | the quantity of the arc whose sign is the subject; its value is a representative of the regime, not canon, and is not derived here | the letter m denotes something else on another floor |
+
+## STATEMENT
+
+**Given.** A theory whose quantities carry physical dimension.
+
+**Postulated.** Lambda is the single dimensional free handle of the theory: exactly one dimensionful constant is put in by hand, and every other dimensionful quantity is expressed through it.
+
+**Freedom left.** The numerical value of Lambda. Nothing else dimensional is free.
 
 ## Measurements
 

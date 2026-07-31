@@ -20,7 +20,7 @@ Traces how the T37 result of pair-locality equal to 1 produces a single dial acr
 
 Feeds the global-clock conclusion used in T39's inheritance clause.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## FACTORIZATION
 

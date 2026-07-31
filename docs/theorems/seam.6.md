@@ -22,7 +22,7 @@ Traces how the Coxeter action c, feeding from W41 through T28 and T36, produces 
 
 Feeds the epsilon-flip identity id-2.2 and the orbit identity id-2.5.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## FACTORIZATION
 

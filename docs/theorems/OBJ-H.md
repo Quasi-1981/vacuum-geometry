@@ -20,7 +20,7 @@ H is the two-component object [[0,f],[f̄,0]]; together with the identity I, {I,
 
 Provides the two-component structure used to define the nodal set (OBJ-nodal) via f=0.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ### 8.3 Notation — short carriers used above
 

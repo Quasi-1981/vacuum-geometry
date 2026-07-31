@@ -12,7 +12,7 @@
 
 ## FUNCTION
 
-The A_d cell is derived from the alphabet via the Schur form of κ (J-0476, valid for all d), confirmed by three independent routes (rank, character, Molien), eliminating circularity; it was demoted from root-premise status at gate C2 (previously a premise as of S943/S946).
+The A_d cell is derived from the alphabet via the Schur form of κ (J-0476, valid for all d), confirmed by three independent routes (rank, character, Molien), eliminating circularity; it was demoted from root-premise status at gate C2 (previously a premise as of S943†/S946†).
 
 > **Boundary:** Holds for A_d, derived for all d; Lean confirmation steps L1–L3 proceed in parallel and do not block the root swap.
 

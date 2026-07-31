@@ -20,7 +20,7 @@ For the minimal parabolic case p_α=(d,1) with q=1 (variant B), time is realized
 
 Fixes the (d,1) signature on the parabolic with time identified as so(2)_α, giving the root-selector label used downstream.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

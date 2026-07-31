@@ -21,7 +21,7 @@ Shows that the two-component result of T33 produces the classes 1A and 1B within
 
 Establishes the column class split reused in the center identification of id-2.1.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## FACTORIZATION
 

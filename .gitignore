@@ -1,0 +1,18 @@
+# Cold-reader audit reports and other working notes are written straight into
+# this repository, because a reviewing instance is given access to the published
+# tree only — it has nowhere else to put them. They are working material, not
+# publication: they must never be committed here.
+#
+# This file is the mechanism for that. It replaces a rule that used to live in
+# someone's attention: three times in one day an internal report landed inside
+# this clone and was caught, each time, by the privacy gate immediately before a
+# push. A guard that fires at the last line is a working guard, but it is the
+# wrong place for a rule that can simply be made structural.
+K*/
+_reports/
+_notes/
+*.local.md
+
+# Build artefacts of the Lean sources shipped under src/lean/
+.lake/
+build/

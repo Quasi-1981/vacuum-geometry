@@ -20,7 +20,7 @@ Records B1 as a seed idea, namely that +/- functions as the elementary unit of t
 
 Provides an unmeasured grounding seed for the tower structure established in T35.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

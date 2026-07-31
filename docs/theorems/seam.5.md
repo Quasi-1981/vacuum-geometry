@@ -21,7 +21,7 @@ Traces how the sl-gl tower result of T35 produces the commutant ladder defined i
 
 Establishes the commutant-ladder count (N_iso) used by T35.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## FACTORIZATION
 

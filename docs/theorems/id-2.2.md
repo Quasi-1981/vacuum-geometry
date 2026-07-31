@@ -20,7 +20,7 @@ Establishes the identity between w_0, the momentum-reversal map k <-> -k, and th
 
 Grounds the scalar/Weyl-level (S_{d+1}) structure used in T28 and reused in the class-count seam seam.6.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

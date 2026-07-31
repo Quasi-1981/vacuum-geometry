@@ -21,7 +21,7 @@ States, in the author's own words, that level -1 possesses a dial but no action;
 
 Closes the action-front question at level -1, redirecting it to level 0.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## PROOF COMPOSITION
 

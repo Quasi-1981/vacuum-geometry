@@ -20,7 +20,7 @@ Shows that only the composite B=sigma_x o (k<->-k) acts as a genuine reflector, 
 
 Grounds the two-component reflector structure reused in id-2.4's Z_2 classification.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 

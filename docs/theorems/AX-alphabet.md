@@ -20,6 +20,14 @@ Serves as the new root premise of the program, from which the cell geometry (AX-
 
 **Consumed by:** [Indefiniteness (q≥1) demoted from input to theorem](AX-indef.md) · [Simple algebra sl(n), n=d+1, with unique invariant form κ](OBJ-sln.md)
 
+## STATEMENT
+
+**Given.** An integer d (the spatial dimensionality; declared, see [IMPORT d≥3: spatial dimensionality is a declared boundary, not derived](IMP-d3.md)).
+
+**Postulated.** The starting datum is a bare set of d+1 elements together with the S_{d+1} democracy acting on it — nothing else. No metric, no geometry, no distinguished element is assumed.
+
+**Freedom left.** None beyond d itself: the cell geometry is NOT assumed here — it becomes derived. This node replaced the former cell axiom at gate C2 (a root swap), deepening the foundation.
+
 ## Measurements
 
 **S1023**

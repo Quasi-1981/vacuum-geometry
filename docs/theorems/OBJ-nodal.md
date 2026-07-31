@@ -21,7 +21,7 @@ The nodal set defined by f=0 corresponds bijectively to d characters of the dual
 
 Provides the nodal-set structure used in constructing the two-component object H (OBJ-H).
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ### 8.3 Notation — short carriers used above
 

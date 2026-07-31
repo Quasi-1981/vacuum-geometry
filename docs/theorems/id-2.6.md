@@ -20,7 +20,7 @@ Confirms that beta-inversion swaps cases A and B so no discriminator between the
 
 Provides the 1-bit residual (FORK II) that underlies T36's arrow-as-single-bit conclusion.
 
-**Consumed by:** nothing in this graph — a terminal node.
+**Consumed by:** no node lists this one among its premises. (That is a statement about the `deps` edges, which record ancestry to the forcing root rather than a chain — not a claim that nothing follows from it.)
 
 ## Measurements
 
