@@ -31,6 +31,7 @@ nav:
   - The chain (Tome I): tome1-prime.md
   - Process & roles: process.md
   - The graph: graph.md
+  - Symbolic output: formulas.md
   - All nodes: theorems/index.md
 
 markdown_extensions:
