@@ -802,7 +802,7 @@
       "id": "Psi-def",
       "kind": "definition",
       "status": "author-word",
-      "title": "Ϸ-definition of time and its dual quantity via tact↔circle pair",
+      "title": "Ϸ-definition of time and its dual quantity via the time-step↔circle pair",
       "scope": "Restricted to A_d; when q=0, neither time nor its dual quantity exists.",
       "deps": [
         "T26",

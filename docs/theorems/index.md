@@ -12,7 +12,7 @@ Every node links to its own page: **INPUT** (premises), **FUNCTION** (what it do
 
 | node | status |
 |:--|:--|
-| [Ϸ-definition of time and its dual quantity via tact↔circle pair](Psi-def.md) | author-word |
+| [Ϸ-definition of time and its dual quantity via the time-step↔circle pair](Psi-def.md) | author-word |
 
 ## fence
 

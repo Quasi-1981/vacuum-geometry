@@ -1,8 +1,6 @@
 # Simple algebra sl(n), n=d+1, with unique invariant form κ
 
-**Kind:** object · **Status:** measured · **Address:** §3.arc · S1025 · J-0478 · arc S1023–S1026 · heat MIGRATION_ARC_BITS S1†
-
-† the act behind this id is recorded internally; no probe is published under it, so the id is a reference, not a link.
+**Kind:** object · **Status:** measured · **Address:** §3.arc · S1025 · J-0478 · arc S1023–S1026 · heat MIGRATION_ARC_BITS stage 1
 
 *A node of the prime graph. Status is carried by the graph and is not restated here.*
 

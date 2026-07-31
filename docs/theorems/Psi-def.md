@@ -1,4 +1,4 @@
-# Ϸ-definition of time and its dual quantity via tact↔circle pair
+# Ϸ-definition of time and its dual quantity via the time-step↔circle pair
 
 **Kind:** definition · **Status:** author-word · **Address:** §3.-1 · S998/S1000/S1000-T2/S597†/S1001/S1002 · J-0453…J-0457
 
@@ -15,7 +15,7 @@
 
 ## FUNCTION
 
-Ϸ defines time together with its Pontryagin-dual quantity, via the pair tact↔circle (per the author's directive to cut it out).
+Ϸ defines time together with its Pontryagin-dual quantity, via the pair time-step↔circle (per the author's directive to cut it out).
 
 > **Boundary:** Restricted to A_d; when q=0, neither time nor its dual quantity exists.
 

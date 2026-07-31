@@ -659,9 +659,9 @@ does not lose it either.
 <title>seam.7 — Globality (S1018): pair-locality=1 leads to a single dial on the connected lattice</title>
 <text class="gm-label" x="1092.0" y="213.0">Globality (S1018): pair-local…</text>
 </a>
-<a href="../theorems/Psi-def/" class="gm-node" data-id="Psi-def" data-label="ϸ-definition of time and its dual quantity via tact↔circle pair">
+<a href="../theorems/Psi-def/" class="gm-node" data-id="Psi-def" data-label="ϸ-definition of time and its dual quantity via the time-step↔circle pair">
 <rect x="1330.0" y="56.0" width="18" height="18" rx="3" fill="#7a4fb0" stroke="#4f3373" stroke-width="1.2" />
-<title>Psi-def — Ϸ-definition of time and its dual quantity via tact↔circle pair</title>
+<title>Psi-def — Ϸ-definition of time and its dual quantity via the time-step↔circle pair</title>
 <text class="gm-label" x="1352.0" y="69.0">Ϸ-definition of time and its …</text>
 </a>
 <a href="../theorems/AX-sig/" class="gm-node" data-id="AX-sig" data-label="signature (3,1) derived, forced by closure of t5 and t7">
